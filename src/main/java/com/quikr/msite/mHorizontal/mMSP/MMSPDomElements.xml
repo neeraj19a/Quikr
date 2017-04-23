@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="buyMSP">
+        <xpath>.//input[@class='msp_buy_sell_radio'][1]</xpath>
+    </element>
+
+    <element name="sellMSP">
+        <xpath>.//input[@class='msp_buy_sell_radio'][2]</xpath>
+    </element>
+
+    <element name="categoryMSP">
+        <name>mspCategory</name>
+    </element>
+
+    <element name="Category">
+        <xpath>.//select[@name='mspCategory']</xpath>
+    </element>
+
+    <element name="Categories">
+        <xpath>.//select[@name='mspCategory']/option[$]</xpath>
+    </element>
+
+    <element name="mspSubCategory">
+        <xpath>.//select[@name='mspSubCategory']</xpath>
+    </element>
+
+    <element name="mspSubCategories">
+        <xpath>.//select[@name='mspSubCategory']/option[$]</xpath>
+    </element>
+
+    <element name="mspBrandNameSelectBox">
+        <xpath>.//select[@name='mspBrand_name']</xpath>
+    </element>
+
+    <element name="mspBrandNames">
+        <xpath>.//select[@name='mspBrand_name']/option[$]</xpath>
+    </element>
+
+    <element name="mspModelSelectBox">
+        <xpath>.//select[@name='mspModel']</xpath>
+    </element>
+
+    <element name="mspModels">
+        <xpath>.//select[@name='mspModel']/option[$]</xpath>
+    </element>
+
+    <element name="mspYearSelectBox">
+        <xpath>.//select[@name='mspYear']</xpath>
+    </element>
+
+    <element name="mspYears">
+        <xpath>.//select[@name='mspYear']/option[$]</xpath>
+    </element>
+
+    <element name="CalculateButtonMSP">
+        <css>div.yellowBtn</css>
+    </element>
+
+    <element name="MatchingAdsButtonMSP">
+        <xpath>.//button[starts-with(.,'View Matching Ads')]</xpath>
+    </element>
+
+    <element name="PostAdButtonMSPonSellMSP">
+        <xpath>.//button[starts-with(.,'Post Free Ad')]</xpath>
+    </element>
+
+    <element name="PostAdButtonMSP">
+        <xpath>.//a[starts-with(.,'Post Free Ad')]</xpath>
+    </element>
+
+    <element name="mspResultBox">
+        <xpath>.//div[@class='msp_result_box']</xpath>
+    </element>
+
+</elements>

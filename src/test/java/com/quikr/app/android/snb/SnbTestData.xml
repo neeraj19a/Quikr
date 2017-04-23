@@ -1,0 +1,36 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+    <testData name="query">honda</testData>
+    <testData name="chatName">raghavendra</testData>
+    <testData name="chatNumber">8855885544</testData>
+    <testData name="chatEmail">quikr.auto@gmail.com</testData>
+    <testData name="chatContent">hello m intresed in the deal</testData>
+    <testData name="mobiles">Mobiles</testData>
+    <testData name="mobilesPhone">Mobile Phones</testData>
+    <testData name="mobileBrandName">Apple</testData>
+    <testData name="Cars">Cars</testData>
+    <testData name="Mobile">Mobile</testData>
+    <testData name="Laptops">Laptops</testData>
+    <testData name="appartment">Houses - Apartments for Rent</testData>
+    <testData name="Antiques">Antiques</testData>
+    <testData name="Accessories">Accessories</testData>
+    <testData name="jobs">Jobs</testData>
+    <testData name="cars">Cars &amp; Bikes</testData>
+    <testData name="car">Cars</testData>
+    <testData name="price">500000</testData>
+    <testData name="brand">Fiat</testData>
+    <testData name="model">Palio</testData>
+    <testData name="variant">1.1 SLX</testData>
+    <testData name="year">2000</testData>
+    <testData name="distance">25000</testData>
+    <testData name="color">Red</testData>
+    <testData name="fuel">Diesel</testData>
+    <testData name="owner">One</testData>
+    <testData name="name">manav dayal</testData>
+    <testData name="number">9955199187</testData>
+    <testData name="Colors">Color</testData>
+    <testData name="locality">Adugodi</testData>
+    <testData name="cityName">Bangalore</testData>
+    <testData name="lowestPrice">Lowest Price</testData>
+    <testData name="realEstate">Homes</testData>
+    <testData name="autosuggestsubcat">Houses for Rent</testData>
+</data>

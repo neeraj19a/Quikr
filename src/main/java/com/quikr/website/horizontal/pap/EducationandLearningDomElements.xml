@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <!--Coaching & Tuitions Locators-->
+
+    <element name="Coaching_Tuitions">
+        <id>Coaching_Tuitions_Types_newpap</id>
+    </element>
+
+    <element name="Coaching_TuitionsOptions">
+        <xpath>.//*[contains(@class,'Coaching_Tuitions_Types_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Board_Entrance_Exams">
+        <id>Board_Entrance_Exams_newpap</id>
+    </element>
+
+    <element name="Board_Entrance_Exams_Options">
+        <xpath>.//*[contains(@class,'Board_Entrance_Exams_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Subjects">
+        <id>Subjects_newpap</id>
+    </element>
+
+    <element name="Subjects_Options">
+        <xpath>.//*[contains(@class,'Subjects_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <!--Professional & Short Term Courses-->
+
+    <element name="Course_Type">
+        <id>Course_Type_newpap</id>
+    </element>
+
+    <element name="Course_TypeOptions">
+        <xpath>.//*[contains(@class,'Course_Type_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <!--Hobby Classes-->
+
+    <element name="Hobby">
+        <id>Hobby_newpap</id>
+    </element>
+
+    <element name="Hobby_Options">
+        <xpath>//div[@id='Hobby_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Eligbility">
+        <id>Eligbility_newpap</id>
+    </element>
+
+    <element name="Eligbility_Option">
+        <id>.//*[@id='Eligbility_newpap']/option</id>
+    </element>
+
+    <element name="Classes_Held">
+        <id>Classes_held_on_newpap</id>
+    </element>
+
+    <element name="Classes_Held_Options">
+        <xpath>.//*[contains(@class,'Classes_held_on_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Class_Timings">
+        <id>Class_Timings_newpap</id>
+    </element>
+
+    <element name="Classes_Timings_Options">
+        <xpath>.//*[contains(@class,'Class_Timings_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Monthly_Fees">
+        <id>Monthly_Fees</id>
+    </element>
+
+
+    <!--School Tuitions-->
+
+    <element name="School_Board">
+        <id>School_Board_newpap</id>
+    </element>
+
+    <element name="School_Board_Options">
+        <xpath>.//*[contains(@class,'School_Board_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Standard">
+        <id>Standard_newpap</id>
+    </element>
+
+    <element name="Standard_Options">
+        <xpath>.//*[contains(@class,'Standard_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Monthly_Tuition_Fees">
+        <id>Monthly_Tuition_Fees</id>
+    </element>
+
+    <!--Career Counseling-->
+
+    <element name="Education_Stream">
+        <id>Education_Stream_newpap</id>
+    </element>
+
+<!--
+    <element name="Education_Stream_Options">
+        <id>(.//input[contains(@id,'Education_Stream')])</id>
+    </element>
+-->
+
+    <element name="Counselling_Fees">
+        <id>Counselling_Fees</id>
+    </element>
+
+    <element name="Institute_Name">
+        <id>Institute_Name</id>
+    </element>
+
+    <element name="Institute_Address">
+        <id>Institute_Address</id>
+    </element>
+
+    <element name="Institute_Website">
+        <id>Institute_Website</id>
+    </element>
+
+    <!--Competitive Exams Coaching-->
+
+    <element name="Career_Stream">
+        <id>Career_Stream_newpap</id>
+    </element>
+
+    <element name="Career_Stream_Options">
+        <xpath>.//*[contains(@class,'Career_Stream_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Specialization">
+        <id>Specialization_newpap</id>
+    </element>
+
+    <element name="SpecializationisDisplayed">
+        <id>.//*[contains(@class,'Specialization_inp_cb ad_attribute')]/..</id>
+    </element>
+
+    <element name="Specialization_Options">
+        <xpath>//label[starts-with(@class,'Career_Stream_')]</xpath>
+    </element>
+
+    <element name="Course_Duration">
+        <id>Course_Duration</id>
+    </element>
+
+    <element name="Coaching_Fees">
+        <id>Coaching_Fees</id>
+    </element>
+
+    <element name="Delivery_Mode">
+        <id>Delivery_Mode_newpap</id>
+    </element>
+
+
+    <!--Study Abroad-->
+
+    <element name="Country">
+        <id>Country_newpap</id>
+    </element>
+
+    <element name="Country_Options">
+        <xpath>.//*[contains(@class,'Country_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Services_Offered">
+        <id>Services_Offered_newpap</id>
+    </element>
+
+    <element name="Services_Offered_Options">
+        <xpath>.//*[contains(@class,'Services_Offered_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Education_Stream">
+        <id>Education_Stream_newpap</id>
+    </element>
+
+    <element name="Education_Stream_Options">
+        <xpath>.//*[contains(@class,'Education_Stream_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <!--Text books & Study Material-->
+
+    <element name="Product_Type">
+        <id>Product_Type_newpap</id>
+    </element>
+
+    <element name="courseDomain">
+        <xpath>//div[@id='Course_Domain_fixpap_container']/div[2]/div/select</xpath>
+    </element>
+
+    <element name="selectedCourseDomain">
+        <xpath>//select[@id='Course_Domain_newpap']/option[2][@selected='selected']</xpath>
+    </element>
+
+    <element name="courseDomainValueRadioButtons">
+        <xpath>//div[@id='Course_Domain_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="courseDomainValueTexts">
+        <xpath>//div[@id='Course_Domain_l4Attr_RadioBox_div']/div/label/span</xpath>
+    </element>
+
+    <element name="courseCat">
+        <id>Course_Category_newpap</id>
+    </element>
+
+    <element name="courseCatRadioButtons">
+        <xpath>//div[@id='Course_Category_l4Attr_CheckBox_div']/div/label[@style='display: block;']/input</xpath>
+    </element>
+
+    <element name="courseCatValueTexts">
+        <xpath>//div[@id='Course_Category_l4Attr_CheckBox_div']/div/label[@style='display: block;']/span</xpath>
+    </element>
+
+    <element name="courseCatCheckboxes">
+        <xpath>//div[@id='Course_Category_l4Attr_CheckBox_div']/div/label[@style='display: block;']/input</xpath>
+    </element>
+
+    <element name="courses">
+        <id>Courses_newpap</id>
+    </element>
+
+    <element name="coursesCheckboxes">
+        <xpath>//div[@id='Courses_l4Attr_CheckBox_div']/div/label[@style='display: block;']/input</xpath>
+    </element>
+
+    <element name="selectedCourseCategories">
+        <xpath>//div[@id='Course_Category_newpap_text_container']</xpath>
+    </element>
+
+    <element name="selectedCourses">
+        <xpath>//div[@id='Courses_newpap_text_container']</xpath>
+    </element>
+
+    <element name="BusinessAnalyticsCourse">
+        <xpath>//input[@value='Business Analytics Courses']</xpath>
+    </element>
+
+    <element name="CompCertCourses">
+        <xpath>//input[@value='Computer Certification Courses']</xpath>
+    </element>
+
+    <element name="CompTrainingCourses">
+        <xpath>//input[@value='Computer Training Courses']</xpath>
+    </element>
+
+    <element name="DesignCourses">
+        <xpath>//input[@value='Design Courses']</xpath>
+    </element>
+    <element name="HardwareTrainingCourses">
+        <xpath>//input[@value='Hardware Training Courses']</xpath>
+    </element>
+
+    <element name="ManagementCourses">
+        <xpath>//input[@value='Management Courses']</xpath>
+    </element>
+
+    <element name="SoftskillCourses">
+        <xpath>//input[@value='Soft-Skill Courses']</xpath>
+    </element>
+
+    <element name="programType">
+        <id>Program_Type_newpap</id>
+    </element>
+
+    <element name="programTypeValues">
+        <xpath>//div[@class='l4Attr_RadioBox_div']/div/label/input[@type='radio']</xpath>
+    </element>
+
+    <element name="course">
+        <id>Course_newpap</id>
+    </element>
+
+    <element name="courseValues">
+        <xpath>//div[@class='l4Attr_CheckBox_div  onlyCheckbox']/div/label/input[@type='checkbox']</xpath>
+    </element>
+
+    <element name="affiliateUniversity">
+        <id>Affiliated_University</id>
+    </element>
+
+    <element name="educationStream">
+        <id>Education_Stream_newpap</id>
+    </element>
+
+    <element name="educationStreamValues">
+        <xpath>//div[@class='l4Attr_CheckBox_div  onlyCheckbox']/div/label/input[@type='checkbox']</xpath>
+    </element>
+
+    <element name="programsOffered">
+        <id>Programs_Offered_newpap</id>
+    </element>
+
+    <element name="programsOfferedValues">
+        <xpath>//div[@class='l4Attr_CheckBox_div  onlyCheckbox']/div/label/input[@type='checkbox']</xpath>
+    </element>
+
+    <element name="minMonths">
+        <id>Age_Group_from_newpap</id>
+    </element>
+
+    <element name="maxMonths">
+        <id>Age_Group_to_newpap</id>
+    </element>
+
+
+
+
+
+</elements>

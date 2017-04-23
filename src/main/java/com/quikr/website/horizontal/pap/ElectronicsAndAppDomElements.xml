@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="applianceType">
+        <id>Appliance_Type_newpap</id>
+    </element>
+
+    <element name="applianceTypeValues">
+        <xpath>//div[@id='Appliance_Type_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="computerType">
+        <id>Product_Type_newpap</id>
+    </element>
+
+
+    <element name="screenSize">
+        <id>Screen_size_newpap</id>
+    </element>
+
+    <element name="screenSizeValues">
+        <xpath>//div[@id='Screen_size_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="ram">
+        <id>RAM_newpap</id>
+    </element>
+
+    <element name="ramValues">
+        <xpath>//div[@id='RAM_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="peripheralType">
+        <id>Peripheral_Type_newpap</id>
+    </element>
+
+    <element name="peripheralTypeBuyValues">
+        <xpath>//div[@id='Peripheral_Type_l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="peripheralTypeSellValues">
+        <xpath>//div[@id='Peripheral_Type_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+
+    <element name="productType">
+        <id>Product_Type_newpap</id>
+    </element>
+
+    <element name="productTypeSellValues">
+        <xpath>//div[@id='Product_Type_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="productTypeBuyValues">
+        <xpath>//div[@id='Product_Type_l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="accessoryType">
+        <id>Accessory_Type_newpap</id>
+    </element>
+
+    <element name="accessoryTypeValues">
+        <xpath>.//input[@class='Accessory_Type_inp_cb ad_attribute']</xpath>
+    </element>
+
+    <element name="brandNameDropDown">
+        <id>Brand_name_newpap</id>
+    </element>
+
+    <element name="brandNameValues">
+        <xpath>//div[@class='l4Attr_RadioBox_div']/div/label[@class=' Brand_name_single_list']/input[@type='radio']</xpath>
+    </element>
+
+    <element name="brandNameCheckboxValues">
+        <xpath>//div[@class='l4Attr_CheckBox_div']/div/label[@class=' Brand_name_multi_list']/input[@type='checkbox']</xpath>
+    </element>
+
+
+    <element name="adIdString">
+        <xpath>//div[@class='thnksMsg']/span</xpath>
+    </element>
+
+    <element name="anotherAdIdString">
+        <xpath>//div[@class='ad-preview-message-box']/div/span</xpath>
+    </element>
+
+    <element name="skipLinkAfterPostAd">
+        <xpath>.//*[@id='skip-link']/a</xpath>
+    </element>
+    
+</elements>

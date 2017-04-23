@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="quikrXlogo">
+        <class>my_order_sprite quikrx_logo</class>
+    </element>
+
+    <element name="homeIcon">
+        <xpath>//*[@class="breadcrumb"]/li[1]/a</xpath>
+    </element>
+
+    <element name="myquikrIcon">
+        <xpath>//*[@class="breadcrumb"]/li[2]/a</xpath>
+    </element>
+
+    <element name="emptyCartHeader">
+        <xpath>//*[@class="cart_empty_header"]/h5</xpath>
+    </element>
+
+    <element name="continueShopping">
+        <xpath>//*[@class="cart_empty_header"]/a</xpath>
+    </element>
+
+    <element name="activeOrdertab">
+        <class>active</class>
+    </element>
+
+    <element name="deliveredOrderTab">
+        <xpath>//*[@class="order_status_tab_hold"]/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="cancelledOrderTab">
+        <xpath>//*[@class="order_status_tab_hold"]/ul/li[3]/a</xpath>
+    </element>
+    
+    <element name="navbar">
+        <xpath>.//*[@id='navbar']/div/div/div[2]/span</xpath>
+    </element>
+    
+    <element name="orderNumber">
+        <xpath>.//*[@class='order_list_sperator']/h2/span</xpath>
+    </element>
+
+    <element name="firstItemTitle">
+        <xpath>.//*[@class='product_details']/div[2]/h3</xpath>
+    </element>
+
+    <element name="sellerName">
+        <xpath>.//*[@class='product_details']/div[2]/span[2]</xpath>
+    </element>
+
+    <element name="orderStatus">
+        <xpath> .//*[@class='order_status_li']/div/h3</xpath>
+    </element>
+
+    <element name="cancelButton">
+        <xpath> .//*[@class='order_list_head row']/span</xpath>
+    </element>
+
+    <element name="yesLink">
+        <xpath>.//*[@class='modal-content']/div[2]/button[1]</xpath>
+    </element>
+
+    <element name="noLink">
+        <xpath>.//*[@class='modal-content']/div[2]/button[2]</xpath>
+    </element>
+
+    <element name="itemDetails">
+        <xpath>.//*[@class='order_list_sperator']/h3</xpath>
+    </element>
+
+    <element name="cancelByOrderId">
+        <xpath>.//span[contains(text(),'$')]/../../span[contains(@id,'close')]</xpath>
+    </element>
+
+    <element name="itemByOrderId">
+        <xpath>.//span[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="statusByOrderId">
+        <xpath>.//span[contains(text(),'$')]/../../../div[2]/ul/li[4]/div/h3</xpath>
+    </element>
+
+    <element name="emptyOrderHeader">
+        <class>cart_empty_header</class>
+    </element>
+
+    <element name="extendedWarranty">
+        <xpath>.//span[contains(text(),'$')]/../../../following-sibling::div[contains(@class,"sub_order")]</xpath>
+    </element>
+
+    <element name="cancelForExtendedOrder">
+        <xpath>.//span[contains(text(),'$')]/../../../following-sibling::div[1]/div[1]/span</xpath>
+    </element>
+
+    <element name="cancelPopUp">
+        <xpath>.//span[contains(text(),'$')]/../../../div[5]/div//div[2]/button[1]</xpath>
+    </element>
+    
+    <element name="emailField">
+        <xpath>.//*[@id='guest-email']</xpath>
+        <id>guest-email</id>
+    </element>
+
+    <element name="orderId">
+        <xpath>.//*[@id='guest-order']</xpath>
+        <id>guest-order</id>
+    </element>
+
+    <element name="subOrderId">
+        <xpath>.//*[@id='guest-suborder']</xpath>
+        <id>guest-suborder</id>
+    </element>
+
+    <element name="viewOrderButton">
+        <xpath>.//*[@id='track_order_popup']/div/div/div[2]/form/input[2]</xpath>
+    </element>
+
+    <element name="subOrderIdByORderId">
+        <xpath>.//span[contains(text(),'$')]/../../following-sibling::div[1]/ul/li[1]/div[2]/h2/span</xpath>
+    </element>
+
+    <element name="trackLink">
+        <xpath>.//div[@class='track_order_click_hold row']/a[contains(@href,'$')]</xpath>
+    </element>
+
+    <element name="placeOrderStatus">
+        <xpath>.//*[@id='track_hold_show_hold$']/ul/li[1]/div</xpath>
+    </element>
+    
+    <element name="dispatchStatus">
+        <xpath>.//*[@id='track_hold_show_hold$']/ul/li[2]/div</xpath>
+    </element>
+
+    <element name="dispatchedDate">
+        <xpath>.//*[@id='track_hold_show_hold$']/ul/li[2]/span[3]</xpath>
+    </element>
+
+</elements>
+

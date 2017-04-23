@@ -1,0 +1,93 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="VapAdLocality">
+        <id>com.quikr:id/re_vap_locality_tv</id>
+    </element>
+    <element name="vapNoOfRoomsArea">
+        <id>com.quikr:id/re_vap_type_area_tv</id>
+    </element>
+    <element name="callbutton">
+        <id>com.quikr:id/screen_vap_call_ctv</id>
+    </element>
+    <element name="reply">
+        <id>com.quikr:id/vap_reply_ctv</id>
+    </element>
+    <element name="validateReply">
+        <id>com.quikr:id/content</id>
+    </element>
+    <element name="sellerType">
+        <id>com.quikr:id/re_vap_seller_type_tv</id>
+    </element>
+    <element name="replyEmail">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="replyMobile">
+        <id>com.quikr:id/mobile</id>
+    </element>
+    <element name="submitReply">
+        <id>com.quikr:id/screen_vap_ad_chat</id>
+    </element>
+    <element name="SubmitreplySuccess">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="chatOnVap">
+        <id>com.quikr:id/re_vap_chat_btn</id>
+    </element>
+    <element name="vapSellerName">
+        <id>com.quikr:id/re_vap_seller_name_tv</id>
+    </element>
+    <element name="validateChat">
+        <id>com.quikr:id/reply_profile_image</id>
+    </element>
+    <element name="moreButton">
+        <id>com.quikr:id/re_vap_show_tv</id>
+    </element>
+    <element name="lessButton">
+        <id>com.quikr:id/re_vap_hide_tv</id>
+    </element>
+    <element name="favouriteButton">
+        <id>com.quikr:id/action_favourite</id>
+    </element>
+    <element name="chatName">
+        <id>com.quikr:id/user_name</id>
+    </element>
+    <element name="validateChatAction">
+        <id>com.quikr:id/lytChatInput</id>
+    </element>
+    <element name="vapPrice">
+        <id>com.quikr:id/re_vap_price_tv</id>
+    </element>
+    <element name="vapseller"></element>
+
+    <element name="vapImage">
+        <id>com.quikr:id/re_vap_vp</id>
+    </element>
+
+    <element name="vapTitle">
+        <id>com.quikr:id/re_vap_title_tv</id>
+    </element>
+
+    <element name="vapDescription">
+        <id>com.quikr:id/re_vap_description_rl</id>
+    </element>
+
+    <element name="vapPropertyType">
+        <id>com.quikr:id/re_vap_property_info_key</id>
+    </element>
+
+    <element name="aboutTheOwnerCard">
+        <id>com.quikr:id/re_vap_owner_card_view</id>
+    </element>
+    <element name="headerActionBAr">
+        <id>com.quikr:id/action_bar</id>
+    </element>
+    <element name="vapChat">
+        <id>com.quikr:id/cnb_vap_ad_chat</id>
+    </element>
+    <element name="dismissShareAd">
+        <id>com.quikr:id/tvDissmiss</id>
+    </element>
+
+</elements>

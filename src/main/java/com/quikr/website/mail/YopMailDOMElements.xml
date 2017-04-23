@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="emailInboxYopMail">
+        <id>login</id>
+    </element>
+
+    <element name="GoButtonYopMail">
+        <xpath>.//input[@class='sbut']</xpath>
+    </element>
+
+    <element name="emailSubjectonYopMail">
+        <xpath>.//span[@class='lms']</xpath>
+    </element>
+
+    <element name="verifyEmailQuikr">
+        <xpath>//a[text()='Verify Email']</xpath>
+    </element>
+
+    <element name="numberofMailsinYopMail">
+        <xpath>//body[@class='bodyinbox']/div/div[starts-with(@id,'m')]</xpath>
+    </element>
+
+    <element name="verifyEmailSubjectLine">
+        <xpath>//div[@class='um']/a/span[@class='lms'][text()='Verify your email.']</xpath>
+    </element>
+
+
+
+</elements>

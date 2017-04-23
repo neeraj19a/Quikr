@@ -1,0 +1,327 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="nextButton">
+        <name>Next ></name>
+    </element>
+
+    <element name="selectLocality">
+        <name>Select Locality</name>
+    </element>
+
+    <element name="localityName">
+        <name>Adugodi</name>
+    </element>
+
+    <element name="adTitle">
+        <class>UIATextField</class>
+    </element>
+
+    <element name="adDescription">
+        <class>UIATextView</class>
+    </element>
+
+    <element name="individual">
+        <name>Individual</name>
+    </element>
+
+    <element name="used">
+        <name>Used</name>
+    </element>
+
+    <element name="laptop">
+        <name>Laptop</name>
+    </element>
+
+    <element name="brandName">
+        <name>Brand Name</name>
+    </element>
+
+    <element name="brandNameOptionForElectronicsCategory">
+        <name>Acer</name>
+    </element>
+
+    <element name="applyButton">
+        <name>Apply</name>
+    </element>
+
+    <element name="optionalDetails">
+        <name>Price, Screen Size, Also Includes.</name>
+    </element>
+
+    <element name="price">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[6]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="priceForElectronics">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[8]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="mobilePrice">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[7]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="screenSize">
+        <name>Screen Size</name>
+    </element>
+
+    <element name="screenSizeName">
+        <name>13-13.9 Inches</name>
+    </element>
+
+    <element name="alsoInclude">
+        <name>Also Includes</name>
+    </element>
+
+    <element name="alsoIncludesOptionNameForElectronicsCategory">
+        <name>Laptop Bag</name>
+    </element>
+
+    <element name="userName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="email">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIATextField[2]</xpath>
+    </element>
+
+    <element name="mobileNo">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIATextField[3]</xpath>
+    </element>
+
+    <element name="successMsg">
+        <name>We are reviewing your ad.</name>
+    </element>
+
+    <element name="postAdButton">
+        <name>Post Free Ad</name>
+    </element>
+
+    <element name="cellList">
+        <class>UIATableCell</class>
+    </element>
+
+    <element name="requiredName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[9]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="msgAfterIncompleteAdTitle">
+        <name>Ad Title (must be minimum 10 characters long)</name>
+    </element>
+
+    <element name="msgAfterIncompleteAdDescriptions">
+        <name>Description (must be minimum 30 characters long)</name>
+    </element>
+
+    <element name="model">
+        <name>Model</name>
+    </element>
+
+    <element name="modelOptionName">
+        <name>Iphone 6 128 Gb</name>
+    </element>
+
+    <element name="operatingSystem">
+      <name>Operating System</name>
+    </element>
+
+    <element name="operatingOptionName">
+        <name>Apple-Ios</name>
+    </element>
+
+    <element name="noOfSims">
+       <name>No Of Sims</name>
+    </element>
+
+    <element name="noOfSimsOption">
+        <name>Dual</name>
+    </element>
+
+    <element name="brandNameOptionForMobilesCategory">
+        <name>Apple</name>
+    </element>
+    <element name="alsoIncludesOptionNameForMobilesCategory">
+        <name>Charger</name>
+    </element>
+
+    <element name="optionalDetailsForMobiles">
+        <!--<name>Price, Model, Operating System, No Of Sims, Also Includes.</name>-->
+        <name>Model, Operating System, No Of Sims, Also Includes.</name>
+    </element>
+
+    <element name="viewYourAdButton">
+        <class>UIAButton</class>
+    </element>
+
+    <element name="viewYourAdButtonNotPresent">
+        <name>View Your Ad</name>
+    </element>
+
+    <element name="msgAfterEditAdSubmission">
+        <name>Congratulations! Your Ad will be live shortly.</name>
+    </element>
+
+    <element name="saveChangesButton">
+        <name>Save Changes</name>
+    </element>
+
+    <element name="msgAfterClickOnNextButton">
+        <name>Please select Locality!</name>
+    </element>
+
+    <element name="myAdUIATableList">
+        <class>UIATableCell</class>
+    </element>
+
+    <element name="deleteAdButton">
+        <name>Delete Ad</name>
+    </element>
+    <element name="deleteButton">
+        <name>Delete</name>
+    </element>
+
+    <element name="okButton">
+        <name>Ok</name>
+    </element>
+
+    <element name="msgAfterClickOnDeleteButton">
+        <!--<name>Your ad will be deleted shortly!</name>-->
+        <name>How would you rate Quikr?</name>
+    </element>
+
+    <element name="myAdCellList">
+        <class>UIATableCell</class>
+    </element>
+
+    <element name="clickOnTransparentScreen">
+        <class>UIATableView</class>
+    </element>
+
+    <element name="noOfRooms">
+        <name>No. of Rooms</name>
+    </element>
+
+    <element name="selectNoOfRooms">
+        <name>2 BHK</name>
+    </element>
+
+    <element name="areaSqFt">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[6]/UIATextField[1]</xpath>
+        <name>Area Sq Ft</name>
+    </element>
+
+    <element name="selectAreaSqFt">
+        <name>1000 - 1500</name>
+    </element>
+
+    <element name="adTypeName">
+        <name>I  want  to  take  on  rent  I  am  a  tenant</name>
+    </element>
+
+    <element name="msgInPopUp">
+        <name>Please enter email.</name>
+    </element>
+
+    <element name="clickOnYear">
+        <name>Year of Registration</name>
+    </element>
+
+    <element name="searchBar">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAImage[1]</xpath>
+        <name>search-bg</name>
+    </element>
+
+    <element name="searchRequiredTextInSearchBar">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIASearchBar[1]</xpath>
+        <!--<name>Search Year</name>-->
+    </element>
+
+    <element name="requiredTextOptionClick">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[$]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="brandNameOptionForCars">
+        <name>Maruti Suzuki</name>
+    </element>
+
+    <element name="brandNameOptionForBikes">
+        <name>Passion Pro</name>
+    </element>
+
+    <element name="clickOnKms">
+        <xpath> //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[7]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="clickOnOptionalDetailsForCars">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[9]/UIAStaticText[2]</xpath>
+        <name>Model, Variant / Version, Fuel Type, Price, Number of Owners, Insurance Valid Till, Color.</name>
+    </element>
+
+    <element name="carPrice">
+        <!--<xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[9]/UIATextField[1]</xpath>-->
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[12]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="bikePrice">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[10]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="clickOnVariantOrVersion">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[10]/UIAStaticText[1]</xpath>
+        <name>Variant / Version</name>
+    </element>
+
+    <element name="clickOnColor">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[15]/UIAStaticText[1]</xpath>
+        <name>Color</name>
+    </element>
+
+    <element name="clickOnFuelType">
+        <xpath>/UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[13]/UIAStaticText[1]</xpath>
+        <name>Fuel Type</name>
+    </element>
+
+    <element name="clickOnNoOfOwners">
+        <!--<xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[14]/UIAStaticText[1]</xpath>-->
+        <name>Number of Owners</name>
+    </element>
+
+    <element name="clickOnInsuranceValidTill">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[15]/UIAStaticText[1]</xpath>
+        <name>Insurance Valid Till</name>
+    </element>
+
+    <element name="moreButtonInMyAds">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[$]/UIAButton[2]</xpath>
+        <name>ic myad more</name>
+    </element>
+
+    <element name="clickOnRole">
+        <name>Role</name>
+    </element>
+
+    <element name="clickOnEducation">
+        <name>Education</name>
+    </element>
+
+    <element name="clickOnExperience">
+        <name>Experience</name>
+    </element>
+
+    <element name="clickOnOptionalDeatailsOfBikes">
+        <name>Model, Price, Number of Owners.</name>
+    </element>
+
+    <element name="popupMsgForMbNo">
+        <name>Please enter mobile number.</name>
+    </element>
+
+    <element name="setPinCode">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[$]/UIATextField[1]</xpath>
+    </element>
+    <element name="setAddress">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[$]/UIATextView[1]</xpath>
+    </element>
+
+    <element name="conditionTypeName">
+        <name>Used</name>
+    </element>
+</elements>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="CollegesSubCat">
+        <xpath>//section[@class='section-wrap edu-categories']/ul/li[7]/a</xpath>
+    </element>
+
+    <element name="CollegeDisciplineTitles">
+        <xpath>//section[@class='filter-wrapper edu-categories clearfix']/ul/li/a/label</xpath>
+    </element>
+
+    <element name="CollegeLocChicklets">
+        <xpath>//div[@class='institute-info']/p/span[2]</xpath>
+    </element>
+
+    <element name="CollegeDisciplineFilters">
+        <xpath>//div[@id='discipline']/ul/li/label</xpath>
+    </element>
+
+    <element name="CollegeDisciplineChicklet">
+        <xpath>//div[@class='institute-info']/p/span[1]</xpath>
+    </element>
+
+    <element name="CollegeTitles">
+        <xpath>//div[@class='institute-info']/h4/a</xpath>
+    </element>
+
+    <element name="CollegeViewContactDetails">
+        <xpath>footer[@class='clearfix']/a</xpath>
+    </element>
+
+    <element name="CollegeVapShowDetails">
+        <id>vap-show-contact</id>
+    </element>
+
+    <element name="CollegeBlurredContactNumberVap">
+        <xpath>//p[@class='blur-info contact-phone']</xpath>
+    </element>
+
+    <element name="CollegeCityFiltersVap">
+        <xpath>.//input[starts-with(id,'cityfilter')]</xpath>
+    </element>
+
+    <element name="ClassroomCoachingBoardStandardSubjectFilters">
+        <xpath>//label[starts-with(@for,'classroom-coaching')]</xpath>
+    </element>
+
+    <element name="SchoolTutionsCat">
+        <xpath>//section[@class='section-wrap edu-categories']/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="ClassroomSearchResults">
+        <xpath>//a[@class='btn btn-primary search-result']</xpath>
+    </element>
+
+    <element name="ClassroomFilterChicklets">
+        <xpath>//ul[@class='applied-filter visible-md visible-lg clearfix filter-chiclets']/li</xpath>
+    </element>
+
+    <element name="skipShowResults">
+        <xpath>//a[@id='skip-show-results']</xpath>
+    </element>
+
+    <element name="collegeFinderResults">
+        <xpath>//div[@class='college-finder-filters']</xpath>
+    </element>
+
+    <element name="collegeFinderCities">
+        <xpath>//ul[@class='filter-list']/li/a</xpath>
+    </element>
+
+    <element name="collegeFinderNext">
+        <xpath>//a[@id='city-selection-next']</xpath>
+    </element>
+
+    <element name="collegeFinderGrads">
+        <xpath>//div[@id='grad']/ul/li/a</xpath>
+    </element>
+
+    <element name="appliedFilterText">
+        <xpath>//ul[@class='applied-filter clearfix']/li/a</xpath>
+    </element>
+
+    <element name="hamburgerLoginButton">
+        <xpath>//button[@class='btn btn-primary']</xpath>
+    </element>
+
+
+
+</elements>

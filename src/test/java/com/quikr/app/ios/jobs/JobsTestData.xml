@@ -1,0 +1,27 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="categoryName">jobsCategory</testData>
+    <testData name="cityNameForPostAd">Mumbai</testData>
+    <testData name="localityNameForPostAd">Agripada</testData>
+    <testData name="fullTimeJobs">jobsSubCategoryFullTimeJobs</testData>
+    <testData name="partTimeJobs">jobsSubCategoryPartTimeJobs</testData>
+    <testData name="jobsSubCategoryWorkFromHome">jobsSubCategoryWorkFromHome</testData>
+    <testData name="jobsSubCategoryInternship">jobsSubCategoryInternship</testData>
+    <testData name="titleForFullTimeJobs">software jobs, c,c++,java and data structure for developer </testData>
+    <testData name="descriptionForFullTimeJobs">Job opening for developer with good knowledge of any technical lang and data structure</testData>
+    <testData name="titleForWorkFromHome">work from home daily only one hour and earn Rs 500 or more </testData>
+    <testData name="descriptionForWorkFromHome">good opportunity to invest one or more hour as u have time for just offline typing data entry and read work</testData>
+    <testData name="titleForPartTimeJobs">offering  a part time jobs for graduates , diploma holder and housewife</testData>
+    <testData name="descriptionForPartTimeJobs">you have 2 to 3 hours in one day and want to utilize your time in more income regular with study or jobs</testData>
+    <testData name="titleForInternships">offering internship job for 3rd year or final year b-tech student</testData>
+    <testData name="descriptionForInternships">only for iit or nit student  only job opportunity, to learn and earn money for few months  </testData>
+    <testData name="jobRoleName">Engineer</testData>
+    <testData name="educationType">Graduate</testData>
+    <testData name="experience">1 - 3 yrs</testData>
+    <testData name="name">Monu</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="mobileNo">9955199187</testData>
+    <testData name="successMsgAfterAdPost">We are reviewing your ad.</testData>
+
+</data>

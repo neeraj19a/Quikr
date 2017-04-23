@@ -1,0 +1,36 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="offersCount">
+        <xpath>.//*[@id='viewAllOffersContainer']/div[3]/div[2]/span[2]</xpath>
+    </element>
+
+    <element name="acceptedCount">
+        <xpath>.//*[@id='viewAllOffersContainer']/div[3]/div[3]/span[2]</xpath>
+    </element>
+
+    <element name="counterCount">
+        <xpath>.//*[@id='viewAllOffersContainer']/div[3]/div[4]/span[2]</xpath>
+    </element>
+
+    <element name="counterCount">
+        <xpath>.//*[@id='viewAllOffersContainer']/div[3]/div[4]/span[2]</xpath>
+    </element>
+    
+    <element name="counterOfferByOfferId">
+        <xpath>.//*[@id='viewAllOffersContainer']/div/div[4]/a[@class='btn btn-default counter' and contains(@href,"offerId=$")]</xpath>
+    </element>
+
+    <element name="acceptOfferByOfferId">
+        <xpath>.//*[@id='viewAllOffersContainer']/div/div[4]/a[@class='btn btn-default accept' and contains(@href,"offerId=$")]</xpath>
+    </element>
+
+    <element name="offeredPriceByOfferidId">
+        <xpath>.//*[@id='viewAllOffersContainer']/div/div[4]/a[contains(@href,"offerId=$")]/../../div[3]/span[2]/strong</xpath>
+    </element>
+
+    <element name="chatByOfferId">
+        <xpath>.//*[@id='viewAllOffersContainer']/div/div[4]/a[contains(@href,"offerId=$")]/../../div[1]/span[4]</xpath>
+    </element>
+
+    </elements>

@@ -1,0 +1,17 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="electronicsAndApplianceCategory">Electronics</testData>
+    <testData name="electronicsAndApplianceSubCategoryName">laptop</testData>
+    <testData name="sendText">Hi i am interested</testData>
+    <testData name="name">Monu</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="mobileNo">9955199187</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="mobilesAndTabletsCategory">Mobiles</testData>
+    <testData name="mobilesAndTabletsSubCategoryName">mobilePhones</testData>
+    <testData name="homeAndLifeStyleCategory">Lifestyle</testData>
+    <testData name="homeAndLifeStyleSubcategoryName">homeAndLifeStyleSubcategoryName</testData>
+    <testData name="changeCityName">changeCity</testData>
+    <testData name="selectNameForChangeCity">selectNameForChangeCity</testData>
+    <testData name="expectedCityName">Bangalore</testData>
+</data>

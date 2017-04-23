@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="adsOnSnbPage">
+        <css>.snb_entire_ad</css>
+    </element>
+
+    <element name="adsOnNewSnbPage">
+        <css>#products</css>
+    </element>
+
+    <element name="searchbox">
+        <xpath>.//*[@id='query']</xpath>
+        <id>query</id>
+    </element>
+
+    <element name="search">
+        <xpath>.//*[@id='searchFormIndex']/input[4]</xpath>
+    </element>
+
+    <element name="chat">
+        <xpath>.//*[@id='chatNow_adT225387504']/span[2]</xpath>
+        <css>.cht-sm.green</css>
+    </element>
+
+    <element name="chatName">
+        <xpath>.//*[@id='iname']</xpath>
+        <id>iname</id>
+        <css>#iname</css>
+    </element>
+
+    <element name="chatNumber">
+        <xpath>.//*[@id='iphone']</xpath>
+        <id>iphone</id>
+        <css>#iphone</css>
+    </element>
+
+    <element name="chatEmail">
+        <xpath>.//*[@id='iemail']</xpath>
+        <id>iemail</id>
+        <css>#iemail</css>
+    </element>
+
+    <element name="chatContent">
+        <xpath>.//*[@id='iquestion']</xpath>
+        <id>iquestion</id>
+        <css>#iquestion</css>
+    </element>
+
+    <element name="submitChat">
+        <css>.green.submit</css>
+    </element>
+
+    <element name="adsOnSnbPage">
+        <css>.snb_entire_ad</css>
+        <class>snb_entire_ad</class>
+    </element>
+
+    <element name="price">
+        <xpath>.//*[@id='block_empty']/div[2]/div/div[4]/a</xpath>
+    </element>
+
+    <element name="priceTag">
+        <css>.snb_price_tag</css>
+    </element>
+
+    <element name="adTitle">
+        <css>.adttllnk.unbold</css>
+    </element>
+
+    <element name="roleElement">
+        <id>leftSideRole</id>
+    </element>
+
+    <element name="specifiedOptionName">
+        <xpath>//div[@class='chicklet_wrapdiv']/div[1]</xpath>
+    </element>
+
+    <element name="apply">
+        <xpath>//div[starts-with(@class,'cht-sm-wrapp')]/span/input</xpath>
+    </element>
+
+    <element name="applybox">
+        <xpath>.//*[@id='apply1_div']</xpath>
+    </element>
+
+    <element name="compensationElement">
+        <id>leftSideCompensation</id>
+    </element>
+
+    <element name="compensationName1">
+        <xpath>//div[@class='chicklet_wrapdiv']/div[2]</xpath>
+    </element>
+
+    <element name="compensationName2">
+        <xpath>//div[@class='chicklet_wrapdiv']/div[1]</xpath>
+    </element>
+
+    <element name="experienceElement">
+        <id>leftSideExperience</id>
+    </element>
+
+    <element name="experienceOptionName1">
+        <xpath>//div[@class='chicklet_wrapdiv']/div[2]</xpath>
+    </element>
+
+    <element name="experienceOptionName2">
+        <xpath>//div[@class='chicklet_wrapdiv']/div[3]</xpath>
+    </element>
+
+    <element name="educationElement">
+        <id>leftSideEducation</id>
+    </element>
+
+    <element name="snbPageAd">
+        <xpath>(.//a[@class='adttllnk unbold'])[$]</xpath>
+    </element>
+
+    <element name="educationOptionName">
+        <xpath>//ul/li[2]/div[@class='ad-atrbt-panel']/span[@class='ad-atrbt-val']/span[1]</xpath>
+    </element>
+
+    <element name="role">
+        <id>appRole</id>
+    </element>
+
+    <element name="replyemail">
+        <id>appEmail</id>
+    </element>
+
+    <element name="replynumber">
+        <id>appMobile</id>
+    </element>
+
+    <element name="jobApply">
+        <css>.Apply-ButtonArea > #appSubmit1</css>
+    </element>
+
+    <element name="validateReply">
+        <xpath>.//*[@id='reply_form']/div[3]/div[2]/div/button</xpath>
+    </element>
+
+    <element name="online">
+        <xpath>//div[@class='OnlineUsers-Toggle']//a</xpath>
+    </element>
+
+    <element name="localityElement">
+        <id>leftSideLocality</id>
+    </element>
+
+    <element name="clickOnCategory">
+        <xpath>.//*[@id='leftSideCategory']/li[1]/a/span[2]</xpath>
+    </element>
+
+    <element name="LHSCategory">
+        <xpath>.//*[@id='leftSideCategory']/li[2]/a/span[2]</xpath>
+    </element>
+
+    <element name="selectCategory">
+        <id>leftSideCategory</id>
+    </element>
+
+    <element name="checkedOptionsSidebar">
+        <xpath>(//input[@checked=''])/parent::*</xpath>
+    </element>
+
+    <element name="dateSortDesc">
+        <xpath>//span[@class='cat_expanded_icon'][2]</xpath>
+    </element>
+
+    <element name="dateSortAsc">
+        <xpath>//a[@pos='Top'][@index='RHS']</xpath>
+    </element>
+
+    <element name="dateTags">
+        <css>.snb_date</css>
+    </element>
+
+    <element name="mobileCategory">
+        <!--<xpath>//a[@title='Mobile Phones']/h2</xpath> -->
+        <xpath>//div[@id='nationwideWrap']/div/span/a</xpath>
+    </element>
+
+    <element name="chicklets">
+        <xpath>//div[@class='chicklet_wrapdiv']</xpath>
+    </element>
+
+    <element name="jobSubCategory">
+        <xpath>//div[@id='leftSideCategory']/li/span</xpath>
+    </element>
+
+    <element name="adHavingReplyOption">
+        <xpath>//div[starts-with(@id,'replybox')][@class='']/../../div[@class='snb_ad_container']</xpath>
+        <!-- Do not alter this xpath before consulting me. At time of writing this works perfectly fine to get an add with reply button -->
+    </element>
+
+    <element name="adHavingChatOption">
+        <xpath>//input[contains(@class,'escrowSnbChat')]/ancestor::div[contains(@class,'snb-price')]/preceding-sibling::div[@class='snb_ad_container']//a</xpath>
+    </element>
+    <element name="servicesPopUP">
+        <xpath>//*[@id='main-container-snb']/div[1]/div[2]/span</xpath>
+        <css>.closeIcon</css>
+    </element>
+    <element name="snbLocality">
+        <css>.chicklet_div.chiclet_selected</css>
+    </element>
+
+    <element name="buyNowOption">
+        <id>escrowAdBuyNow</id>
+    </element>
+
+    <element name="soldStatusSnB">
+        <class>escrow-sold-now-snb</class>
+    </element>
+
+    <element name="makeAnOfferSnB">
+        <class>escrowMakeAnOffer</class>
+    </element>
+
+    <element name="escrowAdTitle">
+        <partialLinkText>test ad for automation</partialLinkText>
+    </element>
+    <element name="clickonReply">
+        <xpath>//input[contains(@class,'replyclick')]</xpath>
+    </element>
+    <element name="replyContent">
+        <xpath>//*[@id='reply_content']</xpath>
+    </element>
+    <element name="replyEmail">
+        <xpath>//*[@id='reply_email']</xpath>
+    </element>
+    <element name="replyNumber">
+        <xpath>//*[@id='reply_mobile']</xpath>
+    </element>
+    <element name="replycaptcha">
+        <xpath>//*[@id='captinp']</xpath>
+</element>
+    <element name="drElement">
+        <id>leftSidetype</id>
+    </element>
+
+    <element name="drTypeName">
+        <xpath>//div[@class='chicklet_wrapdiv']/div[1]</xpath>
+    </element>
+
+    <element name="typeName">
+        <id>type_custom_sel</id>
+       <css>#type_custom_sel > .ddn</css>
+    </element>
+
+    <element name="typeNameListCheckboxInAlert">
+        <id>type_custom_checkboxes</id>
+    </element>
+
+    <element name="createAlertButton">
+        <xpath>//div[@id='needtext']</xpath>
+    </element>
+
+    <element name="submitButton">
+        <xpath>//div[@id='custom_submitbtn']/input[2]</xpath>
+    </element>
+
+    <element name="setLocalityOnSnbPageForAlert">
+        <id>intent_loc</id>
+    </element>
+
+    <element name="localityListCheckboxInAlertOnSnbPage">
+        <id>localities_custom_checkboxes</id>
+    </element>
+
+    <element name="allLinkAtTopLeft">
+        <xpath>//div[@class='breadcrumb']/span/a[string()='All']</xpath>
+    </element>
+
+    <element name="premiumAd">
+        <xpath>//div[@class='premium_ad_nov']</xpath>
+    </element>
+
+    <element name="allAd">
+        <xpath>//div[@class='quikrsnb_listboxphoto']</xpath>
+    </element>
+    <element name="snbAdContainer">
+        <css>.newsnbbxnoclr.white_box.snbbox</css>
+    </element>
+
+    <element name="electronicAndAppliancesCategory">
+        <xpath>.//*[@id='leftSideCategory']/li[10]/a/span[2]</xpath>
+    </element>
+    
+    <element name="superPreimumAdOption">
+        <class>qexchange-NewIcon</class>
+    </element>
+
+    <element name="quikrCertifiedOption">
+        <xpath>.//*[@id='leftSideQuikrX']/ul/li[2]/a/b</xpath>
+    </element>
+
+    <element name="exchangePhoneOption">
+        <xpath>.//*[@id='leftSideQuikrX']/ul/li[1]/a/b</xpath>
+    </element>
+
+    <element name="formError">
+       <css>#formError</css>
+    </element>
+
+    <element name="BikesandScooters">
+        <xpath>.//*[@id='car_breadcrumb']/li[3]/a/span</xpath>
+    </element>
+
+    <element name="HousesApartmentsforRentnewUI">
+        <css>.selectrcabox</css>
+    </element>
+
+    <element name="HousesApartmentsforRent">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/div[3]/div[1]/span[3]/span[3]/span[1]</xpath>
+    </element>
+
+    <element name="HousesApartmentsforSale">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/div[3]/div[1]/span[3]/span[3]/span[1]</xpath>
+    </element>
+
+    <element name="LaptopsandComputers">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/div[3]/div[1]/span[3]/span[3]/span[1]</xpath>
+    </element>
+
+    <element name="HomeOfficeFurniture">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/div[3]/div[1]/span[3]/span[3]/span[1]</xpath>
+    </element>
+
+    <element name="HomeKitchenAppliances">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/div[3]/div[1]/span[3]/span[3]/span[1]</xpath>
+    </element>
+
+    <element name="CityPopUp">
+        <id>modal-citypopup-close</id>
+    </element>
+
+    <element name="CityPopUpHomes">
+        <xpath>html/body/div[8]/div/div/div[1]/div/div/button</xpath>
+    </element>
+
+    <element name="pagination">
+        <xpath>.//div[@class='innerpagination']/ul/li</xpath>
+    </element>
+
+    <element name="top_of_pagead">
+        <xpath>//div[@class='chicklet_div chiclet_selected']</xpath>
+    </element>
+
+    <element name="mobile_brand_snb">
+        <xpath>.//input[@class='side_bar_filter_chkbx_Brand_name side_bar_filter_chkbx']/..[@label='$']/input</xpath>
+    </element>
+
+    <element name="googleads">
+        <xpath>.//*[starts-with(@id,'google_ads_iframe')]</xpath>
+    </element>
+
+    <element name="ads_with_photos">
+        <css>.grid-icon-thumb</css>
+    </element>
+
+    <element name="PhotoAdsPagination">
+        <xpath>.//div[@class='photo_ads_pagination']</xpath>
+    </element>
+
+    <element name="photos_ads">
+        <xpath>.//div[@class='quikrsnb_listboxphoto']/img</xpath>
+    </element>
+
+    <element name="adswith_reply">
+        <xpath>//div[contains(@class,'cht-sm-wrapp hide')]/ancestor::div[contains(@class,'snb-price')]//preceding-sibling::div[contains(@class,'snb_ad_container')]//h3/a</xpath>
+    </element>
+
+    <element name="adswith_replybutton">
+        <xpath>.//input[@title='Reply']</xpath>
+    </element>
+
+
+    <element name="premium_ads_with_reply">
+        <xpath>//div[contains(@class,'premium_ad_nov')]/following-sibling::div/div[2]/div/h3/a</xpath>
+    </element>
+
+    <element name="Reply">
+        <css>#vapChatTxt.cht-lrg.offline</css>
+    </element>
+
+    <element name="CategoryHeading">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/h1</xpath>
+    </element>
+
+    <element name="downloadAppPopUP">
+        <xpath>.//div[@class='WhitePopup-formarea']</xpath>
+    </element>
+
+    <element name="RecommendedAdsTitleSNB">
+        <xpath>(.//div[@class='custom-livefeedlink'])[2]</xpath>
+    </element>
+
+    <element name="RecommendedAdsGoToQuikrHomeLink">
+        <css>.custom-edit</css>
+    </element>
+
+    <element name="toggleOnlineUsers">
+        <xpath>//a[@href='?online=1']</xpath>
+    </element>
+
+    <element name="offlineUsers">
+        <xpath>//input[@data-original-title='Reply']</xpath>
+    </element>
+
+    <element name="makeAnOfferButton">
+        <xpath>//input[contains(@class, 'escrowMakeAnOffer')]/ancestor::div[contains(@class,'snb_date_wapp')]/preceding-sibling::div[@class='snb_ad_container' and not(@disabled)]//h3/a</xpath>
+    </element>
+
+    <element name="buyNowButton">
+        <xpath>//input[contains(@id, 'escrowAdBuyNow')]/ancestor::div[contains(@class,'snb_date_wapp')]/preceding-sibling::div[@class='snb_ad_container' and not(@disabled)]//h3/a</xpath>
+    </element>
+
+    <!--
+    Responsive SNB Page Locators
+    -->
+
+
+    <element name="numberofAdsSearchResults">
+        <xpath>.//h3[@class='snbpage-heading']</xpath>
+    </element>
+
+    <element name="SNBPagination">
+        <xpath>.//ul[@class='pagination']</xpath>
+    </element>
+
+    <element name="breadCrumbLeftTop">
+        <xpath>.//div[@class='new-snb-breadcrumb']/div/div/div/ul/li[2]</xpath>
+    </element>
+
+    <element name="premiumAdsLink">
+        <xpath>.//div[@class='premium-txt-list-view']/../h3</xpath>
+    </element>
+
+    <element name="priceOfAds">
+        <xpath>.//h2[@class='prdt-price-list-view']</xpath>
+    </element>
+
+    <element name="adsImage">
+        <xpath>.//img[@class='product-image-grid']</xpath>
+    </element>
+
+    <element name="chickletBrand">
+        <xpath>(.//ul[@class='chicklet-lists']/li/a)[1]</xpath>
+    </element>
+
+    <element name="chickletCity">
+        <xpath>(.//ul[@class='chicklet-lists']/li/a)[2]</xpath>
+    </element>
+
+    <element name="AdDate">
+        <xpath>.//div[@class='product-live-date']</xpath>
+    </element>
+
+    <element name="brandDropDown">
+        <xpath>(.//i[@class='icon-arrow-down'])[2]</xpath>
+    </element>
+
+    <element name="modelDropDown">
+        <xpath>(.//i[@class='icon-arrow-down'])[3]</xpath>
+    </element>
+
+    <element name="priceRangDropDown">
+        <xpath>(.//i[@class='icon-arrow-down'])[4]</xpath>
+    </element>
+
+    <element name="localityDropDown">
+        <xpath>(.//i[@class='icon-arrow-down'])[5]</xpath>
+    </element>
+
+    <element name="moreDropDown">
+        <xpath>(.//i[@class='icon-arrow-down'])[6]</xpath>
+    </element>
+
+    <element name="priceDropDown">
+        <xpath>.//span[@class='icon-arrow-down arrow btnActive']</xpath>
+    </element>
+
+    <element name="hightToLowPriceSort">
+        <xpath>.//ul[@id='category-dropdown']/li[2]</xpath>
+    </element>
+
+    <element name="lowToHighPriceSort">
+        <xpath>.//ul[@id='category-dropdown']/li[1]</xpath>
+    </element>
+
+    <element name="adsContainer">
+        <xpath>.//div[@class='snb-grid-main-box']</xpath>
+    </element>
+
+    <element name="createAlertButton">
+        <xpath>.//div[@class='create-alert-buttom']</xpath>
+    </element>
+
+    <element name="trendingAdsRightSide">
+        <xpath>.//div[@class='right-filter-label']/a</xpath>
+    </element>
+
+    <element name="sortGridIcon">
+        <xpath>(.//div[@class='sort-grid-list-icon'])[1]</xpath>
+    </element>
+
+    <element name="sortListIcon">
+        <xpath>(.//div[@class='sort-grid-list-icon'])[1]</xpath>
+    </element>
+
+    <element name="sortGridIcon">
+        <xpath>(.//div[@class='sort-grid-list-icon'])[2]</xpath>
+    </element>
+
+    <element name="nameApplyAd">
+        <xpath>(.//div[@class='custom-form-controls']/input)[1]</xpath>
+    </element>
+
+    <element name="emailApplyAd">
+        <xpath>(.//div[@class='custom-form-controls']/input)[2]</xpath>
+    </element>
+
+</elements>
+

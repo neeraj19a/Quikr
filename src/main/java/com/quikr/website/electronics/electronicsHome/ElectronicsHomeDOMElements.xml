@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="Laptops">
+        <xpath>(.//input[@class='side_bar_filter_chkbx_Product_Type side_bar_filter_chkbx'])[2]</xpath>
+    </element>
+    <element name="BrandName_Acer">
+        <xpath>.//*[@id='leftSideBrand_name']/ul/li[1]/a/input</xpath>
+    </element>
+    <element name="PageDetail">
+        <css>.chicklet_div.chiclet_selected</css>
+    </element>
+
+    <element name="Laptops_Computers">
+        <xpath>.//*[@class='subcat_heading']</xpath>
+    </element>
+
+    <element name="Home_Kitchen Appliances">
+        <xpath>.//*[@class='subcat_heading']</xpath>
+    </element>
+
+    <element name="TV_DVD_Multimedia">
+               <xpath>(//*[@class='subcat_heading'])[3]</xpath>
+    </element>
+
+
+</elements>

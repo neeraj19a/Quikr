@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Website Regression Suite" verbose="1" annotations="JDK">
+
+    <suite-files>
+        <!--<suite-file path="auth/Authtestng.xml"></suite-file>-->
+        <!--<suite-file path="carsandbikes/CarsAndBikestestng.xml"></suite-file>-->
+        <!--<suite-file path="horizontal/home/home/Hometestng.xml"></suite-file>-->
+        <!--<suite-file path="jobs/JobsP0testng.xml"></suite-file>-->
+        <!--<suite-file path="horizontal/myquikr/MyQuikrtestng.xml"></suite-file>-->
+        <!--<suite-file path="quikrX/QuikrXtestng.xml"></suite-file>-->
+        <!--<suite-file path="service/Servicetestng.xml"></suite-file>-->
+        <!--<suite-file path="horizontal/horizontalSnb/HorizontalSnbtestng.xml"></suite-file>-->
+        <!--<suite-file path="horizontal/horizontalVap/HorizontalVaptestng.xml"></suite-file>-->
+    </suite-files>
+
+</suite>

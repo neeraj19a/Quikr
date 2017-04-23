@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobiles And Tablets Tests Suite" verbose="1" annotations="JDK">
+    <test name="Mobiles And Tablets Tests">
+        <classes>
+            <class name="com.quikr.app.ios.mobilesAndTabletsPostAd.MobilesAndTabletsPostAdTests"/>
+        </classes>
+    </test>
+</suite>

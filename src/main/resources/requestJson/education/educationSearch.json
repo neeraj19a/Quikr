@@ -1,0 +1,9 @@
+{
+  "instituteType" : 2,
+  "cityIds" : [ 1, 2, 3],
+  "disciplineId" : 7,
+  "categoryId" : 8,
+  "facilities" : [ 1, 2, 3 ],
+  "count" : 20,
+  "from" : 1
+}

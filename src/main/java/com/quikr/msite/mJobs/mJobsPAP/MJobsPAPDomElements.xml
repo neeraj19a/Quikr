@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="postFreeAdBtn">
+        <id>post_classi_button</id>
+    </element>
+
+    <element name="AddPhotoPageNextBtn">
+        <id>uploadPhotosNext</id>
+    </element>
+
+    <element name="selectJobsForPostingAd">
+        <xpath>//a[@data-node-name='Jobs']</xpath>
+    </element>
+
+    <element name="selectIamAnEmployer">
+        <xpath>//label[@for='Ad_Type_offer']</xpath>
+    </element>
+
+    <element name="selectIamAJobSeeker">
+        <xpath>//label[@for='Ad_Type_want']</xpath>
+    </element>
+
+    <element name="OptionRole">
+        <id>Role</id>
+    </element>
+
+    <element name="OptionEdu">
+        <id>Education</id>
+    </element>
+
+    <element name="OptionExp">
+        <id>Experience</id>
+    </element>
+
+    <element name="OptionCity">
+        <id>currCity</id>
+    </element>
+
+    <element name="OptionLocality">
+        <id>ad_locality</id>
+    </element>
+
+    <element name="SelectAttrPageNextBtn">
+        <id>attrNext</id>
+    </element>
+
+    <element name="PostAdTitle">
+        <id>ad_title</id>
+    </element>
+
+    <element name="PostAdDescription">
+        <id>ad_desc</id>
+    </element>
+
+    <element name="PostAdBtn">
+        <id>postAdBtn</id>
+    </element>
+
+    <element name="PostAdSuccessCongrats">
+        <xpath>//h1[@class='cong_title']</xpath>
+    </element>
+
+</elements>

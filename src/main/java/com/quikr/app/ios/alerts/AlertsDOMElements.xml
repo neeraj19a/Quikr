@@ -1,0 +1,33 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="addAlertsCreateButton">
+        <name>add alert</name>
+    </element>
+
+    <element name="clickOnSelectCategory">
+        <name>Select Category</name>
+    </element>
+    <element name="locality">
+        <name>Locality</name>
+    </element>
+
+    <element name="localityOptionName">
+        <name>Adugodi</name>
+    </element>
+
+    <element name="optionalDetailsButton">
+        <name>Model, Operating System, No Of Sims.</name>
+    </element>
+
+    <element name="cellList">
+        <class>UIAButton</class>
+    </element>
+    <element name="createAlertButton">
+        <name>Create Alert</name>
+    </element>
+
+    <element name="msgAfterCreateAlerts">
+        <name>Your alert has been successfully created</name>
+    </element>
+</elements>

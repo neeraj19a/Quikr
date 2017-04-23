@@ -1,0 +1,21 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="category">Services</testData>
+<testData name="ExchengeSNBValidation">Exchange Old for New</testData>
+<testData name="ExchangeLabelText">Select a Brand New Phone</testData>
+    <testData name="CertifiedSNBValidation">Buy Certified Used Phone</testData>
+    <testData name="certifiedLable">15 days replacement guarantee</testData>
+    <testData name="seller">Seller Information</testData>
+    <testData name="pin">560034</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="location">Airport</testData>
+    <testData name="number">9955199163</testData>
+    <testData name="name">Automation team</testData>
+    <testData name="address">22/2 9th street jogupalya</testData>
+    <testData name="protectSmartphone">Protect my smartphone</testData>
+    <testData name="pincodeText">Enter your pincode</testData>
+    <testData name="Mobiles">MOBILES</testData>
+    <testData name="mobilesAndTAbs">Mobiles</testData>
+    <testData name="brand">Samsung</testData>
+</data>

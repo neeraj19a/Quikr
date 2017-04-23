@@ -1,0 +1,43 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="exchangeOldForNewTextDisplayOnSnbPage">
+        <name>Exchange Old for New</name>
+    </element>
+
+    <element name="buyCertifiedPhoneTextOnSnbPage">
+        <name>Buy Certified Used Phone</name>
+    </element>
+
+    <element name="listOfAllUIATablecell">
+        <class>UIATableCell</class>
+    </element>
+
+    <element name="verify">
+        <name>Verify</name>
+    </element>
+
+    <element name="popularity">
+        <name>Popularity</name>
+    </element>
+
+    <element name="highToLow">
+        <name> High to Low</name>
+    </element>
+
+    <element name="lowToHigh">
+        <name> Low to High</name>
+    </element>
+
+    <element name="filter">
+        <name>Filter</name>
+    </element>
+
+    <element name="brandName">
+        <name>Brand Name</name>
+    </element>
+
+    <element name="price">
+        <name>Price</name>
+    </element>
+
+</elements>

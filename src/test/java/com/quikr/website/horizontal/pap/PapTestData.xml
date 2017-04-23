@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="selectedCity">bangalore</testData>
+    <testData name="instituteName">Parivarthan Counselling Training &amp; Research Centre</testData>
+    <testData name="instituteWebsite">http://www.parivarthan.org/</testData>
+    <testData name="instituteAddress">No. 3310, 1st Floor, 8th Cross, 13th Main, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008</testData>
+    <testData name="quikrUrl">quikr.com</testData>
+    <testData name="AdTitleMobilePhones">I want to sell my new sony xperia z10 in good condition.</testData>
+    <testData name="AdDescriptionMobilePhones">The phone is in a very good condition. intact with original earphones, charger and battery. You can contact for more.</testData>
+
+</data>

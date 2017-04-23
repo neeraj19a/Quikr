@@ -1,0 +1,7 @@
+<suite name="Services Snb" verbose="1" annotations="JDK">
+    <test name="Services Snb Tests">
+        <classes>
+            <class name="com.quikr.app.android.services.servicesSnb.ServicesSnbTests"/>
+        </classes>
+    </test>
+</suite>

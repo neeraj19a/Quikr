@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="menuList">
+        <xpath>//div[@class='menulist']</xpath>
+        <css>.menulist</css>
+    <!--    <class>.menulist</class>
+    -->
+    </element>
+
+    <element name="postAd">
+        <css>.header_post_ad_button.yellow</css>
+    </element>
+
+    <element name="postAdHomePage">
+        <xpath>//div[@class='yellow-bor PostAd-Txt2']</xpath>
+    </element>
+
+    <element name="category">
+       <class>menulist</class>
+    </element>
+
+    <element name="cars">
+        <partialLinkText>Cars</partialLinkText>
+    </element>
+
+    <element name="Mobiles">
+        <partialLinkText>Mobile Phones</partialLinkText>
+    </element>
+    <element name="Laptops">
+        <partialLinkText>Laptops - Computers</partialLinkText>
+    </element>
+    <element name="houseAppartment">
+        <partialLinkText>Houses - Apartments for Rent</partialLinkText>
+    </element>
+    <element name="Homefurniture">
+        <partialLinkText>Home - Office Furniture</partialLinkText>
+    </element>
+    <element name="FullTimeJobs">
+        <partialLinkText>Full Time Jobs</partialLinkText>
+    </element>
+    <element name="Advertising">
+        <partialLinkText>Advertising - Design</partialLinkText>
+    </element>
+    <element name="Acting">
+        <partialLinkText>Acting - Modeling Roles</partialLinkText>
+    </element>
+    <element name="Pets">
+        <partialLinkText>Pets</partialLinkText>
+            </element>
+    <element name="Coaching">
+        <partialLinkText>Coaching</partialLinkText>
+    </element>
+    <element name="Announcements">
+        <partialLinkText>Announcements</partialLinkText>
+    </element>
+    <element name="Grooms">
+        <partialLinkText>Grooms</partialLinkText>
+    </element>
+    <element name="adtypeWant">
+        <xpath>.//*[@id='serviceTime']/label[2]/input</xpath>
+    </element>
+
+    <element name="adTypes">
+        <xpath>//div[@id='serviceTime']//input</xpath>
+    </element>
+
+    <element name="title">
+        <css>#title</css>
+    </element>
+    <element name="used">
+        <xpath>.//*[@id='attribWrapper']/div[1]/div[2]/label[1]/input</xpath>
+    </element>
+    <element name="Price">
+        <css>#Price</css>
+    </element>
+    <element name="brand">
+        <css>#Brand_name_searchBox</css>
+    </element>
+    <element name="carsBrand">
+        <css>#Brand_name18</css>
+    </element>
+    <element name="model">
+        <css>#Model_newpap</css>
+
+    </element>
+    <element name="carsModel">
+        <css>#Model26</css>
+    </element>
+    <element name="varient">
+        <css>#Variant_newpap</css>
+    </element>
+    <element name="carsVarient">
+        <css>#Variant495</css>
+    </element>
+    <element name="year">
+        <css>#Year_searchBox</css>
+    </element>
+    <element name="selectyear">
+        <css>#Year3</css>
+    </element>
+    <element name="color">
+        <css>#Color_searchBox</css>
+    </element>
+    <element name="selectcolor">
+        <css>#Color1</css>
+    </element>
+
+    <element name="area">
+               <id>Area_Sq_Feet</id>
+           </element>
+    <element name="carsKM">
+        <css>#Kms_Driven</css>
+    </element>
+    <element name="fuel">
+        <css>#Fuel_Type_newpap</css>
+            </element>
+    <element name="selectFuel">
+        <css>#Fuel_Type2</css>
+    </element>
+    <element name="owner">
+        <css>#No_of_owners_newpap</css>
+            </element>
+    <element name="selectOwner">
+        <css>#No_of_owners1</css>
+    </element>
+    <element name="city">
+
+    </element>
+    <element name="locality">
+        <id>singleSelLoc</id>
+    </element>
+    <element name="selectlocality">
+        <xpath>(//span[@onclick='setSingleSelLoc(this);'])[5]</xpath>
+    </element>
+
+    <element name="multiplelocality">
+        <xpath>.//*[@id='multiLocality']</xpath>
+    </element>
+
+    <element name="AbhinashLoaclity">
+        <xpath>.//*[@id='Abinash_Chaowdhury_Lane_cb']</xpath>
+    </element>
+
+    <element name="AshokgarhLocality">
+        <xpath>.//*[@id='Ashokgarh_cb']</xpath>
+    </element>
+
+    <element name="adDescription">
+        <xpath>.//*[@id='description1']</xpath>
+        <css>#description1</css>
+    </element>
+    <element name="Type">
+        <xpath>.//*[@id='quikrcontainer']/div/table/tbody/tr/td[2]/div/div[4]/div[9]/div[2]/div[1]/div[2]</xpath>
+    </element>
+    <element name="individual">
+        <xpath>.//*[@id='quikrcontainer']/div/table/tbody/tr/td[2]/div/div[4]/div[11]/div[2]/label[1]/input</xpath>
+    </element>
+<element name="name">
+    <css>#contactName</css>
+</element>
+
+    <element name="email">
+        <css>#emailid</css>
+    </element>
+
+    <element name="number">
+        <css>#mobile</css>
+    </element>
+
+
+    <element name="premiumurgent">
+        <css>#highlightchk</css>
+    </element>
+    <element name="chequq">
+        <css>#paymentypeC</css>
+    </element>
+    <element name="submitAd">
+        <css>.postbtn</css>
+    </element>
+
+    <element name="Operatingsyatem">
+        <css>#Operating_system_newpap</css>
+    </element>
+        <element name="selectOS">
+            <css>#Operating_system1</css>
+        </element>
+    <element name="Sims">
+        <css>#No_of_Sims_newpap</css>
+    </element>
+    <element name="Selectsim">
+        <css>#No_of_Sims1</css>
+    </element>
+    <element name="includeitem">
+        <css>#Also_includes_newpa</css>
+    </element>
+    <element name="selectincludeditem">
+        <css>#Also_includes1</css>
+    </element>
+    <element name="electronicsproducttype">
+        <css>#Product_Type_newpap</css>
+    </element>
+    <element name="selecteclectronicsproduct">
+       <xpath>.//*[@id='Product_Type_newpap']/option[1]</xpath>
+    </element>
+    <element name="selectelectroniceBrandName">
+        <css>#Brand_name7</css>
+    </element>
+    <element name="electronicsScreensize">
+        <css>#Screen_size_newpap</css>
+    </element>
+    <element name="selectscreensize">
+        <css>#Screen_size3</css>
+    </element>
+    <element name="electronicsRam">
+        <css>#RAM_newpap</css>
+    </element>
+    <element name="selectRam">
+        <css>#RAM3</css>
+    </element>
+    <element name="realestateRooms">
+        <css>#No_of_Rooms_newpap</css>
+    </element>
+    <element name="realestateSelectRooms">
+        <css>#No_of_Rooms3</css>
+    </element>
+    <element name="realestateArea">
+        <css>#Area_Sq_Ft_newpap</css>
+    </element>
+    <element name="realestateSelectArea">
+        <css>#Area_Sq_Ft2</css>
+    </element>
+    <element name="realestatefurnished">
+        <css>#Furnished_newpap</css>
+    </element>
+    <element name="realestteselectfurnished">
+        <css>#Furnished1</css>
+    </element>
+<element name="jobsRole">
+    <css>#Role_newpap</css>
+</element>
+    <element name="jobsRoleOptions">
+        <css>Role_newpap>option</css>
+    </element>
+
+    <element name="jobsEducation">
+       <css>#Education_newpap</css>
+   </element>
+
+    <element name="jobsExperience">
+        <css>#Experience_newpap</css>
+    </element>
+    <element name="jobsSalary">
+        <css>#Current_Salary_newpap</css>
+    </element>
+    <element name="jobsrelocate">
+        <css>#Willing_To_Relocate_newpap</css>
+    </element>
+    <element name="homelifeFurniture">
+        <css>#Furniture_Type_searchBox</css>
+    </element>
+    <element name="homelifeselectfurniture">
+        <css>#Furniture_Type2</css>
+    </element>
+    <element name="petstype">
+        <css>#Pet_Type_newpap</css>
+    </element>
+    <element name="selectpets">
+        <css>#Pet_Type2</css>
+    </element>
+
+    <element name="subcategory">
+       <id>sub_category_listing_are</id>
+    </element>
+
+    <element name="JobCategoryMouseOver">
+        <xpath>//div[starts-with(.,'Jobs')]</xpath>
+    </element>
+
+    <element name="JobCategoryClick">
+        <xpath>//div[starts-with(.,'Job')]/..</xpath>
+    </element>
+
+    <element name="validateAd">
+        <css>.ad-preview-message-box>div</css>
+        <class>previw_mask</class>
+    </element>
+    <element name="jobsCompensation">
+        <css>#Compensation_newpap</css>
+    </element>
+    <element name="offerLocality">
+        <id>location_select</id>
+    </element>
+    <element name="company">
+        <id>Company_Name</id>
+    </element>
+    <element name="PostAdIconLogin">
+        <xpath>//*[@id='header']/div/div[6]/div</xpath>
+    </element>
+
+    <element name="convertToPremium">
+        <xpath>//div[@class='pnl1-newvap']/div[2]//a</xpath>
+    </element>
+    
+    <element name="premiumTopAd">
+        <id>topchk</id>
+    </element>
+
+    <element name="premiumUrgentAd">
+        <id>highlightchk</id>
+    </element>
+
+    <element name="premiumBothAd">
+        <id>topHighlightChk</id>
+    </element>
+
+    <element name="paymentsMethod">
+        <id>paymentOptionDiv</id>
+    </element>
+
+    <element name="premiumAdRadioButtons">
+        <xpath>.//div[@class='ad-conv-premium-radio-btn']</xpath>
+    </element>
+
+    <element name="paymentFormPremiumAd">
+        <xpath>(//ul[@class='payment-form'])[1]</xpath>
+    </element>
+
+    <element name="postPremiumAdButton">
+    <!--    <xpath>//span[@id='premiumbutnloader']/a[@onclick='upgradeSubmit()']/div</xpath>
+    --><xpath>(.//*[@id='upgrade-premium-btn-convertPage'])[2]</xpath>
+    </element>
+
+    <element name="premiumAdSuccessWithCheque">
+        <xpath>//div[@id='welcome']/ol[@class='chequeli']</xpath>
+    </element>
+
+    <element name="SorryMessage">
+        <css>#content>table>tbody>tr>td>div</css>
+    </element>
+
+    <element name="textDescIcon">
+        <xpath>//div[@class='TypeDescr-Icon']</xpath>
+    </element>
+
+    <element name="email">
+        <id>emailid</id>
+    </element>
+
+    <element name="furnitureTypeOption">
+        <id>Furniture_Type_newpap</id>
+    </element>
+
+    <element name="furnitureType">
+        <xpath>(//input[@id='Furniture_Type2'])[2]</xpath>
+    </element>
+
+    <element name="productCondition">
+        <xpath>//input[@value ='Used']</xpath>
+    </element>
+
+    <element name="youAre">
+        <xpath>//input[@class='seller_type required']</xpath>
+    </element>
+
+    <element name="address">
+        <id>address</id>
+    </element>
+
+    <element name="pincode">
+        <id>pincode</id>
+    </element>
+
+    <element name="postAdButton">
+        <xpath>.//*[@id='postbtn_container']/button</xpath>
+    </element>
+    
+    <element name="reversePrice">
+        <xpath>.//*[@id='ReservePrice']</xpath>
+    </element>
+
+    <element name="brandNameDropdownMobile">
+        <id>Brand_name_newpap</id>
+    </element>
+
+    <element name="brandNameMobileDropdownValueOne">
+        <id>Brand_name_newpap_checkbox_container</id>
+    </element>
+
+    <element name="mobileSubCategory">
+        <xpath>//li[@title='Mobile Phones']/a</xpath>
+    </element>
+
+    <element name="adPostConfirmationText">
+        <css>.escrow-post-ad-sections>strong</css>
+    </element>
+
+    <element name="converttopremiumheader">
+        <css>#wrapper>form>div>h1</css>
+    </element>
+
+    <element name="editadheader">
+        <css>.pml1ttle>span</css>
+    </element>
+
+    <element name="deleteadheader">
+        <xpath>.//*[@id='viewAdDeleteReason']/div[1]/div[1]</xpath>
+    </element>
+
+    <element name="PostAdheading">
+        <xpath>.//div[@class='pml1ttle']/span</xpath>
+    </element>
+
+    <element name="PostAdSubHeading">
+        <xpath>//span[@class='Sub-cat-title1-span']</xpath>
+    </element>
+
+    <element name="titleForYourAdText">
+        <xpath>.//*[@id='title']</xpath>
+    </element>
+
+    <element name="LanguageLink">
+        <xpath>//a[@id='languagediv']</xpath>
+    </element>
+
+    <element name="downloadAppPopUP">
+        <xpath>.//div[@class='WhitePopup-formarea']</xpath>
+    </element>
+
+    <element name="mobilenumber_appPopUp">
+        <id>appmob</id>
+    </element>
+
+    <element name="appPopUp_sendSMS">
+        <xpath>//input[@value='Send SMS']</xpath>
+    </element>
+
+    <element name="invalidmobilenumber_errormsg_appPopUp">
+        <id>apperror</id>
+    </element>
+
+    <element name="downloadAppPopUpClose">
+        <xpath>.//*[@id='mandapp']/div[2]/div/div/div[2]/div[1]/span</xpath>
+    </element>
+
+    <element name="virtualVernacKeyboard">
+        <css>#keyboardInputMaster</css>
+    </element>
+
+    <element name="m_in_Hindi">
+        <xpath>.//td[starts-with(.,'म')]</xpath>
+    </element>
+
+    <element name="O_in_Hindi">
+        <xpath>.//td[starts-with(.,'ौ')]</xpath>
+    </element>
+
+    <element name="B_in_Hindi">
+        <xpath>.//td[starts-with(.,'ब')]</xpath>
+    </element>
+
+    <element name="A_in_Hindi">
+        <xpath>.//td[starts-with(.,'ा')]</xpath>
+    </element>
+
+    <element name="ShiftVernacKeyboard">
+        <xpath>(.//td[starts-with(.,'Shift')])[1]</xpath>
+    </element>
+
+    <element name="I_in_Hindi">
+        <xpath>.//td[starts-with(.,'इ')]</xpath>
+    </element>
+
+    <element name="L_in_Hindi">
+        <xpath>.//td[starts-with(.,'ल')]</xpath>
+    </element>
+
+    <element name="RegionalKeyboardInput1">
+        <xpath>.//*[@id='keyboardInputLayout']/table[3]/tbody/tr/td[9]</xpath>
+    </element>
+
+    <element name="RegionalKeyboardInput2">
+        <xpath>.//*[@id='keyboardInputLayout']/table[3]/tbody/tr/td[10]</xpath>
+    </element>
+
+    <element name="RegionalKeyboardInput3">
+        <xpath>.//*[@id='keyboardInputLayout']/table[4]/tbody/tr/td[7]</xpath>
+    </element>
+
+    <element name="RegionalKeyboardInput4">
+        <xpath>.//*[@id='keyboardInputLayout']/table[2]/tbody/tr/td[10]</xpath>
+    </element>
+
+    <element name="RegionalKeyboardInput5">
+        <xpath>.//*[@id='keyboardInputLayout']/table[3]/tbody/tr/td[8]</xpath>
+    </element>
+
+
+
+</elements>
+
+
+

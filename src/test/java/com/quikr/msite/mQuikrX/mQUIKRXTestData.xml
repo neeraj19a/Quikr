@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="priceUrl">http://-s-.quikr.com/Apple-iPhone-4S-16-GB-W0QQProdIdZ</testData>
+    <testData name="newUiLink">http://-s-.quikr.com/QuikrX/Micromax-Canvas-2-W0QQProdIdZ</testData>
+    <testData name="homeUrl">http://-s-.quikr.com/</testData>
+    <testData name="newUiCity">bangalore</testData>
+    <testData name="validPinCode">560016</testData>
+    <testData name="pincodeSuccess">Yes, we deliver here</testData>
+    <testData name="phoneBrandName">Apple</testData>
+    <testData name="phoneModelName2">iPhone 3GS 16 GB</testData>
+    <testData name="pincodeNA">We don't deliver here</testData>
+    <testData name="pincodeNoDelivery">323232</testData>
+    <testData name="invalidPincodeMsg">Invalid pincode</testData>
+    <testData name="callUsPhone">Call us at +918048095600</testData>
+    <testData name="mailUsCerti">Mail us at certified@quikr.com</testData>
+    <testData name="mailUsExc">Mail us at exchange@quikr.com</testData>
+    <testData name="invalidPinCode">60028</testData>
+    <testData name="pinCodeToolTip">Enter your pincode</testData>
+    <testData name="exchCategory">Brand New Phone</testData>
+    <testData name="certDelivery">3 to 5 Days</testData>
+    <testData name="exchDelivery">4 to 8 Days</testData>
+    <testData name="exchangeDecline">Sorry, considering the device condition, we cannot accept it</testData>
+    <testData name="city">bangalore</testData>
+
+</data>

@@ -1,0 +1,36 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="MyAlerts">Alerts and Recommended</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="location">Adugodi</testData>
+    <testData name="cars">Cars &amp; Bikes</testData>
+    <testData name="car">Cars</testData>
+    <testData name="price">500000</testData>
+    <testData name="brand">Chevrolet</testData>
+    <testData name="model">Beat</testData>
+    <testData name="variant">1.1 SLX</testData>
+    <testData name="year">2002</testData>
+    <testData name="distance">25000</testData>
+    <testData name="color">Red</testData>
+    <testData name="fuel">Diesel</testData>
+    <testData name="owner">One</testData>
+    <testData name="name">manav dayal</testData>
+    <testData name="number">9955199187</testData>
+    <testData name="Fuel">Fuel</testData>
+    <testData name="createAlert">Create Alert</testData>
+    <testData name="MyAccount">My Account</testData>
+    <testData name="brand1">Ashok Leyland</testData>
+    <testData name="year1">2000</testData>
+    <testData name="modelScroll">Year</testData>
+    <testData name="yearScrool">Color</testData>
+    <testData name="location2">Abhay</testData>
+    <testData name="locality">Abhay Reddy Layout</testData>
+    <testData name="searchText">samsung mobile</testData>
+    <testData name="alert">My Alerts</testData>
+    <testData name="mumbaiLocality">Agripada</testData>
+    <testData name="cityName">Bangalore</testData>
+    <testData name="services">Services</testData>
+    <testData name="servicesSubCAt">Airline</testData>
+
+</data>

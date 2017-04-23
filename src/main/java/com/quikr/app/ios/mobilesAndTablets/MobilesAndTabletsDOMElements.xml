@@ -1,0 +1,11 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+<element name="exchangeOldForNew">
+    <name>Exchange Old for New</name>
+</element>
+
+<element name="buyCertifiedUsedPhone">
+<name>Buy Certified Used Phone</name>
+</element>
+
+</elements>

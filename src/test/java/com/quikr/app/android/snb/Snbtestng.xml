@@ -1,0 +1,7 @@
+<suite name="Search And Browse Test Suite" verbose="1" annotations="JDK">
+    <test name="Search And Browse Tests">
+        <classes>
+            <class name="com.quikr.app.android.snb.SnbAppAndroidTest"/>
+        </classes>
+    </test>
+</suite>

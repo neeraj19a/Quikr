@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name ="cookieName">abRand</testData>
+    <testData name ="cookieValue">40</testData>
+</data>

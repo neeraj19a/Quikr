@@ -1,0 +1,208 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="VapAdTitle">
+        <id>com.quikr:id/screen_vap_ad_title</id>
+    </element>
+
+    <element name="rePostAdButtonAtVap">
+        <id>com.quikr:id/screen_vap_ad_repost_button</id>
+    </element>
+
+    <element name="choiceOptionSelected">
+        <id>com.quikr:id/positive</id>
+    </element>
+
+    <element name="Success msg pop of rePost ad">
+        <id>com.quikr:id/msg</id>
+    </element>
+
+    <element name="reply">
+        <id>com.quikr:id/screen_vap_ad_reply</id>
+    </element>
+
+    <element name="chatNow">
+        <id>com.quikr:id/screen_vap_ad_chat</id>
+    </element>
+
+    <element name="roleName">
+        <name>Architect</name>
+    </element>
+
+    <element name="applyButtonOnVap">
+        <id>com.quikr:id/screen_vap_ad_apply</id>
+        <name>Apply</name>
+    </element>
+
+    <element name="starButton">
+        <id>com.quikr:id/favourite</id>
+    </element>
+
+    <element name="shareButton">
+        <id>com.quikr:id/share</id>
+    </element>
+
+    <element name="call">
+        <id>com.quikr:id/call</id>
+    </element>
+
+    <element name="appToShareOption">
+        <name>Gmail</name>
+    </element>
+
+    <element name="gmailPage">
+        <id>android:id/action_bar_title</id>
+        <name>Compose</name>
+    </element>
+
+    <element name="backButton">
+        <!--<id>com.quikr:id/imgBackIcon</id>-->
+        <name>Navigate up</name>
+    </element>
+
+    <element name="chatInputText">
+        <id>com.quikr:id/chat_input</id>
+        <name>Type your message here</name>
+    </element>
+
+    <element name="chatSendButton">
+        <id>com.quikr:id/send_chat</id>
+    </element>
+
+    <element name="sent">
+        <id>com.quikr:id/message_status</id>
+        <name>Sent</name>
+    </element>
+    <element name="InspectedOnVAp">
+        <id>com.quikr:id/imageViewInspected</id>
+    </element>
+    <element name="noFikarReport">
+        <id>com.quikr:id/txtNoFikarReport</id>
+    </element>
+    <element name="cartantiOptions">
+        <id>com.quikr:id/txtCarnationItemTitle</id>
+    </element>
+    <element name="StartCordinateElement">
+        <id>com.quikr:id/screen_vap_ad_header</id>
+    </element>
+    <element name="JobsShortlist">
+        <id>com.quikr:id/favourite</id>
+    </element>
+    <element name="jobsApply">
+        <id>com.quikr:id/apply</id>
+    </element>
+    <element name="userProfile">
+        <id>com.quikr:id/profile_btn</id>
+    </element>
+    <element name="validateuserProfile">
+        <id>com.quikr:id/user_public_profile_name</id>
+    </element>
+    <element name="escrowFreeDeliveryMsgOnVap">
+        <id>com.quikr:id/delivery_text</id>
+    </element>
+    <element name="escrowVapcashBack">
+        <id>com.quikr:id/cashback</id>
+    </element>
+    <element name="vapMakeAnOffer">
+        <id>com.quikr:id/screen_vap_ad_makeanoffer</id>
+    </element>
+    <element name="shateAdTitle">
+        <id>com.quikr:id/title</id>
+    </element>
+    <element name="ReportAd">
+        <id>com.quikr:id/screen_vap_parent_reportad</id>
+    </element>
+    <element name="ReportAdIncorrectInfo">
+        <id>com.quikr:id/incorrect_info</id>
+    </element>
+    <element name="reportAdComment">
+        <id>com.quikr:id/comment</id>
+    </element>
+    <element name="submitReportAd">
+        <id>com.quikr:id/submit</id>
+    </element>
+    <element name="reportAdSuccessMsg">
+        <id>com.quikr:id/msg</id>
+    </element>
+
+    <element name="adDescription">
+        <id>com.quikr:id/description</id>
+    </element>
+    <element name="vapMobilesAndTAbsPrice">
+        <id>com.quikr:id/screen_vap_parent_price</id>
+    </element>
+    <element name="similarAds">
+        <id>com.quikr:id/similar_ads_title</id>
+    </element>
+    <element name="AdId">
+        <id>com.quikr:id/screen_vap_parent_ad_id</id>
+    </element>
+    <element name="EditAd">
+        <id>com.quikr:id/screen_vap_ad_edit_button</id>
+    </element>
+    <element name="BuyNow">
+        <id>com.quikr:id/screen_vap_ad_buy_now</id>
+    </element>
+    <element name="Chat">
+        <id>com.quikr:id/screen_vap_ad_chat</id>
+    </element>
+    <element name="Call">
+        <id>com.quikr:id/screen_vap_ad_call</id>
+    </element>
+    <element name="maoPrice">
+        <id>com.quikr:id/price</id>
+    </element>
+    <element name="maoEmail">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="maoMobile">
+        <id>com.quikr:id/number</id>
+    </element>
+    <element name="maoSubmit">
+        <id>com.quikr:id/makeoffer</id>
+    </element>
+    <element name="buyNowSubmit">
+        <id>com.quikr:id/buynow</id>
+    </element>
+    <element name="netPayableAmount">
+        <xpath>//div[@class='net-price-txt']</xpath>
+    </element>
+    <element name="inspectionScoreProgressBar">
+        <id>com.quikr:id/circularprogressbar</id>
+    </element>
+    <element name="inspectionScoreText">
+        <id>com.quikr:id/tvDescription</id>
+    </element>
+    <element name="viewReportInspection">
+        <id>com.quikr:id/tvViewReport</id>
+    </element>
+    <element name="imeiInfoIcon">
+        <id>com.quikr:id/ivInfo</id>
+    </element>
+    <element name="reportScoreText">
+        <id>com.quikr:id/tvTotalScore</id>
+    </element>
+    <element name="checkImeiDescription">
+        <id>com.quikr:id/tvDescription</id>
+    </element>
+    <element name="MAOChatCity">
+        <id>com.quikr:id/screen_vap_ad_test_city_chat</id>
+    </element>
+    <element name="similarAdsTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+    <element name="chatButtonOnSimilarAds">
+        <id>com.quikr:id/button</id>
+    </element>
+    <element name="dialogueOverlay">
+        <id>com.quikr:id/dialog_overlay_layout</id>
+    </element>
+    <element name="viewAllAds">
+        <id>android:id/button1</id>
+    </element>
+    <element name="mobileVerified">
+        <id>com.quikr:id/mobile_ver_text</id>
+    </element>
+</elements>
+

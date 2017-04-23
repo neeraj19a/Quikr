@@ -1,0 +1,329 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="snbAdTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+
+    <element name="snbNavigation">
+        <name>Open Drawer</name></element>
+
+    <element name="filterButton">
+        <xpath>//android.widget.TextView[@resource-id='com.quikr:id/menu_item_text' and contains(@text,'FILTER')]</xpath>
+    </element>
+
+    <element name="mobileBrandName">
+        <name>Brand name</name>
+    </element>
+
+    <element name="applyButton">
+        <id>com.quikr:id/btnApplyFilters</id>
+    </element>
+
+    <element name="adTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+
+    <element name="sortButton">
+        <!--<id>com.quikr:id/lytSort</id>-->
+        <name>Sort</name>
+    </element>
+
+    <element name="sortOption">
+        <name>Lowest Price</name>
+    </element>
+
+    <element name="price">
+        <id>com.quikr:id/price</id>
+    </element>
+
+    <element name="favouriteButton">
+        <id>com.quikr:id/favourite</id>
+    </element>
+    <element name="sorhighestPrice">
+        <id>com.quikr:id/high_price_top</id>
+    </element>
+
+    <element name="showMoreFilters">
+        <id>com.quikr:id/txtLoadMoreAttrs</id>
+    </element>
+
+    <element name="wantedAds">
+        <id>com.quikr:id/txtWanted</id>
+        <name>Wanted Ads</name>
+    </element>
+
+    <element name="modeOptionButton">
+        <id>com.quikr:id/lytNewAlert</id>
+    </element>
+
+    <element name="saveSearchAsAlert">
+        <id>com.quikr:id/edSearch</id>
+    </element>
+    <element name="viewAds">
+        <id>com.quikr:id/txt_viewad_label</id>
+    </element>
+    <element name="adcontainer">
+        <id>com.quikr:id/container</id>
+    </element>
+    <element name="inspected">
+        <id>com.quikr:id/imgInspected</id>
+    </element>
+    <element name="inspectedFilter">
+        <id>com.quikr:id/filter_switch</id>
+    </element>
+
+    <element name="galleryButton">
+        <id>com.quikr:id/menu_item_text</id>
+    </element>
+
+    <element name="snbAd">
+        <id>com.quikr:id/main</id>
+    </element>
+
+    <element name="viewAdListing">
+        <id>com.quikr:id/txt_viewad_label</id>
+    </element>
+
+    <element name="adImage">
+        <id>com.quikr:id/theimage</id>
+    </element>
+
+    <element name="ShowMoreAds">
+        <id>com.quikr:id/btn_more</id>
+    </element>
+
+
+    <element name="quikrConnectOption">
+        <id>com.quikr:id/try_instaconnect_now</id>
+        <!--<name>Talk Now</name>-->
+    </element>
+
+    <element name="onlineUserAd">
+        <id>com.quikr:id/txtRowOnlineStatus</id>
+    </element>
+
+    <element name="createAlertButtonOnSnbPage">
+        <name>Create Alert</name>
+    </element>
+
+    <element name="onlineUsersOnly">
+        <name>Online Users Only</name>
+    </element>
+    <element name="localities">
+        <name>Localities</name>
+    </element>
+
+    <element name="offeringAds">
+        <name>Offering Ads</name>
+    </element>
+
+    <element name="localityOptions">
+        <id>com.quikr:id/txtFilterRow</id>
+    </element>
+
+    <element name="OkButton">
+        <name>OK</name>
+    </element>
+
+    <element name="locality">
+        <name>80 Ft. Road</name>
+    </element>
+    <element name="inspectedImage">
+        <id>com.quikr:id/imgInspected</id>
+    </element>
+    <element name="cleaFilter">
+        <name>ON</name>
+    </element>
+    <element name="changecategorySNB">
+        <id>com.quikr:id/category</id></element>
+    <element name="carsSubcat">
+        <id>com.quikr:id/txtSubCat</id></element>
+
+    <element name="createAlertButtonOnSnbPage">
+        <id>com.quikr:id/txtSaveAlert</id>
+        <name>Create Alert</name>
+    </element>
+    <element name="snbJobsPageAdTitle">
+        <id>com.quikr:id/ad_title</id>
+    </element>
+
+    <element name="skip">
+        <name>SKIP</name>
+    </element>
+    <element name="JobsFilterLocality">
+        <id>com.quikr:id/filter_subheading_id</id>
+    </element>
+    <element name="snbOverlay">
+        <id>com.quikr:id/dialog_overlay_layout</id>
+        <!--<id>com.quikr:id/escrow_cities_selection</id>-->
+    </element>
+
+    <element name="snbCityOverlay">
+        <id>com.quikr:id/multiplecities</id>
+    </element>
+
+    <element name="instaConnectCategories">
+        <id>com.quikr:id/tvCategoryTitle</id>
+    </element>
+
+    <element name="instaConnectCategoryImage">
+        <id>com.quikr:id/ivCategoryImage</id>
+    </element>
+
+    <element name="homeRepair">
+        <name>Home Repair</name>
+    </element>
+
+    <element name="Carpenter">
+        <name>Carpenter</name>
+    </element>
+
+    <element name="instaConnectNowOption">
+        <id>com.quikr:id/ibStartInstaconnect</id>
+        <!--<id>com.quikr:id/ibStartInstaconnect</id>-->
+    </element>
+
+    <element name="instaConnectName">
+        <id>com.quikr:id/etName</id>
+    </element>
+
+    <element name="instaConnectMobileNo">
+        <id>com.quikr:id/etPhoneNumber</id>
+    </element>
+    <element name="snbSortMostRecent">
+        <name>Most Recent (default)</name>
+    </element>
+    <element name="snbSortNearest">
+        <name>Nearest</name>
+    </element>
+    <element name="mobilesSnbAdTitle">
+        <id>com.quikr:id/title</id>
+    </element>
+    <element name="escrowSnbAndCashbackMsg">
+        <id>com.quikr:id/cashback_delivery_callout</id>
+    </element>
+    <element name="vapLAyOver">
+        <id>com.quikr:id/layout_vap_tutorial_img2</id>
+    </element>
+    <element name="SnbMenuSearch">
+        <id>com.quikr:id/menu_ad_list_search</id>
+    </element>
+
+    <element name="papNewCat">
+        <id>com.quikr:id/category_title</id>
+    </element>
+
+    <element name="premiumAdTag">
+        <id>com.quikr:id/snb_premium_band</id>
+    </element>
+
+    <element name="snblocalityMobiles">
+        <id>com.quikr:id/attrs</id>
+    </element>
+    <element name="snbChat">
+        <id>com.quikr:id/chat_reply_button</id>
+    </element>
+    <element name="snbNearbyUser">
+        <id>com.quikr:id/nearbytext</id>
+    </element>
+    <element name="nearbyUSerDistance">
+        <id>com.quikr:id/distance</id>
+    </element>
+    <element name="BuyNowBlue">
+        <id>com.quikr:id/txtMAO</id>
+    </element>
+    <element name="BuyNowButton">
+        <name>Buy Now</name>
+    </element>
+    <element name="MAOBlue">
+        <id>com.quikr:id/txtMAO</id>
+    </element>
+    <element name="SNBOverlay">
+        <id>com.quikr:id/showadfrom</id>
+    </element>
+    <element name="SNBOverlayCurrentCity">
+        <id>com.quikr:id/escrow_current_cities</id>
+    </element>
+    <element name="SNBOverlayAllCities">
+        <id>com.quikr:id/multiplecities</id>
+    </element>
+    <element name="radioButton">
+        <class>android.widget.RadioButton</class>
+    </element>
+    <element name="MAOChatCity">
+        <id>com.quikr:id/screen_vap_ad_test_city_chat</id>
+    </element>
+    <element name="chatButtonOnSnb">
+        <id>com.quikr:id/mcr_button</id>
+    </element>
+    <element name="sortDropDownOPtions">
+        <id>com.quikr:id/sort_item</id>
+    </element>
+    <element name="resetFilter">
+        <id>com.quikr:id/action_reset</id>
+    </element>
+    <element name="buttonsBelowSnb">
+        <id>com.quikr:id/menu_item_text</id>
+    </element>
+    <element name="textView">
+        <class>android.widget.TextView</class>
+    </element>
+    <element name="nationwideOverlayMessage">
+        <xpath>(//android.widget.TextView[contains(@text,'Now Buy across India')])</xpath>
+    </element>
+    <element name="navigateUP">
+        <name>Navigate up</name>
+    </element>
+    <element name="filterScreen">
+        <id>com.quikr:id/filterScreen</id>
+    </element>
+    <element name="filterBrand">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text,'Brand Name')])</xpath>
+    </element>
+    <element name="applyFilter">
+        <id>com.quikr:id/submit</id>
+    </element>
+    <element name="realEstateUserSnb">
+        <id>com.quikr:id/re_ad_list_user_image_iv</id>
+    </element>
+    <element name="realEstateSnbAdTitle">
+        <id>com.quikr:id/re_ad_list_title_tv</id>
+    </element>
+    <element name="popularProducts">
+        <id>com.quikr:id/product_img</id>
+    </element>
+    
+    <element name="doorstepImage">
+        <id>com.quikr:id/mobiletablet_image1</id>
+    </element>
+    <element name="lifeStyleSubCAtImgOnSNB">
+        <id>com.quikr:id/product_img</id>
+    </element>
+    <element name="buynowscreentitle">
+        <id>com.quikr:id/ad_title
+        </id>
+    </element>
+    <element name="snbscrollview">
+        <id>com.quikr:id/snb_fragment</id>
+    </element>
+    <element name="overlay">
+        <id>com.quikr:id/dialog_overlay_layout</id>
+    </element>
+    <element name="BidNowButton">
+        <id>com.quikr:id/txtBidNow</id>
+    </element>
+    <element name="BidTimeLeft">
+        <id>com.quikr:id/txtTimeLeft</id>
+    </element>
+    <element name="BidMobile">
+        <id>com.quikr:id/edtBidMobile</id>
+    </element>
+    <element name="LastBidAmount">
+        <id>com.quikr:id/txtLastBid</id>
+    </element>
+    <element name="PopulatedAmountTextField">
+        <id>com.quikr:id/edtBidPrice</id>
+    </element>
+</elements>

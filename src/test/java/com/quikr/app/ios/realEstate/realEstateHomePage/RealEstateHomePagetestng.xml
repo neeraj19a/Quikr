@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RealEstateHomePage suite" verbose="1" annotations="JDK">
+<test name="RealEstateHomePage  Tests">
+    <packages>
+        <package name="com.quikr.app.ios.realEstate.realEstateHomePage.RealEstateHomePageTests"/>
+    </packages>
+</test>
+</suite>

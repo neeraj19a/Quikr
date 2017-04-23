@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="homesHomePageUrl">www.quikr.com/homes</testData>
+    <testData name="selectedCity">bangalore</testData>
+    <testData name="city">Bangalore</testData>
+    <testData name="cityUrl">bangalore</testData>
+    <testData name="utmpValue">utmp=Hp?catname=Real-Estate&amp;t72=responsiveUI,v72=True</testData>
+    <testData name="analyticsUrl">www.google-analytics.com</testData>
+    <testData name="expectedURL">bangalore</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="loginpassword">quikr1234</testData>
+    <testData name="phoneNumber">9999999999</testData>
+    <testData name="CitySelect">Bangalore</testData>
+    <testData name="category">Jobs</testData>
+    <testData name="subcategory">Full Time Jobs</testData>
+    <testData name="wantAd">I am an employer</testData>
+    <testData name="offerAd">I am a jobseeker</testData>
+    <testData name="education">Graduate</testData>
+    <testData name="experience">3 - 5 yrs</testData>
+    <testData name="locality">Adugodi</testData>
+    <testData name="role">Accountant</testData>
+    <testData name="facebookemail">automation.quikr@gmail.com</testData>
+    <testData name="facebookpassword">quikr1234</testData>
+    <testData name="city">delhi</testData>
+    <testData name="ProjectName">test</testData>
+    <testData name="area">1234</testData>
+    <testData name="price">321</testData>
+    <testData name="rate">32</testData>
+    <testData name="locality">delhi</testData>
+    <testData name="basicinformation_streetaddress">delhi</testData>
+    <testData name="propertydetails_floorNumber">1</testData>
+    <testData name="propertydetails_date">4</testData>
+    <testData name="propertydetails_buildingname">Manyata</testData>
+    <testData name="propertydetails_flatnumber">108</testData>
+    <testData name="photomedia_adtitle">Ad Title QuikrHomes Flat number 108 Available in Delhi,Bui</testData>
+    <testData name="photomedia_addesc">Ad Description Flat is fully furnished all amenities Near By, In Posh locality of Delhi Area, Malls nearby</testData>
+    <testData name="postad_message">Thank you for posting your Ad on Quikr Homes</testData>
+    <testData name="cookiename">abRand</testData>
+    <testData name="quikrhomeNewUIcookie">7</testData>
+    <testData name="searchquery">vas</testData>
+    <testData name="Bangalorecity">Bangalore</testData>
+    <testData name="search_Kormangla">Kor</testData>
+
+
+    <testData name="cityname">bangalore</testData>
+
+    <!-- Post Ad Page Test Data-->
+    <testData name="papcategory">Commercial</testData>
+    <testData name="adtype">sell</testData>
+    <testData name="papprojectname">Veracious</testData>
+    <testData name="papprice">911000000</testData>
+    <testData name="adtitle">Residential Apartments/Villa Availble in  Bangalore.Sample</testData>
+    <testData name="addesc">Residential Apartments/Villa Availble in  Bangalore.Sample Flats are also available </testData>
+    <testData name="radio">individual</testData>
+    <testData name="email">quikr@autotest.com</testData>
+    <testData name="phone">9742111124</testData>
+
+
+
+</data>

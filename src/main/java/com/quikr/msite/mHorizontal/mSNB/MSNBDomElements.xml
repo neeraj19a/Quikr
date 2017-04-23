@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="adFromSnbList">
+        <xpath>//ul[@id='adList']/li</xpath>
+    </element>
+
+    <element name="chatButton">
+        <xpath>//span[contains(@class,'sprite AdSms-icon')]</xpath>
+    </element>
+
+    <element name="chatMsgBoxQuestion">
+        <id>chatmsg</id>
+    </element>
+
+    <element name="chatForm">
+        <xpath>(//div[@id='chatFrm'])</xpath>
+    </element>
+
+    <element name="chatMsgBoxEmail">
+        <id>chatemail</id>
+    </element>
+
+    <element name="chatMsgBoxPhNum">
+        <xpath>(//input[@name='mobile' and @class='VAP-formTextBox'])[3]</xpath>
+    </element>
+
+    <element name="chatMsgBoxSubmitBtn">
+        <xpath>//input[@name='SEND' and @value='Start']</xpath>
+    </element>
+
+    <element name="chatMsgBoxConfirmation">
+        <xpath>//div[@id='frmSuccessMsgGreenBlock']</xpath>
+    </element>
+
+    <element name="sortLabel">
+        <xpath>//a[@class='filterIcon']/span</xpath>
+    </element>
+
+    <element name="MakeAnOfferAdSNB">
+        <xpath>(//input[@value='Make an Offer']/../../..)[1]</xpath>
+    </element>
+
+    <element name="adWithBuyNowOption">
+        <xpath>((//input[@class='escrowBuyNow msite-escrow-rightspace escrow-single-btn escrow-snb-single-box'])/../../..)[1]</xpath>
+    </element>
+
+</elements>

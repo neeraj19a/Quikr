@@ -1,0 +1,21 @@
+{
+
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "car_trim": "40 TFSI Premium"
+          }
+        }
+      ],
+      "must_not": [ ],
+      "should": [ ]
+    }
+  },
+  "from": 0,
+  "size": 25000,
+  "sort": [ ],
+  "aggs": { }
+
+}

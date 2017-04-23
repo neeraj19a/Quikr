@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Jobs Apply" verbose="1" annotations="JDK" time-out="60000">
+    <test name="Jobs Apply Tests">
+        <classes>
+            <class name="com.quikr.app.android.jobs.jobsApply.JobsApplyTests"/>
+        </classes>
+    </test>
+</suite>

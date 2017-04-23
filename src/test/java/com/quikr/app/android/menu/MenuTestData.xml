@@ -1,0 +1,25 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="Appversion">Feedback</testData>
+    <testData name="Msp">Check Product MSP</testData>
+    <testData name="Category">Cars</testData>
+    <testData name="subCAtegory">Cars</testData>
+    <testData name="recentlyViewed">Recently Viewed Ads</testData>
+    <testData name="rateQuikr">Rate Us</testData>
+    <testData name="Quikr">Quikr</testData>
+    <testData name="myChats">My Chats</testData>
+    <testData name="chatContent">hello</testData>
+    <testData name="mobiles">Mobiles</testData>
+    <testData name="mobilesPhone">Mobile Phones</testData>
+    <testData name="MyAlerts">Alerts and Recommended</testData>
+    <testData name="myAds">My Ads</testData>
+    <testData name="rePostad">Repost</testData>
+    <testData name="MyAccount">My Account</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="alertsAndRecommendation">Alerts and Recommended</testData>
+    <testData name="recentlyViewed">Recently Viewed Ads</testData>
+    <testData name="Mobiles">Mobiles</testData>
+    <testData name="alert">My Alerts</testData>
+    <testData name="cityName">Bangalore</testData>
+</data>

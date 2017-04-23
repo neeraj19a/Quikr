@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="XXX">XXYY</testData>
+    <testData name="city">Bangalore</testData>
+    <testData name="cityUrl">bangalore</testData>
+    <testData name="responsiveHPCity">Pune</testData>
+    <testData name="responsiveHPCityURL">pune</testData>
+    <testData name="validURL">.com</testData>
+    <testData name="category">Mobiles &amp; Tablets</testData>
+    <testData name="subCategory">Mobile Phones</testData>
+    <testData name="adTitle">THATS HELLUVA TITLE BOSS</testData>
+    <testData name="adProductPrice">1000</testData>
+    <testData name="address">Testing Address- 123</testData>
+    <testData name="pincode">560034</testData>
+    <testData name="adproductReservePrice">500</testData>
+    <testData name="brandname">Apple</testData>
+    <testData name="model">iPhone 1st Gen 16 GB</testData>
+    <testData name="operatingSystem">Apple-iOS</testData>
+    <testData name="noOfSims">Apple-iOS</testData>
+    <testData name="alsoIncludes">Charger</testData>
+    <testData name="prodDescription">The hell and heaven when comes together :P</testData>
+    <testData name="nameAdPoster">Son of Zeus</testData>
+    <testData name="adGreaterListPrice">1000</testData>
+    <testData name="adLowerReservePrice">500</testData>
+    <testData name="commonPrice">500</testData>
+    <testData name="premiumAdPackageBoth">PREMIUM_BOTH_AD</testData>
+    <testData name="premiumAdPaymentByCheque">PREMIUM_PAYMENT_CHEQUE</testData>
+    <testData name="upgradeAdToPremiumUrl">upgrade/?adid</testData>
+
+</data>

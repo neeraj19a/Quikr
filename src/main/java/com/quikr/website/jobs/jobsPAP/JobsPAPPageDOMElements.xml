@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="jobCategoryWorkFromHome">
+        <xpath>.//a[@subcatid-attr='277']</xpath>
+    </element>
+
+    <element name="jobCategoryPartTime">
+        <xpath>.//a[@subcatid-attr='273']</xpath>
+    </element>
+
+    <element name="jobCategoryWorkFullTime">
+        <xpath>.//a[@subcatid-attr='272']</xpath>
+    </element>
+
+    <element name="jobCategoryInternship">
+        <xpath>.//a[@subcatid-attr='275']</xpath>
+    </element>
+
+    <element name="title">
+        <xpath>//input[@id='postad-title']</xpath>
+    </element>
+
+    <element name="jobsRole">
+        <id>postad-role</id>
+    </element>
+
+    <element name="jobRoleText">
+        <xpath>.//*[@id='jsHomeRole']/ul/li[2]/a[text()='$']</xpath>
+    </element>
+
+    <element name="jobPostAdMinSalary">
+        <xpath>//input[@id='postad-salary-min']</xpath>
+    </element>
+
+    <element name="jobPostAdMaxSalary">
+        <xpath>//input[@id='postad-salary-max']</xpath>
+    </element>
+
+    <element name="jobPostAdEmail">
+        <xpath>//input[@id='postad-email']</xpath>
+    </element>
+
+    <element name="jobPostAdMobileNum">
+        <xpath>//input[@id='postad-mobile']</xpath>
+    </element>
+
+    <element name="locality">
+        <xpath>.//*[@id='postad-locality']</xpath>
+    </element>
+
+    <element name="selectLocalityFirst">
+        <xpath>.//ul[@id='postad-locality-ul']/li[1]/a</xpath>
+    </element>
+
+    <element name="adDescription">
+        <xpath>//textarea[@id='postad-desc']</xpath>
+    </element>
+
+    <element name="jobPostSubmit">
+        <xpath>//button[@id='postAdStepOne']</xpath>
+    </element>
+
+    <element name="jobPostAddToJobBtn">
+        <xpath>//button[@id='postAdStepTwo']</xpath>
+    </element>
+
+
+
+
+
+
+
+    <element name="jobsEducation">
+        <css>#Education_newpap</css>
+    </element>
+
+    <element name="jobsExperience">
+        <css>#Experience_newpap</css>
+    </element>
+
+    <element name="jobsCompensation">
+        <css>#Compensation_newpap</css>
+    </element>
+
+    <element name="jobsSalary">
+        <css>#Current_Salary_newpap</css>
+    </element>
+
+    <element name="jobsSalaryMin">
+        <css>#postad-salary-min</css>
+    </element>
+
+    <element name="jobsSalaryMax">
+        <css>#postad-salary-max</css>
+    </element>
+
+    <element name="localitySearchBox">
+        <xpath>.//*[@id='Locality_searchBox']</xpath>
+    </element>
+
+    <element name="selectlocality">
+        <xpath>(//span[@onclick='setSingleSelLoc(this);'])[5]</xpath>
+    </element>
+
+    <element name="multiplelocality">
+        <xpath>.//*[@id='multiLocality']</xpath>
+    </element>
+
+    <element name="AgaramLocality">
+        <xpath>.//input[@value='Agaram']</xpath>
+    </element>
+
+    <element name="AchitnagarLocality">
+        <xpath>.//input[@value='Achitnagar']</xpath>
+    </element>
+
+    <element name="adDescription">
+        <xpath>//textarea[@id='postad-desc']</xpath>
+    </element>
+
+    <element name="MandatoryFieldNumber">
+        <xpath>.//*[@id='mobileMandat']</xpath>
+    </element>
+
+    <element name="MandatoryNumberErrorMessage">
+        <id>mobile_error_msg</id>
+    </element>
+
+    <element name="ErrorMessageEmailandMobNum">
+        <id>emailid_error_msg</id>
+    </element>
+
+    <element name="upgradeAdButton">
+        <xpath>(//button[starts-with(.,'Upgrade')])[1]</xpath>
+    </element>
+
+    <element name="emailMandatoryField">
+        <xpath>.//*[@id='jobsEmail']/div[1]/span</xpath>
+    </element>
+
+    <element name="EditAd">
+        <xpath>//a[starts-with(.,'Edit this ad')]</xpath>
+    </element>
+
+    <element name="verifiedAd">
+        <id>verified_lead</id>
+    </element>
+
+    <element name="email">
+        <css>#emailid</css>
+    </element>
+
+    <element name="mobNumber">
+        <css>#postad-mobile</css>
+    </element>
+
+    <element name="postAdButton">
+        <css>.postbtn</css>
+    </element>
+
+    <element name="postAdButtonStepOne">
+        <css>#postAdStepOne</css>
+    </element>
+
+    <element name="postAdButtonStepTwo">
+        <css>#postAdStepTwo</css>
+    </element>
+
+    <element name="postAdCompanyName">
+        <css>#postad-companyname</css>
+    </element>
+
+    <element name="AdIdString">
+        <xpath>//div[@class='ad-preview-message-box']/div/span[@class='color_grey']</xpath>
+    </element>
+
+    <element name="urgentAd">
+        <xpath>//button[@data-title='Urgent Ad']</xpath>
+    </element>
+
+    <element name="chequePaymentOption">
+        <id>paymentypeC</id>
+    </element>
+
+    <element name="selectCityBox">
+        <id>cityNewSelectBox2</id>
+    </element>
+
+    <element name="selectCityBoxtextField">
+        <id>searchcity55</id>
+    </element>
+
+    <element name="citySuggestion">
+        <xpath>//li[@id='green_dhtml_content55_Bangalore']/a</xpath>
+    </element>
+
+    <element name="premiumAdConfirmationElements">
+        <xpath>//div[@class='post_ad_fonts']</xpath>
+    </element>
+
+    <element name="mobField">
+        <xpath>//input[@id='mobile']</xpath>
+    </element>
+
+
+
+</elements>
+
+
+

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="emailField">
+     <id>rcmloginuser</id>
+    </element>
+
+    <element name="passwordField">
+     <id>rcmloginpwd</id>
+    </element>
+
+    <element name="submitButton">
+     <id>rcmloginsubmit</id>
+    </element>
+
+    <element name="homeLink">
+     <id>toplogo</id>
+    </element>
+
+    <element name="inboxButton">
+     <xpath>.//*[@id='rcmliSU5CT1g']/a</xpath>
+    </element>
+
+    <element name="refreshLink">
+     <xpath>.//*[@class='toolbar']/a[1]</xpath>
+    </element>
+
+    <element name="allEmailCount">
+     <xpath>.//*[@id='messagelist']/tbody/tr</xpath>
+    </element>
+
+    <element name="firstEmail">
+     <xpath>.//*[@id='messagelist']/tbody/tr[1]</xpath>
+    </element>
+
+    <element name="firstEmailTitle">
+     <xpath>.//*[@id='messagelist']/tbody/tr[1]/td[2]/a/span</xpath>
+    </element>
+
+    <element name="firstEmailTitleLink">
+        <xpath>.//*[@id='messagelist']/tbody/tr[1]/td[2]/a</xpath>
+    </element>
+
+    <element name="emailFrom">
+    <xpath>.//*[@id='messagelist']/tbody/tr[1]/td[4]/span</xpath>
+    </element>
+
+    <element name="emailTitle">
+     <xpath>.//*[@id='messageheader']/h2</xpath>
+    </element>
+
+    <element name="firstemailStatus">
+       <xpath>.//*[@id='messagelist']/tbody/tr[1]/td[3]/span</xpath>
+    </element>
+
+    <element name="firstEmailTime">
+        <xpath>.//*[@id='messagelist']/tbody/tr[1]/td[5]</xpath>
+    </element>
+
+    <element name="trackOrder">
+        <xpath>//*[@id="messagebody"]/div[1]/div/div/div[2]/div[5]/table[2]/tbody/tr/td/a</xpath>
+    </element>
+
+</elements>

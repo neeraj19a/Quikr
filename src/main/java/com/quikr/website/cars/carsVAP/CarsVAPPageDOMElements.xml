@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="adPrice">
+        <xpath>//div[@class='price-column']/span[2]</xpath>
+    </element>
+
+    <element name="adShortlistUnClickedState">
+        <xpath>//*[@class='like-icon icon-basic_heart']</xpath>
+    </element>
+
+    <element name="adShortlistClickedState">
+        <xpath>//*[@class='like-icon icon-basic_heart_filled']</xpath>
+    </element>
+
+    <element name="adUserStatus">
+        <xpath>//div[@class='cars-dark-sub-text']/span</xpath>
+    </element>
+
+    <element name="adBasicDetails">
+        <xpath>//div[@class='vap-tail-desc']/span[1]</xpath>
+    </element>
+
+    <element name="adBasicDetailsLabel">
+        <xpath>//li[$]/div[2]/span[1]</xpath>
+    </element>
+
+    <element name="adBasicDetailsValue">
+        <xpath>//li[$]/div[2]/span[2]</xpath>
+    </element>
+
+    <element name="adKmsDetails">
+        <xpath>//span[starts-with(.,"Kms Driven")]/../span[2]</xpath>
+    </element>
+
+    <!--Locators for New Vap page-->
+
+    <element name="adPriceNewVapPage">
+        <xpath>//div[@class='price-column']/span[2]</xpath>
+    </element>
+
+    <element name="adHeadingNewVapPage">
+        <xpath>(//span[@class='model-name'])[2]</xpath>
+    </element>
+
+    <element name="adShortlistNewVapPage">
+        <xpath>//*[@class='like-icon icon-basic_heart']</xpath>
+    </element>
+
+    <element name="adTitleNewVapPage">
+        <xpath>//div[@class='model-dtls']/span[@class='model-name']</xpath>
+    </element>
+
+    <element name="chatReplyButtonNewVapPage">
+        <xpath>(//div[contains(@class,'reply-chat')]/button)[1]</xpath>
+    </element>
+
+    <element name="chatReplyCloseButtonNewVapPage">
+        <xpath>(//i[@class='icon-arrows_remove pull-right js-chat-close'])[1]/../span</xpath>
+    </element>
+
+    <element name="chatReplyFormVisibility">
+        <xpath>//form[@class='js-replyContentForm']</xpath>
+    </element>
+
+    <element name="shareIconVap">
+        <xpath>//a[@class='mshareicn']/i</xpath>
+    </element>
+
+    <element name="shareModalHeading">
+        <xpath>(.//h4[@id='myModalLabel'])[1]</xpath>
+    </element>
+
+    <element name="shareOptions">
+        <xpath>.//*[@id='shareOptions']/div/div/div[2]/ul/li/a</xpath>
+    </element>
+
+</elements>

@@ -1,0 +1,12 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="servicesCategory">servicesCategory</testData>
+    <testData name="servicesSubcategoryName">servicesSubcategoryName</testData>
+    <testData name="servicesSubcategoryNamePlumber">servicesSubcategoryNamePlumber</testData>
+    <testData name="servicesSubcategoryNameCarpenters">servicesSubcategoryNameCarpenters</testData>
+    <testData name="userName">Monu</testData>
+    <testData name="mobileNo">9955199187</testData>
+    <testData name="enterRequiredSearchText">Movers &amp; Packers</testData>
+    <testData name="enterRequiredSubcategoryForWhichQuikrConnectPageIsNotRedirected">Plumbers</testData>
+
+</data>

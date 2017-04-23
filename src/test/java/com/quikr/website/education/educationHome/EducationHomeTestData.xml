@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="selectedCity">bangalore</testData>
+    <testData name="changecity">lucknow</testData>
+    <testData name="validUrl">.com</testData>
+    <testData name="recommendedforyoutext">Recommended for You</testData>
+    <testData name="vappagetext">Product Details</testData>
+
+    <testData name="viewadd_text">Description</testData>
+    <testData name="convertpremiumad_text">Convert your Ad to a Premium Ad now!</testData>
+    <testData name="edityourad_text">Edit Your Ad</testData>
+    <testData name="deletead_text">Why do you wish to delete this Ad?</testData>
+    <testData name="DownloadAppState">Tamil Nadu</testData>
+    <testData name="DownloadAppCity">aarani</testData>
+    <testData name="homepageBannerIframeId">google_ads_iframe_/81214979/Desktop_HP_978X125_0</testData>
+    <testData name="English">English</testData>
+
+
+    <testData name="PostAdPageHeadertext">Post Free Ad</testData>
+    <testData name="facebookemail">automation.quikr@gmail.com</testData>
+    <testData name="facebookpassword">quikr1234</testData>
+
+    <testData name="signupcity">Bangalore</testData>
+
+    <testData name ="cityAgnosticSearchQueryAnotherCityName">Delhi</testData>
+    <testData name ="cityAgnosticSearchQueryLocalityName">Panaji</testData>
+    <testData name ="cityAgnosticSearchQueryAnotherLocalityName">Rajendranagar</testData>
+
+    <testData name ="DashboardURL">MyQuikr</testData>
+    <testData name ="myQuikrChats">MyQuikr?action=mychats</testData>
+
+    <testData name ="cookieName">abRand</testData>
+    <testData name ="cookieValue">40</testData>
+</data>

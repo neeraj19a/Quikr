@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="mobilesPhones">
+        <!--<xpath>.//*[@id='main_textarea']/div/div[2]/div[2]/div[4]/ul[1]/li[1]/a/h1</xpath>-->
+        <xpath>.//div[@class='cat_list flexbox']/ul[1]/li[1]/a</xpath>
+    </element>
+
+    <element name="Tablets">
+        <xpath>//a[@title='Tablets']</xpath>
+    </element>
+
+
+    <element name="filters">
+    <css>.left-side-filter-name</css>
+    </element>
+
+    <element name="exchangePhoneOption">
+        <xpath>.//*[@id='exchangefilter']/ul/li[2]/a</xpath>
+    </element>
+    
+    <element name="certifiedPhoneOption">
+        <xpath>.//*[@id='exchangefilter']/ul/li[1]/a</xpath>
+    </element>
+
+
+    <element name="brandSearchTextbox">
+        <css>#search_from_Brand_name</css>
+    </element>
+
+    <element name="firstOptionInBrandSearch">
+        <xpath>//div[@id='leftSideBrand_name']/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="filters">
+        <css>.left-side-filter-name</css>
+    </element>
+
+    <element name="selectModel">
+        <id>Model_newpap</id>
+    </element>
+
+    <element name="seeAllUsedMobiles">
+        <xpath>//div[@class='buttonsSection']/a</xpath>
+    </element>
+
+
+
+</elements>

@@ -1,0 +1,129 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="MyAlerts">Alerts and Recommended</testData>
+    <testData name="mobilesAndTAbs">Mobiles</testData>
+    <testData name="ElectronicsAndAppliances">Electronics</testData>
+    <testData name="HomesAndLifestyle">Lifestyle</testData>
+    <testData name="mobiles">Mobiles</testData>
+    <testData name="mobilesSubCat">Mobile</testData>
+    <testData name="condition">Used</testData>
+
+
+    <testData name="electronicscat">Electronics &#38; Appliances</testData>
+    <testData name="electronicsSubCat">Laptops - Computers</testData>
+    <testData name="homecat">Home &#38; Lifestyle</testData>
+    <testData name="homeSubCat">Home - Office Furniture</testData>
+
+
+    <!--post Ad Common Attributes Across all Categories-->
+    <testData name="location">80 Ft. Road</testData>
+    <testData name="selectBrand">Brand Name</testData>
+    <testData name="SelectModel">Model</testData>
+    <testData name="brand">Samsung</testData>
+    <testData name="cars">Cars</testData>
+    <testData name="offerType">I  want  to  sell</testData>
+    <testData name="WantType">I  want  to  buy</testData>
+    <testData name="postAdAsIndividual">Individual</testData>
+    <testData name="postAdAs">Individual</testData>
+    <testData name="condition">Used</testData>
+    <testData name="enterAdTitle">Enter Ad title</testData>
+    <testData name="enterDescription">Ad Description</testData>
+    <testData name="SelectLocality">Locality</testData>
+    <testData name="enterName">Name</testData>
+    <testData name="enterEmail"></testData>
+    <testData name="enterMobileNumber">Mobile</testData>
+    <testData name="minPriceKnowMore">Any offers above minimum price</testData>
+    <!--<testData name="SelectLocality">Please Select Locality</testData>-->
+    <testData name="enterName">Please Enter Name</testData>
+    <testData name="enterMobileNumber">Please Enter Mobile</testData>
+    <testData name="enterPrice">Price *</testData>
+    <testData name="mobileNumber">Mobile</testData>
+    <!-- PostAd attributes for Mobiles Category-->
+    <testData name="minimumPrice">Minimum Price</testData>
+    <testData name="yearOfPurchase">Year of Purchase</testData>
+    <testData name="invoice">Invoice</testData>
+    <testData name="defects">Defects</testData>
+    <testData name="noOfSims">No Of Sims</testData>
+    <testData name="OperatingSystem">Operating System</testData>
+    <testData name="address">Address</testData>
+    <testData name="pin">Pincode</testData>
+    <testData name="wantType">I  want  to  buy</testData>
+    <!-- Electronics  attributes-->
+    <testData name="ElectronicsCAt">Electronics</testData>
+    <testData name="electronicsSubCAt">Laptops</testData>
+    <testData name="screen">Screen Size</testData>
+    <testData name="RAm">RAM</testData>
+    <testData name="Desktop">Desktop</testData>
+    <testData name="screenSize">13-13.9 inches</testData>
+    <testData name="ramSize">4GB</testData>
+    <testData name="electronicsbrand">Apple</testData>
+    <testData name="electroniceBrandWantType">Apple</testData>
+    <testData name="productType">Product Type</testData>
+
+
+    <!-- Mobiles PostAd Data-->
+    <testData name="mobilescat">Mobiles &#38; Tablets</testData>
+    <testData name="mobilesSubCat">Mobile Phones</testData>
+    <testData name="Mobilebrand">Apple</testData>
+    <testData name="Mobilesmodel">iPhone</testData>
+    <testData name="mobileOs">Apple-ios</testData>
+    <testData name="invoiceStatus">Available</testData>
+    <testData name="sim">Single</testData>
+    <testData name="defectsinMobile">None</testData>
+    <testData name="userAddress">22/2 9th street ulsoor</testData>
+    <testData name="userPin">560008</testData>
+    <testData name="userNumber">7987098908</testData>
+    <testData name="mobilesPrice">5500</testData>
+    <testData name="mobilesMinPrice">4500</testData>
+    <testData name="offerPrice">5000</testData>
+    <testData name="MobileAdTitle">Apple Iphone 4s on sale</testData>
+    <testData name="mobiltAdDesc">Apple Iphone 4s on sale at  attractive in good condition</testData>
+    <testData name="year">2014</testData>
+    <testData name="warehouseText">Avail Quikr FREE Storage and Shipping services.</testData>
+    <testData name="maoText">Make an Offer</testData>
+
+    <testData name="sellerEmail">web19@test.quikrmail.com</testData>
+    <testData name="sellerMobile">9909878767</testData>
+    <testData name="sellerCity">Bangalore</testData>
+    <testData name="warehouseText">Avail Quikr FREE Storage and Shipping services.</testData>
+
+    <testData name="buyerEmail">web20@test.quikrmail.com</testData>
+    <testData name="buyerMobile">9908987809</testData>
+    <testData name="buyerCity">Bangalore</testData>
+    <testData name="buyerName">Ignore</testData>
+    <testData name="buyerOffer">100</testData>
+    <testData name="mobileNumber">Mobile</testData>
+    <testData name="emailId">Email</testData>
+
+    <!-- List Of All Sub Categories -->
+    <testData name="mobilesSubCats">Mobile Phones,,Tablets</testData>
+    <testData name="electronicsSubCats">Laptops - Computers,,Home - Kitchen Appliances,,TV - DVD - Multimedia,,Computer Peripherals,,Camera Accessories,,Cameras - Digicams,,Fax, EPABX, Office Equipment,,Inverters, UPS &#38; Generators,,iPods, MP3 Players,,Music Systems - Home Theatre,,Office Supplies,,Security Equipment - Products,,Tools - Machinery - Industrial,,Video Games - Consoles,,Everything Else</testData>
+    <testData name="homeSubCats">Home - Office Furniture,,Clothing - Garments,,Antiques - Handicrafts,,Baby - Infant Products,,Bags - Luggage,,Barter - Exchange,,Books - Magazines,,Coins - Stamps,,Collectibles,,Discounted - Sale Items,,Fashion Accessories,,Gifts - Stationary,,Health - Beauty Products,,Home Decor - Furnishings,,Household,,Jewellery,,Music - Movies,,Musical Instruments,,Paintings,,Sport - Fitness Equipment,,Toys - Games,,Watches,,Wholesale - Bulk,,Everything Else</testData>
+
+    <!-- Post Ad Error Messages -->
+    <testData name="brandMandateErrorMsg">Please select Brand Name</testData>
+    <testData name="titleMandateErrorMsg">Min. 10 characters required</testData>
+    <testData name="descriptionMandateErrorMsg">Min. 30 characters required</testData>
+    <testData name="priceMandateErrorMsg">Please enter Price</testData>
+    <testData name="addressMandateErrorMsg">Please enter Address</testData>
+    <testData name="localityMandateErrorMsg">Please select Locality</testData>
+    <testData name="pincodeMandateErrorMsg">Please enter Pincode</testData>
+    <testData name="emailMandateErrorMsg">Please enter Email</testData>
+    <testData name="mobileMandateErrorMsg">Please enter Mobile</testData>
+
+    <testData name="titleLength">length</testData>
+    <testData name="descriptionLength">length test of description</testData>
+    <testData name="lengthError">4 more characters are required</testData>
+    <testData name="sellForMeText">Sell for me (optional)</testData>
+    <testData name="postAdPageText">Post Free Ad</testData>
+
+    <testData name="nationwideOverlayMsg">Now Buy across India</testData>
+
+    <testData name="sellerEmail">shifterjob@gmail.com</testData>
+    <testData name="sellerPassword">somepassword</testData>
+    <testData name="buyerEmail">shifterjobtwo@gmail.com</testData>
+    <testData name="buyerPassword">somepassword</testData>
+
+    <testData name="auctionPeriod">3</testData>
+    <testData name="auctionAmount">3000</testData>
+</data>

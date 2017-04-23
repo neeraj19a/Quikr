@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="oldPAPHeading">
+        <xpath>//div[@class='pml1ttle']/span</xpath>
+    </element>
+
+    <element name="newPAPHeading">
+        <xpath>//h1</xpath>
+    </element>
+
+    <element name="titlePAP">
+        <xpath>.//*[@id='title']</xpath>
+    </element>
+
+    <element name="typeOfAdPAP">
+        <xpath>.//*[@id='serviceTime']/label[$]/input</xpath>
+    </element>
+
+    <element name="conditionPAP">
+        <xpath>.//*[@id='attribWrapper']/div[1]/div[2]/label[$]/input</xpath>
+    </element>
+
+    <element name="brandNamePAP">
+        <id>Brand_name_newpap</id>
+    </element>
+
+    <element name="brandNameRadioOptions">
+        <xpath>//div[@class='l4Attr_RadioBox_div']/div/label/input[contains(@class,'Brand_name_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="model_PAP">
+        <id>Model_newpap</id>
+    </element>
+
+    <element name="modelOptions">
+        <xpath>//div[@id='Model_l4Attr_RadioBox_div']/div/label/input[contains(@class,'Model_inp_cb ad_attribute')]/..</xpath>
+    </element>
+
+    <element name="fuelTypePAP">
+        <id>Fuel_Type_newpap</id>
+    </element>
+
+    <element name="fuelTypeRadioOptions">
+        <xpath>//div[@id='Fuel_Type_l4Attr_RadioBox_div']/div/label/input[contains(@class,'Fuel_Type_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="yearofRegistrationPAP">
+        <id>Year_newpap</id>
+    </element>
+
+    <element name="yearofRegistrationOptions">
+        <xpath>//div[@id='Year_l4Attr_RadioBox_div']/div/label/input[contains(@class,'Year_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Kms_DrivenPAP">
+        <id>Kms_Driven</id>
+    </element>
+
+    <element name="PricePAP">
+        <id>Price</id>
+    </element>
+
+    <element name="No_of_owners_PAP">
+        <id>No_of_owners_newpap</id>
+    </element>
+
+    <element name="No_of_owners_Options">
+        <xpath>//div[@id='No_of_owners_l4Attr_RadioBox_div']/div/label/input[contains(@class,'No_of_owners_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="Color_PAP">
+        <id>Color_newpap</id>
+    </element>
+
+    <element name="Color_Options">
+        <xpath>//div[@id='Color_l4Attr_RadioBox_div']/div/label/input[contains(@class,'Color_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="cityPAP">
+        <id>cityNewSelectBox2</id>
+    </element>
+
+    <element name="searchCityPAP">
+        <id>searchcity55</id>
+    </element>
+
+    <element name="city_Options">
+        <xpath>.//*[@id='green_dhtml_content55_$']/a</xpath>
+    </element>
+
+    <element name="localityPAP">
+        <id>singleSelLoc</id>
+    </element>
+
+    <element name="localityOptions">
+        <xpath>.//*[@id='customSingleSelLoc']/span[1]</xpath>
+    </element>
+
+    <element name="descriptionPAP">
+        <id>description1</id>
+    </element>
+
+    <element name="sellerOptions">
+        <xpath>(//input[@class='seller_type required'])[$]</xpath>
+    </element>
+
+    <element name="namePAP">
+        <id>contactName</id>
+    </element>
+
+    <element name="emailidPAP">
+        <id>emailid</id>
+    </element>
+
+    <element name="mobilePAP">
+        <id>mobile</id>
+    </element>
+
+    <element name="postButtonPAP">
+        <xpath>//button[@class='postbtn']</xpath>
+    </element>
+
+    <element name="skipPayment">
+        <xpath>(//a[starts-with(.,'Skip')])[2]</xpath>
+    </element>
+
+    <element name="ThanksMessage">
+        <xpath>//div/strong</xpath>
+    </element>
+
+    <element name="adId">
+        <xpath>//span[@class='color_grey']</xpath>
+    </element>
+
+    <element name="signInPAP">
+        <xpath>//div[@id='top-linksdiv']/a</xpath>
+    </element>
+
+    <element name="helpPAP">
+        <xpath>//a[@class='tplnk']</xpath>
+    </element>
+
+    <element name="languagePAP">
+        <xpath>.//*[@id='languagediv']/span[1]</xpath>
+    </element>
+
+    <element name="textBoxesPAPText">
+        <xpath>//div/strong</xpath>
+    </element>
+
+</elements>

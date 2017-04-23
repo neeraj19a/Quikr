@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+
+    <testData name="AutoSuggestApiBrand">AutoSuggestResponse.AutoSuggestResponse.brand</testData>
+    <testData name="AutoSuggestApiModel">AutoSuggestResponse.AutoSuggestResponse.model</testData>
+    <testData name="AttributeApiValue">AttributeValuesResponse.AttributeValues.value</testData>
+    <testData name="AttributeApiImageURL">AttributeValuesResponse.AttributeValues.imageUrl</testData>
+    <testData name="ORPDropDownsApiVariant">OnRoadFilterResponse.OnRoadFilter.variant</testData>
+    <testData name="VariantPageApiEngine">VariantPageResponse.VariantPage.engine</testData>
+    <testData name="VariantPageApiDrivetrain">VariantPageResponse.VariantPage.drivetrain</testData>
+    <testData name="VariantPageApiSafetyAndSecurity">VariantPageResponse.VariantPage.safety_and_security</testData>
+    <testData name="VariantPageApiBrakingAndTraction">VariantPageResponse.VariantPage.braking_and_traction</testData>
+    <testData name="VariantPageApiComfortAndConvenience">VariantPageResponse.VariantPage.comfort_and_convenience</testData>
+    <testData name="VariantPageApiSeatsAndUpholstery">VariantPageResponse.VariantPage.seats_and_upholstery</testData>
+    <testData name="VariantPageApiInterior">VariantPageResponse.VariantPage.interior</testData>
+    <testData name="VariantPageApiExterior">VariantPageResponse.VariantPage.exterior</testData>
+    <testData name="VariantPageApiInstrumentation">VariantPageResponse.VariantPage.instrumentation</testData>
+    <testData name="VariantPageApiEntertainment">VariantPageResponse.VariantPage.entertainment</testData>
+    <testData name="VariantPageApiDisplacement_cc">VariantPageResponse.VariantPage.engine.displacement_cc</testData>
+    <testData name="VariantPageApiTyresFront">VariantPageResponse.VariantPage.drivetrain.tyres_front</testData>
+    <testData name="OnRaodPriceApiExshowroomPrice">OnRaodPriceResponse.onRoadPrice.exshowroom_price</testData>
+    <testData name="EMICalulationApiEMIResponse">EMICalulationResponse.EMIResponse</testData>
+    <testData name="FilterValuesApiCarMake">FilterValuesResponse.FilterValues.car_make</testData>
+    <testData name="FilterValuesApiCarModel">FilterValuesResponse.FilterValues.car_model</testData>
+    <testData name="CarsApiSearch">SearchAndBrowseResponse.SearchResponse.carSearchData</testData>
+    <testData name="NotifyMeApiResponse">NotifyMeResponse.NotifyMe</testData>
+    <testData name="BrowseApiResponse">SearchAndBrowseResponse.SearchResponse</testData>
+    <testData name="SimilarCarsApiResponse">SimilarCarsRequestResponse.SimilarCarResponse</testData>
+    <testData name="SimilarCarsApiResponseBrand">SimilarCarsRequestResponse.SimilarCarResponse.brand</testData>
+    <testData name="SimilarCarsApiResponseModel">SimilarCarsRequestResponse.SimilarCarResponse.model</testData>
+    <testData name="SimilarCarsApiResponseVariant">SimilarCarsRequestResponse.SimilarCarResponse.variant</testData>
+    <testData name="SimilarCarsApiResponseExShowroomPrice">SimilarCarsRequestResponse.SimilarCarResponse.exShowroomPrice</testData>
+    <testData name="SimilarCarsApiResponseMileageCity">SimilarCarsRequestResponse.SimilarCarResponse.mileageCity</testData>
+    <testData name="SimilarCarsApiResponseDisplacementCC">SimilarCarsRequestResponse.SimilarCarResponse.displacementCC</testData>
+    <testData name="SimilarCarsApiResponsePrimaryFuelType">SimilarCarsRequestResponse.SimilarCarResponse.primaryFuelType</testData>
+    <testData name="SimilarCarsApiResponseTransmission">SimilarCarsRequestResponse.SimilarCarResponse.transmission</testData>
+    <testData name="SimilarCarsApiResponseSimilarityScore">SimilarCarsRequestResponse.SimilarCarResponse.similarityScore</testData>
+    <testData name="SimilarCarsApiResponseBodyStyle">SimilarCarsRequestResponse.SimilarCarResponse.bodyStyle</testData>
+    <testData name="SimilarCarsApiResponseImages">SimilarCarsRequestResponse.SimilarCarResponse.images</testData>
+    <testData name="CarModelApiMinPrice">ModelPageResponse.ModelPage.minPrice</testData>
+    <testData name="CarModelApiEngineCapacity">ModelPageResponse.ModelPage.engineCapacity</testData>
+    <testData name="CarModelApiMileage">ModelPageResponse.ModelPage.mileage</testData>
+    <testData name="CarModelApiColors">ModelPageResponse.ModelPage.colors</testData>
+    <testData name="CarModelApiImages">ModelPageResponse.ModelPage.images</testData>
+    <testData name="CarModelApiCarMake">ModelPageResponse.ModelPage.variantInfoList.carMake</testData>
+    <testData name="CarModelApiCarModel">ModelPageResponse.ModelPage.variantInfoList.carModel</testData>
+    <testData name="CarModelApiCarVariant">ModelPageResponse.ModelPage.variantInfoList.carVariant</testData>
+    <testData name="CarModelApiCarPrice">ModelPageResponse.ModelPage.variantInfoList.price</testData>
+    <testData name="CarModelApiMaxPower">ModelPageResponse.ModelPage.variantInfoList.maxPower</testData>
+    <testData name="CarModelApiFuelType">ModelPageResponse.ModelPage.variantInfoList.fuelType</testData>
+    <testData name="CarModelApiCarMileage">ModelPageResponse.ModelPage.variantInfoList.mileage</testData>
+    <testData name="CarModelApiStatus">ModelPageResponse.ModelPage.variantInfoList.status</testData>
+    <testData name="NewCarsComparisonPrimaryFuelType">newCarComparisonResponse.newCarComparison.attributeMap.Overview.primary_fuel_type.addAttrDetails.</testData>
+
+
+    <!--Elastic Response Paths-->
+
+    <testData name="ElasticResponseCarModel">hits.hits._source.car_model</testData>
+    <testData name="ElasticResponseCarTrim">hits.hits._source.car_trim</testData>
+    <testData name="ElasticResponseShowroomPrice">hits.hits._source.ex_showroom_price</testData>
+    <testData name="ElasticResponsePrimaryFuelType">hits.hits._source.primary_fuel_type</testData>
+
+
+</data>

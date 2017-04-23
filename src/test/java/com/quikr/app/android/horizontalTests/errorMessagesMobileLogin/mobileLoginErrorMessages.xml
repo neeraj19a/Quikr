@@ -1,0 +1,47 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../../main/resources/TestData.xsd">
+
+
+    <!-- “Email already registered” or “Mobile already registered” or "“Email and mobile already registered”-->
+    <testData name="signUpErrorMsg1">Email already registered</testData>
+    <testData name="signUpErrorMsg2">Mobile already registered</testData>
+    <testData name="signUpErrorMsg3">Email and mobile already registered</testData>
+    <testData name="verifiedEmail">dhirajbothra04@gmail.com</testData>
+    <testData name="registeredEmailErrorMsg">This Email is registered with us. Please login. In case you don't remember password, use Forgot Password</testData>
+    <testData name="registeredMobileErrorMsg">This mobile is registered with us. Please login through OTP to proceed.</testData>
+    <testData name="PostAdCta">Login</testData>
+    <testData name="MyAccount">My Account</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="location">Achitnagar</testData>
+    <testData name="number">9955199163</testData>
+    <testData name="forgotPasswordEmail">qa2.quikr@gmail.com</testData>
+    <testData name="name">rahul singh</testData>
+    <testData name="unRegisteredNumber">8004487543</testData>
+    <!-- services test data-->
+    <testData name="servicescategory">Services</testData>
+    <testData name="servicesadTitle">Looking for a driver job</testData>
+    <testData name="servicesadDescription">looking for a driver job, have 3+ yrs experience</testData>
+    <testData name="servicessubcategory1">Movers</testData>
+    <testData name="servicesWantTypeAd">I want a business proposal</testData>
+    <!--post Ad Common Attributes Across all Categories-->
+    <testData name="brand">Samsung</testData>
+    <testData name="cars">Cars</testData>
+    <testData name="offerType">I  want  to  sell</testData>
+    <testData name="WantType">I  want  to  buy</testData>
+    <testData name="postAdAsIndividual">Individual</testData>
+    <testData name="postAdAs">Individual</testData>
+    <testData name="condition">Used</testData>
+    <testData name="SelectLocality">Please Select Locality</testData>
+    <testData name="enterName">Please Enter Name</testData>
+    <testData name="enterMobileNumber">Please Enter Mobile</testData>
+    <testData name="enterPrice">Price</testData>
+    <testData name="mobileNumber">Mobile</testData>
+    <testData name="emailId">Email</testData>
+    <testData name="enterAdTitle">Enter Ad title</testData>
+    <testData name="enterDescription">Ad Description</testData>
+    <testData name="SelectLocality">Locality</testData>
+    <testData name="enterName">Name</testData>
+    <testData name="wrongpassword">password</testData>
+
+
+</data>

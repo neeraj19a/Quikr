@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="categoryList">
+        <css>div.cat_list.flexbox</css>
+    </element>
+
+    <element name="categoryName">
+        <css>.selected_cat_text</css>
+    </element>
+
+    <element name="apply">
+        <partialLinkText>Apply</partialLinkText>
+    </element>
+
+    <element name="role">
+        <!--<class>newintent-ListMenu</class>-->
+        <css>#intent_Role > .intentexpand</css>
+    </element>
+
+    <element name="findButton">
+        <css>#submit_widget_search > a</css>
+    </element>
+
+    <element name="partTimeJobsOption">
+        <css>div.subcat_tab_filter > ul > li#tabHeader_2 > a</css>
+    </element>
+
+    <element name="jobsSearchBox">
+        <css>.selectize-input.items.not-full.has-options</css>
+    </element>
+
+    <element name="jobRole">
+        <xpath>//div[@class='selectize-dropdown-content']/div[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="jobSearch">
+        <css>#auto-suggest-submit_jobs</css>
+    </element>
+
+
+</elements>

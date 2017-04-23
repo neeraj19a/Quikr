@@ -1,0 +1,119 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="createAlert">
+        <id>com.quikr:id/menu_create</id>
+    </element>
+    <element name="alertHomePage">
+        <id>com.quikr:id/feeds_menu_title</id>
+    </element>
+    <element name="submitAlert">
+    <id>com.quikr:id/createAlertButton</id></element>
+    <element name="validateAlert">
+        <id>com.quikr:id/title</id>
+           </element>
+    <element name="dropdownOptions">
+        <id>com.quikr:id/txtFilterRow</id>
+    </element>
+    <element name="checkBox">
+        <id>com.quikr:id/btnFilterChkBoxOk</id>
+    </element>
+    <element name="LocalityCheckbox">
+        <id>com.quikr:id/okayButton</id>
+    </element>
+
+    <element name="phoneNumber">
+        <id>com.quikr:id/create_alert_mobile</id>
+    </element>
+    <element name="createAlertTitle">
+        <id>com.quikr:id/screen_create_alert_title</id>
+    </element>
+    <element name="createAlertDescription">
+        <id>com.quikr:id/screen_create_alert_description</id>
+    </element>
+    <element name="postAlet">
+        <id>com.quikr:id/screen_create_alert_post_button</id>
+    </element>
+    <element name="validateAlertNewFormat">
+         <id>com.quikr:id/screen_create_alert_responses_text</id>
+    </element>
+    <element name="AlertFields">
+        <id>com.quikr:id/widget_element</id>
+    </element>
+    <element name="realestateArea">
+        <name>Area Sq Ft</name>
+    </element>
+
+    <element name="doneButton">
+        <id>com.quikr:id/bottomActionBar</id>
+    </element>
+    <element name="describeNeed">
+        <id>com.quikr:id/describeNeedText</id>
+    </element>
+    <element name="subCatregory">
+        <id>com.quikr:id/subcategory</id>
+    </element>
+    <element name="category">
+        <id>com.quikr:id/metacategory</id>
+    </element>
+    <element name="sortOnAlertPage">
+        <id>com.quikr:id/menu_sort</id>
+    </element>
+    <element name="matchingAds">
+        <id>android:id/text1</id>
+    </element>
+    <element name="lowestPriceOnTopOption">
+        <name>Lowest Price on top</name>
+    </element>
+    <element name="matchingAdsTab">
+        <!--<name>Matching Ads</name>-->
+        <xpath>//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]</xpath>
+    </element>
+
+    <element name="menuIconOnAlertPage">
+        <id>com.quikr:id/menuIcon</id>
+    </element>
+
+    <element name="deleteAlertButton">
+        <name>Delete</name>
+    </element>
+
+    <element name="confirmDeleteAlert">
+        <id>com.quikr:id/positive</id>
+    </element>
+
+    <element name="validateAlertDeletion">
+        <name>Your alert will be deleted shortly</name>
+    </element>
+
+    <element name="alertTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+
+    <element name="alertPopup">
+        <id>com.quikr:id/reply</id>
+    </element>
+
+    <element name="alertEmail">
+    <id>com.quikr:id/create_alert_email</id>
+    </element>
+
+    <element name="editAlertMsg">
+        <id>com.quikr:id/screen_create_alert_thanks_text</id>
+    </element>
+
+    <element name="Adugodi">
+        <name>Adugodi</name>
+    </element>
+
+    <element name="Agripada">
+        <name>Agripada</name>
+    </element>
+    <element name="matchingAdsNew">
+        <id>com.quikr:id/matching_ads</id>
+    </element>
+    <element name="matchingAdTitle">
+        <id>com.quikr:id/content</id>
+    </element>
+</elements>

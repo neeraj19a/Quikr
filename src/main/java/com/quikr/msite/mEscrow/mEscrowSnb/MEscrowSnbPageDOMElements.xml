@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="startAdSearch">
+        <id>searchButton</id>
+    </element>
+
+    <element name="enterAdId">
+        <id>searchTerm</id>
+    </element>
+
+    <element name="searchAd">
+        <id>searchGo</id>
+    </element>
+    <element name="offerSent">
+        <xpath>//div[@class='wap_makeoffer_buynow_popup']//p[@class='mo-bn-popup-heading']</xpath>
+    </element>
+    <element name="selectAd">
+        <xpath>//span[@class='adInfoTitle']</xpath>
+    </element>
+    <element name="isAdSelected">
+        <id>escrowBuyNowBtn</id>
+    </element>
+
+    <element name="maoNowButton">
+        <id>m_site_escrow_make_offer_id</id>
+    </element>
+
+    <element name="maoForm">
+        <xpath>//p[contains(text(),'Make an Offer')]</xpath>
+    </element>
+
+
+    <element name="maoPrice">
+        <id>price_mao_mess_snb</id>
+    </element>
+
+    <element name="maoEmail">
+        <xpath>//input[@id='email_mao' and @placeholder='Email address*']</xpath>
+    </element>
+    <element name="maoMobile">
+        <xpath>//input[@id='mobile_mao' and @placeholder='Mobile number*']</xpath>
+    </element>
+    <element name="maoCity">
+        <id>autocomplete_mao</id>
+    </element>
+    <element name="maoCityAutoSuggest">
+        <xpath>//div[@class='autocomplete-suggestion']/strong</xpath>
+    </element>
+    <element name="submitMao">
+        <xpath>//input[@value='Send my offer now']</xpath>
+    </element>
+
+    <element name="buyNowButton">
+        <id>escrowAdBuyNow</id>
+    </element>
+
+
+</elements>

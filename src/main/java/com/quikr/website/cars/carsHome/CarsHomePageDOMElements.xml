@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="newCarsRadioButton">
+        <xpath>.//*[@id='carSection']/li[2]/div/label</xpath>
+    </element>
+
+    <element name="mostPopularCarsSearch">
+        <xpath>//li[@class='first-li most-pop-search']</xpath>
+    </element>
+
+    <element name="bikeHomepageTab">
+        <xpath>.//a[@class='homePageSubCatLinks' and @title='Bikes']</xpath>
+    </element>
+
+    <element name="carHomepageTab">
+        <xpath>.//a[@class='homePageSubCatLinks' and @title='Cars']</xpath>
+    </element>
+
+    <element name="commercialHomepageTab">
+        <xpath>.//a[@class='homePageSubCatLinks' and @title='Commercial Vehicles']</xpath>
+    </element>
+
+    <element name="BicyclesHomepageTab">
+        <xpath>.//a[@class='homePageSubCatLinks' and @title='Bicycles']</xpath>
+    </element>
+
+    <element name="sparePartsAccessoriesHomepageTab">
+        <xpath>.//a[@class='homePageSubCatLinks' and @title='Spare Parts- Accessories']</xpath>
+    </element>
+
+    <element name="countLabel">
+        <xpath>//p[contains(text(),'Search from')]</xpath>
+    </element>
+
+    <element name="searchBarIcon">
+        <xpath>.//button[@class='head-search-btn']</xpath>
+    </element>
+
+    <element name="searchBarBikeIcon">
+        <xpath>.//*[@id='auto-suggest-submit']</xpath>
+    </element>
+
+    <element name="searchBar">
+        <xpath>(.//*[contains(@id,'search-query-field')])[1]</xpath>
+    </element>
+
+    <element name="autoSuggestavailable">
+        <xpath>//ul[@class='head-auto-search hp-auto-suggest']</xpath>
+    </element>
+
+    <element name="autoSuggestions">
+        <xpath>//ul[@class='head-auto-search hp-auto-suggest']/li</xpath>
+    </element>
+
+    <element name="rupeeSybmol">
+        <xpath>//a[@id='auto-suggest-budget']/b/i[@class='icon-rupee-symbol']</xpath>
+    </element>
+
+    <element name="budgetText">
+        <xpath>//a[@id='auto-suggest-budget']/b/span[text()='Budget']</xpath>
+    </element>
+
+    <element name="budgetBox">
+        <xpath>//a[@id='auto-suggest-budget']</xpath>
+    </element>
+
+    <element name="budgetMinBoxOptions">
+        <xpath>//ul[@id='js-desktopMinBudgetLiHtml']/li</xpath>
+    </element>
+
+    <element name="budgetMaxBoxOptions">
+        <xpath>//ul[@id='js-desktopMaxBudgetLiHtml']/li</xpath>
+    </element>
+
+    <element name="searchBarList">
+        <xpath>//ul[contains(@class,'hp-auto-suggest')]</xpath>
+    </element>
+
+    <element name="searchItemSelect">
+        <xpath>//ul[contains(@class,'hp-auto-suggest')]/li/b[text()='$']</xpath>
+    </element>
+
+    <element name="mostPopularList">
+        <xpath>//li[@class='most-pop-search']</xpath>
+    </element>
+
+    <element name="historicSearchList">
+        <xpath>//li[contains(@class,'historic-search')]</xpath>
+    </element>
+
+    <element name="budgetDropDown">
+        <xpath>//a[@id='auto-suggest-budget']</xpath>
+    </element>
+
+    <element name="minBudgetDropDown">
+        <xpath>//ul[contains(@class,'min-values')]/li[contains(@class,'$') and text()='$']</xpath>
+    </element>
+
+    <element name="maxBudgetDropDown">
+        <xpath>//ul[contains(@class,'max-values')]/li[contains(@class,'$') and text()='$']</xpath>
+    </element>
+
+    <element name="toggleUsedCars">
+        <xpath>(//a[@class='js-used-new-tabs'])[2]</xpath>
+    </element>
+
+    <element name="searchButton">
+        <xpath>//button[@id='auto-suggest-submit']</xpath>
+    </element>
+
+    <element name="inspectedCars">
+        <xpath>.//a[contains(@href,'Inspected')]</xpath>
+    </element>
+
+    <element name="inspectedText">
+        <xpath>.//h4[text()='Quikr Inspected']</xpath>
+    </element>
+
+    <element name="inspectedDescription">
+        <xpath>.//*[contains(@class,'insp-description')]</xpath>
+    </element>
+
+    <element name="checkMSPHomepage">
+        <xpath>.//a[text()=' Check MSP']</xpath>
+    </element>
+
+    <element name="mspText">
+        <xpath>.//h4[contains(@class,'msp-heading')]</xpath>
+    </element>
+
+    <element name="mspDescription">
+        <xpath>.//*[contains(@class,'msp-description')]</xpath>
+    </element>
+
+    <element name="mostPopularAdsonQuikrText">
+        <xpath>.//*[@class='vchtite']</xpath>
+    </element>
+
+    <element name="mostPopularAdsNumber">
+        <xpath>.//span[@class='brand-down-left']</xpath>
+    </element>
+
+    <element name="mostPopularAds">
+        <xpath>.//*[@id='$']/div[1]/div/div/a/div/div/div</xpath>
+    </element>
+
+    <element name="mostPopularAdImage">
+        <xpath>.//*[contains(@id,'$')]/div[1]/div/div/a/div/div/div/img</xpath>
+    </element>
+
+    <element name="mostPopularAdModel">
+        <xpath>.//*[contains(@id,'$')]/div[1]/div/div/a/div/div/div/div</xpath>
+    </element>
+
+    <element name="mostPopularAdLinkText">
+        <xpath>.//*[contains(@id,'$')]/div[1]/div[1]/div/a/div/div/div/div</xpath>
+    </element>
+
+    <element name="recentlyPostedAds">
+        <xpath>.//*[@id='recent-posted-carousel']/div/div</xpath>
+    </element>
+
+    <element name="recentlyPostedAdImage">
+        <xpath>//*[@id='recent-posted-carousel']/div/div/div/a/div/div[2]/img</xpath>
+    </element>
+
+    <element name="recentlyPostedAdUserState">
+        <xpath>//*[contains(@class,'list-profile-status')]</xpath>
+    </element>
+
+    <element name="recentlyPostedAdTitle">
+        <xpath>//*[@id='recent-posted-carousel']/div/div/div/div/h4</xpath>
+    </element>
+
+    <element name="recentlyPostedAdData">
+        <xpath>(.//*[@id='recent-posted-carousel']/div/div/div/div/ul/li[$])[1]</xpath>
+    </element>
+
+    <element name="recentlyPostedAdPrice">
+        <xpath>//div[@class='col-xs-6 price-txt']</xpath>
+    </element>
+
+    <element name="recentlyPostedAdLinkText">
+        <xpath>(//h4[@class='col-xs-10 group inner list-group-item-heading'])/a</xpath>
+    </element>
+
+    <element name="recentlyPostedAd_Reply">
+        <xpath>//button[contains(@class,'btn grid-button js-reply-button-trigger open-external-modal js-positionTagging')]</xpath>
+    </element>
+
+    <element name="recentlyPostedAd_Chat">
+        <xpath>//button[contains(@class,'btn grid-button js-chat-now open-external-modal js-positionTagging lead-capture-chat')]</xpath>
+    </element>
+
+    <element name="recentlyPostedAdShortlist">
+        <xpath>(//*[@title='Add to Shortlist'])[1]</xpath>
+    </element>
+
+    <element name="reviewsToggle">
+        <xpath>//a[@aria-controls='$']</xpath>
+    </element>
+
+    <element name="pitStopPageTitle">
+        <xpath>.//h1[@class='entry-title']</xpath>
+    </element>
+
+    <element name="reviewsBigImage">
+        <xpath>//div[@id='$']/div/div/a/img</xpath>
+    </element>
+    
+    <element name="reviewsTitle">
+        <xpath>//div[@id='$']/div/div/div/h2/a</xpath>
+    </element>
+
+    <element name="reviewsMore">
+        <xpath>//div[@id='$']/div/div/div/p/a</xpath>
+    </element>
+
+    <element name="reviewsSmallImage">
+        <xpath>//div[@id='$']/div/div/div/ul/li/a/img</xpath>
+    </element>
+
+    <element name="justLaunched">
+        <xpath>//li[contains(@id,'featured-news')]</xpath>
+    </element>
+
+    <element name="justLaunchedImage">
+        <xpath>//li[contains(@id,'featured-news')]['$']/div[1]/a/img</xpath>
+    </element>
+
+    <element name="justLaunchedTitle">
+        <xpath>//li[contains(@id,'featured-news')]['$']/div[2]/a</xpath>
+    </element>
+
+    <element name="justLaunchedMore">
+        <xpath>//li[contains(@id,'featured-news')]['$']/div[3]/p/a</xpath>
+    </element>
+
+    <element name="autoNews">
+        <xpath>//ul[@class='featured-news']/li</xpath>
+    </element>
+
+    <element name="autoNewsTitle">
+        <xpath>//ul[@class='featured-news']/li['$']/a</xpath>
+    </element>
+
+    <element name="autoNewsMore">
+        <xpath>//ul[@class='featured-news']/li['$']/p/a</xpath>
+    </element>
+
+    <element name="video">
+        <xpath>//div[contains(@id,'video')]</xpath>
+    </element>
+
+    <element name="videoImage">
+        <xpath>//div[contains(@id,'video')]['$']/figure/a/img</xpath>
+    </element>
+
+    <element name="videoTitle">
+        <xpath>//div[contains(@id,'video')]['$']/a</xpath>
+    </element>
+
+    <element name="videoMore">
+        <xpath>//div[contains(@id,'video')]['$']/p/a</xpath>
+    </element>
+
+    <element name="fatFooter">
+        <xpath>//div[@class='col-xs-12 fatFooter']/ul[$]/div/a</xpath>
+    </element>
+
+
+</elements>

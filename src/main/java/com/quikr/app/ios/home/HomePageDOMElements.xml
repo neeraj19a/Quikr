@@ -1,0 +1,236 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+ <element name="selectCity">
+     <xpath>//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[1]</xpath>
+     <name>Select City</name>
+ </element>
+    <element name="currentLocation">
+        <name>Current location</name>
+    </element>
+
+    <element name="selectCityFromList">
+        <class>UIAStaticText</class>
+    </element>
+
+    <element name="cityName">
+        <name>Bangalore</name>
+    </element>
+
+    <element name="postAdButton">
+        <name>Post Ad</name>
+    </element>
+
+    <element name="jobsCategory">
+        <name>Jobs</name>
+    </element>
+
+    <element name="jobsSubCategoryFullTimeJobs">
+        <name>Full Time Jobs</name>
+    </element>
+
+    <element name="jobsSubCategoryPartTimeJobs">
+        <name>Part Time Jobs</name>
+    </element>
+
+    <element name="jobsSubCategoryWorkFromHome">
+        <name>Work From Home</name>
+    </element>
+
+    <element name="jobsSubCategoryInternship">
+        <name>Internships</name>
+    </element>
+
+    <element name="Electronics">
+        <name>$</name>
+    </element>
+
+    <element name="laptop">
+        <name>Laptops - Computers</name>
+    </element>
+    
+    <element name="Mobiles">
+        <name>$</name>
+    </element>
+
+    <element name="mobilePhones">
+        <name>Mobile Phones</name>
+    </element>
+
+    <element name="Lifestyle">
+        <name>$</name>
+    </element>
+    
+    <element name="homeAndLifeStyleSubcategoryName">
+        <name>Health - Beauty Products</name>
+    </element>
+
+    <element name="realEstate">
+        <name>Real Estate</name>
+    </element>
+
+    <element name="realEstateSubCategory">
+        <name>Houses - Apartments for Rent</name>
+    </element>
+
+    <element name="realEstateCommercialCategory">
+        <name>COMMERCIAL</name>
+    </element>
+
+    <element name="realEstateAgricultureCategory">
+        <name>AGRICULTURE</name>
+    </element>
+
+    <element name="menuIconButton">
+        <class>UIAButton</class>
+    </element>
+
+    <element name="alertButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="exchangeOldForNew">
+        <name>Exchange Old for New</name>
+    </element>
+
+    <element name="buyCertifiedUsedPhone">
+        <name>Buy Certified Used Phone</name>
+    </element>
+
+    <element name="searchBar">
+        <!--<class>UIASearchBar</class>-->
+        <name>home search icon</name>
+    </element>
+
+    <element name="enterTextInSearchBar">
+        <name>Search</name>
+    </element>
+
+    <element name="searchSuggestionOptionName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[$]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="homeButton">
+        <name>Home</name>
+    </element>
+
+    <element name="chatNowButton">
+        <name>Chat Now</name>
+    </element>
+
+    <element name="UIANavigationBarList">
+        <class>UIANavigationBar</class>
+    </element>
+    <element name="currentSelectedCity">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[1]</xpath>
+        <!--<class>UIAButton</class>-->
+    </element>
+
+    <element name="selectNameForChangeCity">
+       <name>Delhi</name>
+    </element>
+
+    <element name="changeCity">
+        <name>Mumbai</name>
+    </element>
+
+    <element name="don'tAllowButton">
+        <name>Don’t Allow</name>
+    </element>
+
+    <element name="moreButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[5]</xpath>
+        <name>More</name>
+    </element>
+
+    <element name="moreButtonInCategory">
+        <xpath>/UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAButton[1]</xpath>
+        <name>More</name>
+    </element>
+
+    <element name="lessButton">
+        <name>Less</name>
+    </element>
+
+    <element name="accountButton">
+        <name>Account</name>
+    </element>
+
+    <element name="carsAndBikes">
+        <name>Cars &amp; Bikes</name>
+    </element>
+
+    <element name="carsAndBikesSubcategoryNameCars">
+        <name>Cars</name>
+    </element>
+
+    <element name="carsAndBikesSubcategoryNameBikes">
+        <name>Bikes &amp; Scooters</name>
+    </element>
+
+    <element name="quikrXPhones">
+        <name>QuikrX Phones</name>
+    </element>
+
+    <element name="quikrCertifiedPhones">
+        <name>Quikr Certified Phones</name>
+    </element>
+
+    <element name="exchangeOldForNew">
+        <name>Exchange Old for New</name>
+    </element>
+
+    <element name="crossButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAButton[1]</xpath>
+        <name>ic close</name>
+    </element>
+
+    <element name="recentlyViewedAdText">
+        <name>Recently Viewed Ads</name>
+    </element>
+
+    <element name="clickOnRecentlyViewedAd">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]/UIACollectionView[1]/UIACollectionCell[$]</xpath>
+    </element>
+
+    <element name="seeAllButton">
+        <name>See All</name>
+    </element>
+
+    <element name="clickOnQuikrXAd">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]/UIACollectionView[1]/UIACollectionCell[$]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="uiaTableListForQuikrXAd">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]/UIACollectionView[1]</xpath>
+    </element>
+
+    <element name="dismissButton">
+        <xpath>//UIAApplication[1]/UIAWindow[4]/UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[2]/UIAButton[1]</xpath>
+        <name>Dismiss</name>
+    </element>
+
+    <element name="servicesCategory">
+        <name>Services</name>
+    </element>
+
+    <element name="servicesSubcategoryName">
+        <name>Movers &amp; Packers</name>
+    </element>
+
+    <element name="servicesSubcategoryNamePlumber">
+        <name>Plumbers</name>
+    </element>
+
+    <element name="servicesSubcategoryNameCarpenters">
+        <name>Carpenters - Furniture Work</name>
+    </element>
+
+    <element name="uiaTableViewListForCity">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]</xpath>
+    </element>
+
+    <element name="clearButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIASearchBar[1]/UIAButton[1]</xpath>
+        <name>Clear text</name>
+    </element>
+  </elements>

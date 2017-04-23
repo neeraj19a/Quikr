@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="continueAsGuest">
+        <xpath>.//*[@id='continueGuest']</xpath>
+        <id>continueGuest</id>
+    </element>
+
+</elements>

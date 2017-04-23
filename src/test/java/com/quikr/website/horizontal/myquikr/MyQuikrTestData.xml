@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="city">Bangalore</testData>
+    <testData name="cityUrl">bangalore</testData>
+    <testData name="homeUrl">.com</testData>
+    <testData name="emailId">uattest@test123.com</testData>
+    <testData name="password">123456</testData>
+    <testData name="myQuikrUrl">.com</testData>
+    <testData name="postAdSucceedUrl">PostAd/?succeed=</testData>
+    <testData name="adUpdateSuccessMessage">Congratulations!</testData>
+    <testData name="upgradeAdToPremiumUrl">upgrade</testData>
+    <testData name="premiumAdPackageBoth">PREMIUM_BOTH_AD</testData>
+    <testData name="premiumAdPaymentByCheque">PREMIUM_PAYMENT_CHEQUE</testData>
+    <testData name="premiumAdPaymentByOnline">PREMIUM_PAYMENT_ONLINE</testData>
+    <testData name="paymentByChequeConfirmUrl">cheque</testData>
+    <testData name="paymentByOnlineConfirmUrl">citruspay?loadOrderId=</testData>
+    <testData name="repliesToAdUrl">?action=commentads</testData>
+    <testData name="activeAdUrl">?action=activeads</testData>
+    <testData name="locality">Airport</testData>
+    <testData name="forgotPasswordEmail">quikr.auto@gmail.com</testData>
+    <testData name="experience">1 - 3 yrs</testData>
+    <testData name="area">100</testData>
+    <testData name="editAdTitle">It aint what you think niether what he thinks.</testData>
+    <testData name="NonEscrowCity">Guntur</testData>
+    <testData name="EscrowCity">Mumbai</testData>
+    <testData name="PhnNum">9000000001</testData>
+    <testData name="offerPrice">123456</testData>
+    <testData name="emailAddrs">testquikrtest@yopmail.com</testData>
+    <testData name="HomeURL">www.quikr.com/</testData>
+    <testData name="responsiveHPCity">Pune</testData>
+
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Msite Horizontal Suite" thread-count="1" parallel="classes">
+    <test name="Msite Horizontal tests">
+        <groups>
+            <run>
+                <include name="horizontal"></include>
+                <include name="ProdHorizontal"></include>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.quikr.msite.*"></package>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="searchBar">
+        <id>query</id>
+    </element>
+    <element name="searchButton">
+        <xpath>//input[@class='search_button blue'][@value='Search']</xpath>
+    </element>
+
+    <element name="searchBreadcrumb">
+        <xpath>//h3/a</xpath>
+    </element>
+
+    <element name="AdByTitle">
+        <xpath>//h3[@class='adtitlesnb translate']/a</xpath>
+    </element>
+    <element name="searchButton">
+        <xpath>//input[@class='search_button blue']</xpath>
+    </element>
+
+    <element name="AdByTitle">
+        <xpath>//h3[@class='adtitlesnb translate']/a</xpath>
+    </element>
+
+
+    <element name="buyNowOnly">
+        <id>escrowAdBuyNow</id>
+    </element>
+
+    <element name="adSold">
+        <xpath>//div[@class='escrow-sold-now-snb']</xpath>
+    </element>
+
+    <element name="AdByRelavence">
+        <xpath>//div[@class='newsnbbxnoclr snbbox white_box']</xpath>
+    </element>
+
+    <element name="maoButton">
+        <xpath>//input[@class='escrowMakeAnOffer escrow-single-btn escrow-snb-single-box'][@value="Make an Offer"]</xpath>
+    </element>
+    <element name="maoPopUpHeader">
+        <xpath>//div[@class='escrow-make-offer-popup-top-heading']</xpath>
+    </element>
+
+    <element name="buyNowButton">
+        <id>escrowAdBuyNow</id>
+    </element>
+
+
+    <!-- Auction -->
+    <element name="bidButtonSnB">
+        <xpath>//input[@class='bps_bidbtn']</xpath>
+    </element>
+
+    <element name="lastBidPriceSnB">
+        <xpath>//div[@class='bps_price lastBidClass']/span[2]</xpath>
+    </element>
+
+    <element name="auctionLabel">
+        <xpath>//div[@class='bps_time']/span[1]</xpath>
+    </element>
+
+    <element name="bidPopUp">
+        <xpath>//label[contains(text(),'Bid Price')]</xpath>
+    </element>
+
+    <element name="bidPriceTextfield">
+        <xpath>//input[@id='price_quote']</xpath>
+    </element>
+
+    <element name="bidderEmailTextfield">
+        <xpath>//input[@id='email_quote']</xpath>
+    </element>
+
+    <element name="bidderMobileTextfield">
+        <xpath>//input[@id='mobile_quote']</xpath>
+    </element>
+
+    <element name="bidderCityTextfield">
+        <xpath>//input[@id='autocomplete']</xpath>
+    </element>
+    <element name="bidderCitySuggestion">
+        <xpath>//div[@class='autocomplete-suggestion']/strong</xpath>
+    </element>
+
+    <element name="lessThanEnteredBidErrorMsg">
+        <xpath>//div[@class='escrow-make-offer-popup-error-msg esrow-price-pay-now-error']</xpath>
+    </element>
+
+    <element name="placeBid">
+        <xpath>//button[contains(text(),'Place Bid')]</xpath>
+    </element>
+    <element name="bidClose">
+        <xpath>//div[@class='escrow-make-offer-popup-close-btn']/span</xpath>
+    </element>
+
+
+</elements>

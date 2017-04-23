@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="ElectronicsCategory">
+        <xpath>.//ul[@id='menuList']/li//span[starts-with(.,'$')]/..</xpath><!-- replcae $ with name of the category-->
+    </element>
+
+    <element name="LaptopAndComps">
+        <xpath>(//ul[@class='menuListSubCat']/li/a)[1]</xpath><!--Above xpath won't work in case of vernac langs, so this can be used.-->
+    </element>
+
+</elements>

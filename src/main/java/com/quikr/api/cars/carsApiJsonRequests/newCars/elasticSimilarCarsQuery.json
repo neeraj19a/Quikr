@@ -1,0 +1,18 @@
+{
+  "_source": ["car_trim"],
+  "query": {
+    "bool": {
+      "must": [{
+        "term": {
+          "car_segment": "SUV"
+        }
+      }],
+      "must_not": [],
+      "should": []
+    }
+  },
+  "from": 0,
+  "size": 25000,
+  "sort": [],
+  "aggs": {}
+}

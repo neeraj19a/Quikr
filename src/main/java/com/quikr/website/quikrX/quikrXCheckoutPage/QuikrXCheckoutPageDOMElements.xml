@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="continueAsGuest">
+        <xpath>.//*[@id='continueGuest']</xpath>
+        <id>continueGuest</id>
+    </element>
+
+    <element name="fullName">
+        <xpath>.//*[@id='citrusFirstName']</xpath>
+    </element>
+
+    <element name="pinCode">
+        <xpath>.//*[@id='citrusZip']</xpath>
+    </element>
+
+    <element name="address">
+        <xpath>.//*[@id='citrusStreet1']</xpath>
+    </element>
+
+    <element name="phoneNumber">
+        <xpath>.//*[@id='citrusMobile']</xpath>
+    </element>
+
+    <element name="body">
+        <css>body</css>
+    </element>
+
+    <element name="errorOnfullName">
+        <xpath>.//*[@id='citrusFirstName' and @class='payment_form_input required border_error_msg_new_payment']</xpath>
+    </element>
+
+    <element name="errorOnpinCode">
+        <xpath>.//*[@id='citrusZip' and @class='payment_form_input required border_error_msg_new_payment']</xpath>
+    </element>
+
+    <element name="errorOnaddress">
+        <xpath>.//*[@id='citrusStreet1' and @class='payment_form_input required border_error_msg_new_payment']</xpath>
+    </element>
+
+    <element name="errorOnphoneNumber">
+        <xpath>.//*[@id='citrusMobile' and @class='payment_form_input required border_error_msg_new_payment']</xpath>
+    </element>
+
+    <element name="orderSummaryTitle">
+        <xpath>.//*[@id='vap_page']/div/div/div[2]/div[1]/div[1]</xpath>
+        <class>price_left_hold</class>
+    </element>
+
+    <element name="orderSummaryDetails">
+        <xpath>.//div[@class='seller-new-payment-right']</xpath>
+    </element>
+
+    <element name="emailAddress">
+        <xpath>.//*[@id='usEmail']</xpath>
+    </element>
+
+    <element name="continueButton">
+        <xpath>.//*[@id='SignInContinue']/button</xpath>
+        <class>sign_in_new_payment</class>
+    </element>
+
+    <element name="signInOption">
+        <xpath>.//*[@id='FinalSignIn']/button[1]</xpath>
+        <class>sign_in_new_payment</class>
+    </element>
+
+    <element name="passwordOption">
+        <xpath>.//*[@id='userpass']</xpath>
+    </element>
+
+    <element name="continueButtonDeliveryDetails">
+        <xpath>.//*[@id='deliveryDetails']/div[2]/div/div[6]/button</xpath>
+    </element>
+
+    <element name="codOption">
+        <xpath>.//*[@id='paymentDetails']/descendant::a[@href='#cod' and text()='Cash on delivery']</xpath>
+        <linkText>Cash on delivery</linkText>
+    </element>
+
+    <element name="confirmOrderOption">
+        <xpath>.//*[@id='cod']/div[2]/button</xpath>
+    </element>
+
+    <element name="thankYouMessage">
+        <xpath>.//*[@id='vap_page']/div/div/div[1]/div/div/div</xpath>
+        <class>Thanky-title</class>
+    </element>
+
+    <element name="orderPlacedMessage">
+        <xpath>.//*[@id='vap_page']/div/div/div[1]/div/div/p[1]</xpath>
+        <class>Thanky-txt01</class>
+    </element>
+
+    <element name="netbankingoption">
+        <xpath>//a[@href='#netbanking']</xpath>
+    </element>
+
+    <element name="pinError">
+        <xpath>.//*[@id='pin_error']</xpath>
+    </element>
+
+    <element name="chooseBanktitle">
+        <xpath>//*[@id='netbanking']/div[1]/label[text()='Choose your bank']</xpath>
+    </element>
+
+    <element name="chooseBankListing">
+        <xpath>//*[@id='netbanking']/ul/li/label</xpath>
+    </element>
+
+    <element name="chooseBankListDropdown">
+        <xpath>//*[@id='citrusAvailableOptions']</xpath>
+    </element>
+
+    <element name="netBankingPayNowBtn">
+        <xpath>.//*[@id='netbanking']/div[3]/button</xpath>
+    </element>
+
+    <element name="cardoption">
+        <xpath>//a[@href='#card']</xpath>
+    </element>
+
+    <element name="cardTypeDrodpown">
+        <xpath>.//*[@id='citrusCardType']</xpath>
+    </element>
+
+    <element name="cardTypeValue">
+        <class>.//*[@id='citrusCardType']/option[contains(text(),'$')]</class>
+    </element>
+
+    <element name="cardHolderName">
+        <xpath>.//*[@id='citrusCardHolder']</xpath>
+    </element>
+
+    <element name="cardNumber">
+        <xpath>.//*[@id='citrusNumber']</xpath>
+    </element>
+
+    <element name="cardExpiryDate">
+        <xpath>.//*[@id='citrusExpiry']</xpath>
+    </element>
+
+    <element name="cardCvv">
+        <xpath>.//*[@id='citrusCvv']</xpath>
+    </element>
+
+    <element name="cardCvvIcon">
+        <xpath>.//*[@id='card']/div[6]/div/span</xpath>
+    </element>
+
+    <element name="cardPayButton">
+        <xpath>.//*[@id='card']/div[7]/button</xpath>
+    </element>
+
+    <element name="pricechange">
+        <xpath>.//*[@class='seller-price-right-content']/p</xpath>
+    </element>
+
+    <element name="outOfStock">
+        <xpath>.//*[@class='price_right_content']/h3</xpath>
+    </element>
+
+    <element name="moreSellersLink">
+        <xpath>.//*[@class='price_right_content']/p[2]/a</xpath>
+    </element>
+
+    <element name="orderId">
+        <xpath>.//*[@class='Thanky-txt01']/strong</xpath>
+    </element>
+
+    <element name="totalPrice">
+        <xpath>.//*[@id='GrandTotle-Box']/div/div[2]/span/span[2]</xpath>
+    </element>
+
+    <element name="exchangeDiscount">
+        <xpath>.//*[@id='design_div']/div[1]/div[2]/div/div[2]</xpath>
+    </element>
+
+    <element name="itemPrice">
+        <xpath>.//*[@id='design_div']/div[1]/div[1]/div[2]/span</xpath>
+    </element>
+
+    <element name="exchangePrice">
+        <xpath>.//*[@id='design_div']/div[1]/div[2]/div/div[2]</xpath>
+    </element>
+
+    <element name="onlineDicsountDiv">
+        <xpath>.//div[@class='online-discount-block disc-disable']</xpath>
+    </element>
+    
+    <element name="discountAmount">
+        <xpath>.//p[@class='disc-amt']/span</xpath>
+    </element>
+
+    <element name="onlineFinalPrice">
+        <xpath>.//span[@class='fin-amt-price']</xpath>
+    </element>
+
+</elements>

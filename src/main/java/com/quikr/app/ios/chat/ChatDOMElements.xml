@@ -1,0 +1,148 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="chatBox">
+        <class>UIATextView</class>
+    </element>
+
+    <element name="sendButton">
+        <name>Send</name>
+    </element>
+
+    <element name="validateChatText">
+        <!--<name>Sent, Now</name>-->
+        <class>UIAStaticText</class>
+    </element>
+
+    <element name="adToSelect">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAStaticText[2]</xpath>
+    </element>
+
+    <element name="chatAttachButton">
+        <name>Chat Attach</name>
+    </element>
+
+    <element name="shareMyContactButton">
+        <name>Share my contact</name>
+    </element>
+
+    <element name="shareMyLocationButton">
+        <name>Share my location</name>
+    </element>
+
+    <element name="userName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="email">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATextField[$]</xpath>
+    </element>
+
+    <element name="mobileNo">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATextField[$]</xpath>
+    </element>
+
+    <element name="shareButton">
+        <name>Share</name>
+    </element>
+
+    <element name="allowButton">
+        <name>Allow</name>
+    </element>
+
+    <element name="selectShareLocation">
+        <name>A1-Chicken Center</name>
+    </element>
+
+    <element name="msgAfterPressSendButtonWithoutFillDetails">
+        <name>Please enter a chat message</name>
+    </element>
+
+    <element name="msgAfterPressSendButtonWithoutFillingNameAndEmail">
+        <name>Please enter your name</name>
+    </element>
+
+    <element name="msgAfterPressSendButtonWithoutFillingEmail">
+        <name>Please enter your email id</name>
+    </element>
+    <element name="msgAfterEnterIncorrectEmail">
+        <name>Please enter a valid email id</name>
+    </element>
+
+    <element name="crossButton">
+        <name>X</name>
+    </element>
+
+    <element name="allTab">
+        <name>All</name>
+    </element>
+
+    <element name="byOtherTab">
+        <name>By Others</name>
+    </element>
+
+    <element name="byMeTab">
+        <name>By Me</name>
+    </element>
+
+    <element name="clickOnAdTitle">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="myAdUIATableList">
+        <class>UIATableCell</class>
+    </element>
+
+    <element name="deleteButton">
+        <name>Delete icon</name>
+    </element>
+
+    <element name="blockButtonOnMCRScreen">
+        <name>Block icon</name>
+    </element>
+
+    <element name="cannedButton">
+        <name>canned</name>
+    </element>
+
+    <element name="audioRecordingButton">
+        <name>Audio Record Mic Normal</name>
+    </element>
+
+    <element name="cameraButton">
+        <name>Camera</name>
+    </element>
+
+    <element name="textMsgSendButton">
+        <name>Text Message Send</name>
+    </element>
+
+    <element name="msgAfterClickOnShareButtonWithoutFillingAnyDetails">
+        <name>Please enter a valid email id</name>
+    </element>
+
+    <element name="uiaTableViewForMcrScreen">
+        <class>UIATableView</class>
+    </element>
+
+    <element name="deleteIconInMcrScreen">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAButton[1]</xpath>
+        <name>Delete icon</name>
+    </element>
+
+    <element name="blockIconInMcrScreen">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAButton[2]</xpath>
+        <name>Block icon</name>
+    </element>
+
+    <element name="cannedMsg">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[2]</xpath>
+    </element>
+
+    <element name="selectCannedMsgFromCannedMsgList">
+       <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[2]/UIATableCell[2]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="cannedMsgStatus">
+        <name>Sent, Now</name>
+    </element>
+</elements>

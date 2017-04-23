@@ -1,0 +1,287 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="warrantyText">
+        <id>com.quikr:id/activityQuikrXDetailtvAssuranceWarranty</id>
+    </element>
+    <element name="moreButtonHomePAge">
+        <id>com.quikr:id/btn_more</id>
+    </element>
+    <element name="PostAdButtonHomePAge">
+        <id>com.quikr:id/fab_filter</id>
+    </element>
+    <element name="title">
+        <id>com.quikr:id/input_widget</id>
+    </element>
+    <element name="radioButton">
+        <class>android.widget.RadioButton</class>
+    </element>
+    <element name="checkbox">
+        <class>android.widget.CheckBox</class>
+    </element>
+    <element name="postAdTestBox">
+        <id>com.quikr:id/input_widget</id>
+    </element>
+    <element name="postAdDropdowns">
+        <id>com.quikr:id/widget_element</id>
+    </element>
+    <element name="postYourAdButton">
+        <id>com.quikr:id/submit</id>
+    </element>
+    <element name="QuikrStorageCheckBox">
+        <id>android.widget.CheckBox</id>
+    </element>
+    <element name="PostAdKnowMoreEscrowWareHouse">
+        <id>com.quikr:id/escrow_warehouse_text</id>
+    </element>
+    <element name="headerToolBAr">
+        <id>com.quikr:id/toolbar</id>
+    </element>
+    <element name="selectcategoryOnPAP">
+        <id>com.quikr:id/category_widget</id>
+    </element>
+    <element name="localityOptions">
+        <id>com.quikr:id/text</id></element>
+    <element name="homePageVariantCheck">
+        <id>com.quikr:id/ecah_category</id>
+    </element>
+    <element name="PapMSPTEXT">
+        <id>com.quikr:id/msp_Postad_txt</id>
+    </element>
+    <element name="locationOptionNewFormat">
+        <id>com.quikr:id/spinner_itemtext</id>
+    </element>
+    <element name="validatepostAd">
+        <id>com.quikr:id/screen_thank_you_continue</id>
+    </element>
+    <element name="skiplookingForExchange">
+        <id>com.quikr:id/rightButton</id>
+    </element>
+    <element name="color">
+        <name>Color</name>
+    </element>
+    <element name="categoryTitle">
+        <id>com.quikr:id/attribute_title</id>
+    </element>
+    <element name="headerActionBAr">
+        <id>com.quikr:id/action_bar</id>
+    </element>
+    <element name="name">
+        <name>Name</name>
+    </element>
+    <element name="postAdwithContinue">
+        <id>com.quikr:id/txtContinue</id>
+    </element>
+    <element name="postAdStartFresh">
+        <id>com.quikr:id/txtStartFresh</id>
+    </element>
+    <element name="QuikrPositiveAkcnowledgwment">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="minimumPrice">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Minimum Price')])</xpath>
+    </element>
+    <element name="BrandName">
+        <name>Brand Name</name>
+    </element>
+    <element name="mobileNumber">
+        <name>Mobile</name>
+    </element>
+    <element name="hideKeyBordHAndler">
+        <id>com.quikr:id/negative</id>
+    </element>
+    <element name="year">
+        <name>Year</name>
+    </element>
+    <element name="languageChangePAP">
+        <id>com.quikr:id/menu_language_change</id>
+    </element>
+    <element name="popUpMessage">
+        <id>android:id/message</id>
+    </element>
+    <element name="proceedToChangeLAnguage">
+        <id>android:id/button1</id>
+    </element>
+    <element name="proceedToRunScanner">
+        <id>android:id/button1</id>
+    </element>
+    <element name="scannerScoreText">
+        <id>com.quikr:id/tvTestResult</id>
+    </element>
+    <element name="viewScannerReport">
+        <id>com.quikr:id/tvViewReport1</id>
+    </element>
+    <element name="scannerReportHeading">
+        <xpath>(//android.widget.TextView[@contains(@text,"CERTIFICATE OF APPROVAL")])</xpath>
+    </element>
+    <element name="cancelChangingLanguage">
+        <id>android:id/button2</id>
+    </element>
+    <element name="scannerScoreInReport">
+        <id>com.quikr:id/tvTotalScore</id>
+    </element>
+    <element name="headerText">
+        <class>android.widget.TextView</class>
+    </element>
+    <element name="papCatTitle">
+        <id>com.quikr:id/category_title</id>
+    </element>
+    <element name="papEscrowExtraText">
+        <id>com.quikr:id/escrow_extra_text</id>
+    </element>
+    <element name="selectinputMethodPaste">
+        <id>android:id/title</id>
+    </element>
+    <element name="viewMyAd">
+        <id>com.quikr:id/menu_view_Ad</id>
+    </element>
+    <element name="premiumPlanImage1">
+        <id>com.quikr:id/plan1_image</id>
+    </element>
+    <element name="runTestSyncScan">
+        <id>com.quikr:id/btRunTest</id>
+    </element>
+    <element name="maintainPrivacy">
+        <id>com.quikr:id/checkbox_group_container</id>
+    </element>
+    <element name="errorMessagePostAd">
+        <id>android:id/message</id>
+    </element>
+    <element name="snbChat">
+        <id>com.quikr:id/chat_reply_button</id>
+    </element>
+    <element name="postAdHeaderText">
+        <name>Post Free Ad</name>
+    </element>
+    <element name="navigateBAckOnHeader">
+        <name>Navigate up</name>
+    </element>
+    <element name="kmDrivenXpath">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Kms Driven *')])</xpath>
+    </element>
+    <element name="enterPriceXpath">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Price')])</xpath>
+    </element>
+    <element name="enterMinPriceXpath">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Minimum Price')])</xpath>
+    </element>
+    <element name="localityDropdown">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text,'Select your locality')])</xpath>
+    </element>
+    <element name="localityDropdownOne">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text,'Locality')])</xpath>
+    </element>
+    <element name="auctionPeriodDropdownOne">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text,'Run Auction For')])</xpath>
+    </element>
+    <element name="auctionPeriodValue">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/text' and contains(@text,'$')])</xpath>
+    </element>
+    <element name="AdTitleXpath">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Enter Ad title (Min 10 characters) *')])</xpath>
+    </element>
+    <element name="AdDescriptionXpath">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Ad Description (Min 30 characters) *')])</xpath>
+    </element>
+    <element name="enterMobileNumber">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and @text='Mobile *'])</xpath>
+    </element>
+    <element name="enterAuctionAmount">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and @text='Minimum Bid Price *'])</xpath>
+    </element>
+    <element name="enterEmail">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Email *')])</xpath>
+    </element>
+    <element name="enterName">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text,'Name')])</xpath>
+    </element>
+    <element name="noOfSims">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text, 'No Of Sims')])</xpath>
+    </element>
+    <element name="yearOfPurchase">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text, 'Year of Purchase')])</xpath>
+    </element>
+    <element name="invoice">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text, 'Invoice')])</xpath>
+    </element>
+    <element name="defects">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text, 'Defects, If Any')])</xpath>
+    </element>
+    <element name="address">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text, 'Address *')])</xpath>
+    </element>
+    <element name="locality">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text, 'Locality *')])</xpath>
+    </element>
+    <element name="pincode">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text, 'Pincode *')])</xpath>
+    </element>
+    <element name="email">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text, 'Email *')])</xpath>
+    </element>
+    <element name="mobile">
+        <xpath>(//android.widget.EditText[@resource-id='com.quikr:id/input_widget' and contains(@text, 'Mobile *')])</xpath>
+    </element>
+    <element name="errorMessage">
+        <id>com.quikr:id/attribute_error</id>
+    </element>
+
+    <element name="cancellPostingNo">
+        <id>com.quikr:id/negative</id>
+    </element>
+    <element name="cancellPostingYes">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="title">
+        <id>com.quikr:id/container_title</id>
+    </element>
+    <element name="startFreshPostAd">
+        <id>com.quikr:id/txtStartFresh</id>
+    </element>
+    <element name="continuePostAd">
+        <id>com.quikr:id/txtStartFresh</id>
+    </element>
+    <element name="postAdScreen">
+        <id>com.quikr:id/svscreen1</id>
+    </element>
+    <element name="condition">
+        <name>Condition *</name>
+    </element>
+    <element name="brand">
+        <name>Brand Name *</name>
+    </element>
+    <element name="title">
+        <name>Enter Ad title (Min 10 characters) *</name>
+    </element>
+    <element name="description">
+        <name>Ad Description (Min 30 characters) *</name>
+    </element>
+    <element name="Used">
+        <name>Used</name>
+    </element>
+    <element name="categorylist">
+        <id>com.quikr:id/category_subcategory_list</id>
+    </element>
+    <element name="mobilestabletscategory">
+        <name>Mobiles &amp; Tablets</name>
+    </element>
+    <element name="mobilesubcategory">
+        <name>Mobile Phones</name>
+    </element>
+    <element name="papNewCat">
+        <id>com.quikr:id/category_title</id>
+    </element>
+    <element name="PapRadioButton">
+        <id>android.widget.RadioButton</id>
+    </element>
+    <element name="withoutPhoto">
+        <id>com.quikr:id/post_ad_without_photos</id>
+    </element>
+    <element name="adView">
+        <xpath>(//android.webkit.WebView)</xpath>
+    </element>
+    <element name="overlay">
+        <id>com.quikr:id/dialog_overlay_layout</id>
+    </element>
+    <element name="papCategoryDetailsHeader">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/container_title' and contains(@text,'Category Details')])</xpath>
+    </element>
+</elements>

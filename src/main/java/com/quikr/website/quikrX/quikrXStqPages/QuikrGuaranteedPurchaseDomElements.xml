@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="brand">
+        <xpath>.//*[@id='stq_mobile_and_brand_dropdown']/div[1]/div[1]/button</xpath>
+    </element>
+
+    <element name="selectBrand">
+        <xpath>.//*[@id='stq_mobile_and_brand_dropdown']/div[1]/div[1]/ul/li/a[text()='$']</xpath>
+    </element>
+    
+    <element name="model">
+        <xpath>.//*[@id='stq_mobile_and_brand_dropdown']/div[1]/div[2]/button</xpath>
+    </element>
+
+    <element name="selectModel">
+        <xpath>.//*[@id='selectModelMenu']/li/a[text()='$']</xpath>
+    </element>
+    
+    <element name="condition">
+        <xpath>.//*[@id='stq_mobile_and_brand_dropdown']/div[2]/div[1]/button</xpath>
+    </element>
+
+    <element name="selectCondition">
+        <xpath>.//li[@class='selectConditionList']/a[text()='$']</xpath>
+    </element>
+    
+    <element name="city">
+        <xpath>.//*[@id='stq_mobile_and_brand_dropdown']/div[2]/div[2]/button</xpath>
+    </element>
+
+    <element name="selectCity">
+        <xpath>.//*[@id='stq_mobile_and_brand_dropdown']/div[2]/div[2]/ul/li/a[text()='$']</xpath>
+    </element>
+
+
+    <element name="checkPrice">
+        <xpath>.//*[@id='stqgetPriceButton']</xpath>
+    </element>
+
+    <element name="price">
+        <xpath>.//*[@id='getPrice']</xpath>
+    </element>
+
+    <element name="nameField">
+        <id>nameInput</id>
+    </element>
+    
+    <element name="phoneNumber">
+        <id>phoneInput</id>
+    </element>
+    
+    <element name="emailId">
+        <id>emailInput</id>
+    </element>
+    
+    <element name="confirm">
+        <xpath>.//*[@id='stq_confirm_details']</xpath>
+    </element>
+    
+    <element name="primaryCta">
+        <xpath>.//*[@id='quikr_scanner_app_btn']</xpath>
+    </element>
+
+    <element name="howDoesItWork">
+        <class>how_works_hold</class>
+    </element>
+
+</elements>

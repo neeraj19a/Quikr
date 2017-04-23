@@ -1,0 +1,158 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+   <element name="more">
+       <id>com.quikr:id/btn_more</id>
+   </element>
+    <element name="makeAnOfferORChat">
+        <id>com.quikr:id/button</id>
+    </element>
+    <element name="sort">
+        <name>Sort</name>
+    </element>
+    <element name="offerPrice">
+        <id>com.quikr:id/price</id>
+    </element>
+    <element name="MakeAnOffer">
+        <id>com.quikr:id/makeoffer</id>
+    </element>
+    <element name="cancle">
+        <name>Cancel</name>
+    </element>
+    <element name="makeAnofferEmail>">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="MakeAnOfferMobileNumber">
+        <id>com.quikr:id/mobile</id>
+    </element>
+    <element name="submitOffer">
+        <id>com.quikr:id/submit_button</id>
+    </element>
+    <element name="offerHintText">
+        <id>com.quikr:id/hint_message</id>
+    </element>
+    <element name="offeredMessage">
+        <id>com.quikr:id/chat_message</id>
+    </element>
+    <element name="editOffer">
+        <name>Edit Offer</name>
+    </element>
+    <element name="withdrawOffer">
+        <name>Withdraw Offer</name>
+    </element>
+    <element name="oldOfferedPrice">
+        <id>com.quikr:id/old_price</id>
+    </element>
+    <element name="editedOfferedPrice">
+        <id>com.quikr:id/edit_offer_price</id>
+    </element>
+    <element name="sendEditedOffer">
+        <id>com.quikr:id/edit_offer</id>
+    </element>
+    <element name="cancleEditOffer">
+        <id>com.quikr:id/cancel_offer</id>
+    </element>
+    <element name="offerAcknowledgementTitle">
+        <id>com.quikr:id/title</id>
+    </element>
+    <element name="positiveAcknowledgemnet">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="validateMakeAnOfferPage">
+        <id>com.quikr:id/price</id>
+    </element>
+    <element name="makeAnOfferSnb">
+        <id>com.quikr:id/txtMAO</id>
+    </element>
+    <element name="makeAnOfferListedPrice">
+        <id>com.quikr:id/ad_price</id>
+    </element>
+    <element name="MakeAnOfferVAP">
+        <id>com.quikr:id/screen_vap_ad_makeanoffer</id>
+    </element>
+    <element name="VApBuy">
+        <id>com.quikr:id/screen_vap_ad_buy_now</id>
+    </element>
+    <element name="termsAndConditions">
+        <id>com.quikr:id/screen_register_tnc_text</id>
+    </element>
+    <element name="MakeAnOfferSelectCity">
+        <id>android:id/text1</id>
+    </element>
+    <element name="makeAnOfferFromChat">
+        <name>Make an Offer</name>
+    </element>
+    <element name="vapChat">
+        <id>com.quikr:id/screen_vap_ad_chat</id>
+    </element>
+    <element name="sendOfferFromChat">
+        <id>com.quikr:id/send_offer_text</id>
+    </element>
+    <element name="chatOfferPrice">
+        <id>com.quikr:id/offer_price</id>
+    </element>
+    <element name="navigteback">
+        <name>Navigate up</name>
+    </element>
+    <element name="LowTouchText">
+        <id>com.quikr:id/privacyMakeText</id>
+    </element>
+    <element name="escrowVApCurrentCity">
+        <id>com.quikr:id/escrow_current_cities</id>
+    </element>
+    <element name="escrowFilterApply">
+        <id>com.quikr:id/escrow_filter_Apply</id>
+    </element>
+    <element name="escrowSnbAdTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+    <element name="cashBackVAlue">
+        <id>com.quikr:id/cashback_value</id>
+    </element>
+    <element name="vapAdDescription">
+        <id>com.quikr:id/description</id>
+    </element>
+    <element name="WscrowvapPrice">
+        <id>com.quikr:id/screen_vap_parent_price</id>
+    </element>
+    <element name="snbSortAndAlert">
+        <id>com.quikr:id/menu_item_text</id>
+    </element>
+    <element name="sortOptions">
+        <class>android.widget.RadioButton</class>
+    </element>
+    <element name="filterLocalities">
+        <id>com.quikr:id/filter_subheading_id</id>
+    </element>
+    <element name="snbLocality">
+        <id>com.quikr:id/attrs</id>
+    </element>
+    <element name="snbDateOrTimeOfCreation">
+        <id>com.quikr:id/thecreated</id>
+    </element>
+    <element name="selectSubCatMobiles">
+        <id>com.quikr:id/mobile_sub_cat</id>
+    </element>
+    <element name="quikrScannerTested">
+        <xpath>(//android.widget.Switch[contains(@text,'QuikrScanner Tested OFF')])</xpath>
+    </element>
+    <element name="applyFilter">
+        <id>com.quikr:id/submit</id>
+    </element>
+    <element name="snbOverlay">
+        <id>com.quikr:id/dialog_overlay_layout</id>
+    </element>
+    <element name="sortDropDownOPtions">
+        <id>com.quikr:id/sort_item</id>
+    </element>
+    <element name="selecctLocalityFilter">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/widget_element' and contains(@text,'$')])</xpath>
+    </element>
+    <element name="electronicsCategoryNAme">
+        <id>com.quikr:id/category_name</id>
+    </element>
+    <element name="titlebar">
+        <id>com.quikr:id/toolbar</id>
+    </element>
+    <element name="popularProductImage">
+        <id>com.quikr:id/product_img</id>
+    </element>
+</elements>

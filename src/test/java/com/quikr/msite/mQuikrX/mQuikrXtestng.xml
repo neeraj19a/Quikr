@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QuikrX Tests Suite" verbose="1" annotations="JDK" thread-count="1" parallel="classes">
+
+    <test name="QuikrX Page Validation">
+        <classes>
+            <class name="com.quikr.msite.mQuikrX.mQuikrXCartTests.mQuikrXCartTest"></class>
+            <class name="com.quikr.msite.mQuikrX.mQuikrXDetailsPage.MQuikrXDetailsPageTests"></class>
+            <class name="com.quikr.msite.mQuikrX.mQuikrXLandingPage.MQuikrXLandingPageTests"></class>
+            <class name="com.quikr.msite.mQuikrX.mQuikrXListing.MQuikrXListingPageTests"></class>
+        </classes>
+
+    </test>
+
+</suite>

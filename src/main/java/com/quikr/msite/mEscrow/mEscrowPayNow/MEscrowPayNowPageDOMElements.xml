@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="letscompleteorder">
+        <xpath>//h1[contains(text(),' Hello! let’s complete your order')]</xpath>
+    </element>
+
+    <element name="initiatePayment">
+        <xpath>//button[@class='payment-active-btn']</xpath>
+    </element>
+
+    <element name="RecieverName">
+        <id>u_name</id>
+    </element>
+
+    <element name="Address">
+        <id>u_address</id>
+    </element>
+
+    <element name="Pincode">
+        <id>u_pincode</id>
+    </element>
+    <element name="MobileNo">
+        <xpath>//input[@id='u_number']</xpath>
+    </element>
+    <element name="DeliverButton">
+        <xpath>//div[@class='deliver-btn-wrap marleft26']/button</xpath>
+    </element>
+
+    <element name="SkipOnsite">
+        <xpath>//span[@id='skip-btn']/button</xpath>
+    </element>
+
+    <element name="paymentHeading">
+        <xpath>//h1[contains(text(),'Select payment type')]</xpath>
+    </element>
+    <element name="CardTypeDropdown">
+        <xpath>//select[@id='citrusCardType']</xpath>
+    </element>
+    <element name="CardTypeOptions">
+        <xpath>//option[@class='heg']</xpath>
+    </element>
+    <element name="cardNo">
+        <id>citrusNumber</id>
+    </element>
+    <element name="NameOnCard">
+        <id>citrusCardHolder</id>
+    </element>
+    <element name="ExpiryDate">
+        <id>citrusExpiry</id>
+    </element>
+    <element name="Cvv">
+        <id>citrusCvv</id>
+    </element>
+    <element name="PayNow">
+        <id>pay_now_using_card</id>
+    </element>
+
+    <!--in return add contains(Payment successfull)-->
+    <element name="TransactionSuccessMsg">
+        <xpath>//div[@class='ps-heading']</xpath>
+    </element>
+
+    <element name="TransactionId">
+        <xpath>//div[@class='ps_transid']/span</xpath>
+    </element>
+
+    <!--in return parse to Integer You paid
+     <span>₹ </span>
+    45678.00-->
+    <element name="netPayableAmount">
+        <xpath>//div[@class='net-price-txt']</xpath>
+    </element>
+
+    <element name="ContinueLoginButton">
+        <xpath>//button[@class='payment-active-btn']</xpath>
+    </element>
+
+</elements>

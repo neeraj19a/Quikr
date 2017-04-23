@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="itemName">
+        <xpath>.//div[@class='col-lg-8 pad0']/div[2]/div[1]/h1/span</xpath>
+    </element>
+
+    <element name="itemPrice">
+        <xpath>.//div[@class='col-lg-8 pad0']/div[2]/div[1]/div/div[1]</xpath>
+    </element>
+
+    <element name="priceBeforeDisc">
+        <xpath>.//div[@class='col-lg-8 pad0']/div[2]/div[1]/div/span[1]</xpath>
+    </element>
+
+    <element name="discPercentage">
+        <xpath>.//div[@class='col-lg-8 pad0']/div[2]/div[1]/div/span[2]</xpath>
+    </element>
+
+    <element name="imageRightIcon">
+        <xpath>.//*[@id='product_detail_slider']/div[2]/div[1]/div[2]/div</xpath>
+    </element>
+
+    <element name="imageLeftIcon">
+        <xpath>.//*[@id='product_detail_slider']/div[2]/div[1]/div[1]/div</xpath>
+    </element>
+
+    <element name="extendedWarrantyDiv">
+        <class>onsite_assurance_hold</class>
+    </element>
+
+    <element name="selectEctendedWaranty">
+        <xpath>.//*[@id='extended-warranty-checkbox']</xpath>
+    </element>
+
+    <element name="quikrCertifiedNote">
+        <class>verified_animation_hold</class>
+    </element>
+
+    <element name="unboxedMeans">
+        <xpath>.//div[@class='unboxed_hold row']/p</xpath>
+    </element>
+
+    <element name="techSpecsDiv">
+        <xpath>.//*[@id='techSpecs']/div</xpath>
+    </element>
+
+    <element name="footerDiv">
+        <xpath>.//div[@class='row']</xpath>
+    </element>
+
+    <element name="mailUs">
+        <class>mail_fixed</class>
+    </element>
+
+    <element name="callUs">
+        <class>call_fixed</class>
+    </element>
+
+    <element name="addToCart">
+        <xpath>.//button[contains(@onclick,'$')]</xpath>
+    </element>
+
+    <element name="primarySeller">
+        <xpath>.//div[@class='details_sold_by_hold_head']/h3</xpath>
+    </element>
+
+    <element name="reccommendedDiv">
+        <class>recommend_slider_hold</class>
+    </element>
+
+    <element name="pincodeBox">
+        <id>pincodeInput</id>
+    </element>
+
+    <element name="firstModel">
+        <xpath>.//*[@id='selectModelMenu']/li[2]/a</xpath>
+    </element>
+
+    <element name="body">
+        <xpath>//html/body</xpath>
+    </element>
+    
+    <element name="pincodeButton">
+        <id>pincodeBtn</id>
+    </element>
+
+    <element name="callUsText">
+        <xpath>.//a[@class='call_fixed']/span[2]</xpath>
+    </element>
+
+    <element name="mailUsText">
+        <xpath>.//a[@class='mail_fixed']/span[2]</xpath>
+    </element>
+
+    <element name="pinocodeMessage">
+        <id>pincodeInputErr</id>
+    </element>
+    
+    <element name="iHavePhoneToExchange">
+        <id>.//*[@id='newOrderTab']</id>
+    </element>
+
+    <element name="iDontHavePhoneToExchange">
+        <id>newOrderTab</id>
+    </element>
+    
+    <element name="brandDropDown">
+       <xpath>.//ul[@class='dropdown-menu']/li[contains(a,'$')]</xpath>
+    </element>
+    
+    <element name="modelDropDown">
+       <xpath>.//ul[@id='selectModelMenu']/li[contains(a,'$')]</xpath>
+    </element>
+
+    <element name="brandDropDownHolder">
+        <xpath>.//*[@id='brandsModelsStepBox']/div[1]/button</xpath>
+    </element>
+
+    <element name="modelDropDownHolder">
+        <xpath>.//*[@id='brandsModelsStepBox']/div[2]/button</xpath>
+    </element>
+
+    <element name="moreSellerDiv">
+        <xpath>.//*[@id='sellersList']/div</xpath>
+    </element>
+
+    <element name="primaryAddToCartButton">
+        <xpath>.//div[@class='add_cart_detail_hold row']/button[@class='btn']</xpath>
+    </element>
+
+    <element name="exchangePrimaryCartButton">
+        <xpath>.//*[@id='addToCartBox']/button</xpath>
+    </element>
+
+    <element name="pincodeToolTip">
+        <xpath>.//*[@id='goToPincodeInput']/div[3]</xpath>
+    </element>
+
+    <element name="exchangeItemPrice">
+        <xpath>.//*[@id='exchangeDiscountTxt']</xpath>
+    </element>
+
+    <element name="priceAfterExchange">
+        <xpath>.//*[@id='finalPriceTxt']</xpath>
+    </element>
+
+    <element name="certifiedGraphicsDiv">
+        <class>verified_animation_hold</class>
+    </element>
+
+    <element name="exchangeDiv">
+        <xpath>.//*[@id='exchangeOrderTab']</xpath>
+    </element>
+    
+    <element name="certifiedTextLink">
+        <xpath>.//p[@class='cert-pop-link']</xpath>
+    </element>
+
+    <element name="certifiedToolTip">
+        <xpath>.//div[@class='cert-popover']/div[2]/p</xpath>
+    </element>
+
+    <element name="qualityCheckList">
+        <xpath>.//ul[@class='quality-checks']/li</xpath>
+    </element>
+
+    <element name="certifiedImg">
+        <xpath>.//span[@class='product_list_sprite quikr_certifed_badge_img']</xpath>
+    </element>
+
+    <element name="seeMoreLink">
+        <xpath>.//button[@class='btn btn-trans btn-more-chks']</xpath>
+    </element>
+
+    <element name="sellerCount">
+        <xpath>.//*[@id='sellersList']/div/h3</xpath>
+    </element>
+
+    <element name="itemoos">
+        <class>out-head</class>
+    </element>
+
+    <element name="goodRadioButton">
+         <xpath>.//*[@id='goodCondStepBox']/div[1]/label/span</xpath>
+    </element>
+
+    <element name="badRadioButton">
+         <xpath>.//*[@id='goodCondStepBox']/div[2]/label/span</xpath>
+    </element>
+
+    <element name="yesInHand">
+        <xpath>.//*[@id='holdingPhoneStepBox']/div[1]/label/span</xpath>
+    </element>
+
+    <element name="noInHand">
+        <xpath>.//*[@id='holdingPhoneStepBox']/div[2]/label/span</xpath>
+    </element>
+
+    <element name="syncAndScan">
+        <xpath>.//*[@id='trueValueAppLink']</xpath>
+    </element>
+
+    <element name="exchangeError">
+        <xpath>.//*[@id='goodConditionErr']</xpath>
+    </element>
+
+</elements>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="purchaseYearDropdown">
+        <id>Purchase_Year_newpap</id>
+    </element>
+
+    <element name="purchaseYearValues">
+        <xpath>//div[@id='Purchase_Year_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="brandNameDropDown">
+        <id>Brand_name_newpap</id>
+    </element>
+
+    <element name="brandNameValues">
+        <xpath>//div[@id='Brand_name_newpap_checkbox_container']/div[2]/div/label/input</xpath>
+    </element>
+
+    <element name="operatingSystemDropDown">
+        <id>Operating_system_newpap</id>
+    </element>
+
+    <element name="operatingSystemValues">
+        <xpath>//div[@id='Operating_system_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="numberOfSims">
+        <id>No_of_Sims_newpap</id>
+    </element>
+
+    <element name="simCount">
+        <xpath>//div[@id='No_of_Sims_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="accessoryType">
+        <xpath>//Select[@id='Accessory_Type_newpap']</xpath>
+    </element>
+
+    <element name="accessoryTypeValues">
+        <xpath>//div[@id='Accessory_Type_l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="adIdString">
+        <xpath>//div[@class='thnksMsg']/span</xpath>
+    </element>
+
+    <element name="skipLinkAfterPostAd">
+        <xpath>.//*[@id='skip-link']/a</xpath>
+    </element>
+
+    <element name="modelType">
+        <id>Model_newpap</id>
+    </element>
+
+    <element name="modelTypeValues">
+        <xpath>//div[@id='Model_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+</elements>

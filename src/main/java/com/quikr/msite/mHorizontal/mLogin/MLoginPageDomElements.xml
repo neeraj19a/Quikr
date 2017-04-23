@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="EmailTextField">
+        <id>fullnameFromPopUp</id>
+    </element>
+
+    <element name="PasswordTextField">
+        <id>password</id>
+    </element>
+
+    <element name="LoginButton">
+        <xpath>//button[@name='submit']</xpath>
+    </element>
+
+    <element name="LoginToMyAccText">
+        <xpath>//h2[@class='mt15 txt-cent w233']</xpath>
+    </element>
+
+    <element name="ForgotPasswordLink">
+        <xpath>//a[@title='Forgot your Password?']</xpath>
+    </element>
+
+</elements>

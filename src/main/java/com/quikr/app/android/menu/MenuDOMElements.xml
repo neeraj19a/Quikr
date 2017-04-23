@@ -1,0 +1,201 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="menuIcon">
+        <name>Open Drawer</name>
+    </element>
+    <element name="menuList">
+        <id>com.quikr:id/layout_drawer_list_item_header</id>
+    </element>
+    <element name="appVersion">
+        <id>com.quikr:id/txtVersion</id>
+    </element>
+    <element name="BuyRadioButton">
+        <class>android.widget.RadioButton</class>
+    </element>
+    <element name="selectCategory">
+        <class>android.widget.Spinner</class>
+    </element>
+    <element name="mspCategory">
+        <id>android:id/text1</id>
+    </element>
+    <element name="subcategory">
+        <name>Select Sub-Category</name>
+    </element>
+    <element name="mspValidate">
+        <id>com.quikr:id/layout_msp_header_text</id>
+    </element>
+    <element name="recentlyviewedpage">
+        <id>com.quikr:id/my_account</id>
+    </element>
+    <element name="recentlyViewdAdtitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+    <element name="quikrlogo">
+        <id>com.quikr:id/quikr_logo</id>
+    </element>
+    <element name="postAd">
+        <name>Post Free Ad</name>
+    </element>
+    <element name="YesOnRateUs">
+        <id>com.quikr:id/txtYesBtn</id>
+    </element>
+    <element name="redirectToPlayStore">
+        <id>com.android.vending:id/callout</id>
+    </element>
+
+    <element name="myShortlist">
+        <name>Shortlisted Ads</name>
+    </element>
+
+    <element name="adTitle">
+        <name>com.quikr:id/thetitle</name>
+    </element>
+
+    <element name="inactiveButton">
+        <id>com.quikr:id/expiredAdsText</id>
+    </element>
+
+    <element name="rePostButton"
+            ><id>com.quikr:id/repost</id>
+    </element>
+    <element name="premium">
+        <id>com.quikr:id/snb_premium_band</id>
+    </element>
+    <element name="inspected">
+        <id>com.quikr:id/imgInspected</id>
+    </element>
+
+    <element name="openAdOfRecommendedForU">
+        <id>com.quikr:id/content</id>
+    </element>
+    <element name="MakePreimum">
+        <id>com.quikr:id/makePremium</id>
+    </element>
+    <element name="compareCheckBox">
+    <id>com.quikr:id/compareCheckbox</id>
+    </element>
+    <element name="compare">
+        <id>com.quikr:id/compareButton</id>
+    </element>
+    <element name="removeShortlistedAd">
+        <id>com.quikr:id/removeAd</id>
+    </element>
+    <element name="compareAdOneText">
+        <id>com.quikr:id/compare_ad1_textview</id>
+    </element>
+    <element name="compareAdTwoText">
+        <id>com.quikr:id/compare_ad2_textview</id>
+    </element>
+    <element name="Mobile">
+        <name>Mobile Phones</name>
+    </element>
+    <element name="cras">
+        <name>Cars</name>
+    </element>
+    <element name="comparePage">
+        <name>Compare</name>
+    </element>
+    <element name="compareAttributes">
+        <id>com.quikr:id/compare_item_name</id>
+    </element>
+    <element name="compareAdImage1">
+        <id>com.quikr:id/compare_ad1_imageview</id>
+    </element>
+    <element name="compareAdImage2">
+        <id>com.quikr:id/compare_ad2_imageview</id>
+    </element>
+    <element name="CompareErrorMsg">
+        <id>com.quikr:id/msg</id>
+    </element>
+    <element name="MyAds">
+        <name>My Ads</name>
+    </element>
+    <element name="matchingAdsMyAlert">
+        <id>android:id/text1</id>
+    </element>
+    <element name="appversion">
+        <name>About Quikr</name>
+    </element>
+    <element name="termsAndConditions">
+        <id>com.quikr:id/tnctext</id>
+    </element>
+    <element name="privacyPolicy">
+        <id>com.quikr:id/privacy_policy</id>
+    </element>
+    <element name="msp">
+        <name>Check Product MSP</name>
+    </element>
+    <element name="mspPage">
+        <id>com.quikr:id/layout_msp_header_text</id>
+    </element>
+    <element name="activeAds">
+        <id>com.quikr:id/activeAdsText</id>
+    </element>
+    <element name="inactiveAds">
+        <id>com.quikr:id/expiredAdsContainer</id>
+    </element>
+    <element name="Shortlistedpage">
+        <name>Shortlisted Ads</name>
+    </element>
+    <element name="menuChatBox">
+        <name>My Chats</name>
+    </element>
+    <element name="menuListCahngeCity">
+        <id>com.quikr:id/ncitySelectSpinner</id>
+    </element>
+    <element name="chatButton">
+        <id>com.quikr:id/button</id>
+    </element>
+
+    <element name="customerCareNumber">
+        <id>com.quikr:id/number</id>
+    </element>
+    <element name="feedback">
+        <name>Feedback</name>
+    </element>
+    <element name="shareViaGmail">
+        <name>Gmail</name>
+    </element>
+    <element name="justOnceButton">
+        <!--<id>android:id/button_once</id>-->
+        <name>Just once</name>
+    </element>
+    <element name="gmailText">
+        <id>com.google.android.gm:id/body</id>
+    </element>
+    <element name="textView">
+        <class>android.widget.TextView</class>
+    </element>
+    <element name="makeAnOffer">
+        <id>com.quikr:id/txtRequestOffer</id>
+    </element>
+    <element name="getMoreResponses">
+        <id>com.quikr:id/txtGetMoreResponse</id>
+    </element>
+    <element name="announceChatAvailability">
+        <id>com.quikr:id/gmr_announce_availability_button</id>
+    </element>
+    <element name="Done">
+        <id>com.quikr:id/gmr_shareYLoc_text</id>
+    </element>
+    <element name="menuIconActiveAds">
+        <id>com.quikr:id/menuIcon</id>
+    </element>
+    <element name="moveToTop">
+        <id>com.quikr:id/txtMoveToTop</id>
+    </element>
+    <element name="moveToTopSuccessMsg">
+        <id>com.quikr:id/msg</id>
+    </element>
+    <element name="moveToTopOkButton">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="adsTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+    <element name="framelayoutTitle">
+        <class>android.widget.FrameLayout</class>
+    </element>
+    <element name="titlebar">
+        <id>com.quikr:id/toolbar</id>
+    </element>
+</elements>

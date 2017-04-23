@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="selectcity">
+        <xpath>.//*[@id='main-container']/div[2]/div[1]/div[2]/div/div[1]</xpath>
+    </element>
+
+    <element name="citySelect">
+        <xpath>//*[@id='cityCont']/div[3]/ul[1]/li[2]/a</xpath>
+    </element>
+
+    <element name="Houseapartments">
+        <xpath>.//*[@class='subcat_heading']</xpath>
+    </element>
+
+    <element name="quikrHomesCitySelect">
+        <css>.popular_city_agnostic</css>
+    </element>
+
+    <element name="quikrHomesSearchBox">
+        <xpath>//input[@name='searchHomes']</xpath>
+    </element>
+
+    <element name="quikrHomesSearchBox_autosuggestion">
+        <xpath>.//*[starts-with(@id,'typeahead')]/a</xpath>
+    </element>
+
+    <element name="SelectCityDropDownIcon">
+        <css>.city_search_img</css>
+    </element>
+
+    <element name="quikrHomesselectcity">
+        <xpath>.//a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="loginQuikrHomes">
+        <css>.icon.icon-basic-user1</css>
+    </element>
+
+    <element name="loginPopUpQuikrHomes">
+        <css>.login-with-facebook.ng-scope>p</css>
+    </element>
+
+    <element name="afterLoginImage">
+        <css>.signed-in-link.dropdown-toggle>img</css>
+    </element>
+
+    <element name="PostFreeAdbutton">
+        <css>.btn.btn-default.postadbtn</css>
+    </element>
+
+    <element name="basicinformation_typeofad">
+        <xpath>.//*[@id='ttt']/a</xpath>
+    </element>
+
+    <element name="typeofad_sell">
+        <xpath>.//*[@id='ttt']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="basicinformation_city">
+        <id>ad_city</id>
+    </element>
+
+    <element name="basicinformation_project">
+        <id>adProject</id>
+    </element>
+
+    <element name="basicinformation_TypeofProperty">
+        <xpath>.//i[contains(@class,'fa icon-apartment')]</xpath>
+    </element>
+
+    <element name="basicinformation_area">
+        <id>property_area</id>
+    </element>
+
+    <element name="basicinformation_saleprice">
+        <id>sellingPrice</id>
+    </element>
+
+    <element name="basicinformation_rate">
+        <id>ratePerSqft</id>
+    </element>
+
+    <element name="basicinformation_Locality">
+        <id>adLocality</id>
+    </element>
+
+    <element name="propertydetails_Streetaddress">
+        <id>ad_StreetAddress</id>
+    </element>
+
+    <element name="basicinformation_continue">
+        <xpath>//button[contains(@class,'btn btn-dark papcpbtn')]</xpath>
+    </element>
+
+    <element name="propertydetails_bedroom">
+        <xpath>.//a[contains(@class,'ng-binding') and @ng-bind='key']</xpath>
+    </element>
+
+    <element name="propertydetails_bathroom">
+        <xpath>.//*[@id='bathroom']/a</xpath>
+    </element>
+
+    <element name="propertydetails_numberofbathroom">
+        <xpath>.//*[@id='bathroom']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="propertydetails_balcony">
+        <xpath>.//*[@id='balcony']/a</xpath>
+    </element>
+
+    <element name="propertydetails_numberofbalcony">
+        <xpath>.//*[@id='balcony']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="propertydetails_floorNumber">
+        <id>floorNumber</id>
+    </element>
+
+    <element name="propertydetails_availablefrom">
+        <xpath>.//button[contains(@ng-click,'openDatePicker($event)')]</xpath>
+    </element>
+
+    <element name="propertydetails_buildingname">
+        <id>unitTower</id>
+    </element>
+
+    <element name="propertydetails_flatnumber">
+        <id>unitNo</id>
+    </element>
+
+    <element name="propertydetails_unitfacing">
+        <xpath>//a[starts-with(.,"Pool")]</xpath>
+    </element>
+
+    <element name="propertydetails_communityfeatures">
+        <xpath>//button[contains(@tooltip,'Gated Community')]</xpath>
+    </element>
+
+    <element name="propertydetails_unitfeatures">
+        <xpath>//button[contains(@tooltip,"Air Conditioner")]</xpath>
+    </element>
+
+    <element name="propertydetails_continue">
+        <xpath>.//*[@id='pap']/form/div/div[2]/div[2]/div/div[8]/div/button</xpath>
+    </element>
+
+    <element name="photomedia_adtitle">
+        <xpath>//input[contains(@name,'adTitle')]</xpath>
+    </element>
+
+    <element name="photomedia_addescription">
+        <xpath>//textarea[contains(@name,'adDesc')]</xpath>
+    </element>
+
+    <element name="photomedia_continue">
+        <xpath>.//*[@id='pap']/form/div/div[2]/div[3]/div/div[4]/div/button</xpath>
+    </element>
+
+    <element name="postad_message">
+        <xpath>.//div[contains(@class,'col-xs-12')]/h2</xpath>
+    </element>
+
+    <element name="snb_filter">
+        <xpath>.//*[@id='snb-filters-wrap']</xpath>
+    </element>
+
+    <element name="carousel">
+        <class>carousel-indicators</class>
+    </element>
+
+    <element name="sliderPath">
+        <xpath>//ol[@class='carousel-indicators']/li[$][contains(@class,'active')]</xpath>
+    </element>
+
+    <element name="property_type">
+        <xpath>.//*[@id='snb-filters-wrap']/div[1]/div/a</xpath>
+    </element>
+
+    <element name="budget">
+        <xpath>.//*[@id='snb-filters-wrap']/div[2]/div/a</xpath>
+    </element>
+
+    <element name="beds">
+        <xpath>.//*[@id='snb-filters-wrap']/div[3]/div</xpath>
+    </element>
+
+    <element name="Area">
+        <xpath>.//*[@id='snb-filters-wrap']/div[4]/div/a</xpath>
+    </element>
+
+    <element name="postedby">
+        <xpath>.//*[@id='snb-filters-wrap']/div[6]/div/a</xpath>
+    </element>
+
+    <element name="google_maps_div">
+        <xpath>.//*[@id='map_canvas']</xpath>
+    </element>
+
+    <element name="google_maps_attributes">
+        <xpath>.//*[@id='map_canvas']/div/div[1]</xpath>
+    </element>
+
+    <element name="google_maps_inner_div">
+        <xpath>.//*[@id='map_canvas']/div/div</xpath>
+    </element>
+
+    <element name="quikhomes_replyads">
+        <xpath>//a[contains(@ng-click,'replyPopup')]/ancestor::div[contains(@class,'listing-single-item')]/div/div[1]/a</xpath>
+    </element>
+
+
+</elements>
+

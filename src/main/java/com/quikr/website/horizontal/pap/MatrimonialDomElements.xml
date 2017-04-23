@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <!--Groom and Brides Locators-->
+
+    <element name="age">
+        <id>Age_newpap</id>
+    </element>
+
+    <element name="height">
+        <id>Height_newpap</id>
+    </element>
+
+    <element name="marital_Status">
+        <id>Marital_Status_newpap</id>
+    </element>
+
+    <element name="religion">
+        <id>Religion_newpap</id>
+    </element>
+
+    <element name="mother">
+        <id>Mother_Tongue</id>
+    </element>
+
+    <element name="education_Qualification">
+        <id>Education_Qualification_newpap</id>
+    </element>
+
+    <element name="current_Occupation">
+        <id>Current_Occupation_newpap</id>
+    </element>
+
+    <element name="sun_Sign">
+        <id>Sun_Sign_newpap</id>
+    </element>
+
+    <element name="nakshatra">
+        <id>Nakshatra_newpap</id>
+    </element>
+
+</elements>
+

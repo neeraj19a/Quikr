@@ -1,0 +1,72 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="calculateMsp">
+        <name>Calculate MSP</name>
+    </element>
+
+    <element name="carsTab">
+        <name>Cars</name>
+    </element>
+
+    <element name="bikesTab">
+        <name>Bikes</name>
+    </element>
+
+    <element name="imaTab">
+        <name>I'm a</name>
+    </element>
+
+    <element name="brandNameTab">
+        <name>Brand Name</name>
+    </element>
+
+    <element name="modelNameTab">
+        <name>Model Name</name>
+    </element>
+
+    <element name="yearOfMakeTab">
+        <name>Year Of Make</name>
+    </element>
+
+    <element name="VariantTab">
+        <name>Variant</name>
+    </element>
+
+    <element name="kmsDrivenTab">
+        <name>Km's Driven</name>
+    </element>
+    
+    <element name="checkMspTab">
+        <name>Check MSP</name>
+    </element>
+
+    <element name="clickOnRequiredSearchOptionName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[$]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="setTextInSearchBox">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIASearchBar[1]</xpath>
+        <name>Search</name>
+    </element>
+
+    <element name="mspResult">
+        <name>MSP Result</name>
+    </element>
+
+    <element name="calculatingMspAgain">
+        <name>Calculate MSP Again</name>
+    </element>
+
+    <element name="clickOnModelNameOnMspPage">
+        <name>Model Name</name>
+    </element>
+
+    <element name="mspButtonForBike">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[5]/UIAButton[1]</xpath>
+        <name>Check MSP</name>
+    </element>
+
+    <element name="postAdFreeButton">
+        <name>Post Free Ad</name>
+    </element>
+</elements>

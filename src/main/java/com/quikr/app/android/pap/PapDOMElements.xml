@@ -1,0 +1,464 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="adTitle">
+        <id>com.quikr:id/ad_title</id>
+    </element>
+    <element name="AdDescription">
+        <id>com.quikr:id/ad_desc</id>
+    </element>
+    <element name="location">
+        <id>com.quikr:id/location</id>
+    </element>
+    <element name="papNextpage">
+        <id>com.quikr:id/next</id>
+    </element>
+    <element name="localityOptions">
+        <id>com.quikr:id/text</id></element>
+    <element name="PapCategory">
+        <id>com.quikr:id/metacategory</id></element>
+    <element name="PapSubcategory">
+        <id>com.quikr:id/subcategory</id>
+    </element>
+    <element name="PapName">
+        <id>com.quikr:id/name</id>
+    </element>
+    <element name="PapEmail">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="Individual">
+        <name>  Individual</name>
+    </element>
+    <element name="Used">
+        <name>  Used</name>
+    </element>
+    <element name="price">
+        <name>Enter Price</name>
+    </element>
+    <element name="brand">
+        <name>Brand Name</name>
+    </element>
+    <element name="model">
+        <name>Model</name>
+    </element>
+    <element name="variant">
+        <name>Variant</name>
+    </element>
+    <element name="year">
+        <name>Year</name>
+    </element>
+    <element name="distanceDriven">
+        <name>Enter Kms Driven</name>
+    </element>
+    <element name="color">
+        <name>Color</name>
+    </element>
+    <element name="fuel">
+        <name>Fuel Type</name>
+    </element>
+    <element name="owners">
+        <name>Number of Owners</name>
+    </element>
+    <element name="email"><id>com.quikr:id/email</id></element>
+    <element name="submitAd">
+        <id>com.quikr:id/addToFeed</id>
+    </element>
+    <element name="validatepostAd">
+        <id>com.quikr:id/screen_thank_you_continue</id>
+    </element>
+    <element name="name"><name>Enter name</name></element>
+    <element name="number">
+        <id>com.quikr:id/mobile</id>
+    </element>
+    <element name="incompletetitle">
+        <name>3 more characters are required</name>
+    </element>
+    <element name="incompleteDesc">
+        <name>10 more characters are required</name>
+    </element>
+    <element name="withoutCategory">
+        <name>Please Select category</name>
+    </element>
+    <element name="withoutSubCategory">
+        <name>Please Select sub-category</name>
+    </element>
+    <element name="CancelPostinAd">
+        <id>com.quikr:id/negative</id>
+    </element>
+    <element name="postAdwithContinue">
+        <id>com.quikr:id/txtContinue</id>
+    </element>
+    <element name="postAdStartFresh">
+        <id>com.quikr:id/txtStartFresh</id>
+    </element>
+    <element name="Palio">
+        <name>Palio</name></element>
+    <element name="viewMyAd">
+        <id>com.quikr:id/menu_view_Ad</id>
+    </element>
+
+    <element name="editAd">
+        <id>com.quikr:id/screen_vap_ad_edit_button</id>
+    </element>
+
+    <element name="done">
+        <id>com.quikr:id/screen_vap_ad_ok_button</id>
+    </element>
+    <element name="editAd">
+        <id>com.quikr:id/screen_vap_ad_edit_button</id>
+    </element>
+    <element name="locationOptionNewFormat">
+        <id>com.quikr:id/spinner_itemtext</id>
+    </element>
+
+    <element name="role">
+        <name> Role</name>
+    </element>
+
+    <element name="iAmAnEmployer">
+        <name>I  am  an  employer</name>
+    </element>
+
+    <element name="iNeedAJob">
+       <class>android.widget.RadioButton</class>
+    </element>
+    <element name="roleOptionList">
+        <id>com.quikr:id/text</id>
+    </element>
+
+    <element name="educationButton">
+        <name> Education</name>
+    </element>
+
+    <element name="experienceButton">
+        <name> Experience</name>
+    </element>
+    <element name="currentSalary">
+        <name> Current Salary</name>
+    </element>
+
+    <element name="postFreeAdButton">
+        <id>com.quikr:id/post_ad_floating_button</id>
+    </element>
+
+    <element name="wantDriver">
+        <name>I want a driver</name>
+    </element>
+    
+    <element name="roleOptionName">
+        <name>Architect</name>
+    </element>
+
+    <element name="dontSyncPhonebook">
+        <name>No</name>
+    </element>
+    <element name="QuikrPositiveAkcnowledgwment">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="subcatTextid">
+        <id>com.quikr:id/text</id>
+    </element>
+    <element name="vechileType">
+        <name>Vehicle Type</name>
+    </element>
+    <element name="PostAdAsWant">
+        <name>  I  want  to  buy</name>
+    </element>
+    <element name="PostAdAsWantSubcatText">
+        <id>com.quikr:id/txtFilterRow</id>
+    </element>
+    <element name="PremiumPayment">
+        <id>com.quikr:id/button</id>
+    </element>
+    <element name="validattePremiumSreen">
+        <id>com.quikr:id/quikrxCustomActionBartvTitle</id>
+    </element>
+    <element name="Amountvalidation">
+        <id>com.quikr:id/activityQuikrXPaymentOptiontvPrice</id>
+    </element>
+    <element name="MakePayment">
+        <name>Pay Now</name>
+    </element>
+    <element name="mobileBillPaymentWebView">
+        <id>com.quikr:id/layout_payment_header</id>
+    </element>
+    <element name="SelectCArdType">
+        <id>com.quikr:id/view_card_selector</id>
+    </element>
+    <element name="cardNumber">
+        <id>com.quikr:id/editT_cardnum</id>
+    </element>
+    <element name="nameOnCard">
+        <id>com.quikr:id/edit_name</id>
+    </element>
+    <element name="cardVAlidityMonthYear">
+        <id>com.quikr:id/edit_mm_yy</id>
+    </element>
+    <element name="cardValidityYear">
+        <id>com.quikr:id/edit_yy</id>
+    </element>
+    <element name="cardCCV">
+        <id>com.quikr:id/edit_cvv</id>
+    </element>
+    <element name="SelectBank">
+        <id>com.quikr:id/text_select</id>
+    </element>
+    <element name="paytmScreen">
+        <id>com.quikr:id/paytm_imageView</id>
+    </element>
+    <element name="editName">
+        <id>com.quikr:id/name</id>
+    </element>
+<element name="realEstateOfferTypeAd">
+    <name>I  want  to  give  on  rent  I  am  a  landlord</name>
+</element>
+    <element name="realEstateWantTypeAd">
+        <name>  I  want  to  take  on  rent  I  am  a  tenant</name>
+    </element>
+    <element name="realEstateBroker">
+        <name>Broker</name>
+    </element>
+    <element name="realEstateBuilder">
+        <name>Builder</name>
+    </element>
+    <element name="realEstateNoOfRooms">
+        <name>No. of Rooms</name>
+    </element>
+    <element name="realEstateArea">
+        <name>Enter Area Sq Ft</name>
+    </element>
+    <element name="realEstateFurnisheh">
+        <name>Furnished</name>
+    </element>
+
+    <element name="spinner">
+        <id>com.quikr:id/spnCity</id>
+    </element>
+
+    <element name="cityName">
+        <name>Bangalore</name>
+    </element>
+    <element name="jobsAdSuccessPageLeftText">
+        <id>com.quikr:id/left_text</id>
+    </element>
+    <element name="jobsAdSuccessPageRightText">
+        <id>com.quikr:id/right_text</id>
+    </element>
+    <element name="skiplookingForExchange">
+        <id>com.quikr:id/rightButton</id>
+    </element>
+    <element name="repostadMsg">
+        <id>com.quikr:id/msg</id>
+    </element>
+    <element name="quikrWarehouseCheckBox">
+        <id>com.quikr:id/warehouse_checkbox</id>
+    </element>
+    <element name="escrowSamePrice">
+        <id>com.quikr:id/reserveWarehouseSamePriceCheckbox</id>
+    </element>
+    <element name="EscrowMobileBrand">
+        <name>Brand Name</name>
+    </element>
+    <element name="EcrowMobileOs">
+        <name>Operating System</name>
+    </element>
+    <element name="EscorwMobileSim">
+        <name>No Of Sims</name>
+    </element>
+    <element name="selectWareHouse">
+        <id>com.quikr:id/reserveWarehouseText2</id>
+    </element>
+    <element name="sellThrouhQuikrOkButton">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="escrowPickUpName">
+        <id>com.quikr:id/input_seller_fullname</id>
+    </element>
+    <element name="escrowPickupEmail">
+        <id>com.quikr:id/input_email</id>
+    </element>
+    <element name="escrowpickUpPIN">
+        <id>com.quikr:id/input_seller_pincode</id>
+    </element>
+    <element name="escrowPickUpSellerAddress">
+        <id>com.quikr:id/input_seller_address</id>
+    </element>
+    <element name="escrowPickUpPhone">
+        <id>com.quikr:id/input_seller_mobile</id>
+    </element>
+    <element name="escrowSubmitPickupInfo">
+        <id>com.quikr:id/seller_continue</id>
+    </element>
+    <element name="escrowAccountHolderName">
+        <id>com.quikr:id/input_account_holddername</id>
+    </element>
+    <element name="escrowAccountNumber">
+        <id>com.quikr:id/input_account_number</id>
+    </element>
+    <element name="escrowReEnterAccountNumber">
+        <id>com.quikr:id/input_re_account_number</id>
+    </element>
+    <element name="escrowIFSC">
+        <id>com.quikr:id/input_ifsc_code</id>
+    </element>
+    <element name="submitAccountDetails">
+        <id>com.quikr:id/Account_details_submit</id>
+    </element>
+    <element name="localityWait">
+        <name>Locality</name>
+    </element>
+    <element name="escrowBenifitLink">
+        <id>com.quikr:id/quikr_adpost_free_delivery</id>
+    </element>
+    <element name="galleryImage">
+        <id>com.quikr:id/gallimage</id>
+    </element>
+    <element name="galleryImageCheckBox">
+        <id>com.quikr:id/gallselectchk</id>
+    </element>
+    <element name="updateImages">
+        <id>com.quikr:id/btnOk</id>
+    </element>
+    <element name="selectImageFromGAllery">
+        <id>android:id/title</id>
+    </element>
+    <element name="imageUpLoadPAp">
+        <id>com.quikr:id/imageupimg</id>
+    </element>
+    <element name="papNewCat">
+        <id>com.quikr:id/category_title</id>
+    </element>
+    <element name="PostAdVArientB">
+        <id>com.quikr:id/bigButtonPostAd</id>
+    </element>
+    <element name="escrowPostAdAddress">
+        <id>com.quikr:id/edtAddress</id>
+    </element>
+    <element name="escrowPostAdPin">
+        <id>com.quikr:id/edtPincode</id>
+    </element>
+    <element name="escrowSreenSize">
+        <name>Screen Size</name>
+    </element>
+    <element name="Desktopescrow">
+        <name>  Desktop</name>
+    </element>
+    <element name="escrowPostadValidate">
+        <id>com.quikr:id/screen_thank_you_below_text</id>
+    </element>
+    <element name="validateRedirectionToPaymentScreen">
+        <id>com.quikr:id/activityQuikrXPaymentOptiontvPrice</id>
+    </element>
+    <element name="mobileBillingNew">
+        <name>Mobile Billing</name>
+    </element>
+    <element name="debitCreditNew">
+        <name>Debit / Credit Card</name>
+    </element>
+    <element name="NetBanking">
+        <name>Net Banking</name>
+    </element>
+    <element name="paytm">
+        <name>Paytm</name>
+    </element>
+    <element name="mobileBillPayNow">
+        <id>com.quikr:id/mobile_pay</id>
+    </element>
+    <element name="netBankingPAy">
+        <id>com.quikr:id/pay_netB</id>
+    </element>
+    <element name="payTmMobile">
+        <id>com.quikr:id/paytm_mobile</id>
+    </element>
+    <element name="paytmOtp">
+        <id>com.quikr:id/paytm_enter_opt</id>
+    </element>
+    <element name="paytmPayNow">
+        <id>com.quikr:id/paytm_paynow</id>
+    </element>
+    <element name="radoiElement">
+        <id>com.quikr:id/widget_element</id>
+    </element>
+    <element name="PapRadioButton">
+        <id>android.widget.RadioButton</id>
+    </element>
+    <element name="exchangeCArs">
+        <id>com.quikr:id/leftButton</id>
+    </element>
+    <element name="ads">
+        <class>android.webkit.WebView</class>
+    </element>
+    <element name="usedCArs">
+        <id>com.quikr:id/usedCar</id>
+    </element>
+    <element name="newCARs">
+        <id>com.quikr:id/newCar</id>
+    </element>
+    <element name="exchangeAndBuyBrand">
+        <id>com.quikr:id/title_value</id>
+    </element>
+    <element name="findExchangeOrNewCar">
+        <id>com.quikr:id/done</id>
+    </element>
+    <element name="numberOfExchangeCArsAvailable">
+        <id>com.quikr:id/number</id>
+    </element>
+    <element name="nameOfCarAvailableForExchange">
+        <id>com.quikr:id/para</id>
+    </element>
+    <element name="exchangeDetails">
+        <id>com.quikr:id/details</id>
+    </element>
+    <element name="expolreAds">
+        <id>com.quikr:id/explore_button</id>
+    </element>
+    <element name="chaeckAgainExchangeCArs">
+        <id>com.quikr:id/checkAgain</id>
+    </element>
+    <element name="buyNewCArsDetails">
+        <id>com.quikr:id/dealerDetails</id>
+    </element>
+    <element name="papCategoryHeader">
+        <id>com.quikr:id/action_bar</id>
+    </element>
+    <element name="papMissingAttributeMsg">
+        <name>-Please enter a valid value for MissingAttribute</name>
+    </element>
+    <element name="moreTAb">
+        <id>com.quikr:id/btn_more</id>
+    </element>
+    <element name="postAdImageCamTitle">
+        <id>com.quikr:id/cam_title</id>
+    </element>
+    <element name="postAdSuccesPremiumCard">
+        <id>com.quikr:id/screen_thank_you_premium_layout</id>
+    </element>
+    <element name="premium1stPlan">
+        <id>com.quikr:id/plan1_image</id>
+    </element>
+    <element name="premium3rdPlan">
+        <id>com.quikr:id/plan3_image</id>
+    </element>
+    <element name="capturePhoto">
+        <name>Capture a photo</name>
+    </element>
+    <element name="cropImage">
+        <name>Crop</name>
+    </element>
+    <element name="rotateImage">
+        <name>Rotate</name>
+    </element>
+    <element name="beautifyImage">
+        <name>Beautify</name>
+    </element>
+    <element name="done">
+        <name>Done</name>
+    </element>
+    <element name="doneOption">
+        <name>DONE</name>
+    </element>
+    <element name="closeAds">
+        <id>Interstitial close button</id>
+    </element>
+</elements>

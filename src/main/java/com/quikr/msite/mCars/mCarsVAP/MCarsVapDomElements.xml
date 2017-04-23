@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="locationIcon">
+        <xpath>//i[@class='icon-basic_geolocalize-01 header-icon']</xpath>
+    </element>
+
+    <element name="userProfileIcon">
+        <xpath>//i[@class='icon-basic-user1 header-icon']</xpath>
+    </element>
+
+    <element name="heartIcon">
+        <xpath>//i[@class='icon-basic_heart like-icon vap-sm-add-icon']</xpath>
+    </element>
+
+    <element name="chatButton">
+        <xpath>//button[@class='btn btn-style-normal col-xs-12 open-external-modal ']</xpath>
+    </element>
+
+    <element name="callButton">
+        <xpath>//a[@class='btn call-btn btn-style-normal col-xs-12 col-md-12  hidden-lg hidden-md']</xpath>
+    </element>
+
+    <element name="ownerLabel">
+        <xpath>//ul[@class='adDetail-ulList']/li[3]/span[@class='LiText-03']</xpath>
+    </element>
+
+    <element name="usedLabel">
+        <xpath>//ul[@class='adDetail-ulList']/li[4]/span[@class='LiText-03']</xpath>
+    </element>
+
+    <element name="desktopLabel">
+        <xpath>//ul[@class='adDetail-ulList']/li[5]/span[@class='LiText-03']</xpath>
+    </element>
+
+    <element name="postedOnLabel">
+        <xpath>(//ul[@class='adDetail-ulList']/li/span)[1]</xpath>
+    </element>
+
+    <element name="locationLabel">
+        <xpath>(//ul[@class='adDetail-ulList']/li[2]/span)[1]</xpath>
+    </element>
+
+</elements>

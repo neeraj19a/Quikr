@@ -1,0 +1,68 @@
+package com.quikr.utils.enums.app;
+
+/**
+ * Created by quikr on 24/11/15.
+ */
+public enum  QuikrAppEnums
+{
+    PREMIUM_TOP_AD,
+    PREMIUM_URGENT_AD,
+    PREMIUM_BOTH_AD,
+    PREMIUM_PAYMENT_ONLINE,
+    PREMIUM_PAYMENT_CHEQUE,
+    PREMIUM_PAYMENT_ADCREDITS,
+    PREMIUM_PAYMENT_QUIKR_POINT,
+    PREMIUM_PAYMENT_MOBILE,
+    ROLE,
+    EDUCATION,
+    EXPERIENCE,
+    CATEGORY_MENU,
+    CATEGORY_MOBILE,
+    CATEGORY_ELECTRONICS,
+    CATEGORY_CARS,
+    CATEGORY_JOBS_CHP_ROLES,
+    CATEGORY_SERVICES,
+    CATEGORY_MSP,
+    CATEGORY_LOCATION,
+    CATEGORY_ALERT,
+    HOMEPAGE_CATEGORY,
+    CHP_SUBCATEGORY,
+    Hompage_SelectCity,
+    PAP_NEW_LOCALITY,
+    JOBS_ROLE_LIST,
+    New_UI_Subcat,
+    Jobs_Role_Exp,
+    Jobs_New_language,
+    Home_Categories,
+    Alert_Form,
+    RealEstate_Locality,
+    SERVICES_INSTACONNECT_CATEGORY,
+    SERVICES_INSTACONNECT_SUBCAT,
+    RealEstate_Search_Autosuggest,
+    Mobiles_SNB_MAKEOFFERORCHAT,
+    Quikr_PAP_CAT_SUBCAT_NEW,
+    PAP_Radio_elements,
+    Alert_Widget_Elements,
+    SNB_Subcat,
+    QUIKRX_EXCHANGE_BRAND,
+    Quikr_Cars_SnbSubcat,
+    PostAD_InputText,
+    PostAd_SelectFromDropDown,
+    PostAd_RadioButton,
+    PostAd_category,
+    PostAd_categorylist,
+    PostAd_EscrowExtraText,
+    PostAd_Checkbox,
+    PostAd_Warehouse,
+    PostAd_Privacy,
+    SNB_Chat,
+    SNB_SORT_OPTIONS,
+    ELECTRONICS_SUBCATEGORIES,
+
+
+    //ios enums
+    CATEGORY_LIST_IN_POST_AD,
+    Services_HomeSubcategories,
+    Services_OtherSubcategories,
+    InstaConnectCategories
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="selectedCity">bangalore</testData>
+    <testData name="quikrurl">quikr.com</testData>
+    <testData name="jobsurl">jobs</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="AccountantRole">Accountant</testData>
+    <testData name="category">jobs</testData>
+    <testData name="JobsNewUIcookie">99</testData>
+    <testData name="cookiename">abRandMobile</testData>
+    <testData name="JobsOldUIcookie">12</testData>
+    <testData name="alertCreationCat">jobs</testData>
+    <testData name="alertCreationSubCatFullTimeJob">Full</testData>
+    <testData name="alertCreationRole">Accountant</testData>
+    <testData name="alertCreationEdu">Graduate</testData>
+    <testData name="alertCreationExp">1 - 3 yrs</testData>
+    <testData name="alertCreationSubCatPartTimeJob">Part</testData>
+    <testData name="alertCreationSubCatFreelancers">Freelancers</testData>
+    <testData name="alertCreationSubCatWFHJobs">Work From Home</testData>
+    <testData name="alertCreationSubCatNGOJobs">Non-Profit</testData>
+    <testData name="alertCreationSubCatPlacements">Placement</testData>
+    <testData name="alertCreationSubCatInterns">Interns</testData>
+    <testData name="alertCreationSubCatOtherJobs">Other</testData>
+    <testData name="RoleForPAP">Accountant</testData>
+    <testData name="EduForPAP">Graduate</testData>
+    <testData name="ExpForPAP">1 - 3 yrs</testData>
+    <testData name="JobsCity">Bangalore</testData>
+    <testData name="CityForPAP">Bangalore</testData>
+    <testData name="LocalityForPAP">80 Ft. Road</testData>
+    <testData name="adTitlePap">Believe me child, the world is coming to an end.</testData>
+    <testData name="adDescForPAP">The description here is to take you up and high, far from the ground, near the eternity and then shall you see all the existence are so worthless, so small.</testData>
+    <testData name="FilterSelectCity">Select City</testData>
+    <testData name="FilterSelectLocality">Select Locality</testData>
+    <testData name="FilterSelectJobType">Select Job Type</testData>
+    <testData name="FilterSelectSalary">Select Salary</testData>
+    <testData name="FilterSelectExperience">Select Experience</testData>
+    <testData name="FilterSelectEducation">Select Education</testData>
+    <testData name="FilterSelectCompany">Select Company</testData>
+    <testData name="FilterCityName">Bangalore</testData>
+
+
+</data>

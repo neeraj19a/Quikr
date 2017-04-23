@@ -1,0 +1,14 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="cityName">Bangalore</testData>
+    <testData name="categoryName">Mobiles</testData>
+    <testData name="categoryValue">Mobiles &amp; Tablets</testData>
+    <testData name="subCategoryName">mobilePhones</testData>
+    <testData name="youRTypeName">individual</testData>
+    <testData name="conditionTypeName">used</testData>
+    <testData name="brandNameOptionForMobilesCategory">brandNameOptionForMobilesCategory</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="brandName">Brand Name</testData>
+
+</data>

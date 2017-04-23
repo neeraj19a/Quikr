@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+    <element name="searchTextField">
+        <id>search-query-field</id>
+    </element>
+
+    <element name="searchTextFieldSnbPage">
+        <id>search-query-field-header</id>
+    </element>
+
+    <element name="searchButton">
+        <id>auto-suggest-submit</id>
+    </element>
+
+    <element name="brandNameDropDown">
+        <xpath>.//*[@ganame='Brand_name']</xpath>
+    </element>
+
+    <element name="priceRangeDropDown">
+        <xpath>.//*[@ganame='Price_List']</xpath>
+    </element>
+
+    <element name="fuelTypeDropDown">
+        <xpath>.//*[@ganame='Fuel_Type']</xpath>
+    </element>
+
+    <element name="moreDropDown">
+        <id>listing-more-btn</id>
+    </element>
+
+    <element name="quikrInspectedCheckBox">
+        <xpath>.//*[@ganame='Inspected_NoFikar']</xpath>
+    </element>
+
+    <element name="mostRecentDropDown">
+        <xpath>(//button[@id='dropdownMenu1'])[2]</xpath>
+    </element>
+
+    <element name="sortingDropDown">
+        <xpath>(.//*[@id='dropdownMenu1'])[2]</xpath>
+    </element>
+
+    <element name="sortByHighestPrice">
+        <xpath>//a[@ganame='RHS_Top_Price-H2L']</xpath>
+    </element>
+
+    <element name="sortByLowestPrice">
+        <xpath>//a[@ganame='RHS_Top_Price-L2H']</xpath>
+    </element>
+
+    <element name="carPrices">
+        <xpath>//span[@class='col-lg-8 col-md-3 col-sm-4 amount']</xpath>
+    </element>
+
+    <element name="numOfOwnersOneCheckbox">
+        <xpath>(//input[@value='One'])</xpath>
+    </element>
+
+    <element name="numOfOwnersTwoCheckbox">
+        <xpath>(//input[@value='Two'])</xpath>
+    </element>
+
+    <element name="numOfOwnersThreeCheckbox">
+        <xpath>(//input[@value='Three'])</xpath>
+    </element>
+
+    <element name="yearDropDown">
+        <xpath>(//button[@id='menu1'])[1]</xpath>
+    </element>
+
+    <element name="kmDrivenDropDown">
+        <xpath>(//button[@id='menu1'])[2]</xpath>
+    </element>
+
+    <element name="below5000Kms">
+        <xpath>(//label[@value='Below-5000-kms'])</xpath>
+    </element>
+
+    <element name="postedByIndividual">
+        <xpath>(//input[@value='Individual'])[2]</xpath>
+    </element>
+
+    <element name="kmsListed">
+        <xpath>(.//*[@id='products']/div/div[2]/div/div[1]/div/div[3]/ul/li[1])</xpath>
+    </element>
+
+    <element name="applyMoreFilters">
+        <id>desktopFilterDone</id>
+    </element>
+
+    <element name="DropDown">
+        <xpath>(//button[@id='menu1'])[1]</xpath>
+    </element>
+
+    <element name="firstHeartIcon">
+        <xpath>//i[@title='Add to Shortlist']</xpath>
+    </element>
+
+    <element name="secondHeartIcon">
+        <xpath>(//i[@class='col-lg-2 col-md-3 col-sm-4 col-xs-4 list-like icon-basic_heart like-icon'])[2]</xpath>
+    </element>
+
+    <element name="compareCheckboxFirst">
+        <xpath>(//label[@class='grid-compare-check'])[1]</xpath>
+    </element>
+
+    <element name="compareCheckboxSecond">
+        <xpath>(//label[@class='grid-compare-check'])[2]</xpath>
+    </element>
+
+    <element name="compareButton">
+        <id>btn-compare-selected</id>
+    </element>
+
+    <element name="comparePageValidator">
+        <xpath>(//img[@class='hidden-xs plsholder1'])</xpath>
+    </element>
+
+    <element name="FirstAd">
+        <xpath>(//h3[@class='col-lg-10 col-md-9 col-sm-8 name'])[1]/a</xpath>
+    </element>
+
+    <element name="titleFirstAd">
+        <xpath>(//h3[@class='col-lg-10 col-md-9 col-sm-8 name'])[1]</xpath>
+    </element>
+
+    <element name="titleFirstAdShortlistPage">
+        <xpath>(.//*[@id='71']/div/div[1]/div/div/h4/a)</xpath>
+    </element>
+
+    <element name="OwnerType">
+        <xpath>//ul[@class='devider-list']/li</xpath>
+    </element>
+
+    <element name="homePageFirstHeartIcon">
+        <xpath>//i[starts-with(@class, 'icon-basic_heart')]</xpath>
+    </element>
+
+    <element name="homePageFirstAdTitle">
+        <xpath>//div[@id='cars-carousel']//h4[@class='group inner list-group-item-heading']</xpath>
+    </element>
+
+    <element name="cityPopUpCloseBtn">
+        <xpath>(//a[@id='csclose'])</xpath>
+    </element>
+
+    <element name="cityPopUpCloseBtnBeforeCarsHomePage">
+        <xpath>//button[@id='modal-citypopup-close']</xpath>
+    </element>
+
+    <element name="recentlyPostedAds">
+        <xpath>(//div[@class='item col-xs-12 col-sm-6 col-md-3 col-lg-3'])</xpath>
+    </element>
+
+    <element name="mostPopularAds">
+        <xpath>(//div[@class='item-box'])</xpath>
+    </element>
+
+    <element name="firstAdWithOnlineUser">
+        <xpath>(//i[@class='icon-basic-chat']/ancestor::div[@class='col-lg-4 col-md-4 list-grp-col2']//preceding-sibling::div[@class='col-lg-8 col-md-8 list-grp-col1']//h3//a)[1]</xpath>
+    </element>
+
+    <element name="sellerLabelVap">
+        <xpath>(//span[@class='seller-label'])</xpath>
+    </element>
+
+    <element name="chatButtonRecommendedAds">
+        <xpath>//button[@class='btn grid-button js-chat-now']</xpath>
+    </element>
+
+    <element name="mspLink">
+        <css>.minor-cat.text-center>ul>li>a</css>
+    </element>
+
+    <element name="mspHeaderText">
+        <xpath>//div[@class='msp_header']</xpath>
+    </element>
+
+    <element name="geoLocationLink">
+        <xpath>//i[@class='icon-basic_geolocalize-01 header-icon']</xpath>
+    </element>
+
+    <element name="citySearchTextBox">
+        <xpath>//input[@id='city-input']</xpath>
+    </element>
+
+    <element name="citySearchResultFromCitySelectDropdown">
+        <xpath>//ul[@id='citiSugg']/li/a</xpath>
+    </element>
+
+    <element name="quikrInspectedCheckbox">
+        <xpath>//input[@class='inspectedOnline']</xpath>
+    </element>
+
+    <element name="quikrInspectedTextsSnbPage">
+        <xpath>//div[@class='col-lg-4 grid-certified-lbl text-right']</xpath>
+    </element>
+
+    <element name="trendingtagsSnbPage">
+        <xpath>//ul[@class='trending-in-cars-list']/li</xpath>
+    </element>
+
+    <element name="autoSuggestListSnbPage">
+        <xpath>//ul[@class='head-auto-search']/li</xpath>
+    </element>
+
+    <element name="autoSuggestListHomePage">
+        <xpath>//ul[@class='head-auto-search hp-auto-suggest']/li</xpath>
+    </element>
+
+    <element name="RecommendedAdsFirstHeartIcon">
+        <xpath>(.//i[@class='icon-basic_heart like-icon'])[2]</xpath>
+    </element>
+
+    <element name="AdTitleVap">
+        <xpath>.//*[@id='car_description']/div[1]/h1</xpath>
+    </element>
+
+    <element name="FirstAdTitleRecommendedAds">
+        <xpath>//h4[@class='group inner list-group-item-heading']</xpath>
+    </element>
+
+    <element name="SubtitleSavedAdtext">
+        <id>span-subtitle-saved-ad</id>
+    </element>
+
+    <element name="RemoveAllSaveCarLink">
+        <xpath>//span[@id='remove-cat-link']/a</xpath>
+    </element>
+
+    <element name="ContinueButtonRemoveAllAds">
+        <css>#remove-all-subcat-ads-continue-btn</css>
+    </element>
+
+    <element name="userIconCarsHomepage">
+        <xpath>//i[@id='icon-basic-user1']</xpath>
+    </element>
+
+    <element name="loginLinkCarsHomepage">
+        <xpath>//a[@class='login']</xpath>
+    </element>
+
+    <element name="emailId">
+        <id>fullnameFromPopUp</id>
+    </element>
+
+    <element name="password">
+        <id>password</id>
+    </element>
+
+    <element name="submitButton">
+        <xpath>//form[@name='frmSignIn']/div/div/button[@name='submit']</xpath>
+    </element>
+
+    <element name="MyDashboard">
+        <css>div.qp_hding</css>
+    </element>
+
+    <element name="userIconHomepage">
+        <xpath>//i[@id='icon-basic-user1']</xpath>
+    </element>
+
+    <element name="myShortLists">
+        <xpath>//a[@href='/MyQuikr?action=mysavedads']</xpath>
+    </element>
+
+</elements>

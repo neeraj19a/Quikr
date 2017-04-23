@@ -1,0 +1,497 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="searchResults">
+        <id>com.quikr:id/cnb_search_button</id>
+    </element>
+    <element name="bikesFromCHP">
+        <id>com.quikr:id/cnb_bikes_button</id>
+    </element>
+    <element name="carsFromCHP">
+        <id>com.quikr:id/cnb_cars_button</id>
+    </element>
+    <element name="commercialVechilesFromCHP">
+        <id>com.quikr:id/cnb_others_button</id>
+    </element>
+    <element name="searchChp">
+        <id>com.quikr:id/cnb_search_button</id>
+    </element>
+    <element name="MSPFromCHP">
+        <name>Check MSP</name>
+    </element>
+    <element name="getInspetedFromCHP">
+        <name>Get it Inspected</name>
+    </element>
+    <element name="popolarAdFromCHP">
+        <id>com.quikr:id/cnb_popular_ads_header</id>
+    </element>
+    <element name="recentlyPostedADs">
+        <id>com.quikr:id/cnb_header_text</id>
+    </element>
+    <element name="searchText">
+        <id>com.quikr:id/cnb_search_text_et</id>
+    </element>
+    <element name="submitSearch">
+        <id>com.quikr:id/cnb_search_button</id>
+    </element>
+    <element name="snbCategory">
+        <id>com.quikr:id/category</id>
+    </element>
+    <element name="Sort">
+        <name>Sort</name>
+    </element>
+    <element name="snbMSP">
+        <name>MSP</name>
+    </element>
+    <element name="snbInspected">
+        <id>com.quikr:id/inspected_checkbox</id>
+    </element>
+    <element name="snbPrice">
+        <id>com.quikr:id/cars_ad_list_price_tv</id>
+    </element>
+    <element name="snbAdTitle">
+        <id>com.quikr:id/cars_ad_list_title_tv</id>
+    </element>
+    <element name="snbInspectedCertified">
+        <id>com.quikr:id/cars_ad_list_inspected_tv</id>
+    </element>
+    <element name="userOnline">
+        <id>com.quikr:id/cars_ad_list_online_iv</id>
+    </element>
+    <element name="chat">
+        <id>com.quikr:id/button</id>
+    </element>
+    <element name="snbAdDescription">
+        <id>com.quikr:id/cars_ad_list_desc_tv</id>
+    </element>
+    <element name="snbDateAndLocation">
+        <id>com.quikr:id/cars_ad_list_date_tv</id>
+    </element>
+    <element name="snbPremiumTag">
+        <id>com.quikr:id/snb_premium_band</id>
+    </element>
+    <element name="Filter">
+        <id>com.quikr:id/fab_filter</id>
+    </element>
+    <element name="filtersCheckbox">
+        <id>com.quikr:id/filter_switch</id>
+    </element>
+    <element name="filterBrandAndFuel">
+        <id>com.quikr:id/filter_subheading_id</id>
+    </element>
+    <element name="showMoreFilters">
+        <name>Show more</name>
+    </element>
+    <element name="selectMoreFiltersCheckList">
+        <id>com.quikr:id/filter_checklist</id>
+    </element>
+    <element name="ShowlessFilters">
+        <name>Show less</name>
+    </element>
+    <element name="applyFilters">
+        <id>com.quikr:id/btnApplyFilters</id>
+    </element>
+    <element name="ResetFilters">
+        <id>com.quikr:id/action_reset</id>
+    </element>
+    <element name="vapAdTitleCars">
+        <id>com.quikr:id/cars_vap_info_title_tv</id>
+    </element>
+    <element name="inspectedText">
+        <id>com.quikr:id/cars_vap_info_inspected_tv</id>
+    </element>
+    <element name="mspBrand">
+        <id>com.quikr:id/tvBrand</id>
+    </element>
+    <element name="mspModel">
+        <id>com.quikr:id/tvModel</id>
+    </element>
+    <element name="mspYear">
+        <id>com.quikr:id/tvYear</id>
+    </element>
+    <element name="mspVarient">
+        <id>com.quikr:id/tvVariant</id>
+    </element>
+    <element name="mspKmDriven">
+        <id>com.quikr:id/tvKmDriven</id>
+    </element>
+    <element name="calculateMsp">
+        <id>com.quikr:id/submitButton</id>
+    </element>
+    <element name="MspCars">
+        <id>com.quikr:id/buttonCars</id>
+    </element>
+    <element name="mspBikes">
+        <id>com.quikr:id/buttonBikes</id>
+    </element>
+    <element name="mspFromSnb">
+        <id>com.quikr:id/menu_item_text</id>
+    </element>
+    <element name="ValidateMsp">
+        <id>com.quikr:id/tvResultTitle1</id>
+    </element>
+    <element name="calculateMspAgain">
+        <id>com.quikr:id/tvCalculate</id>
+    </element>
+    <element name="vapInspectionReport">
+        <id>com.quikr:id/inspection_tex</id>
+    </element>
+    <element name="snbMenuHeader">
+        <id>com.quikr:id/divider_grey</id>
+    </element>
+    <element name="validateInspectedButtonOnChp">
+        <name>Get a Free Inspection</name>
+    </element>
+    <element name="readReviews">
+        <id>com.quikr:id/textview_cnb_read_reviews</id>
+    </element>
+    <element name="Reviews">
+        <name>Reviews</name>
+    </element>
+    <element name="ReadNews">
+        <id>com.quikr:id/textview_cnb_read_news</id>
+    </element>
+    <element name="News">
+        <name>News</name>
+    </element>
+    <element name="city">
+        <id>com.quikr:id/citySpinner</id>
+    </element>
+    <element name="watchVideos">
+        <id>com.quikr:id/textview_cnb_watch_videos</id>
+    </element>
+    <element name="videos">
+        <name>Videos</name>
+    </element>
+    <element name="createAlertCarsSnb">
+        <id>com.quikr:id/textView_CreateAlert</id>
+    </element>
+    <element name="alertPhoneNumber">
+        <id>com.quikr:id/editText_alert_phone</id>
+    </element>
+    <element name="alertEmail">
+        <id>com.quikr:id/editText_alert_email</id>
+    </element>
+    <element name="submitAlert">
+        <id>com.quikr:id/incontentAlert_submit</id>
+    </element>
+    <element name="inspectedFilter">
+        <name>Inspected Only</name>
+    </element>
+    <element name="vapInspected">
+        <id>com.quikr:id/cars_vap_info_inspected_tv</id>
+    </element>
+    <element name="carnationtext">
+        <id>com.quikr:id/txtCarnationItemTitle</id>
+    </element>
+    <element name="filterSwithch">
+        <id>com.quikr:id/filter_switch</id>
+    </element>
+    <element name="resetFilter">
+        <id>com.quikr:id/action_reset</id>
+    </element>
+    <element name="carsSearchAutoSuggest">
+        <id>com.quikr:id/text1</id>
+    </element>
+    <element name="redirectToSearchPage">
+        <id>com.quikr:id/cnb_choose_et</id>
+    </element>
+    <element name="GetQuote">
+        <id>com.quikr:id/cnb_vap_policybazaar_getquote</id>
+    </element>
+    <element name="GetQuoteDialogBoxName">
+        <id>com.quikr:id/editText_alert_name</id>
+    </element>
+    <element name="GetQuoteDialogBoxPhone">
+        <id>com.quikr:id/editText_alert_phone</id>
+    </element>
+    <element name="GetQuoteDialogBoxEmailAddress">
+        <id>com.quikr:id/editText_alert_email</id>
+    </element>
+    <element name="GetQuoteSubmitButton">
+        <id>com.quikr:id/incontentAlert_submit</id>
+    </element>
+<element name="policyBazaarPage">
+    <name>Policy Bazaar</name>
+</element>
+    <element name="PolicyBazarErrorEnterYourName">
+        <id>com.quikr:id/textView_error_name</id>
+    </element>
+    <element name="PolicyBazarErrorEnterPhoneNumber">
+        <id>com.quikr:id/textView_error_phone</id>
+    </element>
+    <element name="PolicyBazarErrorEnterEmailAddress">
+        <id>com.quikr:id/textView_error_email</id>
+    </element>
+    <element name="getQuoteEmailAddress">
+        <id>com.quikr:id/editText_alert_email</id>
+    </element>
+    <element name="VAPPrice">
+        <id>com.quikr:id/cars_vap_info_price_tv</id>
+    </element>
+    <element name="VapProfilePic">
+        <id>com.quikr:id/cars_vap_info_user_image_iv</id>
+    </element>
+    <element name="prefixTextGetQuoteButton">
+        <id>com.quikr:id/cnb_vap_policybazaar_tv</id>
+    </element>
+    <element name="viewNumberVap">
+        <id>com.quikr:id/cnb_vap_ad_verify</id>
+    </element>
+    <element name="viewNumberContactDetails">
+        <id>com.quikr:id/cnb_vap_verify_dialog_tv</id>
+    </element>
+    <element name="InteriorAndExteriorTabVap">
+        <name>Interior &amp; Exterior</name>
+    </element>
+    <element name="BatteryTabVap">
+        <name>Battery</name>
+    </element>
+    <element name="CarDetailsTab">
+        <name>Car Details</name>
+    </element>
+    <element name="TransmissionTabVap">
+        <name>Transmission</name>
+    </element>
+    <element name="AccessoriesTabVap">
+        <name>Accessories</name>
+    </element>
+    <element name="DocsTabVap">
+        <name>Docs</name>
+    </element>
+    <element name="CarDetailsTab">
+    <name>Car Details</name>
+    </element>
+    <element name="carsVapChat">
+        <id>com.quikr:id/cnb_vap_ad_chat</id>
+    </element>
+    <element name="carsVApShortlist">
+        <id>com.quikr:id/favourite</id>
+    </element>
+    <element name="chooseSearchBar">
+        <id>com.quikr:id/cnb_choose_et</id>
+    </element>
+    <element name="priceRangeButton1">
+        <id>com.quikr:id/rangeButton_1</id>
+    </element>
+    <element name="priceRangeButton2">
+        <id>com.quikr:id/rangeButton_2</id>
+    </element>
+    <element name="priceRangeButton3">
+        <id>com.quikr:id/rangeButton_3</id>
+    </element>
+    <element name="Bicycles">
+        <name>Bicycles</name>
+    </element>
+    <element name="Spare Parts">
+        <name>Spare Parts - Accessories</name>
+    </element>
+    <element name="Other Vehicles">
+        <name>Other Vehicles</name>
+    </element>
+    <element name="Cars">
+        <name>Cars</name>
+    </element>
+    <element name="BikesAndScooters">
+        <name>Bikes &amp; Scooters</name>
+    </element>
+    <element name="Commercial Vehicles">
+        <name>Commercial Vehicles</name>
+    </element>
+    <element name="priceTrendsZeroAds">
+        <name>0</name>
+    </element>
+    <element name="userDetailsEmail">
+        <id>com.quikr:id/cnb_vap_usernameKey</id>
+    </element>
+    <element name="userDetailsProfilePic">
+        <id>com.quikr:id/cnb_vap_userImage</id>
+    </element>
+    <element name="InspectionLink">
+        <id>com.quikr:id/inspected_txt</id>
+    </element>
+    <element name="carsAndBikesElementInPostFreeAd">
+        <id>com.quikr:id/category_title</id>
+    </element>
+    <element name="staticScreenPostAdNowButton">
+        <id>com.quikr:id/cars_inspet_post_ad_btn</id>
+    </element>
+    <element name="Suzuki">
+        <name>Suzuki</name>
+    </element>
+    <element name="Bandit">
+        <name>Bandit</name>
+    </element>
+    <element name="YearMspBikes">
+        <name>2014</name>
+    </element>
+    <element name="CreateAlertButtonInMsp">
+        <id>com.quikr:id/alertButton</id>
+    </element>
+    <element name="MspSellButton">
+        <id>com.quikr:id/radioSell</id>
+    </element>
+    <element name="MspPostFreeAdButton">
+        <id>com.quikr:id/postAdButton</id>
+    </element>
+    <element name="Fiero">
+        <name>Fiero</name>
+    </element>
+    <element name="FieroYearSelectMsp">
+        <name>2013</name>
+    </element>
+    <element name="FindCarsButtonBikes">
+        <id>com.quikr:id/submitButton</id>
+    </element>
+    <element name="AudiBrandName">
+        <name>Audi</name>
+    </element>
+    <element name="A4Model">
+        <name>A4</name>
+    </element>
+    <element name="VariantName">
+        <name>2.0 TDI 177 Bhp</name>
+    </element>
+    <element name="KmsDrivenValue">
+        <name>5000-20000</name>
+    </element>
+    <element name="MspResultTitle">
+        <name>MSP Result</name>
+    </element>
+    <element name="IamBuyingMsp">
+        <name>I'm Buying</name>
+    </element>
+    <element name="IamSellingMsp">
+        <name>I'm Selling</name>
+    </element>
+    <element name="newCarsCallOutDismiss">
+        <name>Dismiss</name>
+    </element>
+    <element name="usedCarsLookingForaSpecificModel">
+        <id>com.quikr:id/cnb_choose_model_text</id>
+    </element>
+    <element name="NewCarsText">
+        <name>Looking for a specific car?</name>
+    </element>
+    <element name="newCarsTab">
+        <name>NEW CARS</name>
+    </element>
+    <element name="newCarsAutuSuggestion">
+        <id>com.quikr:id/recentSearchtText1</id>
+    </element>
+    <element name="popularBrands">
+        <id>com.quikr:id/cnb_search_popular_textview</id>
+    </element>
+    <element name="popularImage">
+        <id>com.quikr:id/recent_popular_image</id>
+    </element>
+    <element name="newCarsRecentSearches">
+        <id>com.quikr:id/cnb_search_recent_textview</id>
+    </element>
+    <element name="newCarsTitle">
+        <id>com.quikr:id/car_text</id>
+    </element>
+    <element name="clearButton">
+        <id>com.quikr:id/cnb_search_recent_clearTxt</id>
+    </element>
+    <element name="newCarsPriceSlider">
+        <name>Price range : 0 to 30L+</name>
+    </element>
+    <element name="filterOptionsNewCars">
+        <id>com.quikr:id/txtFilterRow</id>
+    </element>
+    <element name="doneButtonNewCarsFilters">
+        <id>com.quikr:id/btnFilterChkBoxOk</id>
+    </element>
+    <element name="AstonMartinText">
+        <name>Aston Martin DB9 </name>
+    </element>
+    <element name="newCarsSortButton">
+        <id>com.quikr:id/menu_newcars_sort</id>
+    </element>
+    <element name="sortOption1">
+        <name>Highest Price</name>
+    </element>
+    <element name="sortOption2">
+        <name>Lowest Price</name>
+    </element>
+    <element name="priceNewCar">
+        <id>com.quikr:id/cars_ad_list_desc_tv</id>
+    </element>
+    <element name="newCarsSnb">
+        <id>com.quikr:id/cars_ad_list_iv</id>
+    </element>
+    <element name="newCarsVapCarInfo">
+        <id>com.quikr:id/cnb_vap_info_slidingTab</id>
+    </element>
+    <element name="variant">
+        <id>com.quikr:id/tvTitle</id>
+    </element>
+    <element name="detailedVapElement">
+        <id>com.quikr:id/layout_overview_newcars</id>
+    </element>
+    <element name="specificationsTab">
+        <name>SPECIFICATIONS</name>
+    </element>
+    <element name="featuresTab">
+        <name>FEATURES</name>
+    </element>
+    <element name="featureTabAttribute">
+        <name>Comfort &amp; Convenience</name>
+    </element>
+    <element name="onroadpriceButton">
+        <id>com.quikr:id/onroadprice_button</id>
+    </element>
+    <element name="exShowroomPrice">
+        <id>com.quikr:id/exshowroom_lebel</id>
+    </element>
+    <element name="getOnRoadPriceOfAnotherCar">
+        <id>com.quikr:id/btn_onroad_price</id>
+    </element>
+    <element name="getOnRoadPriceCity">
+        <id>com.quikr:id/tvCity</id>
+    </element>
+    <element name="MoreButtonMostPopular">
+        <id>com.quikr:id/cnb_btn_more</id>
+    </element>
+    <element name="mostPopularNearYou">
+        <id>com.quikr:id/action_bar</id>
+    </element>
+    <element name="MspLink">
+        <id>com.quikr:id/msp_txt</id>
+    </element>
+    <element name="carsAndBikes">
+        <id>android:id/text1</id>
+    </element>
+    <element name="brandLogo">
+        <id>com.quikr:id/brandlogo_img</id>
+    </element>
+    <element name="brandSuffix">
+        <id>com.quikr:id/count_text</id>
+    </element>
+    <element name="mostPopularBrand">
+        <id>com.quikr:id/brandname_text</id>
+    </element>
+    <element name="popularAdsText">
+        <name>Maruti Suzuki Swift</name>
+    </element>
+    <element name="onlineUsersFilter">
+        <name>Online Users Only</name>
+    </element>
+    <element name="priceTrendsIcon">
+        <id>com.quikr:id/cars_vap_info_price_icon</id>
+    </element>
+    <element name="carsSnbSubCat">
+        <id>com.quikr:id/txtSubCat</id>
+    </element>
+    <element name="calculateEmiButton">
+        <id>com.quikr:id/emicalculator_button</id>
+    </element>
+    <element name="emiTitle">
+        <name>EMI Calculator</name>
+    </element>
+    <element name="selectedBrandInSnb">
+        <name>Maruti Suzuki Alto 800 </name>
+    </element>
+    <element name="popularAdTextMaruti">
+        <name>Maruti Suzuki </name>
+    </element>
+</elements>

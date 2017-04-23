@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="CityLinkHomepage">
+        <xpath>//span[@class='hidden-xs']</xpath>
+    </element>
+
+    <element name="LanguageLinkHomepage">
+        <xpath>//a[@id='language-dropdown']</xpath>
+    </element>
+
+    <element name="UserProfileLinkHomepage">
+        <xpath>//i[@id='icon-basic-user1']</xpath>
+    </element>
+
+    <element name="LoginButtonHomepage">
+        <xpath>//li[@role='presentation']/a[@class='login']</xpath>
+    </element>
+
+    <element name="PostFreeAdButtonHomepage">
+        <xpath>//a[@class='btn btn-danger head-postad postad-btn']</xpath>
+    </element>
+
+    <element name="ServicesSearchTextboxHomepage">
+        <xpath>//input[@placeholder='What service do you need ?']</xpath>
+    </element>
+
+    <element name="ServicesLocalityTextboxHomepage">
+        <xpath>//input[@placeholder='Locality']</xpath>
+    </element>
+
+    <element name="SearchButtonHomepage">
+        <xpath>//span[@class='serch_btn_home']</xpath>
+    </element>
+
+    <element name="CreateAlertCategory">
+        <xpath>//div[@id='intent_catmenu']</xpath>
+    </element>
+
+    <element name="CreateAlertCategoryService">
+        <xpath>//li[@id='meta123']/a</xpath>
+    </element>
+
+    <element name="CreateAlertSubCategory">
+        <xpath>//div[@id='intent_subcatmenu']/span</xpath>
+    </element>
+
+    <element name="CreateAlertFirstSubCategory">
+        <xpath>//ul[@id='intent_subcatmenuvalul']/li/a</xpath>
+    </element>
+
+    <element name="CreateAlertSelectType">
+        <xpath>//div[@id='type_custom_sel']</xpath>
+    </element>
+
+    <element name="CreateAlertSelectTypeAll">
+        <xpath>//input[@id='all_type']</xpath>
+    </element>
+
+    <element name="CreateAlertCities">
+        <xpath>//div[@id='intent_citydd']</xpath>
+    </element>
+
+    <element name="CreateAlertFirstCity">
+        <xpath>//*[@id='green_dhtml_poular_cities100']/ul/li</xpath>
+    </element>
+
+    <element name="CreateAlertLocation">
+        <xpath>//div[@id='intent_loc']</xpath>
+    </element>
+
+    <element name="CreateAlertFirstLocation">
+        <xpath>//input[@id='local1']</xpath>
+    </element>
+
+    <element name="CreateAlertEmail">
+        <xpath>//input[@id='custom_email']</xpath>
+    </element>
+
+    <element name="CreateAlertPhNo">
+        <xpath>//input[@id='custom_number']</xpath>
+    </element>
+
+    <element name="CreateAlertSubmit">
+        <xpath>//div[@id='custom_submitbtn']/a</xpath>
+    </element>
+
+    <element name="ServiceHomepageSearchTextBox">
+        <xpath>//div[@class='selectize-input items not-full has-options']/input</xpath>
+    </element>
+
+    <element name="ServiceHomepageLocalityTextBox">
+        <xpath>//input[@placeholder='Locality']</xpath>
+    </element>
+
+    <element name="SearchButton">
+        <xpath>//span[@class='serch_btn_home']</xpath>
+    </element>
+
+
+    <element name="UserProfileDropdownBox">
+        <xpath>//*[@id='serv_navright']/ul/li[3]/div/ul</xpath>
+    </element>
+
+    <element name="LanguageDropdownBox">
+        <xpath>//*[@id='serv_navright']/ul/li[2]/div/ul</xpath>
+    </element>
+
+    <element name="postFreeAdButton">
+        <xpath>//a[@class='btn btn-danger head-postad postad-btn']</xpath>
+    </element>
+
+    <element name="homeServices">
+        <xpath>//div[@class='col-md-12 cat-service-type']/h3</xpath>
+    </element>
+
+    <element name="homeServicesCategoryContainer">
+        <xpath>//div[@class='focusCatContainer']</xpath>
+    </element>
+
+    <element name="homeServicesCategories">
+        <xpath>//div[@class='col-md-3 col-lg-2 col-sm-4 col-xs-6 allcatgory']</xpath>
+    </element>
+
+    <element name="otherCategories">
+            <xpath>//div[@class='col-md-3 col-lg-3 col-sm-4 col-xs-6 other_category_service']</xpath>
+    </element>
+
+    <element name="connectNowButton">
+        <xpath>/html/body/div[3]/ul/li/a</xpath>
+    </element>
+
+    <element name="connectNowContainerTabTwo">
+        <xpath>//li[@class='tabSwitcher2']</xpath>
+    </element>
+
+    <element name="firstOptionServiceSearchDropdown">
+        <xpath>//div[@class='selectize-dropdown single select-role servicesHomepageSearhBox']/div[@class='selectize-dropdown-content']/div</xpath>
+    </element>
+
+    <element name="firstOptionLocalitySearchDropdown">
+        <xpath>//div[@class='selectize-dropdown single select-role selectLocality select-city']/div[@class='selectize-dropdown-content']/div</xpath>
+    </element>
+
+    <element name="crossButtonConnectNowOverlay">
+        <xpath>//span[@class='closeIcon']</xpath>
+    </element>
+
+    <element name="crossButtonQuikrConnectPopUp">
+        <xpath>//span[@class='closeIcon']</xpath>
+    </element>
+
+
+    <element name="homeServicesAllCategories">
+        <xpath>//div[@class='focusCatContainer']/div</xpath>
+    </element>
+
+
+
+
+
+
+
+
+
+</elements>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Alerts Tests Suite" verbose="1" annotations="JDK" thread-count="4" parallel="classes">
+
+    <test name="Alert Tests">
+        <groups>
+            <run>
+                <include name="alerts"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quikr.website.horizontal.alert.EducationandLearningAlertTests"></class>
+           <!-- <class name="com.quikr.website.horizontal.alert.CarsandBikesAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.EducationandLearningAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.ElectronicsandAppliancesAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.EntertainmentAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.HomeandLifestyleAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.JobsAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.MobilesandTabletsAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.PetsPetCareAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.RealEstateAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.ServicesAlertTests"></class>
+            <class name="com.quikr.website.horizontal.alert.ServicesAlertTests1"></class>-->
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="firstItem">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[1]</xpath>
+    </element>
+
+    <element name="certfifiedTab">
+        <xpath>.//div[@class='list_select_tab_hold']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="exchangePhoneTab">
+        <xpath>.//div[@class='list_select_tab_hold']/ul/li[2]/a</xpath>
+    </element>
+    
+    <element name="accessoriedTab">
+        <xpath>.//*[@id='tabs-block']/div[1]/div/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="createAlert">
+       <xpath>.//*[@class='btn create_alert_click desk-create-alert-btn']</xpath>
+    </element>
+
+    <element name="createAlertBrand">
+        <xpath>.//*[@id='createalertbrand']/li[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="brandDropDown">
+        <xpath>.//*[@id='alert-brand-dropdown']</xpath>
+    </element>
+
+    <element name="modelDropDown">
+        <xpath>.//*[@id='alert-model-dropdown']</xpath>
+    </element>
+
+    <element name="cityDropDown">
+        <xpath>.//*[@id='alert-city-dropdown']</xpath>
+    </element>
+
+    <element name="createAlertModel">
+        <xpath>.//*[@id='createalertmodel']/li[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="createAlertCity">
+        <xpath>.//*[@id='createalertcity']/li[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="accessoryTypeFilter">
+        <xpath>.//*[@id='li-acc-type']/a/span[2]</xpath>
+    </element>
+
+    <element name="accessoryPriceFilter">
+        <xpath>.//*[@id='pprice']/a/span[3]</xpath>
+    </element>
+
+    <element name="accessoryBrandFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[3]/a/span[3]</xpath>
+    </element>
+
+    <element name="accessoryModelFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[4]/a/span[3]</xpath>
+    </element>
+
+    <element name="accessoryTypeValue">
+        <xpath>.//*[@id='acc-type']/div[2]/div/label/span[text()='$']/../input</xpath>
+    </element>
+
+    <element name="accessoryPriceFilterValue">
+        <xpath>.//*[@id='price']/div[2]/div[1]/label/input</xpath>
+    </element>
+
+    <element name="accessoriesBrandFilterValue">
+        <xpath>.//*[@id='brands']/div[2]/div/label/span[text()='$']/../input</xpath>
+    </element>
+
+    <element name="accessoryModelFilterValue">
+        <xpath>.//*[@id='models']/div[2]/div[1]/label/span/../input</xpath>
+    </element>
+
+    <element name="getAccessModelName">
+        <xpath>.//*[@id='models']/div[2]/div[1]/label/span</xpath>
+    </element>
+
+    <element name="createAlertEmail">
+        <xpath>.//*[@id='createalertemail']</xpath>
+    </element>
+
+    <element name="createAlertPhone">
+        <xpath>.//*[@id='createalertmobile']</xpath>
+    </element>
+
+    <element name="createAlertSubmit">
+        <xpath>.//*[@id='createAlertSubmitBtn']</xpath>
+    </element>
+
+    <element name="alertSuccessMessage">
+        <xpath>.//*[@id='alert_msg']</xpath>
+    </element>
+
+    <element name="createAlertClose">
+        <class>icon icon-cancel</class>
+    </element>
+
+    <element name="priceRangeFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[2]/a/span[3]</xpath>
+    </element>
+
+    <element name="PriceRangeFirstValue">
+        <xpath>.//*[@id='price']/div[2]/div[2]/label/input</xpath>
+    </element>
+
+    <element name="clearFilter">
+        <class>clear-filters</class>
+    </element>
+
+    <element name="filteredValues">
+        <xpath>.//*[@class='list-inline filterdata']/li</xpath>
+    </element>
+
+    <element name="firstProductListing">
+        <xpath>.//*[@id='product_list']/li[1]/a</xpath>
+    </element>
+
+    <element name="brandFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[3]/a/span[3]</xpath>
+    </element>
+
+    <element name="exchangeBread">
+        <xpath>.//*[@id='breadcrumb']/li[5]/h1</xpath>
+    </element>
+
+    <element name="brandFilterValue">
+        <xpath>.//*[@id='brands']/div[2]/div/label[contains(span,'$')]/input</xpath>
+    </element>
+
+    <element name="operatingSystemFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[6]/a</xpath>
+    </element>
+
+    <element name="opertatingSystemFilterValue">
+        <xpath>.//*[@id='os']/div[2]/div[1]/label[contains(span,'$')]</xpath>
+    </element>
+
+    <element name="categoryFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[7]/a/span</xpath>
+    </element>
+
+    <element name="categoryFilterValue">
+        <xpath>.//*[@id='category-refur-unbox']/div[2]/div/label[contains(span,'$')]</xpath>
+    </element>
+
+    <element name="dualSimFilter">
+        <xpath>.//*[@id='sim']/div[2]/div[1]/label/span</xpath>
+    </element>
+
+    <element name="singleSimFilter">
+        <xpath>.//*[@id='sim']/div[2]/div[2]/label/span</xpath>
+    </element>
+
+    <element name="moreFilters">
+        <xpath>.//*[@id='desk-more-filter']/span</xpath>
+    </element>
+
+    <element name="screenSizeFilterValue">
+        <xpath>.//*[@id='display']/div[2]/div/label[contains(span,'$')]</xpath>
+    </element>
+
+    <element name="cameraFilterValue">
+        <xpath>.//*[@id='camera']/div[2]/div/label[contains(span,'$')]</xpath>
+    </element>
+
+    <element name="ramFilterValue">
+        <xpath>.//*[@id='ram']/div[2]/div/label[contains(span,'$')]</xpath>
+    </element>
+
+    <element name="processorFilterValue">
+        <xpath>.//*[@id='processor']/div[2]/div[1]/label[1]</xpath>
+    </element>
+
+    <element name="categoryRibbon">
+        <xpath>//*[@id='product_list']/li/span[contains(@class,'$')]</xpath>
+    </element>
+
+    <element name="firstListingTitle">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/h3</xpath>
+    </element>
+
+    <element name="sortByValue">
+        <xpath>.//*[@class='dropdown open']/ul/li/a[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="firstListingPrice">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/div[1]/span[1]</xpath>
+    </element>
+
+    <element name="secondListingPrice">
+        <xpath>.//*[@id='product_list']/li[2]/a/div[2]/div[1]/span[1]</xpath>
+    </element>
+
+    <element name="firstLisitngActualPrice">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/div[1]/span[2]</xpath>
+    </element>
+
+    <element name="firstListingDiscount">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/div[1]/span[3]</xpath>
+    </element>
+
+    <element name="firstListingCameraDetail">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/div[2]/ul/li[1]/span[1]</xpath>
+    </element>
+
+    <element name="firstListingSizeDetails">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/div[2]/ul/li[2]</xpath>
+    </element>
+
+    <element name="firstListingRam">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/div[2]/ul/li[3]</xpath>
+    </element>
+
+    <element name="firstListingMemory">
+        <xpath>.//*[@id='product_list']/li[1]/a/div[2]/div[2]/ul/li[4]</xpath>
+    </element>
+
+    <element name="sortDropDown">
+        <xpath>.//*[@id='sort-dropdown']</xpath>
+    </element>
+
+    <element name="firstListingsellerCountLink">
+        <xpath>.//*[@id='product_list']/li[1]/div/span/a/span</xpath>
+    </element>
+    
+    <element name="upArrow">
+        <class>go_top_fixed go_top_fixed_show</class>
+    </element>
+    
+    <element name="callUs">
+        <class>call_fixed</class>
+    </element>
+
+    <element name="emailUs">
+        <class>mail_fixed</class>
+    </element>
+
+    <element name="applyFilterButton">
+        <xpath>.//*[@id='filters']/div[3]/div/button[1]</xpath>
+    </element>
+
+    <element name="moreSellers">
+        <xpath>.//span[contains(text(),'more seller')]/../../a</xpath>
+    </element>
+
+    <element name="discountAvailable">
+        <xpath>.//*[@id='product_list']/li/a/div[2]/div[1]/span[contains(text(),'off')]</xpath>
+    </element>
+
+    <element name="itemCount">
+        <xpath>.//div[@class='container pad0']/div/div[1]/h5</xpath>
+    </element>
+
+    <element name="allPhonesCount">
+        <xpath>.//*[@id='product_list']/li</xpath>
+    </element>
+
+    <element name="conditionFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[8]/a</xpath>
+    </element>
+
+    <element name="conditionFilterValue">
+        <xpath>.//*[@id='grade-refur-unbox']/div[2]/div/label/span[contains(text(),'$')]/../input</xpath>
+    </element>
+
+    <element name="getConditionFilterValues">
+        <xpath>.//*[@id='grade-refur-unbox']/div[2]/div/label/span</xpath>
+    </element>
+
+    <element name="modelName">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[3]/a/span[text()='Model Name']</xpath>
+    </element>
+
+    <element name="availableModelName">
+        <xpath>.//*[@id='models']/div[2]/div/label/span</xpath>
+    </element>
+
+    <element name="selectModel">
+        <xpath>.//*[@id='models']/div[2]/div[1]/label/input</xpath>
+    </element>
+
+</elements>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Horizontal Suite " thread-count="2" parallel="classes">
+    <test name="Android Horizontal1 tests postAds,Alerts,Monetization">
+
+        <packages>
+            <package name="com.quikr.app.android.postAdV2.*"></package>
+            <package name="com.quikr.app.android.alert.*"></package>
+            <package name="com.quikr.app.android.monetization.*"></package>
+            <package name="com.quikr.app.android.horizontalTests.horizontalHome"></package>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="callSmsWrapper">
+        <id>callSms-Wapper</id>
+    </element>
+
+    <element name="viewProfile">
+        <xpath>//a[starts-with(@href,'userProfile?')]</xpath>
+    </element>
+
+    <element name="userProfilePageProfileImage">
+        <xpath>//div[@class='profile-img']</xpath>
+    </element>
+
+    <element name="citySelectionArrow">
+        <xpath>//span[@class='sprite cityArrow']</xpath>
+    </element>
+
+
+    <element name="citySelectionArrow">
+        <xpath>//span[@class='sprite cityArrow']</xpath>
+    </element>
+
+
+    <element name="buyNowButton">
+        <id>escrowBuyNowBtn</id>
+    </element>
+
+    <element name="buyNowLabel">
+        <xpath>(//p[@class='mo-bn-popup-heading'])[1]</xpath>
+    </element>
+
+    <element name="makeAnOfferButton">
+        <id>escrowBtn</id>
+    </element>
+
+    <element name="makeAnOfferPrice">
+        <id>price_mao_mess</id>
+    </element>
+
+    <element name="makeAnOfferEmail">
+        <xpath>(//input[@id='rplyemail'])[4]</xpath>
+    </element>
+
+    <element name="makeAnOfferMobNum">
+        <xpath>(//input[@id='rplyphone'])[4]</xpath>
+    </element>
+
+    <element name="sendMyOfferButton">
+        <xpath>(//input[@id='replySmsBtn'])[3]</xpath>
+    </element>
+
+    <element name="makeOfferSuccessMessage">
+        <xpath>//div[@class='escrow-msite-message-body-right']</xpath>
+    </element>
+
+    <element name="vapTitleVernac">
+        <xpath>(//div[@class='adContactDet-Title'])[1]</xpath>
+    </element>
+
+</elements>

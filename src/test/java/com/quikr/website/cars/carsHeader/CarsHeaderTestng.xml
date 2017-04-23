@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cars And Bikes Tests Suite" time-out="300000" verbose="1" annotations="JDK" parallel="classes" thread-count="8">
+
+    <test name="Cars And Bikes">
+        <classes>
+            <class name="com.quikr.website.cars.carsHeader.CarsHeaderTests"></class>
+            <class name="com.quikr.website.cars.carsHeader.CarsHeaderCityTests"></class>
+        </classes>
+    </test>
+
+</suite>

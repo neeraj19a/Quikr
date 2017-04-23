@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Regression Suite"   thread-count="2" parallel="classes">
+    <test name="Android Regression tests">
+
+        <packages>
+            <package name="com.quikr.app.android.alert.*"></package>
+            <package name="com.quikr.app.android.auth.*"></package>
+            <package name="com.quikr.app.android.home.*"></package>
+            <package name="com.quikr.app.android.jobs.*"></package>
+            <package name="com.quikr.app.android.menu.*"></package>
+            <package name="com.quikr.app.android.quikrX.*"></package>
+            <package name="com.quikr.app.android.realEstate.*"></package>
+            <package name="com.quikr.app.android.services.*"></package>
+            <package name="com.quikr.app.android.snb.*"></package>
+            <!--<package name="com.quikr.app.android.cars.shortlist.*"></package>-->
+            <package name="com.quikr.app.android.monetization.*"></package>
+            <!--<package name="com.quikr.app.android.escrowTests.*"></package>-->
+        </packages>
+    </test>
+</suite>

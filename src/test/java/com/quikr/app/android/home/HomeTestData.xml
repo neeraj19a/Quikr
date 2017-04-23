@@ -1,0 +1,36 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+      <testData name="Quikr">Quikr</testData>
+    <testData name="city">Bangalore</testData>
+    <testData name="cars">Cars</testData>
+    <testData name="Mobiles">Mobiles</testData>
+    <testData name="Electronics">Electronics</testData>
+    <testData name="Lifestyle">Lifestyle</testData>
+    <testData name="Bikes">Bikes</testData>
+    <testData name="Real Estate">Real Estate</testData>
+    <testData name="Home">Homes</testData>
+    <testData name="Jobs">Jobs</testData>
+    <testData name="Services">Services</testData>
+    <testData name="Entertainment">Entertainment</testData>
+    <testData name="Education">Education</testData>
+    <testData name="Nationwide">Nationwide</testData>
+    <testData name="more">More</testData>
+     <testData name="Pets">Pets</testData>
+    <testData name="Events">Events</testData>
+    <testData name="Applisting">App Listing</testData>
+    <testData name="Community">Community</testData>
+    <testData name="Matrimonial">Matrimonial</testData>
+    <testData name="MyAccount">My Account</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="location">Airport</testData>
+    <testData name="NewCity">Chennai</testData>
+    <testData name="recentlyViewed">Recently Viewed Ads</testData>
+    <testData name="search">honda</testData>
+    <testData name="LiveOnQuikr">Live on Quikr</testData>
+    <testData name="searchKeyword">Honda</testData>
+    <testData name="samsung">samsung</testData>
+    <testData name="cityName">Bangalore</testData>
+    <testData name="MatchingAds>">Matching Ads</testData>
+
+</data>

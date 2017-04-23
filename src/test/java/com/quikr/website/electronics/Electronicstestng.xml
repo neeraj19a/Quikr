@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ElectronicsandAppliances Tests Suite" time-out="300000" verbose="1" annotations="JDK" thread-count="4" parallel="tests">
+
+    <test name="ElectronicsandAppliances Tests">
+        <classes>
+            <class name="com.quikr.website.electronics.ElectronicsTests">
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.quikr.utils.RetryListener"/>
+    </listeners>
+
+</suite>
+

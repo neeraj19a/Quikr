@@ -1,0 +1,10 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="inputText">Hi</testData>
+    <testData name="MyAccount">My Account</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="MyChats">My Chats</testData>
+    <testData name="cityName">Bangalore</testData>
+    <testData name="MyChats">My Chats</testData>
+</data>

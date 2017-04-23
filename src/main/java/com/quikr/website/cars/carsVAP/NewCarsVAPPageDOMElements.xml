@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="upcomingCarsVapPrice">
+        <xpath>//div[@itemprop='priceSpecification']/span[contains(@class,'price')]</xpath>
+    </element>
+
+    <element name="upcomingCarsVapNotifyMeButton">
+        <xpath>//a[@data-toggle='modal' and @type='button']</xpath>
+    </element>
+
+    <element name="upcomingCarsVapContactDealerButton">
+        <xpath>//a[contains(@class,'cntct_dealer')]</xpath>
+    </element>
+
+    <element name="ContactDealersButton">
+        <xpath>//h4[@class='view-details-popup-show']</xpath>
+    </element>
+
+    <element name="dealerForm">
+        <xpath>//div[@id='viewNumber']</xpath>
+    </element>
+
+    <element name="dealerFormName">
+        <xpath>//input[@name='upcomingCars_name']</xpath>
+    </element>
+
+    <element name="dealerFormMobile">
+        <xpath>//input[@name='upcomingCars_mobile']</xpath>
+    </element>
+
+    <element name="dealerFormEmail">
+        <xpath>//input[@name='upcomingCars_email']</xpath>
+    </element>
+
+    <element name="dealerFormModelInterested">
+        <xpath>//input[@name='model_interested']</xpath>
+    </element>
+
+    <element name="dealerFormModelInterestedOption">
+        <xpath>//ul[@id='selectalbe-list-modelofbrand-btn']/li/a</xpath>
+    </element>
+
+    <element name="dealerFormModelViewDealerDetails">
+        <xpath>//button[@class='btn btn-style-normal js-btn-style-normal-dealerLocator']</xpath>
+    </element>
+
+    <element name="upcomingCarsFeatures">
+        <xpath>//section[@class='nc-features']/ul/li/span[2]</xpath>
+    </element>
+
+    <element name="upcomingCarsImage">
+        <xpath>(//img[@class='img-responsive'])[2]</xpath>
+    </element>
+
+    <element name="heading">
+        <xpath>(//h1)[2]</xpath>
+    </element>
+
+    <element name="findDealersButton">
+        <xpath>//div[@id='js-find-dealer']/button</xpath>
+    </element>
+
+</elements>

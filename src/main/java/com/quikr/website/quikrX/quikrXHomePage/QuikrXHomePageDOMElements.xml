@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="preownedPhoneOption">
+        <xpath>.//*[@id='exchangefilter']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="exchangePhoneOption">
+        <xpath>.//*[@id='exchangefilter']/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="preownedPhoneName">
+            <xpath>.//*[@id='e-commerce-page']/div[1]/h3/a</xpath>
+    </element>
+
+    <element name="preownedPhoneImage">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[2]/a/img</xpath>
+    </element>
+
+    <element name="preownedPhonePrice">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="preownedPhoneDesc">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[3]</xpath>
+    </element>
+
+    <element name="exchangePhoneName">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/h3/a</xpath>
+    </element>
+
+    <element name="exchangePhoneImage">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[2]/a/img</xpath>
+    </element>
+
+    <element name="exchangePhonePrice">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="exchangePhoneDesc">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[3]</xpath>
+    </element>
+
+    <element name="brandName">
+        <xpath>.//*[@id='leftSidebrand_name']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="brandNameFilter">
+        <xpath>.//*[@id='leftSidebrand_name']/ul/li/a[@label='Samsung']</xpath>
+    </element>
+
+    <element name="priceRangeFilter">
+        <xpath>.//*[@id='leftSidePrice']/ul/li[4]/a/input</xpath>
+    </element>
+
+    <element name="operatingSystem">
+        <xpath>.//*[@id='leftSideoperating_system']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="operatingSystemFilter">
+        <linkText>Android</linkText>
+    </element>
+
+    <element name="noOfSims">
+        <xpath>.//*[@id='leftSideno_of_sims']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="noOfSimFilter">
+        <xpath>.//*[@id='leftSideno_of_sims']/ul/li[1]/a/input</xpath>
+    </element>
+
+    <element name="screenSize">
+        <xpath>.//*[@id='leftSidescreen_size']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="screenSizeFilter">
+        <linkText>5 Inches</linkText>
+    </element>
+
+    <element name="primaryCamera">
+        <xpath>.//*[@id='leftSideprimary_camera']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="primaryCameraFilter">
+        <linkText>8 MP</linkText>
+    </element>
+
+    <element name="ram">
+        <xpath>.//*[@id='leftSideram']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="ramFilter">
+        <linkText>2 GB</linkText>
+    </element>
+
+    <element name="processor">
+        <xpath>.//*[@id='leftSideprocessor']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="processorFilter">
+        <linkText>1 GHz</linkText>
+    </element>
+
+    <element name="brandNameSearchBox">
+        <xpath>.//*[@id='search_from_brand_name']</xpath>
+        <id>search_from_brand_name</id>
+    </element>
+
+    <element name="operatingSystemSearchBox">
+        <xpath>.//*[@id='search_from_operating_system']</xpath>
+        <id>search_from_operating_system</id>
+    </element>
+
+    <element name="noOfSimsSearchBox">
+        <xpath>.//*[@id='search_from_no_of_sims']</xpath>
+        <id>search_from_no_of_sims</id>
+    </element>
+
+    <element name="screenSizeSearchBox">
+        <xpath>.//*[@id='search_from_screen_size']</xpath>
+        <id>search_from_screen_size</id>
+    </element>
+
+    <element name="primaryCameraSearchBox">
+        <xpath>.//*[@id='search_from_primary_camera']</xpath>
+        <id>search_from_primary_camera</id>
+    </element>
+
+    <element name="ramSearchBox">
+        <xpath>.//*[@id='search_from_ram']</xpath>
+        <id>search_from_ram</id>
+    </element>
+
+    <element name="processorSearchBox">
+        <xpath>.//*[@id='search_from_processor']</xpath>
+        <id>search_from_processor</id>
+    </element>
+
+    <element name="cartHeader">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/div[4]/h4</xpath>
+    </element>
+
+    <element name="sortOption">
+        <xpath>.//*[@id='block_empty']/div[3]/div[1]/div[2]/select</xpath>
+      </element>
+
+    <element name="preOwnedFirstPhonePrice">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="preOwnedSecondPhonePrice">
+        <xpath>.//*[@id='e-commerce-page']/div[2]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="exchangeFirstPhonePrice">
+        <xpath>.//*[@id='e-commerce-page']/div[1]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="exchangeSecondPhonePrice">
+        <xpath>.//*[@id='e-commerce-page']/div[2]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="createAlert">
+        <xpath>//a[@class='alert alert_quikrx']</xpath>
+    </element>
+
+    <element name="createAlertHeader">
+        <xpath>//h4[@class='let_us_knw_title' and text()="Didn't find the phone you are looking for? Let us know"]</xpath>
+    </element>
+
+    <element name="selectBrand">
+        <xpath>//*[@id='mobilebrand']</xpath>
+    </element>
+
+    <element name="selectBrandFieldError">
+        <xpath>//*[@id='mobilebrand' and @class='error-alert']</xpath>
+    </element>
+
+    <element name="selectModel">
+        <xpath>//*[@id='mobilemodel']</xpath>
+    </element>
+
+    <element name="selectModelFieldError">
+        <xpath>//*[@id='mobilemodel' and @class='error-alert']</xpath>
+    </element>
+
+    <element name="selectCity">
+        <xpath>//*[@id='alertCity']</xpath>
+    </element>
+
+    <element name="selectCityFieldError">
+        <xpath>//*[@id='alertCity'and @class='error-alert']</xpath>
+    </element>
+
+    <element name="emailInAlert">
+        <xpath>//*[@id='alertEmail']</xpath>
+    </element>
+
+    <element name="emailInAlertError">
+        <xpath>//*[@id='alertEmail' and @class='error-alert']</xpath>
+    </element>
+
+    <element name="mobileInAlert">
+        <xpath>//*[@id='alertMobile']</xpath>
+    </element>
+
+    <element name="mobileInAlertError">
+        <xpath>//*[@id='alertMobile'and @class='error-alert']</xpath>
+    </element>
+
+    <element name="alertSubmitBtn">
+        <xpath>//*[@id='alert-sbt-btn']</xpath>
+    </element>
+
+    <element name="saveAlertMsg">
+        <xpath>//h4[text()='Alert Saved Succsessfully!']</xpath>
+    </element>
+
+    <element name="createNewAlert">
+        <xpath>//a[text()='(Set new alert)']</xpath>
+    </element>
+
+    <element name="myCartOption">
+        <xpath>.//*[@id='logindiv_old']/ul/li[2]/a</xpath>
+        <class>mycart</class>
+    </element>
+
+    <element name="productWithMultipleSeller">
+        <class>more_offers_from</class>
+    </element>
+
+    <element name="bradCrumbOnHomePage">
+        <xpath>.//*[@id='divForAjaxRequest']/div[2]/div[3]</xpath>
+        <class>breadcrumb_wrapp</class>
+    </element>
+
+    <element name="itemPrice">
+        <xpath>//*[@id='withimg']/div[3]/span/text()</xpath>
+    </element>
+
+    <element name="exchangeTab">
+        <xpath>.//*[@id='block_empty']/div[2]/ul/li[1]/a/span[1]</xpath>
+    </element>
+
+    <element name="certifiedTab">
+        <xpath>.//*[@id='block_empty']/div[2]/ul/li[2]/a/span[1]</xpath>
+    </element>
+
+
+
+</elements>

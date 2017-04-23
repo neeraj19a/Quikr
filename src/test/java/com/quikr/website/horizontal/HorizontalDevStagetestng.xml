@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Website Horizontal Suite" thread-count="8" parallel="classes">
+    <test name="Website Horizontal tests">
+        <groups>
+            <run>
+                <include name="dev"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.quikr.website.*"></package>
+        </packages>
+    </test>
+</suite>

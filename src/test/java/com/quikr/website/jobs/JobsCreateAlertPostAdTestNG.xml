@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Jobs Tests Suite"  verbose="1" annotations="JDK" thread-count="5" parallel="classes">
+
+    <test name="Jobs Create Alert and Post Ad Jobs" >
+        <classes>
+            <class name="com.quikr.website.jobs.jobsHome.JobsHomeTests">
+                <methods>
+                    <include name="createAlertJobs" />
+                </methods>
+            </class>
+
+            <class name="com.quikr.website.jobs.jobsPap.jobsPapTests">
+                <methods>
+                    <include name="validateAdPosting" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+
+</suite>

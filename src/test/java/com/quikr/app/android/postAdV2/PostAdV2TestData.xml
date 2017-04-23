@@ -1,0 +1,134 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <!--post Ad Common Attributes Across all Categories-->
+    <testData name="brand">Samsung</testData>
+    <testData name="cars">Cars</testData>
+    <testData name="offerType">I  want  to  sell</testData>
+    <testData name="WantType">I  want  to  buy</testData>
+    <testData name="postAdAsIndividual">Individual</testData>
+    <testData name="postAdAs">Individual</testData>
+    <testData name="condition">Used</testData>
+    <testData name="SelectLocality">Please Select Locality</testData>
+    <testData name="enterName">Please Enter Name</testData>
+    <testData name="enterMobileNumber">Please Enter Mobile</testData>
+    <testData name="enterPrice">Price</testData>
+    <testData name="mobileNumber">Mobile *</testData>
+    <testData name="emailId">Email *</testData>
+    <!-- PostAd attributes for Mobiles Category-->
+    <testData name="minimumPrice">Minimum Price</testData>
+    <testData name="yearOfPurchase">Year of Purchase</testData>
+    <testData name="invoice">Invoice</testData>
+    <testData name="defects">Defects</testData>
+    <testData name="noOfSims">No Of Sims</testData>
+    <testData name="OperatingSystem">Operating System</testData>
+    <testData name="address">Address *</testData>
+    <testData name="pin">Pincode *</testData>
+    <testData name="wantType">I  want  to  buy</testData>
+    <!-- Electronics  attributes-->
+    <testData name="ElectronicsCAt">Electronics</testData>
+    <testData name="electronicsSubCAt">Laptops</testData>
+    <testData name="screen">Screen Size</testData>
+    <testData name="RAm">RAM</testData>
+    <testData name="Desktop">Desktop</testData>
+    <testData name="screenSize">13-13.9 inches</testData>
+    <testData name="ramSize">4GB</testData>
+    <testData name="electronicsbrand">Apple</testData>
+    <testData name="electroniceBrandWantType">Apple</testData>
+    <testData name="productType">Product Type</testData>
+    <!--jobs postAd attributes-->
+    <testData name="role">Role</testData>
+    <testData name="education">Education</testData>
+    <testData name="experience">Experience</testData>
+    <testData name="compensensation">Compensation</testData>
+    <testData name="curentSalary">Current Salary</testData>
+    <testData name="relocate">Willing to Relocate</testData>
+    <testData name="jobsWantType">I need a job</testData>
+    <!-- Real Estate postAd ATTRIBUTES-->
+    <testData name="noOfRooms">No. of Rooms</testData>
+    <testData name="area">Area Sq Ft</testData>
+    <testData name="furnished">Furnished</testData>
+    <!-- test data cars-->
+    <testData name="selectBrand">Brand Name *</testData>
+    <testData name="SelectModel">Model *</testData>
+    <testData name="selectVarient">Variant / Version</testData>
+    <testData name="selectYear">Year</testData>
+    <testData name="enterDistanceTravelled">Kms Driven *</testData>
+    <testData name="selectColor">Color</testData>
+    <testData name="selectFuelType">Fuel Type</testData>
+    <testData name="numberOfOwners"> One</testData>
+    <testData name="enterAdTitle">Enter Ad title</testData>
+    <testData name="enterDescription">Ad Description</testData>
+    <testData name="SelectLocality">Locality *</testData>
+    <testData name="enterName">Name</testData>
+    <testData name="enterMobileNumber">Mobile</testData>
+    <testData name="carsPrice">540000</testData>
+    <!-- cars PostAd Test DATA-->
+    <testData name="AdTitle">Chevrolet car on sale</testData>
+    <testData name="desc">Six months old Chevrolet car is on sale</testData>
+    <testData name="location">Agripada</testData>
+    <testData name="cars">Cars</testData>
+    <testData name="car">Cars</testData>
+    <testData name="price">500000</testData>
+    <testData name="brand">Honda</testData>
+    <testData name="model">Amaze</testData>
+    <testData name="variant">E i DTEC</testData>
+    <testData name="Carsyear">2010</testData>
+    <testData name="distance">25000</testData>
+    <testData name="color">Red</testData>
+    <testData name="fuel">Diesel</testData>
+    <testData name="owner">One</testData>
+    <testData name="name">rahul singh</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="number">9955199187</testData>
+    <testData name="PostAd">Post Your Ad</testData>
+    <testData name="modelAssertionString">Please select model</testData>
+    <testData name="incompleteAdTitle">cars in</testData>
+    <testData name="incompleteDesc">Six months old honda</testData>
+    <!-- Mobiles PostAd Data-->
+    <testData name="mobiles">Mobiles</testData>
+    <testData name="mobilesSubCat">Mobile</testData>
+    <testData name="Mobilebrand">Apple</testData>
+    <testData name="Mobilesmodel">iPhone 3</testData>
+    <testData name="mobileOs">Apple-ios</testData>
+    <testData name="invoiceStatus">Available</testData>
+    <testData name="sim">Single</testData>
+    <testData name="defectsinMobile">None</testData>
+    <testData name="userAddress">22/2 9th street ulsoor</testData>
+    <testData name="userPin">560008</testData>
+    <testData name="userNumber">8004487215</testData>
+    <testData name="mobilesPrice">5500</testData>
+    <testData name="MobileAdTitle">Apple Iphone 4s on sale</testData>
+    <testData name="mobiltAdDesc">Apple Iphone 4s on sale at  attractive in good condition</testData>
+    <testData name="year">2014</testData>
+    <!-- jobs PostAd DATA-->
+    <testData name="JOBS">Jobs</testData>
+    <testData name="jobsfullTimeJobs">Full Time Jobs</testData>
+    <testData name="jobsadTitle">post an ad for offer ad or want ad</testData>
+    <testData name="jobsadDescription">to check that role field is display for job category</testData>
+    <testData name="jobsadTitleForAdPost">Job looking for any profile</testData>
+    <testData name="jobsadDescriptionForAdPost">I am a UI Developer and Designer B-Tech Passout  2014 and Looking for Job to settle my career</testData>
+    <testData name="jobseducationOptionName">Graduate</testData>
+    <testData name="jobsexperienceOptionName">Less than 1 yr</testData>
+    <testData name="jobscurrentSalaryOptionName">Rs. 2L - Rs. 5L</testData>
+    <testData name="jobsrole">Architect</testData>
+    <testData name="relocationOption">Yes</testData>
+    <!-- real estate post ad data-->
+    <testData name="realEstatCat">Real Estate</testData>
+    <testData name="realEstateSubcat">Houses - Apartments for Rent</testData>
+    <testData name="realEstateAdTitle">3 bhk flat on rent</testData>
+    <testData name="realEstatedesc">3 month old falt in bangalore in good condition</testData>
+    <testData name="realEstateowner">One</testData>
+    <testData name="realEstaterooms">3 BHK</testData>
+    <testData name="realEstatefurnished">Semi-Furnished</testData>
+    <testData name="realEstatearea">1500</testData>
+    <testData name="wantTypeArea">1500 - 2000</testData>
+    <testData name="relEstateWantTypeAd">I want to take on rent I am a tenant</testData>
+    <!-- services test data-->
+    <testData name="servicescategory">Services</testData>
+    <testData name="servicesadTitle">Looking for a driver job</testData>
+    <testData name="servicesadDescription">looking for a driver job, have 3+ yrs experience</testData>
+    <testData name="servicessubcategory1">Business Offers</testData>
+    <testData name="servicesWantTypeAd">I want a business proposal</testData>
+
+
+</data>

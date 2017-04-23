@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="ContinueLoginButton">
+        <xpath>//button[@class='payment-active-btn']</xpath>
+    </element>
+
+    <element name="RecieverName">
+        <id>u_name</id>
+    </element>
+
+    <element name="Address">
+        <id>u_address</id>
+    </element>
+
+    <element name="Pincode">
+        <id>u_pincode</id>
+    </element>
+    <element name="MobileNo">
+        <xpath>//input[@id='u_number']</xpath>
+    </element>
+    <element name="DeliverButton">
+        <xpath>//div[@class='deliver-btn-wrap marleft26']/button</xpath>
+    </element>
+    <element name="SkipOnsite">
+        <xpath>//span[@id='skip-btn']/button</xpath>
+    </element>
+    <element name="AddOnsite">
+        <id>add-onsite</id>
+    </element>
+    <element name="paymentHeading">
+        <xpath>//h1[contains(text(),'Select payment type')]</xpath>
+    </element>
+    <element name="CardTypeDropdown">
+        <xpath>//select[@id='citrusCardType']</xpath>
+    </element>
+    <element name="CardTypeOptions">
+        <xpath>//div[@id='cardForm']//select[@id='citrusCardType']/option[2]</xpath>
+    </element>
+    <element name="cardNo">
+        <id>citrusNumber</id>
+    </element>
+    <element name="NameOnCard">
+        <id>citrusCardHolder</id>
+    </element>
+    <element name="ExpiryDate">
+        <id>citrusExpiry</id>
+    </element>
+    <element name="Cvv">
+        <id>citrusCvv</id>
+    </element>
+    <element name="PayNow">
+        <xpath>//div[@class='paynow-btn-wrap']//button[@id='pay_now_using_card']</xpath>
+    </element>
+
+    <element name="Submit">
+        <xpath>//input[@value='Submit']</xpath>
+    </element>
+
+    <element name="MobileVerificationPayment">
+        <xpath>//input[@id='saf_mob']</xpath>
+    </element>
+
+    <element name="MobileVerificationPaymentSubmit">
+        <xpath>//button[@class='saf_submitbtn']</xpath>
+    </element>
+
+    <element name="TransactionSuccessMsg">
+        <xpath>//div[@class='ps-heading']</xpath>
+    </element>
+    <element name="TransactionId">
+        <xpath>//div[@class='ps_transid']/span</xpath>
+    </element>
+    
+    <element name="netPayableAmount">
+        <xpath>//div[@class='name-price-block']/div[1]/div[2]/span[1]</xpath>
+        <!--xpath>//div[@class='acf_paymntlist'][1]//span[@class='acf_rgtprice']</xpath-->
+    </element>
+
+    <!--for FeedBack Deliver Module-->
+    <element name="doorFeedBackHeader">
+        <xpath>//h1</xpath>
+    </element>
+    <element name="verifyAdId">
+        <xpath>//span[@id='adID']</xpath>
+    </element>
+
+    <element name="itemPickedYes">
+        <xpath>//div[@class='h100p item_picked_sec']//div[2]/div[@class='pd_radio_option']/div[1]/label</xpath>
+    </element>
+
+    <element name="itemPickedNo">
+        <xpath>//div[@class='h100p item_picked_sec']//div[2]/div[@class='pd_radio_option']/div[2]/label</xpath>
+    </element>
+
+    <element name="itemPickedOnTimeYes">
+        <xpath>//div[@class='h100p pd_picked_ontime_sec']//div/div[@class='pd_radio_option']/div[1]/label</xpath>
+    </element>
+
+    <element name="itemPickedOnTimeNo">
+        <xpath>//div[@class='h100p pd_picked_ontime_sec']//div/div[@class='pd_radio_option']/div[2]/label</xpath>
+    </element>
+    <element name="feedBackSuccessful">
+        <xpath>//span[@class='pd_thnks_sharetxt']</xpath>
+    </element>
+    <element name="feedBackComment">
+        <xpath>//div[@class='pd_telus_txtarea']/textarea</xpath>
+    </element>
+    <element name="feedBackSubmit">
+        <xpath>//div[@class='pd_pickup_sec']//a[@id='pd_submit_btn']</xpath>
+    </element>
+    <element name="feedBackSubmitMessage">
+        <xpath>//div[@class='pd_pickup_sec']/h4</xpath>
+    </element>
+
+</elements>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="refurbishedPhones">
+        <xpath>(.//ul[@class='home_tabs_list visible-xs']/li/a)[1]</xpath>
+    </element>
+
+    <element name="unBoxedPhones">
+        <xpath>(.//ul[@class='home_tabs_list visible-xs']/li/a)[2]</xpath>
+    </element>
+
+    <element name="preownedPhoneName">
+            <xpath>.//*[@id='e-commerce-page']/div[1]/h3/a</xpath>
+    </element>
+
+    <element name="sortByValue">
+        <xpath>.//ul[@class='dropdown-menu']/li/a[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="openSort">
+        <xpath>.//*[@id='sort-open']</xpath>
+    </element>
+
+    <element name="openFilter">
+        <xpath>.//*[@id='filter-open']</xpath>
+    </element>
+    
+    <element name="createAlert">
+        <xpath>.//button[@class='btn btn-default create_alert_click']</xpath>
+    </element>
+
+    <element name="priceFilter">
+        <xpath>.//*[@id='pprice']/a</xpath>
+    </element>
+
+    <element name="brandFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="OsFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[3]/a</xpath>
+    </element>
+    
+    <element name="categoryFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[4]/a</xpath>
+    </element>
+
+    <element name="simFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[6]/a</xpath>
+    </element>
+
+    <element name="disaplayFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[7]/a</xpath>
+    </element>
+
+    <element name="cameraFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[8]/a</xpath>
+    </element>
+
+    <element name="ramFilter">
+        <xpath>.//*[@id='filters']/div[2]/div[1]/ul/li[8]/a</xpath>
+    </element>
+
+    <element name="firstPrice">
+        <xpath>.//*[@id='price']/div[2]/div[2]/label/input</xpath>
+    </element>
+
+    <element name="selectBrand">
+        <xpath>.//*[@id='brands']/div[2]/div/label/input[contains(@value,'$')]</xpath>
+    </element>
+
+    <element name="osSelect">
+        <xpath>.//*[@id='os']/div[2]/div/label/input[contains(@value,'$')]</xpath>
+    </element>
+
+    <element name="categorySelect">
+        <xpath>.//*[@id='category-refur-unbox']/div[2]/div/label/span[contains(text(),'$')]/../input</xpath>
+    </element>
+
+    <element name="simSelect">
+        <xpath>.//*[@id='sim']/div[2]/div/span[contains(text(),'$')]/../input</xpath>
+    </element>
+    
+    <element name="screenSizeSelect">
+        <xpath>.//*[@id='display']/div[2]/div/label/input[@value='4.0-Inches']</xpath>
+    </element>
+
+    <element name="cameraSelect">
+        <xpath>.//*[@id='camera']/div[2]/div[3]/label/input</xpath>
+    </element>
+    
+    <element name="ramSize">
+        <xpath>.//*[@id='ram']/div[2]/div/label/input</xpath>
+    </element>
+
+    <element name="applyFilter">
+        <xpath>.//*[@id='filters']/div[4]/div/div[2]/button</xpath>
+    </element>
+
+    <element name="osTextField">
+        <xpath>.//*[@id='os']/div[1]/input</xpath>
+    </element>
+
+</elements>

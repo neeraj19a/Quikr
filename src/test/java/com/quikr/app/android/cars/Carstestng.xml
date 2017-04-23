@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cars and Bikes" verbose="1" annotations="JDK" thread-count="2" parallel="classes">
+    <test name="Cars Tests">
+   <classes>
+       <class name="com.quikr.app.android.cars.carsCHP.CarsChpTests"></class>
+       <class name="com.quikr.app.android.cars.bikes.BikesVap"></class>
+       <class name="com.quikr.app.android.cars.carsMsp.CarsMspTests"></class>
+       <class name="com.quikr.app.android.cars.carsSnb.CarsSnbTest"></class>
+       <!--<class name="com.quikr.app.android.cars.carsPap.CarsPapTests"></class>-->
+       <class name="com.quikr.app.android.cars.carsVap.CarsVapTests"></class>
+       <class name="com.quikr.app.android.cars.shortlist.ShortlistAppAndroidTest"></class>
+   </classes>
+    </test>
+</suite>

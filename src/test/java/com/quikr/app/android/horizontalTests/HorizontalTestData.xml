@@ -1,0 +1,151 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+    <testData name="servicescategory">Services</testData>
+    <testData name="servicesadTitle">Looking for a driver job</testData>
+    <testData name="servicesadDescription">looking for a driver job, have 3+ yrs experience</testData>
+    <testData name="servicessubcategory1">Business Offers</testData>
+    <testData name="adType">wantDriver</testData>
+    <!-- real estate post ad data-->
+    <testData name="realEstatesubCat">Real Estate</testData>
+    <testData name="realEstaterent">Houses - Apartments for Rent</testData>
+    <testData name="realEstateAdTitle">3 bhk flat on rent</testData>
+    <testData name="realEstatedesc">3 month old falt in bangalore in good condition</testData>
+    <testData name="realEstateowner">One</testData>
+    <testData name="realEstaterooms">3 BHK</testData>
+    <testData name="realEstatearea">1500 - 2000</testData>
+    <testData name="realEstatefurnished">Semi-Furnished</testData>
+    <testData name="realEstatearea">1500</testData>
+    <testData name="realEstateSemiFurnished">Semi-Furnished</testData>
+
+<!--jobs post ad data-->
+    <testData name="JOBS">Jobs</testData>
+    <testData name="jobsfullTimeJobs">Full Time Jobs</testData>
+    <testData name="jobsadTitle">post an ad for offer ad or want ad</testData>
+    <testData name="jobsadDescription">to check that role field is display for job category</testData>
+    <testData name="jobsadTitleForAdPost">Job looking for any profile</testData>
+    <testData name="jobsadDescriptionForAdPost">I am a UI Developer and Designer B-Tech Passout  2014 and Looking for Job to settle my career</testData>
+    <testData name="jobseducationOptionName">Graduate</testData>
+    <testData name="jobsexperienceOptionName">Less than 1 yr</testData>
+    <testData name="jobscurrentSalaryOptionName">Rs. 2L - Rs. 5L</testData>
+    <testData name="jobsrole">Architect</testData>
+    <testData name="nameOfPerson">Akshay raj</testData>
+
+    <!-- cars post ad data-->
+    <testData name="AdTitle">Chevrolet car on sale</testData>
+    <testData name="desc">Six months old Chevrolet car is on sale</testData>
+    <testData name="location">80 Ft. Road</testData>
+    <testData name="cars">Cars</testData>
+    <testData name="car">Cars</testData>
+    <testData name="price">500000</testData>
+    <testData name="brand">Chevrolet</testData>
+    <testData name="model">Beat</testData>
+    <testData name="variant">Diesel</testData>
+    <testData name="year">2004</testData>
+    <testData name="distance">25000</testData>
+    <testData name="color">Red</testData>
+    <testData name="fuel">Diesel</testData>
+    <testData name="owner">One</testData>
+    <testData name="name">rahul singh</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="number">9955199187</testData>
+    <testData name="PostAd">Post Your Ad</testData>
+    <testData name="modelAssertionString">Please select model</testData>
+    <testData name="incompleteAdTitle">cars in</testData>
+    <testData name="incompleteDesc">Six months old honda</testData>
+    <testData name="MyAds">My Ads</testData>
+    <testData name="newLocation">Agaram</testData>
+    <testData name="save">Save</testData>
+    <testData name="Category">Cars</testData>
+    <testData name="bike">Honda</testData>
+    <testData name="recentlyViewed">Recently Viewed Ads</testData>
+    <testData name="NofikarOptions">Ac/Heater</testData>
+    <testData name="priceField">Enter Price</testData>
+    <testData name="KiloMeter">Kms Driven</testData>
+    <testData name="scrollVAp">Description</testData>
+    <testData name="ScrollToPrice">Your contact information</testData>
+    <testData name="newName">rahul sharma</testData>
+    <testData name="kmDrivenMsp">5000-20000</testData>
+    <testData name="AlertBrand">Chevrolet</testData>
+    <testData name="city">Ahmedabad</testData>
+    <testData name="inspectionreport">Inspection Report</testData>
+    <testData name="off">OFF</testData>
+    <testData name="bikeBrand">Bajaj</testData>
+    <testData name="bikesModel">Discover 125</testData>
+    <testData name="commercialVehicles">Commercial Vehicles</testData>
+    <testData name="Boat">Boat</testData>
+    <testData name="invalidNumber">987</testData>
+    <testData name="invalidEmail">guughuj</testData>
+    <testData name="invalidNumberMessage">Enter 10 digit mobile number</testData>
+    <testData name="invalidEmailMessage">Enter valid email Address</testData>
+    <testData name="bikes">Bikes</testData>
+    <testData name="otherVehicle">Other Vehicles</testData>
+    <testData name="commercialVehicle">Commercial Vehicles</testData>
+    <testData name="vehicleType">Vehicle Type</testData>
+    <testData name="EditAdTitle">Chevrolet brand car on sale</testData>
+    <testData name="SaveAD">Save</testData>
+    <testData name="carsAttribute">Enter Kms Driven</testData>
+    <testData name="mobilesAttribute">Operating System</testData>
+    <testData name="realEstateAttribute">I  want  to  take  on  rent  I  am  a  tenant</testData>
+
+<!--escrow test data-->
+    <testData name="escrowmobilesAndTAbs">Mobiles</testData>
+    <testData name="price">5000</testData>
+    <testData name="escrowemail">automtion.quikr@gmail.com</testData>
+    <testData name="escrowmobiles">Mobile Phones</testData>
+    <testData name="LowTouchText">Congratulations ! You will now be eligible for upto ₹ 1000cashback and FREE pickup when buyer uses "Make an Offer" on your posted ad.</testData>
+    <testData name="escrowAdTitle">want to sell my i phone</testData>
+    <testData name="escrowDesc">wanted to sell my i phone which is  2 months old</testData>
+    <testData name="escrowlocation">80 Ft. Road</testData>
+    <testData name="escrowsim">Single</testData>
+    <testData name="escrowosType">Apple-iOS</testData>
+    <testData name="escrowbrand">Apple</testData>
+    <testData name="escrowmodel">iPhone 3 16 GB</testData>
+    <testData name="escrowpin">560008</testData>
+    <testData name="escrowaddress">jamuna nagar, near ganga river sangam</testData>
+    <testData name="escrowPoastAdCat">Electronics </testData>
+    <testData name="escrowlaptops">Laptops</testData>
+    <testData name="escrowscreenSize">13-13.9 inches</testData>
+
+    <!-- horizontal vap-->
+    <testData name="viewProfile">View Profile</testData>
+    <testData name="newRole">BPO</testData>
+    <testData name="autosuggestsubcat">Houses for Rent</testData>
+    <testData name="subcategory">Architect</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="reportAdComment">not satisfied with the details provided </testData>
+    <testData name="reportAdSuccessMsg">Thanks for Reporting!</testData>
+    <testData name="buyOrSellAnyThing">Buy or Sell anything</testData>
+    <testData name="searchAndBrowse">Search</testData>
+    <testData name="communicate">Communicate</testData>
+    <testData name="quikrNxt">Quikr Nxt</testData>
+    <testData name="hydrabad">Hyderabad</testData>
+    <testData name="showAllOption">showAllOption</testData>
+    <testData name="servicesSearchBar">servicesSearchBar</testData>
+    <testData name="similarAds">Similar Ads</testData>
+
+
+<!--horizontal Snb
+-->
+    <testData name="mobilesAndTAbs">Mobiles</testData>
+    <testData name="Mostrecrent">Most Recent (default)</testData>
+    <testData name="nearest">Nearest</testData>
+    <testData name="escrowbrand1">ios</testData>
+    <testData name="language">Language Settings</testData>
+    <testData name="recentlyViewed">Recently Viewed Ads</testData>
+    <testData name="samsung">samsung</testData>
+    <testData name="Entertainment">Entertainment</testData>
+    <testData name="showAllOption">showAllOption</testData>
+    <testData name="servicesSearchBar">servicesSearchBar</testData>
+    <testData name="SERVICES">Services</testData>
+    <testData name="subcategory">Business Offers</testData>
+    <testData name="showMoreCategories">More</testData>
+    <testData name="MyAccount">My Account</testData>
+    <testData name="home">Home</testData>
+    <testData name="browseAdsOption">Browse Ads</testData>
+    <testData name="cityName">Bangalore</testData>
+    <testData name="alert">My Alerts</testData>
+    <testData name="lowestPriceFirstSOrt">Lowest Price</testData>
+    <testData name="MyChats">My Chats</testData>
+    <testData name="selectBrand">Brand Name</testData>
+</data>
+

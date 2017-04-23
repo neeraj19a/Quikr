@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS Horizontal Suite">
+    <test name="iOS Horizontal tests">
+
+        <packages>
+            <package name="com.quikr.app.ios.alert.*"></package>
+            <package name="com.quikr.app.ios.auth.*"></package>
+            <package name="com.quikr.app.ios.chat.*"></package>
+            <package name="com.quikr.app.ios.electronicsAndAppliances.*"></package>
+            <package name="com.quikr.app.ios.escrow.*"></package>
+            <package name="com.quikr.app.ios.home.*"></package>
+            <package name="com.quikr.app.ios.jobs.*"></package>
+            <package name="com.quikr.app.ios.menu.*"></package>
+            <package name="com.quikr.app.ios.mobilesAndTabletsPostAd.*"></package>
+            <package name="com.quikr.app.ios.snb.*"></package>
+        </packages>
+
+    </test>
+</suite>

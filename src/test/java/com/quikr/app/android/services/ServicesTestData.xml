@@ -1,0 +1,39 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="category">Services</testData>
+    <testData name="adTitle">Looking for a driver job</testData>
+    <testData name="adDescription">looking for a driver job, have 3+ yrs experience</testData>
+    <testData name="locality">Adugodi</testData>
+    <testData name="subcategory">Business Offers</testData>
+    <testData name="adType">wantDriver</testData>
+    <testData name="name">Karan Sharma</testData>
+    <testData name="categoryName">Home Repair</testData>
+    <testData name="subcategoryName">Plumber</testData>
+    <testData name="alertsAndRecommendation">Alerts and Recommended</testData>
+    <testData name="createAlert">Create Alert</testData>
+    <testData name="recentlyViewed">Recently Viewed Ads</testData>
+    <testData name="jobs">Jobs</testData>
+    <!--<testData name="electronics">ELECTRONICS</testData>-->
+    <!--<testData name="realEstate">REAL ESTATE</testData>-->
+    <testData name="cat">Electronics</testData>
+    <testData name="real">Real</testData>
+    <testData name="MyAccount">My Account</testData>
+    <testData name="phoneNumber">9883434924</testData>
+    <testData name="SERVICES">Services</testData>
+    <testData name="instaConnectCategory">homeRepair</testData>
+    <testData name="instaConnectSubcategory">Carpenter</testData>
+    <testData name="NewCity">Chandigarh</testData>
+    <testData name="homeServicesCategory">Home Help</testData>
+    <testData name="homeServicesSubcategory">Cook</testData>
+    <testData name="homeRepair">Home Help</testData>
+    <testData name="subcategory1">Business Offers</testData>
+    <testData name="quikrConnectCategory">Packers &amp; Movers</testData>
+    <testData name="quikrConnectSubcategory">Within City</testData>
+    <testData name="evaluateAndChooseCategory">Interior Designing &amp; Home Improvements</testData>
+    <testData name="evaluateAndChooseSubcategory">Modular Kitchen</testData>
+    <testData name="showAllOption">showAllOption</testData>
+    <testData name="servicesSearchBar">servicesSearchBar</testData>
+    <testData name="filterLocality1">Adugodi</testData>
+    <testData name="filterLocality2">Achitnagar</testData>
+    <testData name="filterLocality3">80 Ft. Road</testData>
+</data>

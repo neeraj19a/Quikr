@@ -1,0 +1,303 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="postAd">
+        <id>com.quikr:id/fab_filter</id>
+    </element>
+
+    <element name="homePageCategory">
+        <id>android:id/text1</id>
+    </element>
+    <element name="city">
+        <id>com.quikr:id/citySpinner</id>
+    </element>
+    <element name="SubCatId">
+        <id>com.quikr:id/txtSubCat</id>
+    </element>
+    <element name="selectCity">
+        <id>com.quikr:id/city_name</id>
+    </element>
+    <element name="trendingAd">
+        <id>com.quikr:id/trending_item_layout_tag</id>
+    </element>
+
+    <element name="SERVICES">
+        <name>Services</name>
+        <!--<xpath>//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[3]-->
+        <!--</xpath>-->
+    </element>
+    <element name = "Used Cars">
+        <name>Used Cars</name>
+    </element>
+    <element name ="ElectronicsAppliances">
+        <name>Popular Products</name>
+    </element>
+    <element name="Lifestyle">
+        <name>Top Categories</name>
+    </element>
+    <element name="Bikes">
+        <name>Find Bikes</name>
+    </element>
+    <element name="Homes">
+        <name>RESIDENTIAL</name>
+    </element>
+    <element name="Services">
+        <name>Find Local Businesses Quikr</name>
+    </element>
+    <element name="Jobs homepage">
+        <name>Tatkal Jobs</name>
+    </element>
+    <element name="Education">
+        <name>Distance Learning Courses</name>
+    </element>
+    <element name="Entertainment">
+        <name>Acting - Modeling Roles</name>
+    </element>
+    <element name="Nationwide">
+        <name>Nationwide</name>
+    </element>
+    <element name="More">
+        <name>More</name>
+    </element>
+  <element name="Pets">
+      <name>Pets</name>
+  </element>
+    <element name="Events">
+        <name>Event Management</name>
+    </element>
+    <element name="Matrimonial">
+        <name>Grooms</name>
+    </element>
+
+
+    <element name="cancelButton">
+        <id>android:id/button2</id>
+    </element>
+
+    <element name="Jobs">
+        <name>Jobs</name>
+    </element>
+    <element name="Cars">
+        <name>Cars</name>
+    </element>
+    <element name="headerSearch">
+        <id>com.quikr:id/menu_search</id>
+    </element>
+
+    <element name="popularAd">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+
+    <element name="adNearU">
+        <id>com.quikr:id/txtTtitle</id>
+    </element>
+
+    <element name="recommendedAd">
+        <xpath>(//android.widget.LinearLayout[@resource-id='com.quikr:id/recommended_ads_container']/android.widget.RelativeLayout)</xpath>
+
+    </element>
+
+    <element name="chatAndRepliesButton">
+        <!--<name>My Chats</name>-->
+        <id>com.quikr:id/mcr_button</id>
+    </element>
+    <element name="home">
+        <name>Open Drawer</name>
+    </element>
+    <element name="search">
+        <id>com.quikr:id/menu_search</id>
+    </element>
+
+    <element name="categoryHome">
+        <name>HOME</name>
+    </element>
+
+    <element name="Mobiles">
+        <name>Mobiles</name>
+    </element>
+
+    <element name="nearbyAds">
+        <name>Nearby Ads</name>
+    </element>
+
+    <element name="quikrX">
+        <id>com.quikr:id/mSlot_dept</id>
+        <!--<name>QuikrX</name>-->
+    </element>
+
+    <element name="moreButton">
+        <name>MORE</name>
+    </element>
+    <element name="adsNearYouArea">
+        <id>com.quikr:id/ads_near_you_header</id>
+    </element>
+    <element name="categories">
+        <id>android:id/text1</id>
+    </element>
+    <element name="categoriesTitle">
+        <id>com.quikr:id/titleCat</id>
+    </element>
+    <element name="alerNotification">
+        <name>Dismiss</name>
+    </element>
+    <element name="skipBanner">
+        <id>com.quikr:id/action_button_skip</id>
+    </element>
+    <element name="submitSelectedLanguageS">
+        <id>com.quikr:id/donelangselection</id>
+    </element>
+    <element name="waitForAdToSkip">
+        <id>com.quikr:id/ecah_category</id>
+    </element>
+    <element name="searchLocality">
+        <id>com.quikr:id/editSearch</id>
+    </element>
+    <element name="PostAdVArientB">
+        <id>com.quikr:id/bigButtonPostAd</id>
+    </element>
+    <element name="startChatting">
+        <name>Start Chatting</name>
+    </element>
+    <element name="liveOnQuikr">
+        <id>com.quikr:id/home_live_on_quikr_text</id>
+    </element>
+    <element name="numberOfOnlineUSer">
+        <id>com.quikr:id/home_live_on_quikr_online</id>
+    </element>
+    <element name="numberOfAdsPosted">
+        <id>com.quikr:id/home_live_on_quikr_ads</id>
+    </element>
+    <element name="OngoingChatConversation">
+        <id>com.quikr:id/home_live_on_quikr_chat</id>
+    </element>
+    <element name="skipLoginOnLaunch">
+        <id>com.quikr:id/skip</id>
+    </element>
+    <element name="loginOnLaunch">
+        <id>com.quikr:id/quikr_login_init_button</id>
+    </element>
+    <element name="skipChatAssistant">
+        <id>com.quikr:id/cross_button</id>
+    </element>
+    <element name="fbLogin">
+        <id>com.quikr:id/fb</id>
+    </element>
+    <element name="googleLogin">
+        <id>com.quikr:id/sign_in_button</id>
+    </element>
+    <element name="QuikrLogin">
+        <id>com.quikr:id/quikr_login_init_button</id>
+    </element>
+    <element name="viewQuikrImageTutorial">
+        <class>android.view.View</class>
+    </element>
+    <element name="getStarted">
+        <id>com.quikr:id/action_button_get_started</id>
+    </element>
+    <element name="SERVICES">
+        <name>SERVICES</name>
+    </element>
+    <element name="bannerImage">
+        <id>com.quikr:id/radioGroup</id>
+    </element>
+    <element name="moreButtonOnHomePAge">
+        <id>com.quikr:id/btn_more</id>
+    </element>
+    <element name="searchbutton">
+        <id>com.quikr:id/menu_search</id>
+    </element>
+    <element name="heardeTextPopularNearByAds">
+        <id>com.quikr:id/header_text</id>
+    </element>
+    <element name="carouselImage">
+        <id>com.quikr:id/fragment_quikr_homes_carousel_image</id>
+    </element>
+    <element name="trendingTitle">
+        <id>com.quikr:id/trending_title</id>
+    </element>
+    <element name="priceMeter">
+        <id>com.quikr:id/meterview</id>
+    </element>
+    <element name="viewAllUnderTrending">
+        <id>com.quikr:id/pml_view_all</id>
+    </element>
+    <element name="snbMenu">
+        <id>com.quikr:id/menu_snb</id>
+    </element>
+    <element name="numberOfAdsInPriceMeter">
+        <id>com.quikr:id/textview</id>
+    </element>
+    <element name="trendingAdTitle">
+        <id>com.quikr:id/selected_textview</id>
+    </element>
+    <element name="changeSnbCAtegory">
+        <id>com.quikr:id/category</id>
+    </element>
+    <element name="carsVapprice">
+        <id>com.quikr:id/cars_vap_info_price_tv</id>
+    </element>
+    <element name="subCatOnSnbFromPopularAds">
+        <id>com.quikr:id/catitem_title</id>
+    </element>
+    <element name="categoryOnSnbFromPopularAds">
+        <id>com.quikr:id/catgrp_title</id>
+    </element>
+    <element name="backButton">
+        <class>android.widget.ImageButton</class>
+    </element>
+    <element name="backButton">
+        <class>android.widget.ImageButton</class>
+    </element>
+    <element name="openPopularAd">
+
+        <xpath>(//android.widget.LinearLayout[@resource-id='com.quikr:id/popular_ads_container']/android.widget.RelativeLayout)</xpath>
+
+        <!--<xpath>(//android.widget.LinearLayout[@index='1']/android.widget.RelativeLayout[@index='0'])</xpath>-->
+    </element>
+    <element name="openNearbyAd">
+        <xpath>(//android.widget.LinearLayout[@resource-id='com.quikr:id/ads_near_you_container']/android.widget.RelativeLayout)</xpath>
+    </element>
+
+    <element name="categories">
+        <id>com.quikr:id/ecah_category</id>
+    </element>
+
+    <element name="googleAds">
+        <name>Interstitial close button</name>
+</element>
+    <element name="selectCategory">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/titleCat' and contains(@text,$)])</xpath>
+    </element>
+    <element name="categoryName">
+        <id>com.quikr:id/titleCat</id>
+    </element>
+    <element name="Matching Ads">
+        <id>android:id/text1</id>
+    </element>
+    <element name="MaoCtaInMatching Ads">
+        <id>com.quikr:id/txtRequestOffer</id>
+    </element>
+    <element name="MakeAnOfferInHeader">
+        <name>Make an Offer</name>
+
+    </element>
+    <element name="HomepageScrollView">
+        <id>com.quikr:id/screen_home_page_scroll_layout</id>
+    </element>
+    <element name="TrendingTitle">
+        <id>com.quikr:id/trending_title</id>
+    </element>
+    <element name="RecommendedForYouSection">
+        <id>com.quikr:id/screen_home_page_feed_layout</id>
+    </element>
+    <element name="RecommendedForYouTitle">
+        <id>com.quikr:id/header_text</id>
+    </element>
+    <element name="titlebar">
+        <id>com.quikr:id/toolbar</id>
+    </element>
+    <element name="toolbar">
+        <id>com.quikr:id/action_bar</id>
+    </element>
+</elements>

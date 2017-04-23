@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="isMobileTabletHeading">
+        <xpath>//div[@title='Mobiles &#38; Tablets']</xpath>
+    </element>
+
+    <element name="selectBrand">
+        <xpath>//div[@class='cat_list flexbox']/ul[1]/li[3]/a</xpath>
+    </element>
+
+    <element name="isBrandSelected">
+        <xpath>//div[@id='leftSideBrand_name']/ul[1]/li[1]/a</xpath>
+    </element>
+
+    <element name="selectAd">
+        <xpath>//div[@id='a1d1topcontainer']/div[2]//h3/a</xpath>
+    </element>
+
+    <element name="isAdSelected">
+        <xpath>//h1[@class='title_of_the_ad translate']</xpath>
+    </element>
+
+</elements>

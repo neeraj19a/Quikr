@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="postAd">
+        <css>.post_ad_button.yellow</css>
+    </element>
+
+    <element name="adTitleVap">
+        <xpath>//div[@id='serv_content']/h3</xpath>
+    </element>
+
+</elements>
+

@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="hamburger">
+        <xpath>//a[@id='menu-toggle']</xpath>
+        <id>menu-toggle</id>
+    </element>
+    
+    <element name="quikrHome">
+        <xpath>//a[@class='quikr-logo']</xpath>
+    </element>
+
+    <element name="hamburgerClose">
+        <xpath>//a[@id='menu-close']</xpath>
+        <id>menu-close</id>
+    </element>
+    
+    <element name="mobiles_Tablets">
+        <xpath>//a[text()='Mobiles &amp; Tablets']</xpath>
+    </element>
+
+    <element name="electronics_Appliances">
+        <xpath>//a[text()='Electronics &amp; Appliances']</xpath>
+        <linkText>Electronics &amp; Appliances</linkText>
+    </element>
+
+    <element name="realEstate">
+        <xpath>//a[contains(@href,'Real-Estate')]</xpath>
+        <linkText>Real-Estate</linkText>
+    </element>
+
+    <element name="home_Lifestyle">
+        <xpath>//a[text()='Home &amp; Lifestyle']</xpath>
+        <linkText>Home &amp; Lifestyle</linkText>
+    </element>
+
+    <element name="jobs">
+        <xpath>//a[text()='Jobs']</xpath>
+        <linkText>Jobs</linkText>
+    </element>
+
+    <element name="services">
+        <xpath>//a[text()='Services']</xpath>
+        <linkText>Services</linkText>
+    </element>
+
+    <element name="pets_Petcare">
+        <xpath>//a[text()='Pets &amp; Pet Care']</xpath>
+        <linkText>Pets &amp; Pet Care</linkText>
+    </element>
+
+    <element name="education_Learning">
+        <xpath>//a[text()='Education &amp; Training']</xpath>
+        <linkText>Education &amp; Training</linkText>
+    </element>
+
+    <element name="newCars">
+        <xpath>//label[text()='New Cars']/..</xpath>
+    </element>
+
+    <element name="checkMSPHamburger">
+        <xpath>(//a[contains(@href,'msp')])[1]</xpath>
+    </element>
+
+    <element name="quikrLogo">
+        <xpath>//a[contains(@class,'home-logo ')]</xpath>
+    </element>
+
+    <element name="quikrLogoOldUI">
+        <xpath>//div[@class='quikrLogo']</xpath>
+    </element>
+
+    <element name="userDropdown">
+        <xpath>//a[@id='user-dropdown']</xpath>
+    </element>
+
+    <element name="userDropdownLoggedIn">
+        <xpath>//a[@class='loggedin']</xpath>
+    </element>
+
+    <element name="login">
+        <xpath>//a[contains(@class,'login')]</xpath>
+        <class>login</class>
+    </element>
+    
+    <element name="username">
+        <xpath>//input[@id='fullnameFromPopUp']</xpath>
+        <name>GreetingName</name>
+    </element>
+
+    <element name="password">
+        <xpath>//input[@id='password']</xpath>
+        <name>Password</name>
+    </element>
+    
+    <element name="loginButton">
+        <xpath>//button[text()='Login']</xpath>
+    </element>
+    
+    <element name="forgotPassword">
+        <xpath>//a[text()='Forgot Password?']</xpath>
+        <linkText>Forgot Password?</linkText>
+    </element>
+
+    <element name="forgotPasswordValidate">
+        <xpath>//div[@class='pagetitle2']</xpath>
+    </element>
+
+    <element name="signup">
+        <xpath>//a[contains(@href,'Register')]</xpath>
+    </element>
+
+    <element name="individual_Business">
+        <xpath>//span[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="emailid">
+        <xpath>//input[@id='emailidFromPopUp']</xpath>
+    </element>
+
+    <element name="passWord">
+        <xpath>//input[@id='passWord']</xpath>
+    </element>
+
+    <element name="confirmpassWord">
+        <xpath>.//*[@id='confirmPassword']</xpath>
+    </element>
+
+    <element name="confirmCheckBox">
+        <xpath>//label[@for='confirm']</xpath>
+    </element>
+
+    <element name="phone">
+        <xpath>.//*[@id='phone']</xpath>
+    </element>
+
+    <element name="city">
+        <xpath>//select[@id='city']</xpath>
+    </element>
+
+    <element name="citySelect">
+        <xpath>//option[@id='$']</xpath>
+    </element>
+
+    <element name="nameOnRegistrationPopUp">
+        <xpath>.//*[@id='fullname']</xpath>
+    </element>
+
+    <element name="registrationPopUp">
+        <xpath>//div[@class='simple-overlay login-modal-view']</xpath>
+    </element>
+
+    <element name="signupButton">
+        <xpath>(//button[@name='submit'])[2]</xpath>
+    </element>
+
+    <element name="signupCloseBtn">
+        <xpath>//i[@id='icon-arrows_remove']</xpath>
+    </element>
+
+    <element name="myProfile">
+        <xpath>//a[contains(text(),'My Profile')]</xpath>
+    </element>
+
+    <element name="myQuikrPageHeading">
+        <xpath>//h3</xpath>
+    </element>
+
+    <element name="myAdsHeading">
+        <xpath>//div[@class='title-myad']/div/h3</xpath>
+    </element>
+
+    <element name="myAdsHeadingOld">
+        <xpath>.//*[@id='main']/div[1]</xpath>
+    </element>
+
+    <element name="myAds">
+        <xpath>//a[text()='My Ads']</xpath>
+        <linkText>My Ads</linkText>
+    </element>
+
+    <element name="myAlerts">
+        <xpath>//a[text()='My Alerts']</xpath>
+        <linkText>My Alerts</linkText>
+    </element>
+
+    <element name="myChats">
+        <xpath>//a[contains(@href,'mychats')]</xpath>
+        <linkText>My Chats</linkText>
+    </element>
+
+    <element name="myChatValidate">
+        <xpath>//ul[@class='tabs']</xpath>
+    </element>
+
+    <element name="loginRegisterButton">
+        <xpath>//label[@class='Login hidden-xs']</xpath>
+    </element>
+
+    <element name="mySavedAds">
+        <xpath>//a[contains(@href,'mysavedads')]</xpath>
+        <linkText>My Shortlist</linkText>
+    </element>
+
+    <element name="signOut">
+        <xpath>//a[text()='Sign Out']</xpath>
+        <linkText>Sign Out</linkText>
+    </element>
+
+    <element name="postAd">
+        <xpath>//button[contains(@class,'postad')]</xpath>
+    </element>
+
+</elements>

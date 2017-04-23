@@ -1,0 +1,13 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="categoryName">Mobiles</testData>
+    <testData name="subCategoryName">mobilePhones</testData>
+    <testData name="sendText">Hi i am interested</testData>
+    <testData name="name">Monu</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="mobileNo">9955199187</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="wrongEmailId">test@gmail</testData>
+    <testData name="uiaTableViewForMcrScreen">uiaTableViewForMcrScreen</testData>
+
+</data>

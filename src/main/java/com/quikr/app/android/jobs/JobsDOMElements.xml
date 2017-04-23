@@ -1,0 +1,296 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="postAd">
+        <id>com.quikr:id/fab_filter</id>
+    </element>
+
+    <element name="jobsSubcategory">
+        <id>com.quikr:id/txtSubCat</id>
+    </element>
+
+    <element name="clickOnSelectRole">
+        <id>com.quikr:id/tvRole</id>
+        <name>Select Role</name>
+    </element>
+
+    <element name="roleList">
+        <id>com.quikr:id/row_title</id>
+    </element>
+
+    <element name="city">
+        <id>com.quikr:id/tvCity</id>
+    </element>
+
+    <element name="roleListOptions">
+        <id>com.quikr:id/row_title</id>
+    </element>
+
+    <element name="searchButton">
+        <id>com.quikr:id/btn_search</id>
+    </element>
+
+    <element name="showMoreButton">
+        <id>com.quikr:id/tvAllRoles</id>
+    </element>
+
+    <element name="showLessButton">
+        <name>Hide All Roles</name>
+    </element>
+
+    <element name="postAdButton">
+        <id>com.quikr:id/fab_filter</id>
+    </element>
+
+    <element name="chatHeader">
+        <id>com.quikr:id/menu_chat_nxt</id>
+    </element>
+
+    <element name="currentRole">
+        <id>com.quikr:id/btncrrentrole</id>
+        <name>Current Role</name>
+    </element>
+
+    <element name="enterEmailformat1">
+        <name>Email Id</name>
+    </element>
+    <element name="phoneNoformat1">
+        <name>Mobile</name>
+    </element>
+    <element name="applyButton">
+        <id>com.quikr:id/btnApplyA</id>
+    </element>
+
+    <element name="pleaseSelectCurrentRole">
+        <name>-Please select current role</name>
+    </element>
+
+    <element name="pleaseEnterValidEmailAddressFormat1">
+        <name>Please enter valid email address</name>
+    </element>
+
+    <element name="pleaseEnterValidMobileFormat1">
+        <name>Please enter valid mobile</name>
+    </element>
+
+    <element name="currentRoleOptionNameOnApplyPage">
+        <id>android:id/text1</id>
+        <name>Architect</name>
+    </element>
+
+    <element name="preFilledData">
+        <!--<id>com.quikr:id/etName</id>-->
+        <!--<name>Enter name</name>-->
+        <id>com.quikr:id/widget_element</id>
+    </element>
+
+    <element name="educationalQualification">
+        <id>com.quikr:id/btnEducation</id>
+        <name>Educational Qualification</name>
+    </element>
+
+    <element name="totalExperience">
+        <id>com.quikr:id/btntotalexp</id>
+        <name>Total Experience</name>
+    </element>
+
+    <element name="currentSalary">
+        <id>com.quikr:id/etSalary</id>
+        <name>Current Salary(₹/month)</name>
+    </element>
+
+    <element name="submitButtonOfApplyPage">
+        <id>com.quikr:id/btnSubmit</id>
+    </element>
+
+    <element name="noThanksButton">
+        <id>com.quikr:id/btnNothanks</id>
+    </element>
+
+    <element name="msgAfterClickOnNoThanksButton">
+        <id>com.quikr:id/title</id>
+        <name>Now you can apply to more jobs at Quikr without entering the details again.</name>
+    </element>
+
+    <element name="cancelButtonOnPopUp">
+        <id>com.quikr:id/gpscancel</id>
+        <name>Cancel</name>
+    </element>
+
+    <element name="applyForMoreButtonJobsButton">
+        <name>Apply to more jobs</name>
+    </element>
+
+    <element name="applyToThisJob">
+        <name>Apply to this job</name>
+    </element>
+
+    <element name="educationOptionsName">
+        <name>Graduate</name>
+    </element>
+
+    <element name="totalExperienceOptionName">
+        <id>com.quikr:id/text</id>
+    </element>
+    <element name="msgAfterClickOnSubmit">
+        <id>com.quikr:id/title</id>
+        <name>Your application has been updated! Now you can apply to more jobs at Quikr without entering the details again.</name>
+    </element>
+
+    <element name="more">
+        <name>MORE</name>
+    </element>
+    <element name="changeCity">
+        <id>com.quikr:id/tvCity</id>
+    </element>
+    <element name="apply">
+        <id>com.quikr:id/jobs_btnJobsApply</id>
+    </element>
+    <element name="enterEmailFormat2">
+        <id>com.quikr:id/etEmail</id>
+    </element>
+    <element name="phoneformat2">
+        <id>com.quikr:id/etPhoneNumber</id>
+    </element>
+    <element name="pleaseEnterValidEmailAddressFormat2">
+        <name>Please Enter Valid Email</name>
+    </element>
+    <element name="-pleaseEnterValidEmailAddressFormat2">
+        <name>-Please Enter Valid Email</name>
+    </element>
+    <element name="pleaseEnterValidMobileFormat2">
+        <name>Please Enter Valid Phone Number</name>
+    </element>
+    <element name="-pleaseEnterValidMobileFormat2">
+        <name>-Please Enter Valid Phone Number</name>
+    </element>
+    <element name="-pleaseEnterValidEmailAddressFormat1">
+        <name>-Please enter valid email address</name>
+    </element>
+
+    <element name="-pleaseEnterValidMobileFormat1">
+        <name>-Please enter valid mobile</name>
+    </element>
+    <element name="location">
+        <id>com.quikr:id/locality</id>
+    </element>
+    <element name="name">
+        <name>Name</name>
+    </element>
+    <element name="afterApplyNextPage">
+        <id>com.quikr:id/textView17</id>
+    </element>
+    <element name="skip">
+        <id>com.quikr:id/btnSkip</id>
+    </element>
+    <element name="JobsShortlist">
+        <id>com.quikr:id/favourite</id>
+    </element>
+    <element name="jobsRoleNew">
+        <name>Role Experience</name>
+    </element>
+
+    <element name="languageKnown">
+        <name>Languages known</name>
+    </element>
+    <element name="education">
+        <name>Education</name>
+    </element>
+    <element name="salaryNew">
+        <name>Current salary per month</name>
+    </element>
+    <element name="roleExperiance">
+        <id>com.quikr:id/text</id>
+    </element>
+    <element name="languageOption">
+        <id>com.quikr:id/txtFilterRow</id>
+    </element>
+    <element name="jobsSnbAdTitle">
+        <id>com.quikr:id/ad_title</id>
+    </element>
+    <element name="openAdLocator">
+        <id>com.quikr:id/joblocationlyt</id>
+    </element>
+    <element name="applyButtonVap">
+        <id>com.quikr:id/apply</id>
+    </element>
+    <element name="newAdFirst">
+        <id>com.quikr:id/menu_item_text</id>
+    </element>
+    <element name="JobDetails">
+        <id>com.quikr:id/jobs_tvJobsDetails</id>
+    </element>
+    <element name="searchJobs">
+        <id>com.quikr:id/search_jobs</id>
+    </element>
+    <element name="roleTitles">
+        <id>com.quikr:id/text1</id>
+    </element>
+    <element name="searchRole">
+        <id>com.quikr:id/jobs_search_ET</id>
+    </element>
+    <element name="jobssnbAdTitle">
+        <id>com.quikr:id/ad_title</id>
+    </element>
+    <element name="localityOptions">
+        <id>com.quikr:id/txtFilterRow</id>
+    </element>
+    <element name="OkButton">
+        <id>com.quikr:id/checkBoxFilterRow</id>
+    </element>
+    <element name="jobsDetail">
+        <id>com.quikr:id/jobs_tvJobsDetails</id>
+    </element>
+    <element name="search">
+        <id>com.quikr:id/menu_search</id>
+    </element>
+    <element name="Architect">
+        <name>Architect</name>
+    </element>
+    <element name="jobsVapAdTitle">
+        <id>com.quikr:id/jobs_title</id>
+    </element>
+    <element name="validateSubmitOldFormat">
+        <id>com.quikr:id/gpsok</id>
+    </element>
+    <element name="fulltimeJobCHP">
+        <id>com.quikr:id/tvFullTimeJobs</id>
+    </element>
+    <element name="ExperianceType">
+        <name>Experience type</name>
+    </element>
+    <element name="industry">
+        <name>Industry</name>
+    </element>
+    <element name="dropdownOptions">
+        <id>com.quikr:id/txtFilterRow</id>
+    </element>
+    <element name="checkBox">
+        <id>com.quikr:id/btnFilterChkBoxOk</id>
+    </element>
+    <element name="chpRoles">
+        <name>com.quikr:id/tvRoleName</name>
+    </element>
+    <element name="jobsCreateProfile">
+        <id>com.quikr:id/menu_item_text</id>
+    </element>
+    <element name="jobsSectionTitle">
+        <id>com.quikr:id/tvSectiontitle</id>
+    </element>
+    <element name="jobsSnbLocality">
+        <id>com.quikr:id/job_value</id>
+    </element>
+    <element name="applyFiltersButton">
+        <id>com.quikr:id/btnApplyFilters</id>
+    </element>
+    <element name="SnbJobKEy">
+        <id>com.quikr:id/job_key</id>
+    </element>
+    <element name="snbJobVAlue">
+        <id>com.quikr:id/job_value</id>
+    </element>
+    <element name="textView">
+        <id>android.widget.TextView</id>
+    </element>
+</elements>

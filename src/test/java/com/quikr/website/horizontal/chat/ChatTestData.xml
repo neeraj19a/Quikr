@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="name">Rahul</testData>
+    <testData name="question">How much is the price ??</testData>
+    <testData name="city">Bangalore</testData>
+    <testData name="basicUrl">.com</testData>
+    <testData name="cityUrl">bangalore</testData>
+</data>

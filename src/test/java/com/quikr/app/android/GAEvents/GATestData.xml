@@ -1,0 +1,15 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="servicescategory">Services</testData>
+    <testData name="servicesadTitle">Looking for a driver job</testData>
+    <testData name="servicesadDescription">looking for a driver job, have 3+ yrs experience</testData>
+    <testData name="servicessubcategory1">Business Offers</testData>
+    <testData name="servicesWantTypeAd">I want a business proposal</testData>
+    <testData name="enterAdTitle">Enter Ad title</testData>
+    <testData name="enterDescription">Ad Description</testData>
+    <testData name="SelectLocality">Locality</testData>
+    <testData name="location">80 Ft. Road</testData>
+    <testData name="mobileNumber">Mobile</testData>
+    <testData name="recentlyViewed">Recently Viewed Ads</testData>
+
+</data>

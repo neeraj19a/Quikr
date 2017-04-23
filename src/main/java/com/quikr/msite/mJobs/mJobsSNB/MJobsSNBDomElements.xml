@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="ApplyButtonFirstJob">
+        <xpath>(.//button[@class='apply-btton btn btn-primary text-center'])[1]</xpath>
+    </element>
+
+    <element name="ApplyForm">
+        <css>.apply-form</css>
+    </element>
+
+    <element name="MobileNumber">
+        <id>field_var_mobile</id>
+    </element>
+
+    <element name="Locality">
+        <css>.selectize-input.items.not-full.has-options</css>
+    </element>
+
+    <element name="Submit">
+        <id>submit-form</id>
+    </element>
+
+    <element name="ClickFirstAd">
+        <xpath>(.//h3[@class='home-list-page-header truncate ']/a)[1]</xpath>
+    </element>
+
+
+    <element name="ApplyButton">
+        <id>applyBtn</id>
+    </element>
+
+    <element name="ApplicantNameInputTextfield">
+        <id>applyName</id>
+    </element>
+
+    <element name="ApplicantLocality">
+        <id>ad_location</id>
+    </element>
+
+    <element name="submitApplicationButton">
+        <id>replyBtn</id>
+    </element>
+
+    <element name="FilterIconSNB">
+        <xpath>.//span[@class='icon-filter']</xpath>
+    </element>
+
+    <element name="SelectFilterByNameSNB">
+        <xpath>.//div[@data-label='$' and (contains(@id,'mob'))]/..</xpath>
+    </element>
+
+    <element name="SelectCityFilterSNB">
+        <xpath>(.//li[@class='scrollable-menu']/a[@data-val='Bangalore'])[2]</xpath>
+    </element>
+
+    <element name="SelectCheckBoxFilterSNB"> <!--//This is used to click on CheckBox of the filters according to their position 1 ,2 ,3,4 so on-->
+        <xpath>.//div[@data-label='$' and (contains(@id,'mob'))]/../../ul/li/label[$]/input</xpath>
+    </element>
+
+    <element name="ApplyFilterSNB">
+        <xpath>.//button[@type='submit' and (@class='btn btn-primary col-xs-12')]</xpath>
+    </element>
+
+    <element name="NumberofJobs">
+        <css>.xtra-space-right</css>
+    </element>
+
+    <element name="SortDropDown">
+        <css>.btn.dropdown-toggle.filters-dropdown.search-filter-dropdown</css>
+    </element>
+
+    <element name="SortRecent">
+        <xpath>(.//span[@class='text'])[1]</xpath>
+    </element>
+
+    <element name="SortOldest">
+        <xpath>(.//span[@class='text'])[2]</xpath>
+    </element>
+
+    <element name="DateofAllAds">
+        <xpath>.//p[@class='hidden-lg hidden-sm hidden-md']</xpath>
+    </element>
+
+    <element name="DateofPremiumAds">
+        <xpath>.//p[@class='hidden-lg hidden-md premium-text hidden-sm']/../p[2]</xpath>
+    </element>
+
+
+
+</elements>

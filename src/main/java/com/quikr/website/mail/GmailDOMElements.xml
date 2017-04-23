@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="gmailEmail">
+        <id>Email</id>
+    </element>
+
+    <element name="gmailNext">
+        <id>next</id>
+    </element>
+
+    <element name="gmailPassword">
+        <id>Passwd</id>
+    </element>
+
+    <element name="gmailSignIn">
+        <id>signIn</id>
+    </element>
+
+    <element name="gmailInboxMailSubject">
+        <xpath>.//div[@class='xT']/div/span[2][contains(text(),'$')]/../span/b</xpath>
+    </element>
+
+    <element name="gmailInboxMailHeading">
+        <xpath>.//div[@class='ha']/h2</xpath>
+    </element>
+
+</elements>

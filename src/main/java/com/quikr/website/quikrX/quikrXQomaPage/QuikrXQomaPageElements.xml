@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="userName">
+        <name>email</name>
+    </element>
+
+    <element name="password">
+        <name>password</name>
+    </element>
+
+    <element name="submit">
+        <xpath>.//*[@id='loginSubmit']</xpath>
+    </element>
+
+    <element name="subOrderIdSecrow">
+        <xpath>.//tbody/tr[2]/td[2]</xpath>
+    </element>
+
+    <element name="subOrderIdFirstrow">
+        <xpath>.//tbody/tr[1]/td[2]</xpath>
+    </element>
+
+    <element name="viewSuborder">
+        <xpath>.//div[@class='menu']/ul/li/a[text()='Sub Orders']</xpath>
+    </element>
+
+    <element name="orderIdInputField">
+        <xpath>.//*[@id='searchOrderById']/div[2]/input</xpath>
+    </element>
+
+    <element name="subOrderIdInputField">
+        <xpath>.//*[@id='searchOrderById']/div[3]/input</xpath>
+    </element>
+
+    <element name="emailIdInputField">
+        <xpath>  .//*[@id='searchOrderById']/div[4]/input</xpath>
+    </element>
+
+    <element name="mobileInputField">
+        <xpath>.//*[@id='searchOrderById']/div[5]/input</xpath>
+    </element>
+
+    <element name="searchButton">
+        <xpath>.//*[@id='searchOrderById']/div[7]/input</xpath>
+    </element>
+
+    <element name="orderIdlink">
+        <xpath>.//a[contains(@href,"$")]</xpath>
+    </element>
+
+    <element name="ordererdOn">
+        <xpath>.//tr[contains(td,'Ordered on')]/td[2]</xpath>
+    </element>
+
+    <element name="customerName">
+        <xpath>.//tr[contains(td,'Customer Name')]/td[2]</xpath>
+    </element>
+
+    <element name="customerEmail">
+        <xpath>.//tr[contains(td,'Customer Email')]/td[2]</xpath>
+    </element>
+
+    <element name="customerMobile">
+        <xpath>.//tr[contains(td,'Customer Mobile')]/td[2]</xpath>
+    </element>
+
+    <element name="totalPrice">
+        <xpath>.//tr[contains(td,'Total Price')]/td[2]/h2</xpath>
+    </element>
+
+    <element name="priceBySuborderId">
+        <xpath>.//*[@id='$']/td[5]</xpath>
+    </element>
+
+    <element name="exchangeDiscBySubOrderId">
+        <xpath>.//*[@id='$']/td[6]</xpath>
+    </element>
+
+    <element name="promoDiscBySubOrderId">
+        <xpath>.//*[@id='$']/td[7]</xpath>
+    </element>
+
+    <element name="netAmountBySubOrderId">
+        <xpath>.//*[@id='$']/td[8]</xpath>
+    </element>
+
+    <element name="statusBySubOrderId">
+        <xpath>.//*[@id='$']/td[12]</xpath>
+    </element>
+
+    <element name="updateStatusSubOrderId">
+        <xpath>.//*[@id='$']/td[13]/button[1]</xpath>
+    </element>
+
+    <element name="statusDropDown">
+        <xpath>.//*[@id='newstatus']</xpath>
+    </element>
+
+    <element name="updateStatusButton">
+        <xpath>.//*[@id='sbt-editStatus']</xpath>
+    </element>
+
+    <element name="commentArea">
+        <xpath>.//*[@id='form-editStatus']/div[7]/textarea</xpath>
+    </element>
+    
+    <element name="paidBy">
+        <name>paid_by_cash</name>
+    </element>
+
+    <element name="replacementTab">
+        <xpath>//ul[@class='cs_user_mngt']/li[7]/a</xpath>
+    </element>
+
+    <element name="replacementUpdateSatusBySub">
+        <xpath>.//*[@id='$']/td[10]/button[1]</xpath>
+    </element>
+    
+    <element name="placeReplaceButton">
+        <xpath>.//*[@id='$']/td[10]/button[2]</xpath>
+    </element>
+
+    <element name="replacementOwner">
+        <xpath>.//*[@id='replacement_owner']</xpath>
+    </element>
+
+    <element name="newSeller">
+        <xpath>.//*[@id='newsellerid']</xpath>
+    </element>
+
+    <element name="replaceSearchButton">
+        <xpath>.//*[@id='searchOrderById']/div[6]/input</xpath>
+    </element>
+
+    <element name="replstatusBySubOrderId">
+        <xpath>.//*[@id='$']/td[9]</xpath>
+    </element>
+
+    <element name="subNewSellerRep">
+        <xpath>.//*[@id='sbt-placeOrder']</xpath>
+    </element>
+
+    <element name="newSubOrder">
+        <xpath>.//*[@id='$']/td[2]</xpath>
+    </element>
+
+    <element name="getStatus">
+        <xpath>//html/body/div[2]/div[3]/div/table/tbody/tr/td[3]</xpath>
+    </element>
+
+    <element name="getPayMode">
+        <xpath>html/body/div[2]/div[3]/div/table/tbody/tr/td[8]</xpath>
+    </element>
+
+    <element name="allstatusDropDown">
+        <xpath>.//*[@id='searchOrderByFields']/div[2]/div/button</xpath>
+    </element>
+
+    <element name="selectDelivered">
+        <xpath>.//*[@id='searchOrderByFields']/div[2]/div/ul/li/a/label[contains(text(),'Delivered') and not(contains(text(),'to'))]</xpath>
+    </element>
+
+    <element name="clicksearch">
+        <xpath>.//*[@id='sbt-searchbyfields']</xpath>
+    </element>
+
+    <element name="firstOrder">
+        <xpath>.//table[@class='table']/tbody/tr[1]/td[1]</xpath>
+    </element>
+
+    <element name="firstSubOrder">
+        <xpath>.//table[@class='table']/tbody/tr[1]/td[2]</xpath>
+    </element>
+
+    <element name="date">
+        <xpath>.//*[@id='searchOrderByFields']/div[4]/input</xpath>
+    </element>
+
+    <element name="oldDate">
+        <xpath>.//*[@class='datepicker-days']/table/tbody/tr[1]/td[1]</xpath>
+    </element>
+
+    <element name="sellernameSecRow">
+        <xpath>.//table/tbody/tr[2]/td[7]</xpath>
+    </element>
+
+</elements>

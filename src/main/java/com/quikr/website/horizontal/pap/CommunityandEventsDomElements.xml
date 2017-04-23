@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="eventCategory">
+        <id>Event_Category_newpap</id>
+    </element>
+
+    <element name="eventCategory_RadioButton">
+        <xpath>//div[@id='Event_Category_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="eventType">
+        <id>Event_Type_newpap</id>
+    </element>
+
+    <element name="eventType_RadioButton">
+        <xpath>//div[@id='Event_Type_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="eventStartDate">
+        <id>fd-but-Event_Start_Date</id>
+    </element>
+
+    <element name="eventStartTime">
+        <id>Event_Start_Time</id>
+    </element>
+
+    <element name="eventEndDate">
+        <id>fd-but-Event_End_Date</id>
+    </element>
+
+    <element name="eventEndTime">
+        <id>Event_End_Time</id>
+    </element>
+
+    <element name="eventStartDatePicker">
+        <xpath>.//div[@id='fd-Event_Start_Date']/table/tbody/tr/td[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="eventEndDatePicker">
+        <xpath>(.//td[starts-with(.,'$')])[2]</xpath>
+    </element>
+
+    <element name="eventStartDatePickerNextMonth">
+        <id>Event_Start_Date-next-month-but</id>
+    </element>
+
+    <element name="eventEndDatePickerNextMonth">
+        <id>Event_End_Date-next-month-but</id>
+    </element>
+
+
+</elements>

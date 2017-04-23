@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="city">bangalore</testData>
+    <testData name="nonTopCity">coimbatore</testData>
+    <testData name="cityUrl">bangalore</testData>
+    <testData name="servicesUrl">Service</testData>
+    <testData name="category">Services</testData>
+    <testData name="servicesUrl">Cooks</testData>
+    <testData name="subCategoryServices">Advertising - Design</testData>
+    <testData name="adTitle">i am a good cook who can cook all varities of food</testData>
+    <testData name="description">i have good hands on cooking indian foods as well as chinees.I ahve worked in good hotels and startips</testData>
+    <testData name="hompage">bangalore</testData>
+    <testData name="name">Amithab sinha</testData>
+    <testData name="number">9966998855</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="adSuccessPage">/PostAd/?succeed</testData>
+    <testData name="pap">post-classifieds-ads</testData>
+    <testData name="query">iphone</testData>
+    <testData name="loginpassword">quikr1234</testData>
+    <testData name="subCategory1">Driving Schools</testData>
+    <testData name="price">3000</testData>
+    <testData name="descriptionDrivingSchool">we have a very good driving school where experianced profrssinals are there to teach freshers </testData>
+    <testData name="ServicesCampaign">campaign=wantedAd</testData>
+    <testData name="subCategory2">Cook</testData>
+    <testData name="servicehomepageCampagin">campaign=svc_home</testData>
+    <testData name="locality">Adugodi</testData>
+    <testData name="searchService">Cook</testData>
+    <testData name="searchServiceLocation">Koramangala</testData>
+
+    <testData name="doctors">Doctors</testData>
+    <testData name="cooks">Cooks</testData>
+    <testData name="cooksUrl">Cooks</testData>
+    <testData name="drType">Dentist</testData>
+    <testData name="doctorsUrl">Doctors</testData>
+    <testData name="servicesUrl">Services</testData>
+    <testData name="drTypeUrl">Dentist</testData>
+    <testData name="chatName">raghavendra</testData>
+    <testData name="chatNumber">8855885544</testData>
+    <testData name="chatContent">hello m intresed in the deal</testData>
+    <testData name="selectedCity">bangalore</testData>
+    <testData name="expectedURL">bangalore</testData>
+    <testData name="phoneNumber">9999999999</testData>
+    <testData name="city">Bangalore</testData>
+    <testData name="locality">Bellandur</testData>
+    <testData name="recommendationsUrl">recommended-section</testData>
+    <testData name="CHPsubCategory">Architect</testData>
+
+</data>

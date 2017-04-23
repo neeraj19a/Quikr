@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="postAd">
+        <css>.post_ad_button.yellow</css>
+    </element>
+
+    <element name="firstAdSnb">
+        <xpath>//h3[@class='adtitlesnb translate']/a</xpath>
+    </element>
+
+    <element name="SnbAdTitles">
+        <xpath>//div[@class='col-md-9 col-sm-8 lisiting_heading']/h3/a</xpath>
+    </element>
+
+    <element name="SnbPremiumAdImages">
+        <xpath>//img[@class='premium-img']</xpath>
+    </element>
+
+    <element name="CloseIconofQuikrConnect">
+        <css>.closeIcon</css>
+    </element>
+
+    <element name="locationFilter">
+        <xpath>//li[@id='li-filter-loc']</xpath>
+    </element>
+
+    <element name="totalAdCount">
+        <xpath>//span[@class='total_ads_counter']</xpath>
+    </element>
+
+    <element name="adLocation">
+        <xpath>//p[@title]</xpath>
+    </element>
+
+
+
+</elements>
+

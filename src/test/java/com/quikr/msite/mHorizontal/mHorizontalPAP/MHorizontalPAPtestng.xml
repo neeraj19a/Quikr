@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="M Horizontal PAP Tests Suite" time-out="300000" verbose="1" annotations="JDK" thread-count="4" parallel="classes">
+
+    <test name="mHorizontal PAP Tests">
+        <classes>
+            <class name="com.quikr.msite.mHorizontal.mHorizontalPAP.MHorizontalPAPTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>
+

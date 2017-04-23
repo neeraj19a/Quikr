@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QuikrX Tests Suite" verbose="1" annotations="JDK" thread-count="5" parallel="classes">
+
+    <test name="QuikrX Page Validation">
+        <classes>
+            <!--<class name="com.quikr.website.quikrX.quikrXHome.QuikrXNewListingPageTests"></class>-->
+            <class name="com.quikr.website.quikrX.quikrXDetails.QuikrXNewDetailsPageTest"></class>
+            <!--<class name="com.quikr.website.quikrX.QuikrXEndToEndFlows.QuikrXEndToEndFlowTests"></class>-->
+            <!--<class name="com.quikr.website.quikrX.quikrXMyQuikrXOrders.QuikrXMyQuikrXOrderTests"></class>-->
+            <!--<class name="com.quikr.website.quikrX.quikrXQoma.quikrXQomaTests"></class>-->
+            <!--<class name="com.quikr.website.quikrX.quikrxCart.QuikrxNewCartTest"></class>-->
+            <!--<class name="com.quikr.website.quikrX.quikrXCheckOut.QuikrXCheckOutTests"></class>-->
+            <!--<class name="com.quikr.website.quikrX.quikrXLandingPage.QuikrXLandingPageTests"></class>-->
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,24 @@
+{
+  "user": {
+    "isMobileVerified": false,
+    "email": "email1@test.com",
+    "mobile": "9123456783",
+    "quikrUserId": "333339"
+  },
+  "makeId": 2,
+  "cityId": 22,
+  "campaignName": "QKR_FORD_NEWCARS",
+  "channel": "mobile",
+  "platform": "platform",
+  "leadType": "leadType",
+  "requestType": "requestType",
+  "source": "dialer",
+  "utmCampaign": "utmCampaign",
+  "utmMedium": "utmMedium",
+  "utmSource": "utmSource",
+  "leadScore": 100,
+  "vendorId": 25,
+  "adId": 1400000000,
+  "subCategoryId": 30,
+  "verificationSource": "verifiedByx"
+}

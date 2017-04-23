@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="corousalBanner">
+        <xpath>//ol[@class='banner-nav']/li/a</xpath>
+    </element>
+
+    <element name="bannerDetail">
+        <xpath>//div[@class='item active']/div[@class='details']/h6</xpath>
+    </element>
+
+    <element name="bannerFindNow">
+        <xpath>//div[@class='item active']/div[@class='details']/a</xpath>
+    </element>
+
+    <element name="eduSubCategory">
+        <xpath>//section[@class='section-wrap edu-categories']/ul/li/a</xpath>
+    </element>
+
+    <element name="featuredAd">
+        <xpath>//ul[@id='featureadSectionAds']/a/li/p</xpath>
+    </element>
+
+    <element name="articles">
+        <xpath>//div[@class='col-xs-12 col-sm-6']//div[@class='details']//strong</xpath>
+    </element>
+
+    <element name="updates">
+        <xpath>("//div[@class='latest-updates']/div[@class='content']/a")</xpath>
+    </element>
+
+    <element name="postAdBtn">
+        <xpath>//div[@class='post-ad-section pull-right']/a</xpath>
+    </element>
+
+
+</elements>

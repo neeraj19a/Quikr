@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="QuikrJobsMenu">
+        <xpath>.//a[@id='menu-toggle']</xpath>
+    </element>
+
+    <element name="QuikrJobsLogo">
+        <xpath>(.//img[@class='jobs-logo'])[2]</xpath>
+    </element>
+
+    <element name="InputJobRole">
+        <xpath>(.//input[@type='text'])[3]</xpath>
+    </element>
+
+    <element name="PostAdButtonJobs">
+        <css>.btn.head-postad.postad-btn</css>
+    </element>
+
+    <element name="SelectCityDropIcon">
+        <xpath>.//a[@class='top-selectcity']/span/i</xpath>
+    </element>
+
+    <element name="InputCity">
+        <xpath>.//input[@id='city-input']</xpath>
+    </element>
+
+    <element name="SelectCity"> <!--//Provide the name of the City to Select the City from Pouplat Cities Section-->
+        <xpath>.//a[starts-with(.,'$')]</xpath>
+    </element>
+
+
+
+</elements>

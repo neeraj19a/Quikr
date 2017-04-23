@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jobs Vap" verbose="1" annotations="JDK">
+    <test name="Jobs Vap Tests">
+        <classes>
+            <class name="com.quikr.app.android.jobs.jobsVap.JobsVapTests"/>
+        </classes>
+    </test>
+</suite>

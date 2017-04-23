@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="quikrHomePageURL">http://www.quikr.com/</testData>
+    <testData name="carsHomePageURL">http://www.quikr.com/Cars-Bikes/</testData>
+    <testData name="carsURL">http://www.quikr.com/Cars-Bikes/gId-60</testData>
+    <testData name="mobileHomePageURL">http://www.quikr.com/Mobiles-Tablets/</testData>
+    <testData name="electronicsHomePageURL">http://www.quikr.com/Electronics-Appliances/</testData>
+    <testData name="realEstateHomePageURL">http://www.quikr.com/homes/</testData>
+    <testData name="homeLifestyleHomePageURL">http://www.quikr.com/Home-Lifestyle/</testData>
+    <testData name="jobsHomePageURL">http://www.quikr.com/Jobs/</testData>
+    <testData name="servicesHomePageURL">http://www.quikr.com/Services/</testData>
+    <testData name="petsHomePageURL">http://www.quikr.com/Pets-Pet-Care/</testData>
+    <testData name="educationHomePageURL">http://www.quikr.com/education-training/</testData>
+    <testData name="PAPURL">http://www.quikr.com/post-classifieds-ads/?postadcategoryid</testData>
+    <testData name="checkMSPPageURL">http://www.quikr.com/cars-bikes/msp</testData>
+    <testData name="newCarsPageURL">http://www.quikr.com/cars/new</testData>
+
+    <testData name="getItInspectedCarsURL">cnInspected</testData>
+    <testData name="getItInspectedBikesURL">cnInspected</testData>
+
+    <testData name="dashboardURLCars">http://www.quikr.com/Cars-Bikes/</testData>
+    <testData name="dashboardURLHorizontal">http://www.quikr.com/MyQuikr</testData>
+    <testData name="myProfileURL">http://www.quikr.com/MyQuikr</testData>
+    <testData name="myAdsURL">http://www.quikr.com/MyQuikr?action=activeads</testData>
+    <testData name="myAlertsURL">http://www.quikr.com/MyQuikr?action=alertsdetails</testData>
+    <testData name="myChatsURL">http://www.quikr.com/MyQuikr?action=mychats</testData>
+    <testData name="mySavedAdsURL">MyQuikr?action=mysavedads</testData>
+    <testData name="forgotPasswordURL">http://www.quikr.com/ResetPassword</testData>
+    <testData name="signupURL">http://www.quikr.com/Register?register=done</testData>
+    <testData name="logoutURL">http://www.quikr.com/Cars-Bikes</testData>
+
+    <testData name="carsSNBURL">http://www.quikr.com/Cars/</testData>
+    <testData name="bikesScootersSNBURL">http://www.quikr.com/Bikes-Scooters/</testData>
+    <testData name="commercialVehiclesSNBURL">http://www.quikr.com/Commercial-Vehicles/</testData>
+    <testData name="bicyclesSNBURL">http://www.quikr.com/Bicycles/</testData>
+    <testData name="sparePartsNSBURL">http://www.quikr.com/Spare-Parts-Accessories/</testData>
+    <testData name="otherSNBURL">http://www.quikr.com/Other-Vehicles/</testData>
+
+    <testData name="aboutUsURL">http://www.quikr.com/html/about.php</testData>
+    <testData name="contactUsURL">http://www.quikr.com/html/contact.php</testData>
+    <testData name="careersURL">http://www.quikr.com/html/jobs.php</testData>
+    <testData name="quikrVideosURL">http://www.quikr.com/video?id=vhS7M5IdOpI</testData>
+    <testData name="advertiseURL">http://www.quikr.com/adsales</testData>
+    <testData name="blogURL">http://www.quikr.com/cars-bikes/pitstop/</testData>
+    <testData name="helpURL">http://www.quikr.com/help/</testData>
+    <testData name="iosAppURL">https://itunes.apple.com/in/app/quikr-free-local-classifieds/</testData>
+    <testData name="androidAppURL">https://play.google.com/store/apps/details?id=com.quikr</testData>
+    <testData name="windowsAppURL">https://www.microsoft.com/en-us/store/apps/quikr-buy-sell/9wzdncrcwnk5</testData>
+    <testData name="listingPolicyURL">http://www.quikr.com/html/policies.php</testData>
+    <testData name="termsOfUseURL">http://www.quikr.com/html/termsandconditions.php</testData>
+    <testData name="privacyPolicyURL">http://www.quikr.com/html/privacy.php</testData>
+    <testData name="quikrXPolicyURL">http://www.quikr.com/html/quikrxpolicy.php</testData>
+
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="city">Delhi</testData>
+
+    <testData name="cityUrl">delhi</testData>
+    <testData name="cityChange">chennai</testData>
+    <testData name="searchItem">Hyundai</testData>
+    <testData name="resultSearchPage">hyundai-cars/hyundai</testData>
+    <testData name="carHomePage">Cars-Bikes</testData>
+    <testData name="chatName">testName</testData>
+    <testData name="chatNumber">9876543210</testData>
+    <testData name="chatEmail">test@aol.com</testData>
+    <testData name="chatContent">Hi there</testData>
+    <testData name="alertMessage">Great! Your alert has been successfully created</testData>
+</data>

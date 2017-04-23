@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="menuIcon">
+        <xpath>//span[@id='menu-icon']</xpath>
+    </element>
+
+    <element name="myAccountLinkOnMenu">
+        <xpath>//a[@class='login sprite']</xpath>
+    </element>
+
+    <element name="myChatAndRepliesLinkOnMenu">
+        <xpath>.//a[text()='My Chats &amp; Replies']</xpath>
+    <!--    <xpath>//a[@class='mcr sprite']</xpath>
+    --></element>
+
+    <element name="checkProductMspLinkOnMenu">
+        <xpath>//a[@class='msp sprite']</xpath>
+    </element>
+
+    <element name="createAlertLinkOnMenu">
+        <xpath>//a[@class='need sprite']</xpath>
+    </element>
+
+    <element name="homePageLinkOnMenu">
+        <xpath>//a[@class='home sprite']</xpath>
+    </element>
+
+    <element name="editProfileLink">
+        <xpath>.//a[text()='Edit Your Profile']</xpath>
+    </element>
+
+    <element name="myChatAndRepliesLink">
+        <xpath>.//a[text()='My Chats &amp; Replies']</xpath>
+    </element>
+
+    <element name="manageMyAdsLink">
+        <xpath>(.//div[@class='panel panel-default'])[4]/h5/a</xpath>
+    </element>
+
+    <element name="activAdsLink">
+        <xpath>((.//div[@class='panel panel-default'])[4]/ul/li)[1]</xpath>
+    </element>
+
+    <element name="myAdsConvertToPremium">
+        <xpath>.//a[starts-with(.,'Convert to Premium')]</xpath>
+    </element>
+
+    <element name="myOffersLink">
+        <xpath>//a[@class='Myoffer-Icon sprite MyAcc-List']</xpath>
+    </element>
+
+    <element name="myAlertsLink">
+        <xpath>(.//div[@class='panel panel-default'])[6]/h5/a</xpath>
+    </element>
+
+    <element name="recommendedAdsLink">
+        <xpath>//a[@class='RecommendedA-Icon MyAcc-List sprite']</xpath>
+    </element>
+
+    <element name="repliesToMyAdsLink">
+        <xpath>//a[@class='Replies-Icon sprite MyAcc-List']</xpath>
+    </element>
+
+    <element name="emailMyProfilePage">
+        <xpath>//span[@class='user-acc-id']</xpath>
+    </element>
+
+    <element name="nameMyProfilePage">
+        <xpath>.//div[@class='acc-header']/h5</xpath>
+    </element>
+
+    <element name="phoneNumMyProfilePage">
+        <xpath>//div[@class='info-details']/span</xpath>
+    </element>
+
+    <element name="profileUpdateButton">
+        <id>update-profile</id>
+    </element>
+
+    <element name="addAlertRecommAds">
+        <xpath>//ul[@class='Alert-Area']/li/a[@id='addFeedBtn']/span[@class='Alert-ManageText']</xpath>
+    </element>
+
+    <element name="manageRecommAds">
+        <xpath>//ul[@class='Alert-Area']/li/a[@id='manageFeedBtn']/span[@class='Alert-ManageText']</xpath>
+    </element>
+
+    <element name="firstReplyToAd">
+        <xpath>//li[@class='replyDetailBtn clearfix']/a</xpath>
+    </element>
+
+    <element name="unsubscribeMyAlertsPage">
+        <xpath>//div[@class='feedActions clearfix']/a[@href='#']</xpath>
+    </element>
+
+    <element name="editAlertsMyAlertsPage">
+        <xpath>//div[@class='feedActions clearfix']/a</xpath>
+    </element>
+
+    <element name="myNeedIsMet">
+        <xpath>//label[@for='metNeed']</xpath>
+    </element>
+
+    <element name="submitButtonUnsubscribeForm">
+        <xpath>//input[@value='Submit']</xpath>
+    </element>
+
+    <element name="myAdsPageContentContainer">
+        <xpath>//div[@class='feedActions clearfix']</xpath>
+    </element>
+
+    <element name="myAdsPageContents">
+        <xpath>(.//div[@class='feedActions clearfix'])[1]</xpath>
+    </element>
+
+    <element name="firstAdInMyAdsPage">
+        <xpath>((.//div[@class='feedActions clearfix'])[1]/span/a)[1]</xpath>
+    </element>
+
+    <element name="myAdsPageEditLink">
+        <xpath>//*[@id='menuList']/li[1]/div/a[1]</xpath>
+    </element>
+
+    <element name="editAdHeaders">
+        <xpath>//h2[@class='subHeading']</xpath>
+    </element>
+
+    <element name="updateAdButtonEditAd">
+        <xpath>//input[@id='postAdBtn' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="descriptionErrorMsgEditAd">
+        <xpath>(.//span[@class='frmErrMsg'])[1]</xpath>
+    </element>
+
+    <element name="adTitleTextFieldEditAd">
+        <xpath>//input[@id='ad_title']</xpath>
+    </element>
+
+    <element name="adDescTextFieldEditAd">
+        <xpath>//textarea[@id='ad_desc']</xpath>
+    </element>
+
+    <element name="loadMoreAdDetailEditAd">
+        <xpath>//a[@id='loadAdDetails']</xpath>
+    </element>
+
+    <element name="EditAdLoadMoreDetailContainer">
+        <xpath>//div[@id='editAdLoadMore']</xpath>
+    </element>
+
+    <element name="myAccountLabel">
+        <xpath>//a[contains(text(),'My Account')]</xpath>
+    </element>
+
+    <element name="editMyProfile">
+        <xpath>//a[@id='edit-profile' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="viewPublicProfileLink">
+        <xpath>//div[@class='acc-header' and not(@disabled)]/a[2]</xpath>
+    </element>
+
+    <element name="activeAdManagement">
+        <xpath>//ul[@id='collapse3' and not(@disabled)]/li/a</xpath>
+    </element>
+
+    <element name="signinSignupButton">
+        <xpath>//button[@class='btn btn-primary']</xpath>
+    </element>
+
+    <element name="viewProfileBtn">
+        <xpath>//a[@class='btn btn-default']</xpath>
+    </element>
+
+    <element name="editProfileBtn">
+        <xpath>(//a[@class='btn btn-default'])[2]</xpath>
+    </element>
+
+    <element name="editProfileLink">
+        <xpath>//ul[@class='clearfix']/li[4]/a</xpath>
+    </element>
+
+    <element name="menutBtnAccountPage">
+        <xpath>//div[@class='col-md-9 col-xs-12 dashboard_menu']/h3/a</xpath>
+    </element>
+
+    <element name="manageAlertsAccountPageMenu">
+        <xpath>//ul[@id='sub_accordion']/li[5]/a</xpath>
+    </element>
+
+    <element name="manageFreeAds">
+        <xpath>//a[@class='btn btn-primary btn-block']</xpath>
+    </element>
+
+    <element name="editAds">
+        <xpath>//ul[@id='menuList']/li/div/a</xpath>
+    </element>
+
+
+
+</elements>

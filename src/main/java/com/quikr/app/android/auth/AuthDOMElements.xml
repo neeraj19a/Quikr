@@ -1,0 +1,420 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+      <element name="signInEmail">
+        <id>com.quikr:id/layout_my_account_login_email</id>
+    </element>
+    <element name="password">
+        <id>com.quikr:id/layout_my_account_login_password</id>
+    </element>
+    <element name="submitLogin">
+        <id>com.quikr:id/layout_my_account_login_button</id>
+    </element>
+    <element name="forgotpassword">
+        <id>com.quikr:id/layout_my_account_login_forgot_password</id>
+    </element>
+    <element name="signUp">
+        <id>com.quikr:id/layout_my_account_login_sign_up</id>
+    </element>
+    <element name="forgotPasswordEmial">
+        <id>com.quikr:id/screen_forgot_password_email</id>
+    </element>
+    <element name="resetPassword">
+        <id>com.quikr:id/screen_forgot_password_reset</id>
+    </element>
+    <element name="validateLogin">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="forgotPasswordValidation">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="signUp">
+        <id>com.quikr:id/signup</id>
+    </element>
+    <element name="signUpemail">
+        <id>com.quikr:id/screen_register_email</id>
+    </element>
+    <element name="signupPassword">
+        <id>com.quikr:id/screen_register_password</id>
+    </element>
+    <element name="repassword">
+        <id>com.quikr:id/screen_register_re_password</id>
+    </element>
+    <element name="signUpnumber">
+        <id>com.quikr:id/screen_register_number</id>
+    </element>
+    <element name="signUpRegister">
+        <id>com.quikr:id/screen_register_button</id>
+    </element>
+    <element name="registrationTerms">
+        <id>com.quikr:id/screen_register_tnc_checkbox</id>
+    </element>
+    <element name="validateReg">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="location">
+        <id>com.quikr:id/screen_register_location</id>
+    </element>
+
+    <element name="facebookButton">
+        <id>com.quikr:id/fb</id>
+    </element>
+
+    <element name="errorMsg">
+        <id>com.quikr:id/msg</id>
+    </element>
+
+    <element name="backButtonOnLogin">
+        <name>Navigate up</name>
+    </element>
+    <element name="redirectToligin">
+        <id>com.quikr:id/text_login_signup</id>
+    </element>
+    <element name="loginWithQuikr">
+        <id>com.quikr:id/quikr_login_init_button</id>
+    </element>
+    <element name="myAlert">
+        <id>com.quikr:id/myAlerts</id>
+    </element>
+    
+    <element name="logout">
+        <id>com.quikr:id/logout</id>
+    </element>
+    <element name="editProfile">
+        <id>com.quikr:id/edit</id>
+    </element>
+    <element name="changePassword">
+        <id>com.quikr:id/txtv_change_password</id>
+    </element>
+    <element name="currentPassword">
+        <id>com.quikr:id/etxt_current_password</id>
+    </element>
+    <element name="newPassword">
+        <id>com.quikr:id/etxt_new_password</id>
+    </element>
+    <element name="confirmPassword">
+        <id>com.quikr:id/etxt_confirm_password</id>
+    </element>
+    <element name="submitEditProfileChanges">
+        <id>com.quikr:id/edit_profile_button</id>
+    </element>
+    <element name="profileCity">
+        <id>com.quikr:id/screen_register_city</id>
+    </element>
+    <element name="editProfilePhone">
+        <id>com.quikr:id/edit_profile_number</id>
+    </element>
+    <element name="googleLoginAccount">
+        <id>com.google.android.gms:id/account_name</id>
+    </element>
+    <element name="myAdsTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+    <element name="activeAds">
+        <id>com.quikr:id/activeAdsText</id>
+    </element>
+    <element name="inactiveAds">
+        <id>com.quikr:id/expiredAdsContainer</id>
+    </element>
+    <element name="editAlert">
+        <id>android:id/title</id>
+    </element>
+    <element name="menuIcon">
+        <id>com.quikr:id/menuIcon</id>
+    </element>
+    <element name="location">
+        <id>com.quikr:id/location</id>
+    </element>
+    <element name="editPage">
+        <name>Edit Alert</name>
+    </element>
+    <element name="alertCategory">
+        <id>com.quikr:id/metacategory</id>
+    </element>
+    <element name="validateCarsAlert">
+        <id>com.quikr:id/screen_create_alert_responses_text</id>
+    </element>
+    <element name="profileNAme">
+        <id>com.quikr:id/name</id>
+    </element>
+    <element name="actionBar">
+        <id>com.quikr:id/action_bar</id>
+    </element>
+<element name="textView">
+    <class>android.widget.TextView</class>
+</element>
+    <element name="editAd">
+        <id>com.quikr:id/screen_vap_ad_edit_button</id>
+    </element>
+    <element name="premiumButton">
+        <id>com.quikr:id/screen_vap_ad_ok_button</id>
+    </element>
+    <element name="adContainer">
+        <id>com.quikr:id/adcontainer</id>
+    </element>
+    <element name="viewProfile">
+        <id>com.quikr:id/view</id>
+    </element>
+    <element name="profileNAme">
+        <id>com.quikr:id/user_public_profile_name</id>
+    </element>
+    <element name="profileType">
+        <id>com.quikr:id/user_public_profile_user_type</id>
+    </element>
+    <element name="numberOfAdPostedByUSer">
+        <id>com.quikr:id/user_public_profile_ads_posted</id>
+    </element>
+   <element name="activeSince">
+       <id>com.quikr:id/user_public_profile_active_since</id>
+   </element>
+    <element name="liveAdsCount">
+        <id>com.quikr:id/user_public_profile_live_ads</id>
+    </element>
+    <element name="googleLogin">
+        <id>com.quikr:id/sign_in_button</id>
+    </element>
+    <element name="fbLogin">
+        <id>com.quikr:id/fb</id>
+    </element>
+    <element name="chooseGoogleAccount">
+        <id>com.google.android.gms:id/account_display_name</id>
+    </element>
+    <element name="myAccountMyAds">
+        <id>com.quikr:id/myAds</id>
+    </element>
+    <element name="MyChats">
+        <id>com.quikr:id/myChats</id>
+    </element>
+    <element name="MyCArt">
+        <id>com.quikr:id/cart</id>
+    </element>
+    <element name="myOrders">
+        <id>com.quikr:id/my_quikrx_orders</id>
+    </element>
+    <element name="Quikr Doorstep">
+        <id>com.quikr:id/escrow_my_offers</id>
+    </element>
+    <!--  ********************************************MObileLoginDomELEMENTS***************************************-->
+    <element name="mobileLogin">
+        <id>com.quikr:id/login_register_view</id>
+    </element>
+    <element name="skipLogin">
+        <id>com.quikr:id/skip</id>
+    </element>
+    <element name="registerMobileLogin">
+        <name>Register</name>
+    </element>
+    <element name="LoginmobileNumberOrEmail">
+        <id>com.quikr:id/email_mobile</id>
+    </element>
+    <element name="loginPassword">
+        <id>com.quikr:id/login_password</id>
+    </element>
+    <element name="performlogin">
+        <id>com.quikr:id/login_button</id>
+    </element>
+    <element name="loginThroughOTP">
+        <id>com.quikr:id/otp_login</id>
+    </element>
+    <element name="forgotPassword">
+        <id>com.quikr:id/forgot_password</id>
+    </element>
+    <element name="showLoginPAsswrd">
+        <id>com.quikr:id/show_password</id>
+    </element>
+    <element name="registerNewUserNAMe">
+        <id>com.quikr:id/name</id>
+    </element>
+    <element name="registerNewuserMobile">
+        <id>com.quikr:id/mobile</id>
+    </element>
+    <element name="registerNewUSerEmail">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="registerNewUserPassword">
+        <id>com.quikr:id/password</id>
+    </element>
+    <element name="confirmNewUserPassword">
+        <id>com.quikr:id/confirm_password</id>
+    </element>
+    <element name="registerUserButton">
+        <id>com.quikr:id/register_button</id>
+    </element>
+    <element name="userNameOnProfilePage">
+        <id>com.quikr:id/name</id>
+    </element>
+    <element name="userEMailOnProfilePage">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="userMobileOnProfilePage">
+        <id>com.quikr:id/mobile</id>
+    </element>
+    <element name="LinkedMobileNumberOnProfilePage">
+        <id>com.quikr:id/viewall_mobile</id>
+    </element>
+    <element name="headingOnProfilePage">
+        <id>com.quikr:id/subheading</id>
+    </element>
+    <element name="subheadingOnProfilePAge">
+        <id>com.quikr:id/subheading</id>
+    </element>
+    <element name="viewCartFromProfilePAge">
+        <id>com.quikr:id/cart</id>
+    </element>
+    <element name="viewOrderFromProfilPage">
+        <id>com.quikr:id/orders</id>
+    </element>
+    <element name="viewoffersFromProfilePAge">
+        <id>com.quikr:id/offers</id>
+    </element>
+    <element name="editProfilMobileLogin">
+        <id>com.quikr:id/edit_profile</id>
+    </element>
+    <element name="addEmailToProfile">
+        <id>com.quikr:id/add_email</id>
+    </element>
+    <element name="addMobileNumbeToProfile">
+        <id>com.quikr:id/add_mobile</id>
+    </element>
+    <element name="viewProfileMobileLogin">
+        <id>com.quikr:id/view_profile</id>
+    </element>
+    <element name="settingsOnProfilePAge">
+        <name>Settings</name>
+    </element>
+    <element name="changePassword/LogOut">
+        <id>com.quikr:id/title</id>
+    </element>
+    <element name="currentPasswordMobileLogin">
+        <id>com.quikr:id/current_password</id>
+    </element>
+    <element name="NewPasswordMobileLogin">
+        <id>com.quikr:id/new_password</id>
+    </element>
+    <element name="ConfirmPasswordMobileLogin">
+        <id>com.quikr:id/confirm_password</id>
+    </element>
+    <element name="changePassword">
+        <id>com.quikr:id/change_password</id>
+    </element>
+    <element name="AddNewEmailNumber">
+        <id>com.quikr:id/editText</id>
+    </element>
+    <element name="AddVerifyEmailNumber">
+        <id>android:id/button1</id>
+    </element>
+    <element name="cartIconOnMyaCarts">
+        <id>com.quikr:id/quikrcCustomActionBarrlMyCart</id>
+    </element>
+    <element name="profileImage">
+        <id>com.quikr:id/profile_image</id>
+    </element>
+    <element name="otpSentNumber">
+        <id>com.quikr:id/otp_sent_msg</id>
+    </element>
+    <element name="resendOtp">
+        <id>com.quikr:id/otp_resend</id>
+    </element>
+    <element name="enterOtpManualy">
+        <id>com.quikr:id/otp_manual_entry</id>
+    </element>
+    <element name="editImage">
+        <id>com.quikr:id/edit_image</id>
+    </element>
+    <element name="saveEditedChanges">
+        <id>com.quikr:id/save</id>
+    </element>
+    <element name="profileDetails">
+        <id>com.quikr:id/profile_details</id>
+    </element>
+    <element name="heading">
+        <id>com.quikr:id/heading</id>
+    </element>
+    <element name="forgetPAsswoerdEmail/NUmber">
+        <id>com.quikr:id/email_or_mobile</id>
+    </element>
+    <element name="submitLoginCredentialForgetPAassword">
+        <id>com.quikr:id/submit</id>
+    </element>
+    <element name="forgetPasswordSuccessMsg">
+        <id>com.quikr:id/user_msg</id>
+    </element>
+    <element name="facebookButtonMobileLogin">
+        <id>com.quikr:id/fb</id>
+    </element>
+    <element name="googleLoginMobiuleLogin">
+        <id>com.quikr:id/sign_in_button</id>
+    </element>
+    <element name="HomeImageMobileLogin">
+        <id>com.quikr:id/image</id>
+    </element>
+    <element name="errorMessageMobileLogin">
+        <id>android:id/message</id>
+    </element>
+    <element name="forgotPasswordErrorCTA">
+        <id>android:id/button1</id>
+    </element>
+    <element name="MObileLoginPostAaCTA1">
+        <id>com.quikr:id/negative</id>
+    </element>
+    <element name="MObileLoginPostAaCTA2">
+        <id>com.quikr:id/positive</id>
+    </element>
+    <element name="sendOtp">
+        <id>com.quikr:id/send_otp</id>
+    </element>
+    <element name="passwordError">
+        <id>com.quikr:id/password_error</id>
+    </element>
+    <element name="confirmMisMAtch">
+        <id>com.quikr:id/conf_password_error</id>
+    </element>
+    <element name="resendEmail">
+        <id>com.quikr:id/resend</id>
+    </element>
+    <element name="userMsg">
+        <id>com.quikr:id/user_msg</id>
+    </element>
+    <element name="userNameInSideMenu">
+        <id>com.quikr:id/layout_drawer_list_item_email</id>
+    </element>
+    <element name="postAdTextBox">
+        <id>com.quikr:id/input_widget</id>
+    </element>
+    <element name="userProfileTitle">
+        <id>com.quikr:id/txtTitle</id>
+    </element>
+    <!-- MYADS-->
+    <element name="MyAdsmenuIcon">
+        <id>com.quikr:id/menuIcon</id>
+    </element>
+    <element name="getMoreResponse">
+        <id>com.quikr:id/txtGetMoreResponse</id>
+    </element>
+    <element name="deleteAd">
+        <id>com.quikr:id/txtDelete</id>
+    </element>
+    <element name="moveAdToTop">
+        <id>com.quikr:id/txtMoveToTop</id>
+    </element>
+    <element name="makePremiumFromGEtResponse">
+        <id>com.quikr:id/gmr_premium_button</id>
+    </element>
+    <element name="shareLocationFromGetResponse">
+        <id>com.quikr:id/gmr_location_button</id>
+    </element>
+    <element name="chatAvailabilityFromGetResponse">
+        <id>com.quikr:id/gmr_announce_availability_button</id>
+    </element>
+    <element name="headerText">
+        <id>com.quikr:id/header_tv</id>
+    </element>
+    <element name="addemailNumber">
+        <id>android:id/alertTitle</id>
+    </element>
+    <element name="myAccountPage">
+        <id>com.quikr:id/rootView</id>
+    </element>
+    <element name="quikrDoorstep">
+        <name>Quikr Doorstep</name>
+    </element>
+
+</elements>

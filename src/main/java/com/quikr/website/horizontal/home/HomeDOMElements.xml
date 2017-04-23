@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="selectCity">
+        <xpath>//a[@index="Bangalore"]</xpath>
+    </element>
+
+    <element name="cityselect_dropdown">
+        <xpath>.//*[@id='selectCity']/div[1]</xpath>
+    </element>
+
+    <element name="categoryNameDropDown">
+        <xpath>//ul[@id='category-dropdown']/li//a[contains(@title,'$')]</xpath>
+    </element>
+
+    <element name="categoryNameHomePage">
+        <xpath>//div[@id='categoryContainer']//li//a[contains(@title,'$')]</xpath>
+    </element>
+
+    <element name="categoryContainer">
+        <id>categoryContainer</id>
+    </element>
+
+    <element name="SelectCityDiv">
+        <xpath>.//*[@id='mlabel']</xpath>
+    </element>
+
+    <element name="citySelect">
+        <id>ctystlist</id>
+    </element>
+
+    <element name="selectStateorUnionTerritory">
+        <xpath>.//div[@class='cs-ttlebx-v4']/div[3]/ul/li/a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="closecity_popup">
+        <xpath>//a[@id='csclose']</xpath>
+    </element>
+
+    <element name="hamburger_menu">
+        <xpath>//div[@class='hamburger-logo pull-left']/a</xpath>
+    </element>
+
+    <element name="quikr_home">
+        <css>.home</css>
+    </element>
+
+    <element name="popularcitySelect">
+        <id>bndsrch</id>
+    </element>
+
+    <element name="popularcitySelect">
+        <id>bndsrch</id>
+    </element>
+
+    <element name="postFreeAdButton">
+        <xpath>//div[@title='Post Free Ad']</xpath>
+        <css>.yellow-bor.PostAd-Txt2</css>
+    </element>
+
+    <element name="postFreeAdButtonNewUICities">
+        <xpath>.//a[@class='btn post-ad-btn pull-left']</xpath>
+    </element>
+
+    <element name="postFreeAdButtonMyQuikrPage">
+        <xpath>.//div[@class='yellow-bor PostAd-Txt2']</xpath>
+    </element>
+
+    <element name="selectCategoryDropDown">
+        <xpath>//a[@id='searchedCat']</xpath>
+    </element>
+
+    <element name="popularCategoriesOnQuikr">
+        <xpath>//div[@class='pop_cat_ad']/ul/li/a</xpath>
+    </element>
+
+    <element name="cars">
+        <xpath>(//a[@title='Cars &amp; Bikes'])[2]</xpath>
+    </element>
+
+    <element name="CarsText">
+        <xpath>//div[@class='HP-CategoryBox'][1]/a/div[@class='CategoryName']</xpath>
+    </element>
+
+    <element name="mobile">
+        <xpath>//ul[@id='category-dropdown']//a[@title='Mobiles &amp; Tablets']</xpath>
+    </element>
+
+    <element name="createAlertWindow">
+        <xpath>//div[@class='hidden-xs content-box clearfix']</xpath>
+    </element>
+
+    <element name="ElectronicsAndAppliances">
+        <xpath>//ul[@id='category-dropdown']//a[@title='Electronics &amp; Appliances']</xpath>
+    </element>
+
+    <element name="HomeAndLifestyle">
+        <xpath>//ul[@id='category-dropdown']//a[@title='Home &amp; Lifestyle']</xpath>
+    </element>
+
+    <element name="quikrXOptionHomePage">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[2]/div[2]/a/div[2]</xpath>
+    </element>
+
+    <element name="quikrXOldOptionHomePage">
+        <xpath>.//*[@id='main-container']/div[2]/div[3]/div[2]/a[2]</xpath>
+    </element>
+
+    <element name="quikrXOldOptionHomePage">
+        <xpath>.//*[@id='main-container']/div[2]/div[3]/div[2]/a[2]</xpath>
+    </element>
+
+    <element name="JobsOptionHomepage">
+        <xpath>//a[@title='Jobs']</xpath>
+    </element>
+
+    <element name ="JobsText">
+        <xpath>//div[@class='HP-CategoryBox'][7]/a/div[@class='CategoryName']</xpath>
+    </element>
+
+
+    <element name="RealEstateOptionHomepage">
+        <xpath>//a[@title='Real Estate']</xpath>
+    </element>
+
+    <element name="footer">
+        <xpath>//nav[@class='footer-nav']</xpath>
+    </element>
+
+    <element name="aboutUsContainer">
+        <css>#staticpg_mpart</css>
+    </element>
+
+    <element name="services">
+        <xpath>//*[@id='main-container']/div[2]/div[3]/div[7]/a/div[1]</xpath>
+    </element>
+
+    <element name="servicesOptionHomePage">
+        <xpath>//a[@title='Services']</xpath>
+    </element>
+
+    <element name="skipAd">
+        <xpath>//a[@class='skip']</xpath>
+    </element>
+
+    <element name="mobilesAndTabletsOption">
+        <xpath>.//div[contains(text(),'Mobiles &amp; Tablet')]</xpath>
+    </element>
+
+    <element name="linkedin_img">
+        <xpath>//a[@title='LinkedIn']</xpath>
+    </element>
+
+    <element name="facebook_img">
+        <xpath>//a[@title='Facebook']</xpath>
+    </element>
+
+    <element name="twitter_img">
+        <xpath>//a[@title='twitter']</xpath>
+    </element>
+
+    <element name="youtube_img">
+        <xpath>//a[@title='YouTube']</xpath>
+    </element>
+
+    <element name="google_img">
+        <xpath>//a[@title='Google Plus']</xpath>
+    </element>
+
+    <element name="notification_bell">
+        <css>.notification_bell</css>
+    </element>
+
+    <element name="recommended">
+        <css>.custom-livefeedmain</css>
+    </element>
+
+    <element name="view_details">
+        <css>.view_detail</css>
+    </element>
+
+    <element name="CarsandBikes">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[1]/div[2]/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="Houses-Apartments-for-Rent">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[1]/div[2]/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="Houses-Apartments-for-Sale">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[1]/div[2]/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="Laptops-Computers">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[1]/div[2]/ul/li[4]/a</xpath>
+    </element>
+
+    <element name="Home-Furniture">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[1]/div[2]/ul/li[5]/a</xpath>
+    </element>
+
+    <element name="Kitchen-Appliances">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[1]/div[2]/ul/li[6]/a</xpath>
+    </element>
+
+    <element name="more_cities">
+        <xpath>.//*[@class='popular_city_agnostic citySelect' and @city_id='0']</xpath>
+    </element>
+
+    <element name="Tamil_Dadu_download_app_state">
+        <xpath>.//*[@id='ctystlist']/div[2]/div[3]/ul[6]/li[13]/a</xpath>
+    </element>
+
+
+    <element name="aarani_download_app_city">
+        <css>.cs[index="Aarani"]</css>
+    </element>
+
+    <element name="selectYourCity">
+        <css>.city_search_text</css>
+    </element>
+
+    <element name="cityNames">
+        <xpath>//div[@class='main_city_list_box']/ul/li/a</xpath>
+    </element>
+
+    <element name="HeaderTextAboveCategories">
+        <xpath>//div[@class='PostAd-Txt1']</xpath>
+    </element>
+
+    <element name="RecommendedForYouText">
+        <xpath>//div[@id='recommandedAds']/div[1]</xpath>
+    </element>
+
+    <element name="KeyboardContainer">
+        <xpath>//table[@id='keyboardInputMaster']</xpath>
+    </element>
+
+    <element name="SearchTextArea">
+        <id>query</id>
+    </element>
+
+    <element name="LanguageLink">
+        <xpath>//div[@id = 'language_select_div']/a</xpath>
+    </element>
+
+    <element name="LanguageHindi">
+        <xpath>//*[@id='language_div']/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="LanguageEnglish">
+        <xpath>//*[@id='language_div']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="LanguageTamil">
+        <xpath>//*[@id='language_div']/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="LanguageTelugu">
+        <xpath>//*[@id='language_div']/ul/li[4]/a</xpath>
+    </element>
+
+    <element name="LanguageMalayalam">
+        <xpath>//*[@id='language_div']/ul/li[4]/a</xpath>
+    </element>
+
+    <element name="CityNametextField">
+        <xpath>.//*[@id='suggCityInput']</xpath>
+        <id>suggCityInput</id>
+    </element>
+
+    <element name="selectedCityName">
+        <xpath>.//a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="MainContainer">
+        <xpath>.//*[@id='main-container']/div[2]</xpath>
+    </element>
+
+    <element name="TrendingAds">
+        <xpath>//div[@class='center4  carousel-wrap slick-initialized slick-slider']/div[@aria-live='polite'][@class='slick-list draggable']</xpath>
+    </element>
+
+    <element name="TrendingAds2">
+        <xpath>.//*[@id='trendingAds']/div[2]/div</xpath>
+    </element>
+
+    <element name="TrendingAdsNewUICities">
+        <xpath>//div[contains(@class,'slick-active')]</xpath>
+    </element>
+
+    <element name="TrendingAdsLocalityChickletNewUICities">
+        <xpath>//div[@class='prod-details clearfix']//p/span[1]</xpath>
+    </element>
+
+    <element name="TrendingAdsTimeChickletNewUICities">
+        <xpath>//div[@class='prod-details clearfix' and not(@disabled)]//p/span[2]</xpath>
+    </element>
+
+    <element name="TrendingAdContainer">
+        <xpath>//div[@class='TrendAd-Wapper HP-white_box']</xpath>
+    </element>
+
+    <element name="RecommendedAdsContainer">
+        <xpath>//div[@class='RecommAd-Wapper HP-white_box']</xpath>
+    </element>
+
+    <element name="RecommendedAdsTitleHomePage">
+        <xpath>(.//*[@class='right_area_white_box_heading'])[1]</xpath>
+    </element>
+
+    <element name="TrendingAdsLocalityChicklet">
+        <xpath>//p[@class='detail']/span[1]</xpath>
+    </element>
+
+    <element name="TrendingAdsTimeChicklet">
+        <xpath>//p[@class='detail']/span[2]</xpath>
+    </element>
+
+    <element name="RecommAdsLocalityChicklet">
+        <xpath>//div[@class='RecommAd-BOXwapp']/a/div[@class='SubTitle-Wapp']/p/span[@class='SubTit-txt3']</xpath>
+    </element>
+
+    <element name="RecommAdsTimeChicklet">
+        <xpath>//div[@class='RecommAd-BOXwapp']/a/div[@class='SubTitle-Wapp']/p/span[@class='SubTit-txt2']</xpath>
+    </element>
+
+    <element name="CreateAlertLabels">
+        <xpath>//p[@class='CreatAlet-txt2']</xpath>
+    </element>
+
+    <element name="CreateAlertLabelsNewUICities">
+        <xpath>//div[@class='CreateAlet-formBOX']/span/div[2]/span</xpath>
+    </element>
+
+    <element name="m_in_Hindi">
+        <xpath>.//td[starts-with(.,'म')]</xpath>
+    </element>
+
+    <element name="O_in_Hindi">
+        <xpath>.//td[starts-with(.,'ौ')]</xpath>
+    </element>
+
+    <element name="B_in_Hindi">
+        <xpath>.//td[starts-with(.,'ब')]</xpath>
+    </element>
+
+    <element name="A_in_Hindi">
+        <xpath>.//td[starts-with(.,'ा')]</xpath>
+    </element>
+
+    <element name="ShiftVernacKeyboard">
+        <xpath>(.//td[starts-with(.,'Shift')])[1]</xpath>
+    </element>
+
+    <element name="I_in_Hindi">
+        <xpath>.//td[starts-with(.,'ई')]</xpath>
+    </element>
+
+    <element name="L_in_Hindi">
+        <xpath>.//td[starts-with(.,'ल')]</xpath>
+    </element>
+
+    <element name="newQuikrX">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[2]/div[2]/div/a</xpath>
+    </element>
+
+    <element name="quikrX">
+        <xpath>.//*[@id='categoryContainer']/ul/li/a[@title='Refurbished Phones']</xpath>
+    </element>
+
+    <element name="selectCategoryBoxAlertCreation">
+        <id>intent_catmenu</id>
+    </element>
+
+    <element name="selectCategoryAlertCreation">
+        <xpath>//a[@class='rsearch-a']</xpath>
+    </element>
+
+    <element name="selectSubCategoryBoxAlertCreation">
+        <id>intent_subcatmenu</id>
+    </element>
+
+    <element name="selectSubCategoryAlertCreation">
+        <xpath>//a[@class='rsearch-a']</xpath>
+    </element>
+
+    <element name="IWantACook">
+        <xpath>//div[@id='intent_adtypedd']/span[@class='ddn']</xpath>
+    </element>
+
+    <element name="selectLocalityBoxAlertCreation">
+        <id>intent_loc</id>
+    </element>
+
+    <element name="selectLocalityAlertCreation">
+        <xpath>//a[@class='rsearch-a']</xpath>
+    </element>
+
+    <element name="submitButtonAlertCreation">
+        <xpath>//div[@id='custom_submitbtn']/strong/a</xpath>
+    </element>
+
+    <element name="citySearchTextField">
+        <xpath>//input[@id='city-input']</xpath>
+    </element>
+
+    <element name="cityAutoSuggest">
+        <xpath>//ul[@id='citiSugg']/li/a</xpath>
+    </element>
+
+    <element name="newHomePagePlusIcon">
+        <xpath>//span[@class='icon-plus']</xpath>
+    </element>
+
+    <element name="selectCityFromAutoSuggest">
+        <xpath>//a[@class='selcity-a']</xpath>
+    </element>
+
+    <element name="snbFirstAdTitle">
+        <xpath>//h3[@class='adtitlesnb translate ']/a</xpath>
+    </element>
+
+    <element name="snbLocChicklets">
+        <xpath>//div[@class='chicklet_div'][@title]</xpath>
+    </element>
+
+    <element name="body">
+        <xpath>.//*[@id='main-container']/div[3]/div[2]/div[1]/div[1]</xpath>
+    </element>
+
+    <element name="androidAppLink">
+        <xpath>(.//a[@title='Android App'])[2]</xpath>
+        <css>.btn-app-store:nth-child(2)</css>
+    </element>
+
+    <element name="IOSAppLink">
+        <xpath>(.//a[@title='iOS App'])[2]</xpath>
+        <css>.btn-app-store:nth-child(1)</css>
+    </element>
+
+    <element name="WindowsAppLink">
+        <xpath>(.//a[@title='Windows App'])[2]</xpath>
+        <css>.btn-app-store:nth-child(3)</css>
+    </element>
+
+    <!--The following Section contains Locators of Responsive Home Page i.e Home Page for Pune, Hyderabad
+    -->
+
+    <element name="HamburgerMenuResponsiveHP">
+        <xpath>.//i[@class='icon-hamburger']</xpath>
+    </element>
+
+    <element name="checkMSP_HamburgerMenuResponsiveHP">
+        <xpath>.//label[starts-with(.,'Check MSP')]/..</xpath>
+    </element>
+
+    <element name="moreLink_HamburgerMenuResponsiveHP">
+        <xpath>.//a[@class='view-more']</xpath>
+    </element>
+
+    <element name="signINbutton_HamburgerMenuResponsiveHP">
+        <xpath>(.//span[@class='sign-in']/..)[2]</xpath>
+    </element>
+
+    <element name="mobile_ResponsiveHp">
+        <xpath>(//a[@title='Mobiles &amp; Tablets'])[3]</xpath>
+    </element>
+
+    <element name="myaccountHamburger_ResponsiveHp">
+        <xpath>.//i[@class='icon-myaccount']/..</xpath>
+    </element>
+
+    <element name="categories_HamburgerMenuResponsiveHP">
+        <xpath>.//*[@id='responsiveHeader']/div[2]/div[2]/ul[2]/li</xpath>
+    </element>
+
+    <element name="close_HamburgerMenuResponsiveHP">
+        <xpath>.//i[@class='icon-remove']</xpath>
+    </element>
+
+    <element name="openedHamburgerMenuResponsiveHP">
+        <xpath>./html[@class='x slideout-open']</xpath>
+    </element>
+
+    <element name="postAdButtonFooterResponsiveHP">
+        <xpath>.//a[@class='btn post-ad-btn']</xpath>
+    </element>
+
+    <element name="mobileNumberDownloadQuikrAppResponsiveHP">
+        <xpath>.//input[@id='sms_app_mobile']</xpath>
+    </element>
+
+    <element name="submitButtonDownloadQuikrAppResponsiveHP">
+        <xpath>.//*[@id='appFormSubmit']</xpath>
+    </element>
+
+    <element name="fabIconResponsiveHP">
+        <xpath>.//button[@class='fab-button']</xpath>
+    </element>
+
+    <element name="fabIconOpenedResponsiveHP">
+        <xpath>.//button[@class='fab-button opened rotate-button']</xpath>
+    </element>
+
+    <element name="gotopResponsiveHP">
+        <xpath>//a[@class='goto-top']</xpath>
+    </element>
+
+    <element name="createAlertFabIconResponsiveHP">
+        <xpath>//a[@id='create-alert-link']/..</xpath>
+    </element>
+
+    <element name="postAdFabIconResponsiveHP">
+        <xpath>.//span[@class='post-ad-icon']/../..</xpath>
+    </element>
+
+    <element name="checkMSPFabIconResponsiveHP">
+        <xpath>//span[@class='msp']</xpath>
+    </element>
+
+    <element name="postAdButtonTopResponsiveHP">
+        <xpath>.//a[contains(@class,'btn post-ad-btn pull-left')]</xpath>
+    </element>
+
+    <element name="DownloadAppTopLeftResponsiveHP">
+        <xpath>.//a[@class='pull-left']</xpath>
+    </element>
+
+    <element name="ExploreOptions">
+        <xpath>.//div[@class='container sm-col-space-0']/section[$]/div/h3/span/a</xpath>
+    </element>
+
+    <element name="mspIconTopResponsiveHP">
+        <xpath>.//i[@class='icon-msp']/..</xpath>
+    </element>
+
+    <element name="quikrLogoFooterResponsiveHP">
+        <xpath>//nav[@class='footer-nav']</xpath>
+    </element>
+
+    <element name="popularCitiesFooterResponsiveHP">
+        <xpath>//div[@class='city-list clearfix visible-lg']/ul/li/a</xpath>
+    </element>
+
+    <element name="AboutUsStaticLinkResponsiveHP">
+        <xpath>(//div[@class='clearfix']/nav/a)[1]</xpath>
+    </element>
+
+    <element name="ContactUsStaticLinkResponsiveHP">
+        <xpath>(//div[@class='clearfix']/nav/a)[2]</xpath>
+    </element>
+
+    <element name="CareersStaticLinkResponsiveHP">
+        <xpath>(//div[@class='clearfix']/nav/a)[3]</xpath>
+    </element>
+
+    <element name="QuikrVideosStaticLinkResponsiveHP">
+        <xpath>(//div[@class='clearfix']/nav/a)[4]</xpath>
+    </element>
+
+    <element name="AdvertiseWithUSStaticLinkResponsiveHP">
+        <xpath>(//div[@class='clearfix']/nav/a)[5]</xpath>
+    </element>
+
+    <element name="HelpStaticLinkResponsiveHP">
+        <xpath>(//div[@class='clearfix']/nav/a)[7]</xpath>
+    </element>
+
+    <element name="PremiumAdsStaticLinkResponsiveHP">
+        <xpath>(//div[@class='clearfix']/nav/a)[8]</xpath>
+    </element>
+
+    <element name="ListingPolicyStaticLinkResponsiveHP">
+        <xpath>(//nav[@class='visible-lg visible-md']/a)[1]</xpath>
+    </element>
+
+    <element name="TermsStaticLinkResponsiveHP">
+        <xpath>(//nav[@class='visible-lg visible-md']/a)[2]</xpath>
+    </element>
+
+    <element name="PrivacyPolicyResponsiveHP">
+        <xpath>(//nav[@class='visible-lg visible-md']/a)[3]</xpath>
+    </element>
+
+    <element name="QuikrXPolicyResponsiveHP">
+        <xpath>(//nav[@class='visible-lg visible-md']/a)[4]</xpath>
+    </element>
+
+    <element name="SitemapResponsiveHP">
+        <xpath>(//nav[@class='visible-lg visible-md']/a)[5]</xpath>
+    </element>
+
+    <element name="NewsResponsiveHP">
+        <xpath>(//nav[@class='visible-lg visible-md']/a)[6]</xpath>
+    </element>
+
+    <element name="CreateAlertLabelResponsiveHP">
+        <xpath>//div[@class='hidden-xs content-box clearfix']/h3</xpath>
+    </element>
+
+    <element name="ExploreHomeLinkResponsiveHP">
+        <xpath>//a[@title='Explore Homes']</xpath>
+    </element>
+
+    <element name="FirstSubCatHomeResponsiveHP">
+        <xpath>//div[@class='slick-items slick-slide slick-active']/div/div/a</xpath>
+    </element>
+
+    <element name="languageDropDownResponsiveHP">
+        <xpath>(.//i[@class='icon-arrow-down arrow'])[1]</xpath>
+    </element>
+
+    <element name="languageDropDownOptionsResponsiveHP">
+        <xpath>.//*[@id='responsiveHeader']/div[1]/div[1]/ul/li[1]/ul/li[$]/a</xpath>
+    </element>
+
+    <element name="languageDropDown">
+        <xpath>//li[@class='language-select']/a</xpath>
+    </element>
+
+    <element name="cartResponsiveHP">
+        <xpath>.//i[@class='icon-cart mycart']/..</xpath>
+    </element>
+
+    <element name="signInButtonResponsiveHP">
+        <xpath>.//a[@class='signInButton']</xpath>
+    </element>
+
+    <element name="dropDownIconLoggedInAccountResponsiveHP">
+        <xpath>(.//i[@class='icon-arrow-down arrow'])[2]</xpath>
+    </element>
+
+    <element name="SignOutLink">
+        <xpath>.//a[@title='Sign Out']</xpath>
+    </element>
+
+    <element name="signInDropDown">
+        <xpath>.//a[@class='loggedin']</xpath>
+    </element>
+
+    <element name="loginWindowResponsiveHP">
+        <xpath>//div[@class='login-modal popup-modal']</xpath>
+    </element>
+
+    <element name="skipLoginWindowResponsiveHP">
+        <xpath>.//button[@class='btn btn-primary skipclass']</xpath>
+    </element>
+
+    <element name="categoriesResponsiveHPBelowCarousel">
+        <xpath>.//*[@id='categoryContainer']/div/ul/li</xpath>
+    </element>
+
+    <element name="cityDropDownIconResponsiveHP">
+        <xpath>(.//i[@class='icon-arrow-down arrow'])[3]</xpath>
+    </element>
+
+    <element name="categoryDropDownIconResponsiveHP">
+        <xpath>//a[@id='searchedCat']</xpath>
+    </element>
+
+    <element name="popularCitiesDropDownIconResponsiveHP">
+        <xpath>.//li[@class='green_dhtml_content_listing citySelect']</xpath>
+    </element>
+
+    <element name="inputCityDropDownIconResponsiveHP">
+        <xpath>.//*[@id='suggCityInput']</xpath>
+    </element>
+
+    <element name="selectCityDropDownIconResponsiveHP">
+        <xpath>(.//*[@id='green_dhtml_content_$']/a)[1]</xpath>
+    </element>
+
+    <element name="facebookLoginResponsiveHP">
+        <xpath>//button[@class='social-btn-icon face-login-btn']</xpath>
+    </element>
+
+    <element name="categoryDropDownResponsiveHP">
+        <xpath>.//*[@id='category-dropdown']</xpath>
+    </element>
+
+    <element name="categoriesResponsiveHP">
+        <xpath>.//*[@id='category-dropdown']/li[$]/a</xpath>
+    </element>
+
+    <element name="searchKeywordResponsiveHP">
+        <xpath>.//*[@id='query']</xpath>
+    </element>
+
+    <element name="searchResultsResponsiveHP">
+        <id>searchautosuggestnew</id>
+    </element>
+
+    <element name="autoSuggestKeywordsResponsiveHP">
+        <xpath>.//span[@class='autoSuggKeywords']</xpath>
+    </element>
+
+    <element name="googleAdsHeaderResponsiveHP">
+        <xpath>.//div[starts-with(@id,'google_ads_iframe_')]/ancestor::div[starts-with(@class,'header-banner ')]</xpath>
+    </element>
+
+    <element name="googleAdsRightBannerResponsiveHP">
+        <xpath>.//div[starts-with(@id,'google_ads_iframe_')]/ancestor::div[starts-with(@class,'right-banner ')]</xpath>
+    </element>
+
+    <element name="googleAdsBottomBannerResponsiveHP">
+        <xpath>.//div[starts-with(@id,'google_ads_iframe_')]/ancestor::div[starts-with(@class,'tac visible')]</xpath>
+    </element>
+
+    <element name="qnxtIconResponsiveHP">
+        <xpath>.//a[@class='nxt-icn hidden-xs hidden-sm hidden-md']</xpath>
+    </element>
+
+    <element name="viewAllChatsQnxtIconResponsiveHP">
+        <xpath>(.//a[@class='ntf-all-msg'])[1]</xpath>
+    </element>
+
+    <element name="CategoryPresentBelowOtherCategoryResponsiveHP">
+        <xpath>.//section[$]/div/h3/span/a[contains(text(),'$')]/ancestor::div/section[$]/div/h3/span/a[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="CarsPresentBelowTrendingAdsCategoryResponsiveHP">
+        <xpath>.//section/div/h3/span/a[contains(text(),'Cars')]/ancestor::div[@class='container sm-col-space-0']/preceding-sibling::div[1]/section/div[2]/h3[contains(text(),'Trend')]</xpath>
+    </element>
+
+    <element name="youtubeWidget">
+        <xpath>//a[@id='webklipper-publisher-widget-container-notification-close-div']</xpath>
+    </element>
+
+</elements>

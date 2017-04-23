@@ -1,0 +1,9 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="cityName">Bangalore</testData>
+    <testData name="categoryName">Mobiles</testData>
+    <testData name="subCategoryName">mobilePhones</testData>
+    <testData name="brandName">Apple</testData>
+    <testData name="modelName">iPhone 5S</testData>
+
+</data>

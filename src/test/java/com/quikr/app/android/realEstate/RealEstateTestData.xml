@@ -1,0 +1,31 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="MyAccount">My Account</testData>
+    <testData name="AdTitle">3 bhk flat on rent</testData>
+    <testData name="desc">3 month old falt in bangalore in good condition</testData>
+    <testData name="location">Adugodi</testData>
+    <testData name="realestate">Homes</testData>
+    <testData name="rent">Houses - Apartments for Rent</testData>
+    <testData name="price">500000</testData>
+    <testData name="owner">One</testData>
+    <testData name="name">manav dayal</testData>
+    <testData name="email">automation.quikr@gmail.com</testData>
+    <testData name="number">9955199187</testData>
+    <testData name="PostAd">Post Your Ad</testData>
+    <testData name="rooms">3 BHK</testData>
+    <testData name="area">1500 - 2000</testData>
+    <testData name="furnished">Semi-Furnished</testData>
+    <testData name="cat">Electronics</testData>
+    <testData name="real">Real</testData>
+    <testData name="search">mar</testData>
+    <testData name="locality">Marathahalli</testData>
+    <testData name="content">hey !! i am intrested</testData>
+    <testData name="subCat">Real Estate</testData>
+    <testData name="filterLocality1">Adugodi</testData>
+    <testData name="filterLocality2">Achitnagar</testData>
+    <testData name="filterLocality3">80 Ft. Road</testData>
+    <testData name="autosuggestsubcat">Houses for Rent</testData>
+    <testData name="SemiFurnished">Semi-Furnished</testData>
+    <testData name="area">1500</testData>
+    <testData name="project">man</testData>
+</data>

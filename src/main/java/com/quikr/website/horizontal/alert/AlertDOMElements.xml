@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="selectCategoryForAlert">
+        <xpath>.//*[@id='intent_catmenu']/span[1]</xpath>
+    </element>
+
+    <element name="categoryList">
+        <id>intent_catmenuvalul</id>
+    </element>
+
+    <element name="subcategoryList">
+        <id>intent_subcatmenuvalul</id>
+    </element>
+
+    <element name="adType">
+        <css>#intent_adtypedd > .ddn</css>
+    </element>
+
+    <element name = "adTypeList">
+        <id>intent_adtypevalul</id>
+    </element>
+
+    <element name = "areaSqFt">
+        <xpath>.//*[@id='Area_Sq_Ft_custom_sel']</xpath>
+    </element>
+
+    <element name = "areaSqFtOption">
+        <xpath>.//input[contains(@id,'a_Area_Sq_Ft')]</xpath>
+    </element>
+
+    <element name = "typeServicesDropDown">
+        <xpath>.//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'type_custom_sel')]</xpath>
+    </element>
+
+    <element name = "typeServicesDropDownOptions">
+        <xpath>.//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'a_type')]</xpath>
+    </element>
+
+    <element name = "typeOfLand">
+        <xpath>.//*[@id='Type_of_land_custom_sel']</xpath>
+    </element>
+
+    <element name = "typeOfLandOption">
+        <xpath>.//input[contains(@id,'a_Type_of_land')]</xpath>
+    </element>
+
+    <element name = "accommodationFor">
+        <xpath>.//*[@id='Accommodation_for_custom_sel']</xpath>
+    </element>
+
+    <element name = "accommodationForOption">
+        <xpath>(.//input[contains(@id,'a_Accommodation_for')])[$]</xpath>
+    </element>
+
+    <element name = "furnished">
+        <xpath>.//*[@id='Furnished_custom_sel']</xpath>
+    </element>
+
+    <element name = "furnishedOption">
+        <xpath>.//input[contains(@id,'a_Furnished')]</xpath>
+    </element>
+
+    <element name="roleList">
+        <id>intent_Roleul</id>
+    </element>
+
+    <element name="educationList">
+        <id>intent_Educationul</id>
+    </element>
+
+    <element name="experienceList">
+        <id>intent_Experienceul</id>
+    </element>
+
+    <element name="wantAd">
+        <css>#adtywant > a</css>
+    </element>
+
+    <element name="offerAd">
+        <css>#adtyoffer > a</css>
+    </element>
+
+    <!--<element name="adTypeList">-->
+        <!--<id>intent_adtypevalul</id>-->
+    <!--</element>-->
+
+    <element name="role">
+        <!--<class>newintent-ListMenu</class>-->
+        <css>#intent_Role > .ddn</css>
+    </element>
+
+    <element name="education">
+        <css>#intent_Education > .ddn</css>
+    </element>
+
+    <element name="experience">
+        <css>#intent_Experience > .ddn</css>
+    </element>
+
+    <!--<element name="roleList">-->
+        <!--<id>intent_Roleul</id>-->
+    <!--</element>-->
+
+    <element name="CarsAndBikesCategory">
+        <xpath>.//*[@id='meta60']/a</xpath>
+    </element>
+
+    <element name="selectSubcategoryForAlert">
+        <!--<xpath>//div[@id='intent_subcatmenu']]</xpath>-->
+        <!--<css>#intent_subcatmenu</css>-->
+        <!--<class>intent_subcatmenu</class>-->
+        <xpath>.//*[@id='intent_subcatmenu']</xpath>
+    </element>
+
+    <element name="BicyclesSubcategory">
+        <partialLinkText>Bicycles</partialLinkText>
+    </element>
+
+    <element name="selectCity">
+        <!--<xpath>//div[@id='intent_citydd']</xpath>-->
+        <!--<id>intent_citydd</id>-->
+        <!--<css>#intent_citydd</css>-->
+        <xpath>//form[@id='localintentform']/span[5]/span/div[2]</xpath>
+    </element>
+
+    <element name="City">
+        <!--<id>green_dhtml_content100_Bangalore</id>-->
+        <!--<css>#green_dhtml_content100_Bangalore</css>-->
+        <xpath>//input[@id='searchcity100']</xpath>
+    </element>
+
+    <!--<element name="selectLocality">-->
+    <element name="Bangalore">
+        <!--<xpath>//div[@id='intent_loc']</xpath>-->
+        <!--<id>intent_loc</id>-->
+        <!--<css>#intent_loc</css>-->
+        <xpath>//li[@id='green_dhtml_content100_Bangalore']/a</xpath>
+    </element>
+
+    <element name="selectLocality">
+        <!--<id>local3</id>-->
+        <!--<css>##local3</css>-->
+        <xpath>//div[@id='intent_loc']/span[2]</xpath>
+    </element>
+
+    <element name="Locality">
+        <id>local3</id>
+        <css>#local3</css>
+    </element>
+
+    <element name="selectEmail">
+        <id>custom_email</id>
+        <css>#custom_email</css>
+    </element>
+
+    <element name="enterPhoneNumber">
+        <id>custom_number</id>
+        <css>#custom_number</css>
+    </element>
+
+    <element name="submitButton">
+        <xpath>//div[@id='custom_submitbtn']/strong/a</xpath>
+    </element>
+
+    <element name="recommendedAlertsPage">
+        <class>citylbl-link</class>
+    </element>
+<element name="snbAlert">
+    <css>#needtext</css>
+</element>
+<element name="NavigateToSnb">
+    <css>.subcat_heading</css>
+</element>
+    <element name="price">
+        <css>#custom_price</css>
+    </element>
+    <element name="snblocality">
+        <xpath>.//*[@id='intent_loc']   </xpath>
+    </element>
+    <element name="SnbAlertSubmit">
+        <xpath>.//*[@id='custom_submitbtn']/input[2]</xpath>
+    </element>
+
+    <element name="localityListLabel">
+        <id>singlesel_locality</id>
+    </element>
+
+    <element name="localityListCheckbox">
+        <id>localities_custom_checkboxes</id>
+    </element>
+
+
+    <element name="localityListLabelInAlertPopup">
+        <id>intent_localityval2</id>
+    </element>
+
+    <element name="localityListCheckboxInAletPopup">
+        <id>alert_localities_custom_checkboxes</id>
+    </element>
+
+    <element name="setLocalityInAlertPopUp">
+        <id>alert_loc</id>
+    </element>
+
+    <element name="submitButtonInInAlertButton">
+        <xpath>//span[@id='alertEditsubmit']/input</xpath>
+    </element>
+
+    <element name="unsubscribeAlert">
+        <xpath>//a[@title='Unsubscribe Alert']</xpath>
+    </element>
+
+    <element name="notHappy">
+        <xpath>//input[@value='I am not happy with the quality of ads in the alert email']</xpath>
+    </element>
+
+    <element name="foundJob">
+        <xpath>//input[@value='I successfully what I was looking for on Quikr']</xpath>
+    </element>
+
+    <element name="otherReason">
+        <xpath>//input[@value='Other reason']</xpath>
+    </element>
+
+    <element name="unsubscribeReason">
+        <css>#unsubscribeReason</css>
+    </element>
+
+    <element name="unsubscribeSubmitButton">
+        <css>.NewIntentSubbtn</css>
+    </element>
+
+    <element name="unsubscribeSuccessMessage">
+        <css>#unsubAlertBoxSuccess > .unsubtitle</css>
+    </element>
+
+    <element name="unsubscribePassword">
+        <css>#loginBoxPwd</css>
+    </element>
+    
+    <element name="unsubscribeLogin">
+        <xpath>//input[@name='loginSubmit']</xpath>
+    </element>
+
+    <!--Responsive Page DOM Elements
+    -->
+
+    <element name="selectCategory">
+        <xpath>.//*[@id='intent_catmenu']</xpath>
+    </element>
+
+    <element name="selectCategoryisDisplayed">
+        <xpath>.//*[@id='intent_catmenu']/span</xpath>
+    </element>
+
+    <element name="selectCategoryOption">
+        <xpath>.//ul[@id='intent_catmenuvalul']/li/a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="selectSubCategory">
+        <xpath>.//*[@id='intent_subcatmenu']</xpath>
+    </element>
+
+    <element name="selectSubCategoryDisplayed">
+        <xpath>//div[@id='intent_subcatmenuval']</xpath>
+    </element>
+
+    <element name="noOfRoomsDropDownisDisplayed">
+        <xpath>//div[@id='No_of_Rooms_custom_checkboxes']</xpath>
+    </element>
+
+    <element name="selectSubCategoryOption">
+        <xpath>.//ul[@id='intent_subcatmenuvalul']/li/a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="adTypeOptionsDisplayed">
+        <css>#intent_adtypeval</css>
+    </element>
+
+    <element name="adType">
+        <xpath>.//*[@id='intent_adtypedd']</xpath>
+    </element>
+
+    <element name="adTypeOption">
+        <xpath>(.//ul[@id='intent_adtypevalul']/li/a)[$]</xpath>
+    </element>
+
+    <element name="accessoryType">
+        <xpath>.//*[@id='Accessory_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="accessoryTypeOptions">
+        <xpath>(.//input[contains(@id,'a_Accessory_Type')])</xpath>
+    </element>
+
+    <element name="customVehicleType">
+        <xpath>.//*[@id='Vehicle_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="customVehicleTypeOption">
+        <xpath>.//div[@class='customSelectAllMainDiv']/../span/input</xpath>
+    </element>
+
+    <element name="productType">
+        <xpath>.//*[@id='Product_Type_custom_sel']/i</xpath>
+    </element>
+
+    <element name="applianceType">
+        <xpath>.//*[@id='Appliance_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="applianceTypeOption">
+        <xpath>.//@id[contains(.,'a_Appliance_Type')]/..</xpath>
+    </element>
+
+    <element name="petTypeOption">
+        <xpath>.//@id[contains(.,'a_Pet_Type')]/..</xpath>
+    </element>
+
+    <element name="hobbyOption">
+        <xpath>//div[@id='Hobby_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="courseOption">
+        <xpath>.//@id[contains(.,'a_Course_Type')]/..</xpath>
+    </element>
+
+    <element name="peripheralTypeOption">
+        <xpath>.//@id[contains(.,'a_Peripheral_Type')]/..</xpath>
+    </element>
+
+    <element name="productTypeOptionisDisplayed">
+        <xpath>(.//div[@class='customSelectAllMainDiv']/../span/input/../../..)[1]</xpath>
+    </element>
+
+    <element name="productTypeOptionisDisplayedOptions">
+        <xpath>.//div[@class='customSelectAllMainDiv']/../span/input/../../../div/span/input</xpath>
+    </element>
+
+    <element name="productTypeOption">
+        <xpath>.//div[@class='customSelectAllMainDiv']/../span/input</xpath>
+    </element>
+
+    <element name="productTypeOption1">
+        <xpath>//div[@id='Product_Type_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="productTypeElectronicsandAppliances">
+        <xpath>//div[@id='intent_Product_Type']/span[1]</xpath>
+    </element>
+
+    <element name="productTypeOptionElectronicsandAppliances">
+        <xpath>.//ul[@id='intent_Product_Typeul']/li/a</xpath>
+    </element>
+
+    <element name="genre">
+        <xpath>.//*[@id='Genre_custom_sel']</xpath>
+    </element>
+
+    <element name="Style">
+        <xpath>.//*[@id='Style_custom_sel']</xpath>
+    </element>
+
+    <element name="instrument">
+        <xpath>.//*[@id='Instrument_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="equipment">
+        <xpath>.//*[@id='Equipment_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="lookingForRealEstate">
+        <xpath>//div[@id='intent_Looking_for']/span[1]</xpath>
+    </element>
+
+    <element name="lookingForRealEstateOptions">
+        <xpath>.//ul[@id='intent_Looking_forul']/li[$]/a</xpath>
+    </element>
+
+    <element name="YouareRealEstate">
+        <xpath>//div[@id='intent_You_are']/span[1]</xpath>
+    </element>
+
+    <element name="YouareRealEstateOptions">
+        <xpath>.//ul[@id='intent_You_areul']/li/a</xpath>
+    </element>
+
+    <element name="noOfRooms">
+        <xpath>.//*[@id='No_of_Rooms_custom_sel']</xpath>
+    </element>
+
+    <element name="noOfRoomsOption">
+        <xpath>(.//input[contains(@id,'a_No_of_Rooms')])</xpath>
+    </element>
+
+    <element name="peripheralType">
+        <xpath>.//*[@id='Peripheral_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="brandName">
+        <xpath>.//*[@id='Brand_name_custom_sel']</xpath>
+    </element>
+
+    <element name="selectBrandOption">
+        <xpath>.//@id[contains(.,'a_Brand_name')]/..</xpath>
+    </element>
+
+    <element name="roleJobs">
+        <xpath>.//*[@id='intent_Role']</xpath>
+    </element>
+
+    <element name="roleJobsOptions">
+        <xpath>.//*[@id='intent_Roleul']/li/a</xpath>
+    </element>
+
+    <element name="education">
+        <xpath>.//*[@id='intent_Education']</xpath>
+    </element>
+
+    <element name="educationOptions">
+        <xpath>.//*[@id='intent_Educationul']/li/a</xpath>
+    </element>
+
+    <element name="experience">
+        <xpath>.//*[@id='intent_Experience']</xpath>
+    </element>
+
+    <element name="experienceOptions">
+        <xpath>.//*[@id='intent_Experienceul']/li/a</xpath>
+    </element>
+
+    <element name="model">
+        <xpath>.//*[@id='Model_custom_sel']</xpath>
+    </element>
+
+    <element name="locality">
+        <xpath>.//*[@id='intent_loc']</xpath>
+    </element>
+
+    <element name="localityDropDown">
+        <xpath>//div[@class='checksin']/input</xpath>
+    </element>
+
+    <element name="localityDropDown1">
+        <xpath>//div[@id='intent_localityval']/ul/li/a</xpath>
+    </element>
+
+    <element name="petTypeDropDown">
+        <xpath>.//*[@id='Pet_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="coachingDropDown">
+        <xpath>.//*[@id='Coaching_Tuitions_Types_custom_sel']</xpath>
+    </element>
+
+    <element name="coachingDropDownOptions">
+        <xpath>.//*[contains(@id,'a_Coaching_Tuitions_Types')]</xpath>
+    </element>
+
+    <element name="boardEntranceDropDown">
+        <xpath>.//*[@id='Board_Entrance_Exams_custom_sel']</xpath>
+    </element>
+
+    <element name="boardEntranceDropDownOptions">
+        <xpath>.//*[contains(@id,'a_Board_Entrance_Exams')]</xpath>
+    </element>
+
+    <element name="schoolBoardDropDown">
+        <xpath>//div[@id='School_Board_custom_sel']</xpath>
+    </element>
+
+    <element name="schoolBoardDropDownOptions">
+        <xpath>//div[@id='School_Board_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="subjectsDropDown">
+        <xpath>.//*[@id='Subjects_custom_sel']</xpath>
+    </element>
+
+    <element name="hobbyDropDown">
+        <xpath>//div[@id='Hobby_custom_sel']</xpath>
+    </element>
+
+    <element name="courseDropDown">
+        <xpath>.//*[@id='Course_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="countryDropDown">
+        <xpath>.//*[@id='Country_custom_sel']</xpath>
+    </element>
+
+    <element name="countryOptions">
+        <xpath>(.//input[contains(@id,'a_Country')])</xpath>
+    </element>
+
+    <element name="equipmentTypeOptions">
+        <xpath>(.//input[contains(@id,'a_Equipment_Type')])</xpath>
+    </element>
+
+    <element name="instrumentTypeOptions">
+        <xpath>(.//input[contains(@id,'a_Instrument_Type')])</xpath>
+    </element>
+
+    <element name="genreOptions">
+        <xpath>(.//input[contains(@id,'a_Genre')])</xpath>
+    </element>
+
+    <element name="styleOptions">
+        <xpath>(.//input[contains(@id,'a_Style')])</xpath>
+    </element>
+
+    <element name="servicesOfferedDropDown">
+        <xpath>.//*[@id='Services_Offered_custom_sel']</xpath>
+    </element>
+
+    <element name="servicesOfferedDropDownOptions">
+        <xpath>.//*[contains(@id,'a_Services_Offered')]</xpath>
+    </element>
+
+    <element name="subjectsDropDownOptions">
+        <xpath>.//*[contains(@id,'a_Subjects')]</xpath>
+    </element>
+
+    <element name="localityDropDownOptions">
+        <xpath>//div[@id='localities_custom_checkboxes']</xpath>
+    </element>
+
+    <element name="localityDropDownOptions1">
+        <xpath>//div[@id='intent_localityval']</xpath>
+    </element>
+
+    <element name="modelDropDown">
+        <xpath>//div[@id='Model_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="modelOption">
+        <xpath>(.//@id[contains(.,'a_Brand_name')]/..)[$]</xpath>
+    </element>
+
+    <element name="selectYear">
+        <xpath>.//*[@id='Year_custom_sel']</xpath>
+    </element>
+
+    <element name="selectYearOption">
+        <xpath>.//input[contains(@id,'a_Year')]</xpath>
+    </element>
+
+    <element name="price">
+        <css>#custom_price</css>
+    </element>
+
+    <element name="selectOwner">
+        <xpath>.//*[@id='No_of_owners_custom_sel']</xpath>
+    </element>
+
+    <element name="ownerOne">
+        <xpath>.//*[@id='a_No_of_owners1']</xpath>
+    </element>
+
+    <element name="selectNumberOfSims">
+        <xpath>.//*[@id='No_of_Sims_custom_sel']</xpath>
+    </element>
+
+    <element name="selectNumberOfSims_Options">
+        <xpath>//input[@class='inpt No_of_Sims_ic_box']</xpath>
+    </element>
+
+    <element name="cityName">
+        <xpath>.//div[@id='intent_citydd']</xpath>
+    </element>
+
+    <element name="selectcityName">
+        <xpath>(.//div[@id='green_dhtml_content100']/ul/li/a[text()='Bangalore'])</xpath>
+    </element>
+
+    <element name="AhmedabadCity">
+        <xpath>(.//div[@id='green_dhtml_content100']/ul/li/a[text()='Ahmedabad'])</xpath>
+    </element>
+
+    <element name="emailAddress">
+        <css>#custom_email</css>
+    </element>
+
+    <element name="mobileNumber">
+        <css>#custom_number</css>
+    </element>
+
+    <element name="createAlertButton">
+        <xpath>.//*[@id='custom_submitbtn']/button</xpath>
+    </element>
+
+    <element name="createFreeAlertSNBPage">
+        <xpath>.//*[@id='needtext']</xpath>
+    </element>
+
+    <element name="deliveryDropDown">
+        <xpath>//div[@id='intent_Delivery_Mode']</xpath>
+    </element>
+
+    <element name="deliveryDropDownOptions">
+        <xpath>//div[@id='intent_Delivery_Mode_custom_checkboxes']/ul/li/a</xpath>
+    </element>
+
+    <element name="courseDomainDropdown">
+        <xpath>//div[@id='Course_Domain_custom_sel']</xpath>
+    </element>
+
+    <element name="courseDomainOptions">
+        <xpath>//div[@id='Course_Domain_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="courseCategories">
+        <xpath>//div[@id='Course_Category_custom_sel']</xpath>
+    </element>
+
+    <element name="CourseCategoryOptions">
+        <xpath>//div[@id='Course_Category_custom_checkboxes']/div/span</xpath>
+    </element>
+
+    <element name="courses">
+        <xpath>//div[@id='Courses_custom_sel']</xpath>
+    </element>
+
+    <element name="CoursesOption">
+        <xpath>//div[@id='Courses_custom_checkboxes']/div/span</xpath>
+    </element>
+
+    <element name="careerStream">
+        <xpath>//div[@id='Career_Stream_custom_sel']/span</xpath>
+    </element>
+
+    <element name="careerStreamOptions">
+        <xpath>//div[@id='Career_Stream_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="specialization">
+        <xpath>//div[@id='Specialization_custom_sel']/span</xpath>
+    </element>
+
+    <element name="specializationOptions">
+        <xpath>//div[@id='Specialization_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="program">
+        <xpath>//div[@id='Program_Type_custom_sel']/span</xpath>
+    </element>
+
+    <element name="programOptions">
+        <xpath>//div[@id='Program_Type_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="courseDistanceLearning">
+        <xpath>//div[@id='Course_custom_sel']/span</xpath>
+    </element>
+
+    <element name="courseDistanceLearningOptions">
+        <xpath>//div[@id='Course_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="programsOffered">
+        <xpath>//div[@id='Programs_Offered_custom_sel']/span</xpath>
+    </element>
+
+    <element name="programsOfferedOptions">
+        <xpath>//div[@id='Programs_Offered_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="educationMethod">
+        <xpath>//div[@id='Education_Method_custom_sel']/span</xpath>
+    </element>
+
+    <element name="educationMethodOptions">
+        <xpath>//div[@id='Education_Method_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="productTypeTextBooks">
+        <xpath>//div[@id='intent_Product_Type']</xpath>
+    </element>
+
+    <element name="productTypeOptionsTextBooks">
+        <xpath>//div[@id='intent_Product_Type_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="industry">
+        <xpath>//div[@id='Industry_custom_sel']</xpath>
+    </element>
+
+    <element name="industryOptions">
+        <xpath>//div[@id='Industry_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="trainingType">
+        <xpath>//div[@id='Training_Type_custom_sel']</xpath>
+    </element>
+
+    <element name="trainingTypeOptions">
+        <xpath>//div[@id='Training_Type_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+    <element name="keyFeatures">
+        <xpath>//div[@id='Key_Features_custom_sel']</xpath>
+    </element>
+
+    <element name="keyFeatureOptions">
+        <xpath>//div[@id='Key_Features_custom_checkboxes']/div/span/input</xpath>
+    </element>
+
+
+
+</elements>

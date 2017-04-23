@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Pap Tests Suite" time-out="300000" verbose="1" annotations="JDK" thread-count="4" parallel="classes">
+
+    <test name="Pap Tests">
+        <classes>
+            <class name="com.quikr.website.electronics.electronicsPap.ElectronicsPapTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="heading">
+        <xpath>//h1</xpath>
+    </element>
+
+    <element name="cityPopUpCloseBtnCars">
+        <xpath>//button[@id='modal-citypopup-close']</xpath>
+    </element>
+
+    <element name="changeCityLink">
+        <xpath>//a[@class='dropdown-toggle location 1']/span/i</xpath>
+    </element>
+
+    <element name="citySelected">
+        <xpath>//span[@class='city_nm pq-city-name-display']</xpath>
+    </element>
+
+    <element name="citySearchTextBox">
+        <xpath>//ul[@class='city-select clearfix']/li/input</xpath>
+    </element>
+
+    <element name="citySelect">
+        <xpath>//ul[@id='citiSugg']/li/a[text()='$']</xpath>
+    </element>
+
+    <element name="CarsandBikes">
+        <xpath>//a[contains(@href,'Cars-Bikes')]</xpath>
+    </element>
+
+    <element name="Cars">
+        <xpath>(//a[@title='Cars'])[1]</xpath>
+    </element>
+
+    <element name="cityPopUpCloseBtnQuikr">
+        <xpath>//a[@id='csclose']/strong</xpath>
+    </element>
+
+    <element name="replyBox">
+        <xpath>//form[contains(@action,'$')]</xpath>
+    </element>
+
+    <element name="chatBox">
+        <xpath>//div[contains(@id,'$')]</xpath>
+    </element>
+
+    <element name="replyCloseBtn">
+        <xpath>//form[contains(@action,'$')]/div/div/i[contains(@class,'chat-close')]</xpath>
+    </element>
+
+    <element name="chatCloseBtn">
+        <xpath>.//*[contains(@id,'$')]/div/div/ul/li/span</xpath>
+    </element>
+
+    <element name="adHeadingNewVapPage">
+        <xpath>(//span[@class='model-name'])[2]</xpath>
+    </element>
+
+</elements>

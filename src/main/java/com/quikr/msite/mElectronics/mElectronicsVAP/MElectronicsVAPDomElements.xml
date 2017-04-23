@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="AdDetails">
+        <xpath>.//div[@id='tab-1']</xpath>
+    </element>
+
+    <element name="AdDescription">
+        <xpath>.//div[@id='adDescWrapper']</xpath>
+    </element>
+
+    <element name="AdContactDetails">
+        <xpath>.//div[@class='adContactDet-Title mob_oto_head active']</xpath>
+    </element>
+
+    <element name="ChatOptionOnVAP">
+        <css>#sendMsg > span</css>
+    </element>
+
+    <element name="ChatName">
+        <xpath>(.//input[@class='script_input_name '])</xpath>
+    </element>
+
+    <element name="ChatMessage">
+        <xpath>(.//textarea[@class='Chat-ContShar-Textarea script_input_question'])</xpath>
+    </element>
+
+    <element name="ChatEmail">
+        <xpath>(.//input[@class='script_input_email'])</xpath>
+    </element>
+
+    <element name="ChatPhone">
+        <xpath>(.//input[@class='script_input_mobile'])</xpath>
+    </element>
+
+    <element name="StartChatButton">
+        <xpath>(.//button[@class='bulecolor-button Popup-SubmitBtn script_input_login'])</xpath>
+    </element>
+
+</elements>

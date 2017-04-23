@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Post AD "  verbose="1"  annotations="JDK" thread-count="2" parallel="classes" >
+    <test name="PostADV2" >
+        <packages>
+            <package name="com.quikr.app.android.postAdV2.*"></package>
+        </packages>
+        <!--<classes>-->
+
+
+
+            <!--<class name="com.quikr.app.android.postAdV2.PostV2Cars"/>-->
+            <!--<class name="com.quikr.app.android.postAdV2.PostV2Cars"/>-->
+        <!--</classes>-->
+    </test>
+</suite>

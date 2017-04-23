@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Real Estate" verbose="1" annotations="JDK" thread-count="2" parallel="classes" >
+    <test name="Real Estate Tests">
+        <classes>
+           <class name="com.quikr.app.android.realEstate.realEstateHome.RealEstateHomePageTests"/>
+            <class name="com.quikr.app.android.realEstate.realEstateSnb.RealEstateSnbTests"/>
+            <class name="com.quikr.app.android.realEstate.realEstateVap.RealEstateVapTests"/>
+        </classes>
+    </test>
+</suite>

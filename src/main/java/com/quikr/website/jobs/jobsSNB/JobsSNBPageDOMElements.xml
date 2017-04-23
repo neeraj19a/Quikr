@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="validSNBPage">
+        <css>.col-lg-8.col-md-8.col-sm-8</css>
+    </element>
+
+    <element name="chatbuttonAds">
+        <css>.OnlineIcon</css>
+    </element>
+
+    <element name="nameTextBoxonChat">
+        <id>iname</id>
+    </element>
+
+    <element name="chatNowButton">
+        <css>.green.submit</css>
+    </element>
+
+    <element name="chatError">
+        <css>#chatSubmitError</css>
+    </element>
+
+    <element name="cityFilterSNB">
+        <xpath>.//div[@id='deskCityTEXT']/ancestor::button</xpath>
+    </element>
+
+    <element name="selectcityByNameFilterSNB">
+        <xpath>//li[@class='scrollable-menu']/a[@data-val='$']
+        </xpath>
+    </element>
+
+    <element name="breadcrumbJobType">
+        <xpath>.//*[@id='jobs_snb_breadcrumb']/ul
+        </xpath>
+    </element>
+
+    <element name="AdsTitleSNB">
+        <xpath>.//h3[contains(@class,'home-list-page-header truncate')]/a</xpath>
+    </element>
+
+    <element name="CityOfAdsSNBPage">
+        <xpath>(//td[@class='info-emp-head']/span[@class='info-emp-value hidden-xs'])[1]</xpath>
+    </element>
+
+    <element name="filterLabel">
+        <xpath>//div[@class='pull-left filters-label']</xpath>
+    </element>
+
+
+    <element name="SortFilter">
+        <xpath>(.//*[@id='dLabel'])[2]</xpath>
+    </element>
+
+    <element name="SortRecent">
+        <xpath>//a[starts-with(.,' Recent')]</xpath>
+    </element>
+
+    <element name="sortBy">
+        <css>.btn.dropdown-toggle.filters-dropdown.search-filter-dropdown</css>
+    </element>
+
+    <element name="selectLocality">
+        <xpath>//div[@id='deskLocalityTEXT']</xpath>
+    </element>
+
+    <element name="selectLocalityFirstOption">
+        <xpath>//input[@value='80 Ft. Road']</xpath>
+    </element>
+
+    <element name="selectSalaryAllDropDownOptions">
+        <xpath>//div[@ganame='Salary']/ul/li/label/input</xpath>
+    </element>
+
+    <element name="selectLocalityAllDropDownOptions">
+        <xpath>.//div[@ganame='Locality']/ul/li/label/input</xpath>
+    </element>
+
+    <element name="selectExperienceAllDropDownOptions">
+        <xpath>.//div[@ganame='Experience']/ul/li/label/input</xpath>
+    </element>
+
+    <element name="selectJobTypeAllDropDownOptions">
+        <xpath>.//div[@ganame='Job_Type']/ul/li/label/input</xpath>
+    </element>
+
+    <element name="RoleOfJobsearchResultSNBS">
+        <xpath>.//span[@class='info-emp-value hidden-xs']</xpath>
+    </element>
+
+    <element name="jobImageSNB">
+        <xpath>.//div[@class='qu-gost-img']/img</xpath>
+    </element>
+
+    <element name="selectSalary">
+        <xpath>//div[@id='deskSalaryTEXT']</xpath>
+    </element>
+
+    <element name="selectSalarySecondOption">
+        <xpath>//input[@value='1000']</xpath>
+    </element>
+
+    <element name="selectExperience">
+        <xpath>//span[@id='deskExperienceTEXT']</xpath>
+    </element>
+
+    <element name="selectJobType">
+        <xpath>//div[@id='deskJob_TypeTEXT']</xpath>
+    </element>
+
+    <element name="selectExpSecondOption">
+        <xpath>//input[@value='1']</xpath>
+    </element>
+
+    <element name="breadcrumbs">
+        <xpath>//div[@id='jobs_snb_breadcrumb']</xpath>
+    </element>
+
+    <element name="adCountString">
+        <xpath>//h1[@class='driver-jobs-row']/strong</xpath>
+    </element>
+
+    <element name="sortByDefaultPopular">
+        <xpath>//button[@id='dLabel']</xpath>
+    </element>
+
+    <element name="sortByRecent">
+        <xpath>//ul[@class='dropdown-menu inner']/li[@data-original-index='1']/a</xpath>
+    </element>
+
+    <element name="sortByOldest">
+        <xpath>//ul[@class='dropdown-menu inner']/li[@data-original-index='2']/a</xpath>
+    </element>
+
+    <element name="adPostingDates">
+        <xpath>//p[@class='hidden-xs search-desktop-date']</xpath>
+    </element>
+
+    <element name="moreButton">
+        <xpath>//div[@id='expSpan']</xpath>
+    </element>
+
+    <element name="resetButton">
+        <xpath>//button[@class='btn btn-default filters-dropdown filter-reset-btn']</xpath>
+    </element>
+
+    <element name="AdswithAllDetails">
+        <!--<xpath>//div[@class='col-md-12 apply-block']/div/div[4]//tbody/tr[4]/ancestor::div/../div//h3/a</xpath>
+        --><xpath>//div[@class='col-md-10 col-sm-10 quikr-mob-clearfix']/div//table/tbody/tr[4]/../ancestor::div[@class='col-md-10 col-sm-10 quikr-mob-clearfix']/../div[3]/h3/a</xpath>
+    </element>
+
+    <element name="PremiumAd">
+        <xpath>//div[starts-with(.,' Premium')]/following-sibling::div/h3/a</xpath>
+    </element>
+
+    <element name="educationFilter">
+        <xpath>//span[@id='deskEducationTEXT']</xpath>
+    </element>
+
+    <element name="companyFilter">
+        <xpath>//span[@id='deskCompanyTEXT']</xpath>
+    </element>
+
+    <element name="companyFilterFirstOption">
+        <xpath>//div[@data-filter='deskCompany']/div[@class='dropdown open']/ul[@class='dropdown-menu dropdown-list-ul']/li[@class='scrollable-menu']/label/input</xpath>
+    </element>
+
+    <element name="jobTypeFilter">
+        <xpath>//div[@id='deskJob_TypeTEXT']</xpath>
+    </element>
+
+    <element name="doneButton">
+        <xpath>//button[@type='submit']</xpath>
+    </element>
+
+    <element name="localityLabelsInSnbAds">
+        <xpath>//div[@class='clearfix col-md-9 col-sm-9 col-xs-12']/table/tbody/tr[2]/td/span[2]</xpath>
+    </element>
+
+    <element name="companyFilterFirstOption">
+        <xpath>//div[@data-filter='deskCompany']/div[@class='dropdown open']/ul[@class='dropdown-menu dropdown-list-ul']/li[@class='scrollable-menu']/label/input</xpath>
+    </element>
+
+    <element name="doneButton">
+        <xpath>//button[@type='submit']</xpath>
+    </element>
+
+    <element name="localityLabelsInSnbAds">
+        <xpath>//div[@class='clearfix col-md-9 col-sm-9 col-xs-12']/table/tbody/tr[2]/td/span[2]</xpath>
+    </element>
+
+    <element name="SalaryLabelsInSnbAds">
+        <xpath>//div[@class='clearfix col-md-9 col-sm-9 col-xs-12']/table/tbody/tr[3]/td/span[2]</xpath>
+    </element>
+
+    <element name="applyButton">
+        <xpath>//button[text()='Apply']</xpath>
+    </element>
+
+    <element name="applyFormName">
+        <css>#field_var_name</css>
+    </element>
+
+    <element name="applyFormMobile">
+        <css>#field_var_mobile</css>
+    </element>
+
+    <element name="applyFormEmailId">
+        <css>#field_var_email_Id</css>
+    </element>
+
+    <element name="applyFormLocality">
+        <xpath>//*[@id='field_var_locality']/input</xpath>
+    </element>
+
+    <element name="applyFormSelectLocality">
+        <xpath>.//*[@id='field_var_locality']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="NumberofLocalityApplyForm">
+        <xpath>.//*[@id='field_var_locality']/ul/li</xpath>
+    </element>
+
+    <element name="CheckBoxMandatoryFields">
+        <xpath>//input[@name='alert_enabled']</xpath>
+    </element>
+
+    <element name="applyFormSubmitButton">
+        <xpath>.//*[@id='submit-form']</xpath>
+    </element>
+
+    <element name="applyForm2Option1">
+        <xpath>(//ul[@id='field_var_Skills'])/../button</xpath>
+    </element>
+
+    <element name="applyForm2Option1Value">
+        <xpath>.//*[@id='field_var_Skills_15_0']</xpath>
+    </element>
+
+    <element name="applyForm2Option2">
+        <xpath>//div[@id='field_var_Role_Experience']/button</xpath>
+    </element>
+
+    <element name="applyForm2Option2Value">
+        <xpath>.//*[@id='field_var_Role_Experience']/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="applyForm2Option3">
+        <xpath>//label[starts-with(.,'Do you have any certifications?')]/../button</xpath>
+    </element>
+
+    <element name="applyForm2Option3Value">
+        <xpath>.//*[@id='field_var_Certifications_14_0']</xpath>
+    </element>
+
+    <element name="applyForm2Option4">
+        <xpath>//div[@id='field_var_Education']/button</xpath>
+    </element>
+
+    <element name="applyForm2Option4Value">
+        <xpath>.//*[@id='field_var_Education']/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="applyForm2Option5">
+        <xpath>//ul[@id='field_var_Industry']/../button</xpath>
+    </element>
+
+    <element name="applyForm2Option5Value">
+        <xpath>.//*[@id='field_var_Industry_152_0']</xpath>
+    </element>
+
+    <element name="applyForm2SubmitButton">
+        <xpath>//button[@class='submit-form']</xpath>
+    </element>
+
+    <element name="ThankYouMessage">
+        <xpath>//p[@class='lead text-muted thanku-app-text']</xpath>
+    </element>
+
+    <element name="ApplyJobTitle">
+        <xpath>(//button[starts-with(.,'Apply')]/../../../..//h3/a)[1]</xpath>
+    </element>
+
+    <element name="AppliedJobTitle">
+        <xpath>//button[starts-with(.,'Applied')]/../../../..//h3/a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="premiumBandonSNB">
+        <xpath>//div[starts-with(.,' Premium')]</xpath>
+    </element>
+
+    <element name="premiumandUrgentBandonSNB">
+        <xpath>//div[starts-with(.,' Premium &amp; Urgent')]</xpath>
+    </element>
+
+    <element name="PremiumAdsapplyButtonJobwithAllDetails">
+        <xpath>//div[starts-with(.,' Premium')]/following-sibling::div[@class='col-md-10 col-sm-10 quikr-mob-clearfix']/div/div[1]//tbody/tr[4]/ancestor::div[@class='clearfix col-md-9 col-sm-9 col-xs-12']/following-sibling::div/button
+        </xpath>
+    </element>
+
+    <element name="PremiumandUrgentAdsapplyButtonJobwithAllDetails">
+        <xpath>//div[starts-with(.,' Premium &amp; Urgent')]/following-sibling::div[@class='col-md-10 col-sm-10 quikr-mob-clearfix']/div/div[1]//tbody/tr[4]/ancestor::div[@class='clearfix col-md-9 col-sm-9 col-xs-12']/following-sibling::div/button
+        </xpath>
+    </element>
+
+    <element name="applyButtonJobwithAllDetails">
+        <xpath>//div[@class='col-md-12 apply-block']/div/div[4]//tbody/tr[4]/ancestor::div[contains(@class,'clearfix col-md-9')]/following-sibling::div/p/button
+        </xpath>
+    </element>
+
+    <element name="applyFormHeading">
+        <css>.pull-left.desktop-apply-title
+        </css>
+    </element>
+
+    <element name="NumberorCountOfJobs">
+        <xpath>.//strong[@class='xtra-space-right']
+        </xpath>
+    </element>
+
+    <element name="JobTypeLabels">
+        <xpath>//div[@ganame='Job_Type']/ul[@class='dropdown-menu dropdown-list-ul nav-filters-btn stoppropagation']/li[@class='scrollable-menu']/label/input</xpath>
+    </element>
+
+    <element name="JobTypeFromHomePage">
+        <xpath>//div[@class='col-sm-3 col-xs-6']/a</xpath>
+    </element>
+
+    <element name="topMostGoogleAd">
+        <xpath>//div[@id='div-gpt-ad-1446131716190-0']</xpath>
+    </element>
+
+    <element name="middleGoogleAd">
+        <xpath>//div[@id='div-gpt-ad-1446131716190-1']</xpath>
+    </element>
+
+    <element name="lowerMostGoogleAd">
+        <xpath>//div[@id = 'div-gpt-ad-1446131716190-2']</xpath>
+    </element>
+
+    <element name="ScrollUpIconSNBPage">
+        <xpath>(.//*[@id='icon-arrows_up'])[2]</xpath>
+    </element>
+
+    <element name="ScrollUpIconSNBPageVisibleState">
+        <xpath>(.//*[@id='icon-arrows_up'])[2]/ancestor::div[@style='display: block;']</xpath>
+    </element>
+
+
+</elements>
+

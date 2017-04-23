@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cars And Bikes Tests Suite" verbose="1" annotations="JDK" parallel="classes" thread-count="8">
+
+    <test name="Cars And Bikes">
+        <packages>
+            <package name="com.quikr.website.cars.*">
+                <exclude name="com.quikr.website.cars.old"></exclude>
+            </package>
+        </packages>
+    </test>
+
+</suite>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="postAd">
+        <xpath>//div[@title='Post Free Ad']</xpath>
+    </element>
+
+    <element name="PostAdIconLogin">
+        <xpath>//*[@id='header']/div/div[6]/div</xpath>
+    </element>
+
+    <element name="servicesCategory">
+        <xpath>//*[@id='quikrcontainer']/div[9]/div[2]/div[8]/div[3]</xpath>
+    </element>
+
+    <element name="servicesSubCategoryAdvertising">
+        <xpath>//li[@title='Advertising - Design']/a</xpath>
+    </element>
+
+    <element name="selectACity">
+        <css>#cityNewSelectBox2</css>
+    </element>
+
+    <element name="citySearchTextBox">
+        <xpath>//div[@id='citysearchbox55']/input</xpath>
+    </element>
+
+    <element name="city">
+        <xpath>//li[@id='green_dhtml_content55_Bangalore']/a</xpath>
+    </element>
+
+    <element name="selectALocality">
+        <xpath>//div[@id='location_select']/select</xpath>
+    </element>
+
+    <element name="locality">
+        <xpath>//div[@id='customSingleSelLoc']/span[1]</xpath>
+    </element>
+
+    <element name="adTitle">
+        <xpath>//div[@class='formfield']/input[@name='title']</xpath>
+    </element>
+
+    <element name="type">
+        <xpath>//select[@id='type_newpap']</xpath>
+    </element>
+
+    <element name="selectTypeAdvertising">
+        <xpath>//input[@lblval='Advertising service']</xpath>
+    </element>
+
+    <element name="adDescription">
+        <xpath>//textarea[@name='description1']</xpath>
+    </element>
+
+    <element name="postTheAd">
+       <xpath>//div[@id='postbtn_container']//button</xpath>
+    </element>
+
+    <element name="postWithoutPhotosButton">
+        <xpath>//div[@class='submitArea']/a[2]</xpath>
+    </element>
+
+    <element name="adPostSuccessConfirmationText">
+        <xpath>//div[@class='ad-preview-message-box']/div/strong</xpath>
+    </element>
+
+    <element name="YourEmailTextbox">
+            <xpath>//input[@id='emailid']</xpath>
+    </element>
+
+    <element name="PostAdAsCustomer">
+        <xpath>//input[@value='want']</xpath>
+    </element>
+
+
+
+
+</elements>
+

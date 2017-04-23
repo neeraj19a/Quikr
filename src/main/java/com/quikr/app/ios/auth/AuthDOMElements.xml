@@ -1,0 +1,106 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="signUpButton">
+        <name>Sign up</name>
+    </element>
+
+    <element name="userName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="clickOnSignUpEmail">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]</xpath>
+    </element>
+
+    <element name="signUpEmail">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="password">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]/UIASecureTextField[1]</xpath>
+    </element>
+
+    <element name="clickOnReenterPasswordBox">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]</xpath>
+    </element>
+
+    <element name="reenterPassword">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]/UIASecureTextField[1]</xpath>
+    </element>
+
+    <element name="clickOnMobileNoBox">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[5]</xpath>
+    </element>
+
+    <element name="mobileNo">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[5]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="citySelect">
+        <name>Select City</name>
+    </element>
+
+    <element name="cityName">
+        <name>Bangalore</name>
+    </element>
+
+    <element name="registerButton">
+        <class>UIAButton</class>
+    </element>
+
+    <element name="logOutButton">
+        <name>Log out</name>
+    </element>
+
+    <element name="loginEmail">
+        <class>UIATextField</class>
+    </element>
+
+    <element name="forgotPasswordButton">
+        <class>UIAButton</class>
+    </element>
+
+    <element name="okButton">
+        <xpath>//UIAApplication[1]/UIAWindow[3]/UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[2]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="forgotPasswordMsg">
+        <name>We have sent you a temporary Quikr password to access this application</name>
+    </element>
+
+    <element name="passwordLogin">
+        <class>UIASecureTextField</class>
+    </element>
+
+    <element name="loginButton">
+        <class>UIAButton</class>
+    </element>
+
+    <element name="afterLoginOkButton">
+        <name>OK</name>
+    </element>
+
+    <element name="loginOrSignUpButton">
+        <name>Sign Up or Login</name>
+    </element>
+
+    <element name="editButton">
+        <name>Edit</name>
+    </element>
+
+    <element name="userNameInLoginScreen">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="saveButton">
+        <name>Save</name>
+    </element>
+
+    <element name="msgAfterEditDetailInLoginPage">
+        <name>You are successfully logged in and details have been updated</name>
+    </element>
+
+    <element name="clickOnCurrentSelectedCityInLoginScreen">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAButton[1]</xpath>
+    </element>
+</elements>

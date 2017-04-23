@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <!--Buy Now Selectors-->
+    <element name="buyNowButton">
+        <id>escrowBuyNowBtn</id>
+    </element>
+
+    <element name="buyNowForm">
+        <xpath>//p[contains(text(),'Buy Now')]</xpath>
+    </element>
+
+    <element name="buyNowEmail">
+        <id>rplyemailbuynow</id>
+    </element>
+    <element name="buyNowMobile">
+        <id>rplyphonebuynow</id>
+    </element>
+    <element name="buyNowCity">
+        <id>autocompleteBuy</id>
+    </element>
+    <element name="buyNowCityAutoSuggest">
+        <xpath>//div[@class='autocomplete-suggestion']/strong</xpath>
+    </element>
+    <element name="submitBuyNow">
+        <id>replyBuyNow</id>
+    </element>
+
+    <!--MAO Selectors-->
+
+    <element name="maoNowButton">
+        <id>escrowBtn</id>
+    </element>
+
+    <element name="maoForm">
+        <xpath>//p[contains(text(),'Make an Offer')]</xpath>
+    </element>
+
+    <element name="maoPrice">
+        <id>price_mao_mess</id>
+    </element>
+
+    <element name="maoEmail">
+        <xpath>//input[@id='rplyemail' and @placeholder='Email address*']</xpath>
+    </element>
+    <element name="maoMobile">
+        <xpath>//input[@id='rplyphone' and @placeholder='Mobile number*']</xpath>
+    </element>
+    <element name="maoCity">
+        <id>autocomplete_mao</id>
+    </element>
+    <element name="maoCityAutoSuggest">
+        <xpath>//div[@class='autocomplete-suggestion']/strong</xpath>
+    </element>
+    <element name="submitMao">
+        <xpath>//input[@value='Send my offer now']</xpath>
+    </element>
+    <element name="offerSent">
+        <xpath>//div[@id='frmSuccessMsgGreenBlock']//div[@class='escrow-msite-message-header']</xpath>
+    </element>
+
+    <!--Offer Accept-->
+    <element name="submitUserDetails">
+        <xpath>//input[@class='ad-Payment-Quikr-BTN']</xpath>
+    </element>
+
+    <!--counter offer-->
+
+
+    <element name="hiUsernameHeader">
+        <xpath>//a[@class='quikr-escrow-payment-accordion-section-title']</xpath>
+    </element>
+    <element name="counterOfferPrice">
+        <id>counter_price</id>
+    </element>
+    <element name="counterOfferName">
+        <id>name</id>
+    </element>
+    <element name="counterOfferPincode">
+        <id>pincode</id>
+    </element>
+    <element name="counterOfferAddress">
+        <id>address</id>
+    </element>
+    <element name="counterOfferMobile">
+        <id>mobile</id>
+    </element>
+    <element name="counterOfferSubmitButton">
+        <xpath>//input[@class='ad-Payment-Quikr-BTN']</xpath>
+    </element>
+
+    <!--Logo to Navigate to Home Page-->
+    <element name="logoToHome">
+        <id>logo-small</id>
+    </element>
+
+    <element name="navigationBarHomePage">
+        <xpath>//a[@class='home sprite']/span</xpath>
+    </element>
+
+    <element name="acceptOfferThankYouMessage">
+        <xpath>//div[@class='thank-you']</xpath>
+    </element>
+
+    <element name="counterOfferThankYouMessage">
+        <xpath>//div[@class='thank-you']</xpath>
+    </element>
+
+    <element name="nameUserDetails">
+        <id>name</id>
+    </element>
+
+</elements>

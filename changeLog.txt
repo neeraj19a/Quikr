@@ -1,0 +1,32 @@
+//Before you push any critical changes to a method or introduce a new function/method/code, its mandatory to log it in here.
+//In case you have written too many new methods/code , just mention the relevant ones using which we can track the child methods in it.
+//It will help all of us by saving time in reusing and not re-inventing the wheels.
+//Format to follow while making entry in changeLog-
+
+Date
+FileName>Methods/Functions
+
+ChangeMade
+
+Name
+
+//Do leave a couple of line after each changeLog.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+5-May-2016
+HeaderPage.java> selectACity(city)
+PageBase.java> selectCity(city)
+
+
+Wrote a new definition for selectCity(city) in PageBase.java. Had many selectCity() functions. Will be deleting all of them soon. Sole purpose is to not
+keep writing repetitive code. This new method handles the change we are seeing in the homepage.
+
+Also since non-responsive homepages no longer exists in quikr.com,
+while using letsLogin(), pass in arguments corresponding to responsive page login.
+
+Adil
+
+
+

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="jobsLogo">
+        <css>.jobs-logo</css>
+    </element>
+
+    <element name="citySearchBoxinputHeader">
+        <xpath>.//div[@data-value='$']</xpath>
+    </element>
+
+    <element name="hamMenu">
+        <xpath>.//*[@id='menu-toggle']/i</xpath>
+    </element>
+
+    <element name="QuikrHomeIconHamMenu">
+        <xpath>.//a[starts-with(.,'Quikr')]/i</xpath>
+    </element>
+
+    <element name="JobRoleHeader">
+        <xpath>.//*[@id='top-search-form']//input</xpath>
+    </element>
+
+    <element name="inputJobRoleHeader">
+        <xpath>.//*[@id='top-search-form']/div[1]/div/div[1]</xpath>
+    </element>
+
+    <element name="JobSearchIconHeader">
+        <xpath>.//*[@id='top-search-form']/button</xpath>
+    </element>
+
+
+    <element name="hamMenuOptions">
+        <xpath>.//*[@id='sidebar-wrapper']/div/a[$]</xpath>
+    </element>
+
+    <element name="closeHamMenu">
+        <xpath>.//*[@id='menu-close']</xpath>
+    </element>
+
+    <element name="QuikrHomeIconHamMenuPresent">
+        <xpath>//div[@class='toggled']</xpath>
+    </element>
+
+    <element name="languagedropdown">
+        <css>#dLabel</css>
+    </element>
+
+    <element name="HeaderhindiLanguageOption">
+        <xpath>.//*[@id='jobs_navbar']/div/div[3]/ul/li[2]/div/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="HeaderTamilLanguageOption">
+        <xpath>.//*[@id='jobs_navbar']/div/div[3]/ul/li[2]/div/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="HeaderTeluguLanguageOption">
+        <xpath>.//*[@id='jobs_navbar']/div/div[3]/ul/li[2]/div/ul/li[4]/a</xpath>
+    </element>
+
+    <element name="HeaderMalyalamLanguageOption">
+    <xpath>.//*[@id='jobs_navbar']/div/div[3]/ul/li[2]/div/ul/li[5]/a</xpath>
+    </element>
+
+    <element name="postAdButton">
+        <xpath>//button[@class='btn head-postad postad-btn']</xpath>
+    </element>
+
+
+</elements>

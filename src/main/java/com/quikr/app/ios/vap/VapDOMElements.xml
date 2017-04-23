@@ -1,0 +1,33 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="adPreview">
+        <name>Ad Preview</name>
+    </element>
+
+    <element name="editAdButton">
+        <!--<name>Edit Ad</name>-->
+        <name>ic nav edit</name>
+    </element>
+
+    <element name="shortlistButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[2]</xpath>
+        <name>Shortlist Normal</name>
+    </element>
+
+    <element name="shortlistPressButton">
+        <name>Shortlist press</name>
+    </element>
+
+    <element name="chatButton">
+        <name>vap floating chat</name>
+    </element>
+
+    <element name="vapShareButton">
+        <name>vap share</name>
+    </element>
+
+    <element name="vapBackButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[1]</xpath>
+        <name>vap back</name>
+    </element>
+</elements>

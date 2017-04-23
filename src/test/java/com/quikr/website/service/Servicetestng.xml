@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Service Tests Suite" verbose="1" annotations="JDK" parallel="classes" thread-count="8">
+
+    <test name="Service Tests">
+        <packages>
+            <package name="com.quikr.website.service.*"></package>
+        </packages>
+    </test>
+
+</suite>
+

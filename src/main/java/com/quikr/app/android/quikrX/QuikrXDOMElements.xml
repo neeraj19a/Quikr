@@ -1,0 +1,216 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+<element name="QuikrXGo">
+    <id>com.quikr:id/txtQuikrXGo</id>
+</element>
+    <element name="QuikrXText">
+        <id>com.quikr:id/textView16</id>
+    </element>
+    <element name="QuikrXhomePage">
+        <id>com.quikr:id/lytExchange</id>
+        <!--<id>android:id/action_bar_title</id>-->
+    </element>
+    <element name="QuikrXexchange">
+        <name>EXCHANGE</name>
+    </element>
+    <element name="BuyCertified">
+        <name>BUY</name>
+    </element>
+    <element name="selectNewPhones">
+        <id>com.quikr:id/textBlueLabel</id>
+    </element>
+    <element name="adTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+
+    <element name="QuikrXSnbHeader">
+        <id>android:id/text1</id>
+    </element>
+    <element name="spinner">
+        <id>android:id/text1</id>
+    </element>
+    <element name="ExchangeOldSpinner">
+        <name>Exchange Old for New</name>
+    </element>
+    <element name="BuyCertifiedSpinner">
+        <name>Buy Certified Used Phone</name>
+    </element>
+    <element name="cart">
+        <id>com.quikr:id/quikrcCustomActionBarrlMyCart</id>
+    </element>
+    <element name="sort">
+        <id>com.quikr:id/menu_item_text</id>
+    </element>
+    <element name="sorthighToLow">
+      <name>High Price</name>
+    </element>
+    <element name="sortLowTohigh">
+       <name>Low Price</name>
+    </element>
+    <element name="sortPopular">
+        <name>Popularity</name>
+    </element>
+    <element name="filter">
+        <id>com.quikr:id/fab_filter</id>
+    </element>
+    <element name="filterBrand">
+        <id>com.quikr:id/filter_subheading_id</id>
+    </element>
+    <element name="filterPrice">
+        <id>com.quikr:id/txtPriceTitle</id>
+    </element>
+    <element name="vapPrice">
+        <id>com.quikr:id/activityQuikrXdetailtvDeviceNewPrice</id>
+    </element>
+    <element name="pinCode">
+        <id>com.quikr:id/activityQuikrXdetailetPincode</id>
+    </element>
+
+    <element name="QuikrXEcxhangeold">
+        <id>com.quikr:id/activityQuikrXdetailspSpinnerDevice</id>
+    </element>
+    <element name="quikrCertifiedFreeDelivery">
+        <id>com.quikr:id/activityQuikrXdetailtvFreeDeliveryAvailablity</id>
+    </element>
+    <element name="quikrCertifiedReplecement">
+        <id>com.quikr:id/activityQuikrXdetailtvReplacementAvailablity</id>
+    </element>
+    <element name="QuikkrXCertifiedTrusted">
+        <id>com.quikr:id/activityQuikrXdetailtvTrustedSellerAvailablity</id>
+    </element>
+    <element name="uikrXdetailtvCertifiedUsedPhones">
+        <id>com.quikr:id/activityQuikrXdetailtvCertifiedUsedPhones</id>
+    </element>
+    <element name="ExchangeBrandName">
+        <name>Samsung</name>
+    </element>
+    <element name="ExchangeModel">
+        <name>Galaxy S3</name>
+    </element>
+    <element name="BuyNow">
+        <id>com.quikr:id/activityQuikrXdetailtvBuyNow</id>
+    </element>
+    <element name="QuikrXloginEmail">
+        <id>com.quikr:id/input_email</id>
+    </element>
+    <element name="QuikrXloginPassword">
+        <id>com.quikr:id/input_passwordId</id>
+    </element>
+    <element name="SubmitLoginInfo">
+        <id>com.quikr:id/loginContinue</id>
+    </element>
+    <element name="name">
+        <id>com.quikr:id/input_name</id>
+    </element>
+    <element name="cartPin">
+        <id>com.quikr:id/input_pincode</id>
+    </element>
+    <element name="address">
+        <id>com.quikr:id/input_address</id>
+    </element>
+    <element name="phone">
+        <id>com.quikr:id/input_phone</id>
+    </element>
+    <element name="ContinueOrder">
+        <id>com.quikr:id/deliveryContinue</id>
+    </element>
+    <element name="placeOrder">
+        <id>com.quikr:id/quikrXCompleteCartInfobtnContinue</id>
+    </element>
+    <element name="Model">
+        <id>com.quikr:id/activityQuikrXdetailspSpinnerModel</id>
+    </element>
+    <element name="existingUser">
+        <id>com.quikr:id/radioUser</id>
+    </element>
+    <element name="validateorderSuccess">
+        <id>com.quikr:id/quikrxFragentCODtvPaymentText</id>
+    </element>
+    <element name="continueShopping">
+        <id>com.quikr:id/button_continue_shopping</id>
+    </element>
+
+    <element name="quikrX">
+        <id>com.quikr:id/mSlot_dept</id>
+        <!--<name>QuikrX</name>-->
+    </element>
+
+    <element name="unboxed">
+        <id>com.quikr:id/unboxed</id>
+    </element>
+    <element name="VpAdtitle">
+        <id>com.quikr:id/activityQuikrXdetailtvDeviceName</id>
+    </element>
+    <element name="cartAdTitle">
+        <id>com.quikr:id/quikrXMyCartRowtvDeviceName</id>
+    </element>
+    
+    <element name="protectMySmartphoneCheckbox">
+        <id>com.quikr:id/activityQuikrXDetailcbProtectMyPhone</id>
+    </element>
+
+    <element name="productText">
+        <name>15 days replacement guarantee</name>
+    </element>
+    
+    <element name="warrantyText">
+        <name>Onsite Assure Warranty</name>
+    </element>
+
+    <element name="productWarrantyPriceOnVap">
+        <id>com.quikr:id/activityQuikrXDetailtvWarrantyPrice</id>
+    </element>
+
+    <element name="productPriceOnCart">
+        <id>com.quikr:id/quikrXMyCartRowtvPriceAfterExchange</id>
+    </element>
+
+    <element name="warrantyPriceOnCart">
+        <id>com.quikr:id/quikrXMyCartRowtvPriceAfterExchange</id>
+    </element>
+
+    <element name="totalPrice"><id>com.quikr:id/quikrXCompleteCartInfotvTotalPrice</id>
+    </element>
+    <element name="OrderPageAdTitle">
+        <id>com.quikr:id/quikrXMyCartRowtvDeviceName</id>
+    </element>
+
+    <element name="totalVapPrice">
+        <id>com.quikr:id/activityQuikrXdetailtvYouPayPriceWithInsurance</id>
+    </element>
+  <element name="snbOverlay">
+      <id>com.quikr:id/dialog_overlay_layout</id>
+  </element>
+    <element name="quikrX">
+        <id>com.quikr:id/txtQuikrXSubcat</id>
+    </element>
+    <element name="sellerSnb">
+        <id>com.quikr:id/sellerName</id>
+    </element>
+    <element name="vapSellerInfo">
+        <id>com.quikr:id/activityQuikrXDetailtvSellerName</id>
+    </element>
+    <element name="buyWithoutExchange">
+        <name>BUY NEW</name>
+    </element>
+    <element name="exchangeBrandText">
+        <class>android.widget.TextView</class>
+    </element>
+    <element name="paymentPAgeHeader">
+        <id>com.quikr:id/quikrxCustomActionBartvTitle</id>
+    </element>
+    <element name="sellerCountSnb">
+        <id>com.quikr:id/countOffers</id>
+    </element>
+    <element name="sellerInfoVAp">
+        <id>com.quikr:id/activityQuikrXDetailtvSellerCount</id>
+    </element>
+    <element name="buyFromMultiSeller">
+        <id>com.quikr:id/quikrXSellerDetailRowtvBuyNow</id>
+    </element>
+    <element name="warrantyText">
+        <id>com.quikr:id/activityQuikrXDetailtvAssuranceWarranty</id>
+    </element>
+</elements>

@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="addImage">
+        <xpath>.//a[@id='addimage']</xpath>
+    </element>
+
+    <element name="NextButton">
+        <xpath>.//input[@class='yellowBtn sectNextbtn']</xpath>
+    </element>
+
+    <element name="NextButtonPostAdPage">
+        <xpath>(.//input[@class='yellowBtn sectNextbtn'])[2]</xpath>
+    </element>
+
+    <element name="CategoryName">
+        <xpath>.//span[starts-with(.,'$')]/ancestor::a</xpath>
+    </element>
+
+    <element name="buyAdRadioButton">
+        <xpath>.//span[starts-with(.,'I want to buy')]/..</xpath>
+    </element>
+
+    <element name="SubCategoryName">
+        <xpath>.//a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="SubCategoriesofCategory">
+        <xpath>.//span[starts-with(.,'$')]/ancestor::li/ul/li</xpath>
+    </element>
+
+    <element name="ValidationMsgSetAttributes">
+        <xpath>.//div[@class='clearfix attribute_spacing ']/span[@class='frmErrMsg']</xpath>
+    </element>
+
+    <element name="ValidationMsgSetAttributesMyCity">
+        <xpath>.//div[@id='cond-CityWrap']/div[@id='city_err']
+        </xpath>
+    </element>
+
+    <element name="NextButtonSetAttribute">
+        <xpath>.//input[@name='attrNext']</xpath>
+    </element>
+
+    <element name="Price">
+        <id>Price_pricenew</id>
+    </element>
+
+    <element name="Brand">
+        <id>Brand_name</id>
+    </element>
+
+    <element name="Model">
+        <id>Model</id>
+    </element>
+
+    <element name="Variant">
+        <id>Variant</id>
+    </element>
+
+    <element name="Year">
+        <id>Year</id>
+    </element>
+
+    <element name="Kms">
+        <id>Kms_Driven_KmsDriven</id>
+    </element>
+
+    <element name="Color">
+        <id>Color</id>
+    </element>
+
+    <element name="FuelType">
+        <id>Fuel_Type</id>
+    </element>
+
+    <element name="No_of_owners">
+        <id>No_of_owners</id>
+    </element>
+
+    <element name="Insurance">
+        <name>Insurance_Valid_Till</name>
+    </element>
+
+    <element name="Locality">
+        <xpath>.//a[@class='select2-choice']</xpath>
+    </element>
+
+    <element name="secondLocalitySelect">
+        <xpath>.//div[@id='select2-result-label-4']/input</xpath>
+    </element>
+
+    <element name="LocalityOkButton">
+        <id>multiok</id>
+    </element>
+
+    <element name="AdDescription">
+        <id>ad_desc</id>
+    </element>
+
+    <element name="AdEmail">
+        <id>ad_email</id>
+    </element>
+
+    <element name="AdMobile">
+        <id>ad_mobile</id>
+    </element>
+
+    <element name="Privacy">
+        <xpath>.//input[@id='usrprivacypostad']</xpath>
+    </element>
+
+    <element name="PostAdButtonDescription">
+        <id>postAdBtn</id>
+    </element>
+
+    <element name="ValidationMsgsAdDescription">
+        <xpath>.//span[@class='frmErrMsg']</xpath>
+    </element>
+
+    <element name="CongratulationsMsg">
+        <xpath>.//h1[@class='cong_title']</xpath>
+    </element>
+
+    <element name="ThankYouMsg">
+        <css>.cong-text2.greyText</css>
+    </element>
+
+    <element name="ViewAdLink">
+        <css>.Verify-ViewBTN</css>
+    </element>
+
+    <element name="callNumberVerification">
+        <xpath>.//div[@class='call_icon sprite1']</xpath>
+    </element>
+
+
+    <element name="ContactNumber">
+        <css>.cong_titlenum</css>
+    </element>
+
+    <element name="PremiumAdsMsg">
+        <css>.subcat_sli1</css>
+    </element>
+
+    <element name="SubmitButtonPremiumAd">
+        <css>.cong_btn</css>
+    </element>
+
+    <element name="SubmitButtonPremiumAd">
+        <css>.cong_btn</css>
+    </element>
+
+    <element name="ChoosePremiumPlanText">
+        <css>.subHeading02</css>
+    </element>
+
+    <element name="AdPlanPrices">
+        <xpath>.//a[@class='radioStyleNew clearfix'][$]/label</xpath>
+    </element>
+
+    <element name="499AdPlan">
+        <xpath>.//input[@id='T_499.00_30']/ancestor::a</xpath>
+    </element>
+
+    <element name="AdPlanDurations">
+        <xpath>.//div[@class='payment_days']/span[$]</xpath>
+    </element>
+
+    <element name="PaymentButton">
+        <css>.blue_button.paymentBlue-Btn.clear</css>
+    </element>
+
+    <element name="PaymentModesText">
+            <xpath>.//div[@class='field-Text']</xpath>
+    </element>
+
+    <element name="PaymentModeMobileBilling">
+        <xpath>.//div[@class='MainPaymentmWrapper']/div[1]</xpath>
+    </element>
+
+    <element name="PaymentModeCreditCard">
+        <xpath>.//div[@class='MainPaymentmWrapper']/div[2]</xpath>
+    </element>
+
+    <element name="SelectCardType">
+        <id>citrusCardType</id>
+    </element>
+
+    <element name="CardNumber">
+        <id>citrusNumber</id>
+    </element>
+
+    <element name="NameofHolder">
+        <id>citrusCardHolder</id>
+    </element>
+
+    <element name="ExpiryDate">
+        <id>citrusExpiry</id>
+    </element>
+
+    <element name="CVV">
+        <id>citrusCvv</id>
+    </element>
+
+    <element name="creditDebitPayNow">
+        <id>citrusCardPayButton</id>
+    </element>
+
+    <element name="PayViaMobileText">
+        <css>.Easy-securePay-Text</css>
+    </element>
+
+    <element name="MobilePayNow">
+        <id>mobileBillButton</id>
+    </element>
+
+    <element name="ContinueButtonMobilePayment">
+        <name>act_continue</name>
+    </element>
+
+    <element name="PaymentModeNetBanking">
+        <xpath>.//div[@class='MainPaymentmWrapper']/div[3]</xpath>
+    </element>
+
+    <element name="NetBankingChooseBank">
+        <id>citrusAvailableOptions</id>
+    </element>
+
+    <element name="NetBankingPayNow">
+        <id>citrusNetbankingButton</id>
+    </element>
+
+    <element name="NetBankingICICIPaymentHeaderPage">
+        <css>.bodyHeadingText</css>
+    </element>
+
+    <element name="Header">
+        <id>header-title</id>
+    </element>
+
+    <element name="MobileNumerTextBox">
+        <id>msisdn</id>
+    </element>
+
+    <element name="AirtelOperator">
+        <xpath>.//input[@id='operatorName1']</xpath>
+    </element>
+
+    <element name="PaymentConfirmationPremiumAd">
+        <css>.pcWidth95.input-data-plain</css>
+    </element>
+
+    <element name="ConfirmPaymentButton">
+        <name>act_confirm</name>
+    </element>
+
+
+</elements>

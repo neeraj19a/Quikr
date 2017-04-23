@@ -1,0 +1,21 @@
+{
+
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "status": "Upcoming"
+          }
+        }
+      ],
+      "must_not": [ ],
+      "should": [ ]
+    }
+  },
+  "from": 0,
+  "size": 25000,
+  "sort": [ ],
+  "aggs": { }
+
+}

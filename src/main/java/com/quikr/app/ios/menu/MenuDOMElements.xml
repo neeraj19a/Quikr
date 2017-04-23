@@ -1,0 +1,131 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="version">
+        <name>3.8</name>
+    </element>
+
+    <element name="myAccount">
+        <name>My Account</name>
+    </element>
+
+    <element name="feedbackButton">
+        <name>Feedback</name>
+    </element>
+
+    <element name="feedbackMsg">
+        <name>subjectField</name>
+    </element>
+
+    <element name="rateUsButton">
+        <name>Rate Us</name>
+    </element>
+
+    <element name="rateUsOption">
+        <name>Yes</name>
+    </element>
+
+    <element name="rateUsStar">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAImage[5]</xpath>
+        <!--<class>UIAImage</class>-->
+        <name>nf</name>
+    </element>
+
+    <element name="rateStarGold">
+        <name>ff</name>
+    </element>
+    <element name="validateMsgForRateUs">
+        <name>Thanks!</name>
+    </element>
+
+    <element name="shareButton">
+        <name>Share</name>
+    </element>
+    <element name="mailButton">
+        <name>Mail</name>
+    </element>
+
+    <element name="msgBody">
+        <name>Message body</name>
+    </element>
+
+    <element name="myShortlistButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAStaticText[1]</xpath>
+        <name>My Shortlist</name>
+    </element>
+
+    <element name="msgForAdInShortlist">
+        <name>Empty list</name>
+    </element>
+
+    <element name="myAds">
+        <name>My Ads</name>
+    </element>
+
+    <element name="myShortlist">
+        <name>My Shortlist  (0)</name>
+    </element>
+
+    <element name="myAlert">
+        <name>My Alerts  (0)</name>
+    </element>
+
+    <element name="myCart">
+        <name>My Cart</name>
+    </element>
+
+    <element name="myOrders">
+        <name>My Orders</name>
+    </element>
+
+    <element name="signUpOrLogin">
+        <name>Sign Up or Login</name>
+    </element>
+
+    <element name="clickOnLegalAndPolicyButton">
+        <name>Legal &amp; Policy</name>
+    </element>
+
+    <element name="termAndCondition">
+        <name>Terms &amp; Conditions</name>
+    </element>
+
+    <element name="privacyAndPolicy">
+        <name>Privacy Policy</name>
+    </element>
+
+    <element name="adsNearByButton">
+        <name>Ads Nearby</name>
+    </element>
+
+    <element name="adsNearByText">
+        <name>Nearby Ads</name>
+    </element>
+
+    <element name="popularInBangaloreCity">
+        <name>Popular in Bangalore</name>
+    </element>
+
+    <element name="popularAdsText">
+        <name>Popular Ads</name>
+    </element>
+
+    <element name="contactUsTab">
+        <name>Contact Us</name>
+    </element>
+
+    <element name="makeAnOfferTab">
+        <name>Make an Offer</name>
+    </element>
+
+    <element name="quikrXTab">
+        <name>QuikrX</name>
+    </element>
+
+    <element name="quikrCustomerCare">
+        <name>Quikr Customer Care</name>
+    </element>
+
+    <element name="myAdsMoreButton">
+        <name>ic myad more</name>
+    </element>
+</elements>

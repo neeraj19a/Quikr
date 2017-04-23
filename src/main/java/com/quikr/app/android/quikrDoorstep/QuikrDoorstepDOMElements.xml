@@ -1,0 +1,39 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="viewOffers">
+        <id>viewOffers</id>
+    </element>
+    <element name="latestOffer">
+        <name>0 minute ago</name>
+    </element>
+
+    <element name="acceptOffer">
+        <name>Accept offer</name>
+    </element>
+    <element name="counterOffer">
+        <name>Counter offer</name>
+    </element>
+    <element name="acceptOfferFormHeader">
+        <name>Accepting an offer</name>
+    </element>
+    <element name="name">
+        <id>name</id>
+    </element>
+    <element name="landmark">
+        <id>landMarkbox</id>
+    </element>
+    <element name="acceptOfferFormSubmit">
+        <id>accept_submit_btn</id>
+    </element>
+
+    <element name="acceptOfferNotifications">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/action_btn' and contains(@text, 'Accept')])</xpath>
+    </element>
+    <element name="counterOfferNotifications">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/action_btn' and contains(@text, 'Counter')])</xpath>
+    </element>
+    <element name="confirmAcceptOfferNotifications">
+        <id>com.quikr:id/accept_continue</id>
+    </element>
+</elements>
+
+

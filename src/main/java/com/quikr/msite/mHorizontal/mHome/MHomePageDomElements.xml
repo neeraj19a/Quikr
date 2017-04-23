@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="menuIcon">
+        <xpath>//a[@class='hamburger hamburger_nav']</xpath>
+    </element>
+
+
+    <element name="MHamburgerMenuResponsiveHP">
+        <xpath>.//i[@class='icon-hamburger']</xpath>
+    </element>
+
+    <element name="CloseMostTrustedBrandPopUp">
+        <css>.sprite.closePop</css>
+    </element>
+
+    <element name="languagePopUpHidden">
+        <xpath>//div[@class='white-popup-content-div hide']</xpath>
+    </element>
+
+    <element name="languagePopUp">
+        <xpath>//div[@class='white-popup-content-div']</xpath>
+    </element>
+
+
+    <element name="QuikrLogo">
+        <xpath>//a[@class='quikr-logo  ']</xpath>
+    </element>
+
+    <element name="selectCity">
+        <xpath>.//*[@class='city-select pull-left']/a</xpath>
+    </element>
+
+    <element name="selectCityBangalore">
+        <xpath>//a[@data-city-name='bangalore']</xpath>
+    </element>
+
+    <element name="selectCityName">
+        <xpath>.//*[@id='green_dhtml_content_$']/a</xpath>
+    </element>
+
+    <element name="searchButton">
+        <id>searchbar-btn-search</id>
+    </element>
+
+    <element name="PostAdButton">
+        <xpath>//a[@class='btn post-ad-btn pull-left']</xpath>
+    </element>
+
+    <element name="PostAdButtonNewCities">
+        <xpath>.//a[@class='btn post-ad-btn pull-left']</xpath>
+    </element>
+
+    <element name="Categories">
+        <xpath>//div[@id='categoryContainer']/ul/li</xpath>
+    </element>
+
+    <element name="CarsandBikes">
+        <css>.Icon-CarsBikes.CatImg-position</css>
+    </element>
+
+    <element name="MobilesandTablets">
+        <css>.Icon-Mobile.CatImg-position</css>
+    </element>
+
+    <element name="ElectronicsandAppliances">
+        <css>.Icon-Electronics.CatImg-position</css>
+    </element>
+
+    <element name="RealEstate">
+        <css>.Icon-Realestate.CatImg-position</css>
+    </element>
+
+    <element name="HomeandLifeStyle">
+        <css>.Icon-HomeLife.CatImg-position</css>
+    </element>
+
+    <element name="Jobs">
+        <css>.Icon-Job.CatImg-position</css>
+    </element>
+
+    <element name="Entertainment">
+        <css>.Icon-Entertain.CatImg-position</css>
+    </element>
+
+    <element name="Services">
+        <css>.Icon-Services.CatImg-position</css>
+    </element>
+
+    <element name="PetsandPetCare">
+        <css>.Icon-Pets.CatImg-position</css>
+    </element>
+
+    <element name="ShowMoreCategoryDropIcon">
+        <xpath>//a/i[@class='icon-more']</xpath>
+    </element>
+
+    <element name="EducationandLearning">
+        <css>.Icon-Edu.CatImg-position</css>
+    </element>
+
+    <element name="CommunityandEvents">
+        <css>.Icon-CommEvents.CatImg-position</css>
+    </element>
+
+    <element name="Matrimonial">
+        <css>.Icon-Matrimonial.CatImg-position</css>
+    </element>
+
+    <element name="Msp">
+        <xpath>//div[@class='fab-wrap-child']/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="MyChatandRepliesMenuIcon">
+        <xpath>//a/i[@class='icon-chat3']</xpath>
+    </element>
+
+    <element name="CreateAlert">
+        <xpath>//a[contains(@class,'need')]</xpath>
+    </element>
+
+    <element name="QuikrX">
+        <xpath>.//*[@id='categoryContainer']/div/ul/li/a[@title='QuikrX']</xpath>
+    </element>
+
+    <element name="GoogleAdsHomePage">
+        <xpath>div[@class='ad_image_container']/img</xpath>
+    </element>
+
+    <element name="DownloadAppLink">
+        <xpath>//div[@class='appDwBloack']/a</xpath>
+    </element>
+
+    <element name="MyChatAndReplies">
+        <css>.Left-NxtBtn.new_cta_hold>a</css>
+    </element>
+
+    <element name="SwiperHomePage">
+        <css>.swiper-wrapper</css>
+    </element>
+
+    <element name="Language">
+        <xpath>.//div[contains(@class,'footerBorder')]/a[$]</xpath>
+    </element>
+
+    <element name="hindiLink">
+        <xpath>//a[@class='hiLink']</xpath>
+    </element>
+
+    <element name="telguLink">
+        <xpath>//a[@class='teLink']</xpath>
+    </element>
+
+    <element name="aboutUsLink">
+        <xpath>(//div[@class='footer']/a)[1]</xpath>
+    </element>
+
+    <element name="myChatsMenuLink">
+        <xpath>//a[@href='/MyQuikr?action=mychats']/span</xpath>
+    </element>
+
+    <element name="myAccountMenuLink">
+        <xpath>//a[@class='login sprite']</xpath>
+    </element>
+
+    <element name="myProfileMenuLink">
+        <xpath>//a[@class='MyProfile-Icon MyAcc-List']</xpath>
+    </element>
+
+    <element name="lemsQuikrLitePopUp">
+        <xpath>//div[@class='lems-popup quikrlite']</xpath>
+    </element>
+
+    <element name="quikrWebFromQuikrLitePopUp">
+        <xpath>//div[@class='option-box-left']/a</xpath>
+    </element>
+
+    <element name="lemsPopUp">
+        <xpath>//div[@class='lems-popup quikrlite']</xpath>
+    </element>
+
+    <element name="lemsPopUpClose">
+        <xpath>//div[@class='lems-popup quikrlite']/div[1]</xpath>
+    </element>
+
+    <element name="quikrWebLemsPopUp">
+        <xpath>//div[@class='lems-popup quikrlite']/div/div/a</xpath>
+    </element>
+
+    <element name="plusIcon">
+        <xpath>//button[@class='fab-button']</xpath>
+    </element>
+
+
+</elements>

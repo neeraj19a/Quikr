@@ -1,0 +1,9 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="REAL ESTATE" verbose="1"  time-out="60000" annotations="JDK">
+    <test name="REAL ESTATE Tests">
+        <classes>
+            <class name="com.quikr.app.android.realEstate.realEstateSnb.RealEstateSnbTests"/>
+        </classes>
+    </test>
+</suite>

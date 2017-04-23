@@ -1,0 +1,204 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="Description">
+        <id>ad_desc</id>
+    </element>
+    <element name="nextAddPictures">
+        <id>uploadPhotosNext</id>
+    </element>
+
+    <element name="categoryList">
+        <xpath>//span[@class='catName' and text()='$']</xpath>
+    </element>
+
+    <element name="subCategoryList">
+        <xpath>//*[@class='subcat']/li/a[text()='$']</xpath>
+    </element>
+
+    <element name="price">
+        <id>Price_pricenew</id>
+    </element>
+    
+    <element name="minimumPrice">
+        <id>Minimum_price</id>
+    </element>
+    
+    <element name="purchaseYearDropdown">
+        <id>Purchase_Year</id>
+    </element>
+
+    <element name="purchaseyearValue">
+        <xpath>.//select[@id='Purchase_Year']/option[text()='$']</xpath>
+    </element>
+
+    <element name="originalInvoice">
+        <id>Invoice_Dummy</id>
+    </element>
+
+    <element name="brandNameDropdown">
+        <id>Brand_name</id>
+    </element>
+
+    <element name="brandNameValue">
+        <xpath>.//select[@id='Brand_name']/option[text()='$']</xpath>
+    </element>
+
+    <element name="modelNameDropdown">
+        <id>Model</id>
+    </element>
+    <element name="modelNameValue">
+        <xpath>.//select[@id='Model']/option[text()='$']</xpath>
+    </element>
+
+    <element name="OSNameDropdown">
+        <id>Operating_system</id>
+    </element>
+
+    <element name="OSNameValue">
+        <xpath>.//select[@id='Operating_system']/option[text()='$']</xpath>
+    </element>
+
+    <element name="NoOfSimsDropdown">
+        <id>No_of_Sims</id>
+    </element>
+
+    <element name="NoOfSimsValue">
+        <xpath>.//select[@id='No_of_Sims']/option[text()='$']</xpath>
+    </element>
+
+    <element name="IncludesDropdown">
+        <id>Also_includes</id>
+    </element>
+
+    <element name="IncludesValue">
+        <xpath>.//select[@id='Functional_Physical_Checks']/option[text()='$']</xpath>
+    </element>
+
+    <element name="ChecksDropdown">
+        <id>Functional_Physical_Checks</id>
+    </element>
+
+    <element name="ChecksValue">
+        <xpath>.//select[@id='Functional_Physical_Checks']/option[text()='$']</xpath>
+    </element>
+
+    <element name="address">
+        <id>address</id>
+    </element>
+    
+    <element name="cityDropdown">
+        <id>currCity</id>
+    </element>
+    <element name="cityList">
+        <xpath>.//*[@id='orgList']/li/a[text()='$']</xpath>
+    </element>
+    
+    <element name="localityDropdown">
+        <xpath>//div[@id='s2id_ad_locality']/a/span</xpath>
+    </element>
+    
+    <element name="localityList">
+        <xpath>//div[@class='select2-result-label'and text()='$']</xpath>
+    </element>
+
+    <element name="pincode">
+        <id>pincode</id>
+    </element>
+
+    <element name="NextSelectAttribute">
+        <id>attrNext</id>
+    </element>
+    
+    <element name="title">
+        <id>ad_title</id>
+    </element>
+    
+    <element name="sellerMail">
+        <id>ad_email</id>
+    </element>
+    
+    <element name="sellerMobile">
+        <id>ad_mobile</id>
+    </element>
+
+    <element name="maintainPrivacy">
+        <id>usrprivacypostad</id>
+    </element>
+
+    <element name="postAd">
+        <id>postAdBtn</id>
+    </element>
+
+    <element name="postAdSuccessMessage">
+        <xpath>//h1[@class='cong_title']</xpath>
+    </element>
+
+    <element name="viewAdButton">
+        <xpath>//a[contains(text(),'View Your Ad')]</xpath>
+    </element>
+
+    <!--Logo to Navigate to Home Page-->
+    <element name="logoToHome">
+        <id>logo-small</id>
+    </element>
+
+    <element name="navigationBarHomePage">
+        <xpath>//a[@class='home sprite']/span</xpath>
+    </element>
+
+    <element name="descriptionError">
+        <xpath>//span[@class='frmErrMsg']</xpath>
+    </element>
+
+    <element name="priceError">
+        <xpath>//div[@class='new-form-field new-price-field']/span[@class='frmErrMsg']</xpath>
+    </element>
+    
+    <element name="brandNameError">
+        <xpath>//div[@id='cond-Brand_name']/*/span[@class='frmErrMsg']</xpath>
+    </element>
+    <element name="addressError">
+        <xpath>//div[@id='addressSec']/span[@class='frmErrMsg']</xpath>
+    </element>
+
+    <element name="localityError">
+        <xpath>//div[@id='cond-loc']/span[@class='frmErrMsg']</xpath>
+    </element>
+
+    <element name="pincodeError">
+        <xpath>//div[@id='picnodeSec']/span[@class='frmErrMsg']</xpath>
+    </element>
+
+    <element name="titleError">
+        <xpath>.//div[@class='formWrapper']/span[1]</xpath>
+    </element>
+
+    <element name="emailError">
+        <xpath>.//div[@class='formWrapper']/span[2]</xpath>
+    </element>
+
+    <element name="mobileError">
+        <xpath>.//div[@class='formWrapper']/span[3]</xpath>
+    </element>
+
+    //For electronic
+    <element name="productType">
+        <xpath>//div[@id='div_Product_Type']/div/label/span[text()='$']</xpath>
+    </element>
+
+    <element name="warehouseYes">
+        <id>warehouse_yes</id>
+    </element>
+
+    <element name="warehouseNo">
+        <id>warehouse_no</id>
+    </element>
+
+    //For Home Appliances
+    <element name="furnitureType">
+        <id>Furniture_Type</id>
+    </element>
+
+</elements>

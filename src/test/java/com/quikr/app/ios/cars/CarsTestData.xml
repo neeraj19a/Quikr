@@ -1,0 +1,38 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="categoryName">carsAndBikes</testData>
+    <testData name="subCategoryNameCar">carsAndBikesSubcategoryNameCars</testData>
+    <testData name="subCategoryNameBikes">carsAndBikesSubcategoryNameBikes</testData>
+    <testData name="cityName">Mumbai</testData>
+    <testData name="localityNameForPostAd">Agripada</testData>
+    <testData name="adDescription">maruti suzuki shift VDI, 2014 Model , white color , single owner, 10000 kms driven,dvd audio system ,brand new tyres and not even a single scratch, is for sale</testData>
+    <testData name="youRTypeName">individual</testData>
+    <testData name="conditionTypeName">Used</testData>
+    <testData name="brandNameOptionFoCars">brandNameOptionForCars</testData>
+    <testData name="yearName">2014</testData>
+    <testData name="kmsDriven">10000</testData>
+    <testData name="name">Monu</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="mobileNo">9955199187</testData>
+    <testData name="successMsgAfterAdPost">We are reviewing your ad.</testData>
+    <testData name="priceForCar">500000</testData>
+    <testData name="carModelName">Swift</testData>
+    <testData name="carsVariant">Vdi</testData>
+    <testData name="carColor">White</testData>
+    <testData name="carFuelType">Diesel</testData>
+    <testData name="youAreTypeInCarOrBikeMspPage">Seller</testData>
+    <testData name="brandOptionName">Maruti Suzuki</testData>
+    <!--<testData name="modelOptionName">Swift Dzire</testData>-->
+    <testData name="yearOfMakeOptionName">2013</testData>
+    <testData name="variantOptionName">VDI</testData>
+    <testData name="kmsDrivenOptionName">5000 - 20000</testData>
+    <testData name="brandOptionNameForBike">Hero</testData>
+    <testData name="modelOptionNameForBike">Passion Pro</testData>
+    <testData name="incompleteAdDescription">Post ad</testData>
+    <testData name="adDescriptionForBikes">i want to sell my bike hero , 2014 model single user and well conditioned</testData>
+    <testData name="brandNameOptionForBikes">Hero</testData>
+    <testData name="priceForBikes">45000</testData>
+    <testData name="noOfOwnersForBike">One</testData>
+    <testData name="brandNameOptionForBikes">brandNameOptionForBikes</testData>
+</data>

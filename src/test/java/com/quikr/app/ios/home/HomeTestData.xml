@@ -1,0 +1,11 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="expectedCityName">Bangalore</testData>
+    <testData name="categoryName">Mobiles</testData>
+    <testData name="subCategoryName">mobilePhones</testData>
+    <testData name="enterRequiredSearchText">Apple</testData>
+    <testData name="changeCityName">selectNameForChangeCity</testData>
+    <testData name="city">Delhi</testData>
+    <testData name="exchangeOldForNew">exchangeOldForNew</testData>
+
+</data>

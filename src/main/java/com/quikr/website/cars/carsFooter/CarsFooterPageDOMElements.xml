@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="footer">
+        <xpath>//div[@id='car_footer']</xpath>
+        <id>car_footer</id>
+    </element>
+
+    <element name="browseCategory">
+        <xpath>//div[contains(@class,'other-cat')]/div/ul/li</xpath>
+    </element>
+
+    <element name="browseCars">
+        <xpath>//a[text()='Cars']</xpath>
+    </element>
+
+    <element name="browseBikes_Scooters">
+        <xpath>//a[text()='Bikes &amp; Scooters']</xpath>
+    </element>
+
+    <element name="browseCommercial_Vehicles">
+        <xpath>//a[text()='Commercial Vehicles']</xpath>
+    </element>
+
+    <element name="browseBicycles">
+        <xpath>//a[text()='Bicycles']</xpath>
+    </element>
+
+    <element name="browseSpare_Parts">
+        <xpath>//a[text()='Spare Parts - Accessories']</xpath>
+    </element>
+
+    <element name="browseOther">
+        <xpath>//a[text()='Other Vehicles']</xpath>
+    </element>
+
+    <element name="aboutUs">
+        <xpath>//a[text()='About Us']</xpath>
+        <linkText>About Us</linkText>
+    </element>
+
+    <element name="contactUs">
+        <xpath>//a[text()='Contact Us']</xpath>
+        <linkText>Contact Us</linkText>
+    </element>
+
+    <element name="careers">
+        <xpath>//a[text()='Careers']</xpath>
+        <linkText>Careers</linkText>
+    </element>
+
+    <element name="quikrVideos">
+        <xpath>//a[text()='Quikr Videos']</xpath>
+        <linkText>Quikr Videos</linkText>
+    </element>
+
+    <element name="advertise">
+        <xpath>//a[text()='Advertise With Us']</xpath>
+        <linkText>Advertise With Us</linkText>
+    </element>
+
+    <element name="blog">
+        <xpath>//a[text()='Blog']</xpath>
+        <linkText>Blog</linkText>
+    </element>
+
+    <element name="help">
+        <xpath>//a[text()='Help']</xpath>
+        <linkText>Help</linkText>
+    </element>
+
+    <element name="iosApp">
+        <xpath>//a[@class='ios_app']</xpath>
+        <class>ios_app</class>
+    </element>
+
+    <element name="androidApp">
+        <xpath>//a[@class='ANDROID_app']</xpath>
+        <class>ANDROID_app</class>
+    </element>
+
+    <element name="windowsApp">
+        <xpath>//a[@class='window_app']</xpath>
+        <class>window_app</class>
+    </element>
+
+    <element name="listingPolicy">
+        <xpath>//a[text()='Listing Policy']</xpath>
+        <linkText>Listing Policy</linkText>
+    </element>
+
+    <element name="terms">
+        <xpath>//a[text()='Terms of Use']</xpath>
+        <linkText>Terms of Use</linkText>
+    </element>
+
+    <element name="privacyPolicy">
+        <xpath>//a[text()='Privacy Policy']</xpath>
+        <linkText>Privacy Policy</linkText>
+    </element>
+
+    <element name="quikrXPolicy">
+        <xpath>//a[text()='QuikrX Policy ']</xpath>
+        <linkText>QuikrX Policy </linkText>
+    </element>
+
+    <element name="footerCity">
+        <xpath>//div[contains(@class,'footer-city')]/ul/li/a[text()='$']</xpath>
+    </element>
+
+</elements>

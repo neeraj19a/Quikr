@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="chatName">
+        <css>.script_input_name </css>
+    </element>
+
+    <element name="chatNumber">
+        <css>.script_input_mobile </css>
+    </element>
+
+    <element name="chatEmail">
+        <css>.script_input_email </css>
+    </element>
+
+    <element name="chatContent">
+        <css>.Chat-ContShar-Textarea.script_input_question</css>
+    </element>
+
+    <element name="chatNowChatDialog">
+        <xpath>.//button[starts-with(.,'Chat Now')]</xpath>
+    </element>
+
+    <element name="vapChatNow">
+        <xpath>.//*[@class='replyChatBTN' and not(@disabled)]</xpath>
+    </element>
+    
+    <element name="chatDialog">
+        <id>mainchat</id>
+    </element>
+    
+    <element name="chatMessageAppearInDialog">
+        <xpath>//li[@class='Chat-msgBox Chat-Incuming-msg script_sys'][$]/div</xpath>
+    </element>
+
+    <element name="chatMessageAppearOutDialog">
+        <xpath>.//li[@class='Chat-msgBox Chat-OutGo-msg script_sys'][$]/div</xpath>
+    </element>
+
+    <element name="enterChatMessage">
+        <xpath>//div[@class='ChatType-inputText script_input_chat']</xpath>
+    </element>
+    
+    <element name="chatNotificationAtPageBottom">
+        <class>slide-ntf-msg-title</class>
+    </element>
+
+    <element name="MakeanOfferButton">
+        <css>.MChat-BlueButton.Main-MakeOffer-Btn.script_mob</css>
+    </element>
+
+    <element name="OfferAmount">
+        <css>.script_mof_price</css>
+    </element>
+
+    <element name="OfferAmountConfirmButton">
+        <css>.bulecolor-button.script_so</css>
+    </element>
+
+    <element name="SubmitButton">
+        <css>.bulecolor-button.Popup-SubmitBtn.script_mod_submit</css>
+    </element>
+
+    <element name="SubmitButton">
+        <css>.bulecolor-button.Popup-SubmitBtn.script_mod_submit</css>
+    </element>
+
+    <element name="MessageSent">
+        <css>.script_msg_ack</css>
+    </element>
+
+    <element name="OfferAmountCancelButton">
+        <css>.script_co</css>
+    </element>
+
+    <element name="OfferMessage">
+        <xpath>(//p[@class='script_escrow_hint_msg'])[1]</xpath>
+    </element>
+
+    <element name="OfferAmountAtSellerSide">
+        <xpath>//h5[starts-with(.,'Offer Made')]/following-sibling::h6</xpath>
+    </element>
+
+    <element name="ChatMenu">
+        <xpath>.//*[@id='header']/div/div[5]/div[1]</xpath>
+    </element>
+
+    <element name="ChatMessage">
+        <xpath>.//div[contains(@class,'Incoming-MsgBox ntf-msg ntf_msg')]/div[3]/div[2]/span</xpath>
+    </element>
+
+    <element name="ChatSentText">
+        <xpath>.//span[starts-with(.,'Sent')]</xpath>
+    </element>
+
+    <element name="typing">
+        <xpath>//p[starts-with(.,'typing')]</xpath>
+    </element>
+
+    <element name="ChatSeenText">
+        <xpath>.//span[starts-with(.,'Seen')]</xpath>
+    </element>
+
+    <element name="ChatNotificationNumbers">
+        <xpath>//span[@class='ntf-new-no']</xpath>
+    </element>
+
+    <element name="chatWindowDetailsArea">
+        <xpath>//div[@class='New-ChatMain-Wapp']</xpath>
+    </element>
+
+    <element name="closeChatWindow">
+        <xpath>(.//span[@class='icon-cross'])[1]</xpath>
+    </element>
+
+    <element name="chatWindowSettingsIcon">
+        <xpath>//span[@class='icon-option script_toggle_settings']</xpath>
+    </element>
+
+    <element name="chatWindowBlockUserIcon">
+        <xpath>//li[@class='script_toggle_block_confirm']</xpath>
+    </element>
+
+    <element name="chatWindowInlineMessages">
+        <xpath>//div[@class='Conve-TextMsg script_msg']</xpath>
+    </element>
+
+    <element name="NegotiateOfferButton">
+        <xpath>(//button[@class='MChat-BlueBorder-Btn script_no'])[1]</xpath>
+    </element>
+
+    <element name="AcceptOfferButton">
+        <xpath>(//button[@class='bulecolor-button script_ao'])[2]</xpath>
+    </element>
+
+    <element name="AcceptCounterOfferButton">
+        <xpath>(//button[@class='bulecolor-button script_ao'])[1]</xpath>
+    </element>
+
+    <element name="WithdrawOfferButton">
+        <xpath>.//button[@class='MChat-BlueBorder-Btn script_wo']</xpath>
+    </element>
+
+    <element name="WithdrawOfferMessage">
+        <xpath>.//p[starts-with(.,'You have ended this offer transaction')]</xpath>
+    </element>
+
+    <element name="DeclineOfferButton">
+        <css>.MChat-BlueBorder-Btn.script_ro</css>
+    </element>
+
+    <element name="OfferAcceptedMessageSellerSide">
+        <xpath>//h5[starts-with(.,'Offer Accepted')]</xpath>
+    </element>
+
+    <element name="chatWindowBlockConfirmationBtn">
+        <xpath>//button[@class='script_block_yes']</xpath>
+    </element>
+
+    <element name="chatWindowUnblockButton">
+        <xpath>//span[starts-with(.,'Unblock')]</xpath>
+    </element>
+
+    <element name="chatWindowUnblockConfirmation">
+        <xpath>//button[@class='script_unblock_yes']</xpath>
+    </element>
+
+    <element name="clearConversationChatWindow">
+        <xpath>.//li[@class='script_toggle_clear_confirm']</xpath>
+    </element>
+
+    <element name="clearConversationMessage">
+        <xpath>.//div[@class='clearConversation-text script_msg_clear']</xpath>
+    </element>
+
+    <element name="clearConversationAlertYesButton">
+        <xpath>.//button[@class='script_clear_yes']</xpath>
+    </element>
+
+    <element name="OfferAcceptedMessageBuyerSide">
+        <xpath>.//p[starts-with(.,'Congratulations')]</xpath>
+    </element>
+
+    <element name="MakePaymentButton">
+        <xpath>//button[@class='MChat-BlueButton Main-MakeOffer-Btn script_epb']</xpath>
+    </element>
+
+    <element name="PaymentScreen">
+        <xpath>//div[@class='net-pay-txt']</xpath>
+    </element>
+
+    <element name="cannedResponseChatIcon">
+        <xpath>.//button[@class='ChatType-IconsBox icon-canned_response script_toggle_canned']</xpath>
+    </element>
+
+    <element name="cannedResponseMessage">
+        <xpath>.//ul[@class='M-chat-CannedResponses script_canned_area']/li[$]</xpath>
+    </element>
+
+    <element name="cannedResponseMessageText">
+        <xpath>.//ul[@class='M-chat-CannedResponses script_canned_area']/li[$]/span</xpath>
+    </element>
+
+    <element name="cannedResponseMessagePresentText">
+        <xpath>.//span[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="EditOfferButton">
+        <xpath>.//button[@class='bulecolor-button script_eo']</xpath>
+    </element>
+
+    <element name="UpdatedOfferMessage">
+        <xpath>.//p[starts-with(.,'Your revised offer')]</xpath>
+    </element>
+
+    <element name="CounterOfferMessageSellerSide">
+        <xpath>.//p[starts-with(.,'You have made a counter offer')]</xpath>
+    </element>
+
+    <element name="CounterOfferMessageBuyerSide">
+        <xpath>.//span[starts-with(.,'Offer Updated')]</xpath>
+    </element>
+
+    <element name="LowTouchSellerSide">
+        <xpath>.//*[@id='pickup-account-dtls-tab']/div</xpath>
+    </element>
+
+    <element name="chatWindowNewMessage">
+        <xpath>//div[@class='ChatType-inputText script_input_chat']</xpath>
+    </element>
+
+    <element name="chatCount">
+        <xpath>//span[@class='ntf-new-no']</xpath>
+    </element>
+
+    <element name="chatCountChatTab">
+        <xpath>//div[@class='filter_panel_tabs1']/a/span[@class='ntf-new-no']</xpath>
+    </element>
+
+    <element name="chatAttachmentIcon">
+        <xpath>.//span[@class='icon-attach script_toggle_attachements']</xpath>
+    </element>
+
+    <element name="imageAttachment">
+        <xpath>.//span[@class='icon-add_image']</xpath>
+    </element>
+
+    <element name="videoAttachment">
+        <xpath>.//span[@class='icon-add_video']</xpath>
+    </element>
+
+    <element name="contactAttachment">
+        <xpath>.//span[@class='icon-send_contact']</xpath>
+    </element>
+
+    <element name="locationAttachment">
+        <xpath>.//span[@class='icon-add_location']</xpath>
+    </element>
+
+    <element name="shareLocationWindow">
+        <xpath>.//*[@id='gmap-canvas']/div[1]</xpath>
+    </element>
+
+    <element name="clickshareLocationButtonInMap">
+        <xpath>.//div[@class='ThisLocat-BuleButton script_marker_share_loc']</xpath>
+    </element>
+
+    <element name="locationSharedbySeller">
+        <xpath>(.//div[@class='attachingLocation-Wapp'])[3]/h2/../h3/../h4/a[starts-with(.,'http://maps.google.com/maps?q')]</xpath>
+    </element>
+
+    <element name="inputNameContactAttachment">
+        <xpath>.//input[@class='script_contact_name_input']</xpath>
+    </element>
+
+    <element name="inputPhoneContactAttachment">
+        <xpath>.//input[@class='script_contact_mobile_input']</xpath>
+    </element>
+
+    <element name="sendContactAttachment">
+        <xpath>.//button[@class='bulecolor-button script_attach_contact']</xpath>
+    </element>
+
+    <element name="contactDetailsSent">
+        <xpath>(.//div[@class='attachingContact-wapp'])[5]/ul/li[3]</xpath>
+    </element>
+
+    <element name="imageThumbnail">
+        <xpath>(.//span[@class='DownloadFile-size'])[7]</xpath>
+    </element>
+
+    <element name="fileSizeValidationMessage">
+        <xpath>.//p[@class='AttachDocumentsError script_error_text']</xpath>
+    </element>
+
+    <element name="FlyerBottomChatMessage">
+        <xpath>.//span[@class='fl slide-ntf-msg-text']</xpath>
+    </element>
+
+    <element name="downloadImageAttachmentIcon">
+        <xpath>(.//i[@class='icon-basic_download'])[5]</xpath>
+    </element>
+
+    <element name="imageShareBottomNotification">
+        <xpath>.//div[contains(@class,'slide-notif-wrapper')]</xpath>
+    </element>
+
+    <element name="imageShareTopNotification">
+        <xpath>.//span[@class='fl ntf-msg-text']/img</xpath>
+    </element>
+
+    <element name="offlineChatVap">
+        <xpath>//span[@class='status offline']</xpath>
+    </element>
+
+    <element name="onlineChatVap">
+        <xpath>//div[@title='Chat Now']</xpath>
+    </element>
+
+    <element name="onlineChatSnb">
+        <xpath>//button[@class='escrowSnbChat'][@title='Chat Now']</xpath>
+    </element>
+
+    <element name="PlsTryAgainMsg">
+        <xpath>.//div[@class='floatDiv-LoadMore-msg script_general_error_container']</xpath>
+    </element>
+
+    <element name="chatNotificationTopRight">
+        <xpath>//div[@class='ntf-icon' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="myChatUnderChatNotification">
+        <xpath>//a[@class='ntf-all-msg' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="offerPriceFromSellerMyChatPage">
+        <xpath>//span[@class='fl ntf-msg-txt-mcr' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="buyerNameFromSellerMyChatPage">
+        <xpath>//div[@class='ntf-msg-title-mcr' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="chatMessagePlaceHolder">
+        <xpath>//li[@class='skr-cht-li ']/a</xpath>
+    </element>
+
+    <element name="SellerName">
+        <xpath>//input[@id='seller_fullname' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="SellerEmail">
+        <xpath>//input[@id='seller_email']</xpath>
+    </element>
+
+    <element name="SellerPincode">
+        <xpath>//input[@id='seller_pincode']</xpath>
+    </element>
+
+    <element name="SellerAddress">
+        <xpath>//textarea[@id='seller_address']</xpath>
+    </element>
+
+    <element name="SellerMobileNum">
+        <xpath>//input[@id='seller_mobile']</xpath>
+    </element>
+
+    <element name="SubmitForSellerInfo">
+        <xpath>//div[@class='pickup-account-submit-btn']/button</xpath>
+    </element>
+
+
+</elements>

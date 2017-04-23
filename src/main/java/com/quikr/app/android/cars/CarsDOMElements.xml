@@ -1,0 +1,62 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="modelError">
+        <id>com.quikr:id/msg</id>
+    </element>
+
+    <element name="clickOnMoreButton">
+        <id>com.quikr:id/btn_more</id>
+        <name>MORE</name>
+    </element>
+
+    <element name="ShowMoreAds">
+        <id>com.quikr:id/btn_more</id>
+    </element>
+<element name="NewUiSubCat">
+    <id>com.quikr:id/lblSubCat</id>
+</element>
+    <element name="subcatContainer">
+        <id>com.quikr:id/lblSubCat</id>
+    </element>
+    <element name="postFreeAdButton">
+        <id>com.quikr:id/post_ad_floating_button</id>
+    </element>
+    <element name="headerSearch">
+        <id>com.quikr:id/layout_home_page_header_search_icon</id>
+    </element>
+    <element name="bikesDetailsVAP">
+        <id>com.quikr:id/txtCarDetailsNew</id>
+    </element>
+    <element name="bikesDescriptionVap">
+        <id>com.quikr:id/layout_description_text_new</id>
+    </element>
+    <element name="changecategorySNB">
+        <id>com.quikr:id/category</id>
+    </element>
+    <element name="carsSubcat">
+        <id>com.quikr:id/txtSubCat</id>
+    </element>
+<element name="CarnationRating">
+    <id>com.quikr:id/txtNoFikarRating</id>
+</element>
+    <element name="inspectedText">
+        <name>Inspected Only</name>
+    </element>
+    <element name="carDetails">
+        <name>Car Details</name>
+    </element>
+    <element name="carDescriptions">
+        <id>com.quikr:id/txtDescription</id>
+    </element>
+    <element name="StartCordinateElement">
+        <id>com.quikr:id/screen_vap_ad_header</id>
+    </element>
+    <element name="endCordinate">
+        <id>com.quikr:id/screen_vap_ad_reply</id>
+    </element>
+    <element name="snbOverlay">
+        <id>com.quikr:id/dialog_overlay_layout</id>
+    </element>
+</elements>

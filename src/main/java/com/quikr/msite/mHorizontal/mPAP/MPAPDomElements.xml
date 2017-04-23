@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="PostAdDescription">
+        <id>ad_desc</id>
+    </element>
+
+    <element name="buyAdRadioButton">
+        <xpath>.//span[starts-with(.,'I want to buy')]/..</xpath>
+    </element>
+
+    <element name="adTitle">
+        <id>ad_title</id>
+    </element>
+
+    <element name="UploadImagePostAd">
+        <id>uploadimginput</id>
+    </element>
+
+    <element name="Price">
+        <id>Price_pricenew</id>
+    </element>
+
+    <element name="Brand">
+        <id>Brand_name</id>
+    </element>
+
+    <element name="Model">
+        <id>Model</id>
+    </element>
+
+    <element name="Locality">
+        <xpath>.//a[@class='select2-choice']</xpath>
+    </element>
+
+    <element name="secondLocalitySelect">
+        <xpath>.//div[@id='select2-result-label-4']/input</xpath>
+    </element>
+
+    <element name="LocalityOkButton">
+        <id>multiok</id>
+    </element>
+
+    <element name="continueButtonPostAd">
+        <xpath>.//input[@value='Continue']</xpath>
+    </element>
+
+    <element name="CategoryName">
+        <xpath>.//span[starts-with(.,'$')]/ancestor::a</xpath>
+    </element>
+
+    <element name="SubCategoryName">
+        <xpath>.//a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="NextButton">
+        <xpath>.//input[@class='yellowBtn sectNextbtn']</xpath>
+    </element>
+
+    <element name="NextButtonPostAdPage">
+        <xpath>(.//input[@class='yellowBtn sectNextbtn'])[2]</xpath>
+    </element>
+
+    <element name="AdEmail">
+        <id>ad_email</id>
+    </element>
+
+    <element name="AdMobile">
+        <id>ad_mobile</id>
+    </element>
+
+    <element name="PostAdButtonMobile">
+        <xpath>.//input[@id='postAdBtn']</xpath>
+    </element>
+
+    <!--Mobiles Category Post Ad Specific Locators
+    -->
+
+    <element name="Address">
+        <name>address</name>
+    </element>
+
+    <element name="pincode">
+        <name>pincode</name>
+    </element>
+
+    <element name="OperatingSystem">
+        <id>Operating_system</id>
+    </element>
+
+</elements>

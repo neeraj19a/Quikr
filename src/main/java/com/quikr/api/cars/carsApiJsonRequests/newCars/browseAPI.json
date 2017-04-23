@@ -1,0 +1,10 @@
+{
+  "filters": {
+    "car_make": "Hyundai","car_model": "i10"
+  },
+  "from": 0,
+  "size": 119,
+  "sort": {
+    "ex_showroom_price": "desc"
+  }
+}

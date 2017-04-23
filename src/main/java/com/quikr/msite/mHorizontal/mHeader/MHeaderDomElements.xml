@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="inputSearchTerm">
+        <xpath>//*[@id='searchTerm']</xpath>
+        </element>
+
+    <element name="SearchButton">
+        <xpath>.//input[@name='searchsubmit' and @class='sprite']</xpath>
+    </element>
+
+    <element name="menuIcon">
+        <xpath>//span[@id='menu-icon']</xpath>
+    </element>
+
+    <element name="menuIconHomePage">
+        <xpath>.//a[@class='home sprite']/span</xpath>
+    </element>
+
+    <element name="emailTextFieldLogin">
+        <id>inputname</id>
+    </element>
+
+    <element name="passwordTextFieldLogin">
+        <xpath>//input[@name='Password']</xpath>
+    </element>
+
+    <element name="submitButtonLogin">
+        <xpath>//input[@name='Submit']</xpath>
+    </element>
+
+
+</elements>

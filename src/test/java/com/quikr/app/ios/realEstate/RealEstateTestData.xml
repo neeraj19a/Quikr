@@ -1,0 +1,23 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="categoryName">realEstate</testData>
+    <testData name="realEstateSubCategory">realEstateSubCategory</testData>
+    <testData name="realEstateCommercialCategory">realEstateCommercialCategory</testData>
+    <testData name="realEstateAgricultureCategory">realEstateAgricultureCategory</testData>
+    <testData name="adTitle">2 BHK Apartments for rent</testData>
+    <testData name="adDescription">house apartments are fully furnished and providing all facilities</testData>
+    <testData name="adTitleForWantAd">want 2 Bhk apartment for rent </testData>
+    <testData name="adDescriptionForWantAd">i want 2 bhk apartment for rent and fully furnished</testData>
+    <testData name="youRTypeName">individual</testData>
+    <testData name="name">Monu</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="successMsgAfterAdPost">We are reviewing your ad.</testData>
+    <testData name="localityName">Adugodi</testData>
+    <testData name="localityNameforAgriculture">Airport</testData>
+    <testData name="postedBy">Posted by</testData>
+    <testData name="area">Area</testData>
+    <testData name="gender">Gender</testData>
+    <testData name="maxPrice">₹ 10Cr</testData>
+    <testData name="NoOfBedRooms">No of Bed-Rooms</testData>
+    <testData name="areaSqFt">1000</testData>
+</data>

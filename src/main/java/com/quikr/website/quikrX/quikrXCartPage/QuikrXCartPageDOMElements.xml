@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="removeItemFromCart">
+     <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[4]/span</xpath>
+    </element>
+
+    <element name="continueShoppingOption">
+        <class>Continue-BTN-cart</class>
+        <linkText>Continue Shopping</linkText>
+    </element>
+
+    <element name="closeCartOption">
+        <xpath>.//*[@id='closeImg']</xpath>
+        <id>closeImg</id>
+        <class>newclosebtn</class>
+    </element>
+
+    <element name="emptyCartMessage">
+        <xpath>html/body/div[9]/div[3]/div[1]/p[1]/strong</xpath>
+        <class>cart-Empty</class>
+    </element>
+
+    <element name="cartErrorMessageSameProduct">
+        <xpath>.//*[@class='CartRoll-border']/div[1]</xpath>
+    </element>
+
+    <element name="cartPhoneName">
+        <class>CartProducta-title</class>
+    </element>
+
+    <element name="cartPhonePrice">
+        <class>CartProduct-Subtotal</class>
+    </element>
+
+    <element name="placeOrder">
+        <xpath>.//*[@id='item_table']/div[2]/div[2]/a[2]/div</xpath>
+        <class>placeOther-BTN</class>
+    </element>
+
+    <element name="cartHeader">
+        <xpath>html/body/div[8]/div[1]/div</xpath>
+        <class>Cart-MainTitle</class>
+    </element>
+
+    <element name="cartValueTotal">
+        <xpath>.//*[@class='CartProduct-Subtotal price-coloumn']/ul/li[1]</xpath>
+    </element>
+
+    <element name="body">
+        <css>body</css>
+    </element>
+
+    <element name="grandTotal">
+        <xpath>.//*[@id='grandTotal']</xpath>
+    </element>
+
+    <element name="closeMyCartDialog">
+        <xpath>//div[@class='Cart-IconText']/../../descendant::a/div[@id='closeImg']</xpath>
+    </element>
+
+    <element name="myCartOption">
+        <xpath>.//*[@id='logindiv_old']/ul/li[2]/a</xpath>
+        <class>mycart</class>
+    </element>
+
+    <element name="priceChangeNotification">
+        <xpath>.//*[@class='cart-notify-text']/p</xpath>
+    </element>
+
+    <element name="priceChangeNotification">
+        <xpath>.//*[@class='cart-notify-text']/p</xpath>
+    </element>
+    
+    <element name="oldPrice">
+        <xpath>.//*[@id='item1140']/div[3]/div[2]/ul/li[1]</xpath>
+    </element>
+
+    <element name="priceTotal">
+        <xpath>.//*[@id='grandTotal']</xpath>
+    </element>
+
+    <element name="item1name">
+        <xpath>.//*[@class='CartRoll-border']/div[2]/p[1]</xpath>
+    </element>
+    
+    <element name="myCartText">
+        <xpath>.//*[@id='content']/h1</xpath>
+    </element>
+
+    <element name="cartCount">
+        <xpath>.//*[@id='cart_items']</xpath>
+    </element>
+
+    <element name="itemDivById">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]</xpath>
+    </element>
+    
+    <element name="itemNameById">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[1]/div[2]/h3</xpath>
+    </element>
+
+    <element name="itemCategoryById">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[1]/div[2]/p[1]</xpath>
+    </element>
+    
+    <element name="sellerById">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[1]/div[2]/p[2]</xpath>
+    </element>
+
+    <element name="deliveryDays">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[2]</xpath>
+    </element>
+
+    <element name="itemActualPrice">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[3]/span[1]</xpath>
+    </element>
+
+    <element name="itemOldPrice">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[3]/span[2]</xpath>
+    </element>
+
+    <element name="offerlabel">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[3]/span[3]</xpath>
+    </element>
+
+    <element name="exchangePrice">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[3]/div</xpath>
+    </element>
+
+    <element name="removeItem">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/div[4]</xpath>
+    </element>
+
+    <element name="orderSummaryDiv">
+        <xpath>.//*[@id='sidebar']</xpath>
+    </element>
+    
+    <element name="itemTitleOrderSum">
+        <xpath>.//*[@id='order_summary']/div/span[contains(@title,'$')]</xpath>
+    </element>
+
+    <element name="itemPriceOrderSum">
+        <xpath>.//*[@id='order_summary']/div/span[contains(@title,'$')]/../span[2]</xpath>
+    </element>
+
+    <element name="shippingText">
+        <xpath>.//*[@id='order_summary']/div[3]/span[1]/span</xpath>
+    </element>
+
+    <element name="shippingCharges">
+        <xpath>.//*[@id='order_summary']/div[3]/span[2]</xpath>
+    </element>
+
+    <element name="totalPrice">
+        <xpath>.//total_price</xpath>
+    </element>
+
+    <element name="newplaceOrderButton">
+        <xpath>.//*[@id='place_order_cart_btn']</xpath>
+    </element>
+
+    <element name="continueShopping">
+        <xpath>.//button[@id='continue_shopping_cart_btn']</xpath>
+    </element>
+
+    <element name="extendedWarranty">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/../../div/div[contains(@id,'1240')]</xpath>
+    </element>
+
+    <element name="extendedWarrantyPrice">
+        <xpath>.//*[@id='cart_details']/div/div[contains(@id,'$')]/../../div/div[contains(@id,'1240')]/div/span</xpath>
+    </element>
+
+    <element name="priceChangeNotification">
+        <xpath>.//*[@id='increased_price_$']/div/span[2]</xpath>
+    </element>
+
+    <element name="emptyCartText">
+        <xpath>.//*[@id='empty_cart']/h3</xpath>
+    </element>
+
+    <element name="itemsIncart">
+        <xpath>.//*[@id='cart_details']/div/div[1]</xpath>
+    </element>
+
+</elements>

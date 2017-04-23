@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="categoryName">
+        <xpath>//div[@class='menulist']//div[contains(text(),'$') and @class='menu-item-text']</xpath>
+    </element>
+
+    <element name="subCategoryName">
+        <xpath>//div[@id='sub_category_listing_are']//div[contains(@title,'$')]//a[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="typeOfAd">
+        <xpath>(//input[@name='Ad_Type'])[$]</xpath>
+    </element>
+
+    <element name="typeOfAdLabel1">
+        <xpath>(//input[@name='Ad_Type'])[1]/..</xpath>
+    </element>
+
+    <element name="typeOfAdLabel2">
+        <xpath>(//input[@name='Ad_Type'])[2]/..</xpath>
+    </element>
+
+    <element name="adTitle">
+        <xpath>//input[@id='title']</xpath>
+    </element>
+
+    <element name="condition">
+        <xpath>//input[@type='radio'][@name='Condition']</xpath>
+    </element>
+
+    <element name="price">
+        <xpath>//input[@id='Price']</xpath>
+    </element>
+
+    <element name="description">
+        <xpath>//textarea[@id='description1']</xpath>
+    </element>
+
+    <element name="sellerType">
+        <xpath>//input[@class='seller_type required']</xpath>
+    </element>
+
+    <element name="emailId">
+        <xpath>//input[@id='emailid']</xpath>
+    </element>
+
+    <element name="cityName">
+        <id>cityNewSelectBox2</id>
+    </element>
+
+    <element name="enterCityName">
+        <id>searchcity55</id>
+    </element>
+
+    <element name="cityNameAutocomplete">
+        <xpath>.//*[@id='green_dhtml_content55_$']/a</xpath>
+    </element>
+
+    <element name="locality">
+        <id>singleSelLoc</id>
+    </element>
+
+    <element name="selectlocality">
+        <xpath>(//span[@onclick='setSingleSelLoc(this);'])[5]</xpath>
+    </element>
+
+    <element name="localityTextBox">
+        <id>singleSelLoc</id>
+    </element>
+
+    <element name="resultingAutoSuggestedLocality">
+        <xpath>.//*[@id='customSingleSelLoc']/span</xpath>
+    </element>
+
+    <element name="pincode">
+        <xpath>//input[@id='pincode']</xpath>
+    </element>
+
+    <element name="postAd">
+        <xpath>//button[@onclick='quikrNewPostAd()'][@class='postbtn']</xpath>
+    </element>
+
+    <element name="shareWithNeighbour">
+        <id>neighbourIdlist</id>
+    </element>
+
+    <element name="shareWithNeighbourvalues">
+        <id>shareAdResult</id>
+    </element>
+
+    <element name="skipLinkAfterPostAd">
+        <xpath>.//*[@id='skip-link']/a</xpath>
+    </element>
+
+    <element name="adIdPostAd">
+        <xpath>.//span[@class='color_grey']</xpath>
+    </element>
+
+    <element name="adIdPostAdNew">
+        <xpath>//div[@class='thnksMsg']/span</xpath>
+    </element>
+
+    <element name="mobileNumber">
+        <xpath>//input[@id='mobile']</xpath>
+    </element>
+
+    <element name="address">
+        <xpath>//input[@id='address']</xpath>
+    </element>
+
+    <element name="skipPaymentLink">
+        <xpath>//div[@id='skip-link']/a</xpath>
+    </element>
+
+    <element name="editThisAd">
+        <xpath>//a[@class='blue-bold-link flow-opposite']</xpath>
+    </element>
+
+    <element name="changeSelectionOne">
+        <xpath>(//a[@id='Course_Category_changeLevSel'])[1]</xpath>
+    </element>
+
+</elements>

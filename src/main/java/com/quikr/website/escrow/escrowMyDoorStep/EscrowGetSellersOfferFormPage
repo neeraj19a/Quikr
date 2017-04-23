@@ -1,0 +1,73 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="sellingTab">
+        <xpath>.//li[@class='tab1']/a</xpath>
+    </element>
+
+    <element name="allOffersDiv">
+        <xpath>.//div[@class='row commonTop']/div</xpath>
+    </element>
+
+    <element name="buyingTab">
+        <xpath>.//li[@class='tab2']/a</xpath>
+    </element>
+
+    <element name="firstAd">
+        <xpath>.//div[@class='row commonTop']/div[1]</xpath>
+    </element>
+
+    <element name="adByAdId">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="descriptionById">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]/../span[1]/strong</xpath>
+    </element>
+
+    <element name="openAdById">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]/../span[1]/strong/a</xpath>
+    </element>
+
+    <element name="offersReceivedCount">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]/../div/span/strong</xpath>
+    </element>
+
+    <element name="viewOfferTabById">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]/../a</xpath>
+    </element>
+
+    <element name="noOffersTextById">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]/../span[3]</xpath>
+    </element>
+
+    <element name="editNowById">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]/../span[4]</xpath>
+    </element>
+
+    <element name="editNowLinkById">
+        <xpath>.//div[@class='row commonTop']/div/div[2]/span[contains(text(),'$')]/../span[4]/a</xpath>
+    </element>
+
+    <element name="totalAdsCount">
+        <xpath>.//span[@class='totalAdds']/strong</xpath>
+    </element>
+
+    <element name="buyingTab">
+        <xpath></xpath>
+    </element>
+
+    <element name="buyingTab">
+        <xpath></xpath>
+    </element>
+
+    <element name="adIdByViewOffer">
+        <xpath>.//*[@id='viewOffers']/../../span[2]</xpath>
+    </element>
+
+    <element name="adIdByEditLink">
+        <xpath>//span[@class='moreNeeds']/a/../../span[2]</xpath>
+    </element>
+
+
+</elements>

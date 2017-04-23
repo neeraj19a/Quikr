@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="selectCity">
+        <xpath>//a[@index="Bangalore"]</xpath>
+    </element>
+
+    <element name="smscontent">
+        <css>#replyContent</css>
+    </element>
+
+    <element name="smsemail">
+        <css>#replyEmail</css>
+    </element>
+
+    <element name="smsnumber">
+        <css>#replyMobile</css>
+    </element>
+
+    <element name="smssend">
+        <css>.sendbtn</css>
+    </element>
+
+    <element name="sendSms">
+        <css>#callnow</css>
+    </element>
+
+    <element name="submitsms">
+        <css>.repsucmessage.white_box</css>
+    </element>
+
+    <element name="headrsubcat">
+    <css>#subcat>span</css>
+    </element>
+
+    <element name="Category">
+        <xpath>(.//span[@itemprop='title'])[2]</xpath>
+    </element>
+
+
+    <element name="relatedHeader">
+        <css>#relatedAdHeader</css>
+    </element>
+
+    <element name="AddToFav">
+        <css>#AddToFav_Icon_div</css>
+    </element>
+
+    <element name="favoritebx">
+        <css>.favoritebx</css>
+    </element>
+
+    <element name="jobsRole">
+        <id>appRole</id>
+    </element>
+
+    <element name="jobsSuggestion">
+        <class>suggestwrapper</class>
+    </element>
+
+    <element name="jobsEmail">
+        <id>appEmail</id>
+    </element>
+
+    <element name="jobsNumber">
+        <id>appMobile</id>
+    </element>
+
+    <element name="submitJobs">
+        <xpath>//*[@id='appSubmit1']</xpath>
+    </element>
+
+    <element name="applyJobs">
+        <xpath>//*[@id='vapChatTxt']</xpath>
+    </element>
+
+    <element name="validateJob">
+        <xpath>.//*[@id='applyContainer']/div/form/div/div[2]</xpath>
+    </element>
+
+    <element name="RecomendedAd">
+        <css>#relatedAdHeader</css>
+    </element>
+
+    <element name="replyButton">
+        <id>replyChat</id>
+    </element>
+
+    <element name="vapReplyButton1">
+        <id>vapChatTxt</id>
+    </element>
+
+    <element name="vapReplyButtonNewUi">
+        <xpath>.//button[contains(@data-reptitle,('Reply'))]</xpath>
+    </element>
+
+    <element name="crossButtonQuikrConnectPopUp">
+        <css>.closeIcon</css>
+    </element>
+
+
+    <element name="RecomendenAdTitle">
+        <xpath>//div[@class='snb_ad_container']</xpath>
+    </element>
+    
+    <element name="freeDeliveryOption">
+        <xpath>.//*[@id='cod-main-section']/div[1]</xpath>
+    </element>
+    
+    <element name="codOption">
+        <xpath>.//*[@id='cod-main-section']/div[2]</xpath>
+    </element>
+    
+    <element name="cashbackOption">
+        <xpath>.//*[@id='cod-main-section']/div[3]</xpath>
+    </element>
+
+    <element name="makeAnOfferButton">
+        <xpath>.//*[@id='withimg']/div[5]/table/tbody/tr/td[2]/button</xpath>
+        <class>Make-An-Offer-Quikr-BTN</class>
+    </element>
+
+    <element name="escrowPrice">
+        <xpath>.//*[@id='escrow-make-an-offer-form']/div[2]/div[1]/div/div[1]/input</xpath>
+    </element>
+
+    <element name="escrowEmail">
+        <xpath>.//*[@id='escrow-make-an-offer-form']/div[2]/div[1]/div/div[2]/input</xpath>
+    </element>
+
+    <element name="escrowPhone">
+        <xpath>.//*[@id='escrow-make-an-offer-form']/div[2]/div[1]/div/div[3]/input</xpath>
+    </element>
+
+    <element name="escrowMakeAnOfferButton">
+        <xpath>.//*[@id='QuikrPayBTNRow']/div</xpath>
+    </element>
+
+    <element name="makeAnOfferSuccessMessage">
+        <xpath>.//*[@id='escrow-make-an-offer-form']/div[3]</xpath>
+    </element>
+
+    <element name="localityOptionName">
+        <xpath>//span[string()='Multiple Localities']/following-sibling::span[@class='ad-atrbt-val']/span</xpath>
+    </element>
+
+    <element name="localityOptionName2">
+        <xpath>//span[string()='Located In']/following-sibling::span[@class='ad-atrbt-val']/span</xpath>
+    </element>
+
+    <element name="escrowBuyNowOption">
+        <xpath>.//*[@id='QuikrPayBTNRow']/div</xpath>
+    </element>
+
+    <element name="paymentOptionMaximize">
+        <xpath>.//*[@id='escrowadpayment']/div/div[1]/div/div[3]/a</xpath>
+        <class>quikr-escrow-payment-accordion-section-title</class>
+    </element>
+    
+    <element name="paymentOption">
+        <xpath>.//*[@id='quikr-payment-accordion-3']/table/tbody/tr[1]/td/form/input</xpath>
+        <class>ad-Escrow-Payment-Quikr-BTN</class>
+    </element>
+
+    <element name="buyNowMobileNumber">
+        <xpath>.//*[@id='escrowpopupbuynowcontainer']/div/div[2]/div[1]/div/div[3]/input</xpath>
+    </element>
+
+    <element name="buyNowEmail">
+        <xpath>.//*[@id='escrowpopupbuynowcontainer']/div/div[2]/div[1]/div/div[2]/input</xpath>
+    </element>
+
+    <element name="chatButton">
+        <xpath>//i[@class='icon-basic-chat']</xpath>
+    </element>
+
+    <element name="descriptionText">
+        <xpath>//div[@class='desc_vap_Service col-md-12 col-sm-12']/h4</xpath>
+    </element>
+    
+    <element name="socialMediaShare">
+        <css>.Rlink-Share</css>
+    </element>
+
+    <element name="firstAdSnb">
+        <!--<xpath>//h3[@class='adtitlesnb translate']/a[@class='adttllnk unbold']</xpath>
+        The above xpath will no longer work because the class name now is not "adtitlesnb translate" but "adtitlesnb translate ".
+        Notice the space-->
+        <xpath>//h3[@class='adtitlesnb translate ']/a[@class='adttllnk unbold']</xpath>
+    </element>
+
+    <element name="facebookShareLink">
+        <css>.fb_b</css>
+    </element>
+
+    <element name="twitterShareLink">
+        <css>.tw_b</css>
+    </element>
+
+    <element name="hangoutShareLink">
+        <css>.gp_b</css>
+    </element>
+
+    <element name="starIconMobileVap">
+        <id>AddToFav_Icon_div</id>
+    </element>
+
+    <element name="savedAdBoxMobileVap">
+        <css>.#favconbx_300014091>strong>a</css>
+    </element>
+
+    <element name="adHeadersSnb">
+        <xpath>(//h3[@class='adtitlesnb translate']/a)</xpath>
+    </element>
+
+    <element name="showmoreLink">
+        <css>.ShowMore-BTN</css>
+    </element>
+
+    <element name="adDescription">
+        <css>#ad_description</css>
+    </element>
+
+    <element name="googleAdsContainer">
+        <xpath>//div[@id='google_image_div']</xpath>
+    </element>
+
+    <element name="breadCrumbs">
+        <css>.breadcrumb_wrapp</css>
+    </element>
+
+    <element name="savedAddCrossIcon">
+        <xpath>(.//div[@class='favcrossbtn'])[2]</xpath>
+    </element>
+
+    <element name="removeAllLink">
+        <xpath>//div[@class='showremove']/a</xpath>
+    </element>
+
+    <element name="googleAdIframeVap">
+        <id>google_ads_iframe_/81214979/Desktop_VAP_160X600_0</id>
+    </element>
+
+    <element name="vapReplyButton">
+        <id>replyChat</id>
+    </element>
+
+    <element name="vapPreviousButton">
+        <css>.PrevAdd-BTN</css>
+    </element>
+
+    <element name="vapNextButton">
+        <css>.NextAdd-BTN</css>
+    </element>
+
+    <element name="vapReplyMessageArea">
+        <id>replyContent</id>
+    </element>
+
+    <element name="vapReplySendButton">
+        <css>.sendbtn</css>
+    </element>
+
+    <element name="vapReplySuccessMessage">
+        <css>.repsucmessage.white_box</css>
+    </element>
+
+    <element name="vapReplySimilarAds">
+        <xpath>.//div[@class='repsimhead white_box']</xpath>
+    </element>
+
+    <element name="SimilarAdsTitleOldVAPPage">
+        <css>#relatedAdHeader</css>
+    </element>
+
+    <element name="ReplybuttonSimilarAds">
+        <xpath>.//input[@value='Reply']</xpath>
+    </element>
+
+    <element name="SimilarAdsReplyMsgArea">
+        <id>reply_content</id>
+    </element>
+
+    <element name="ReplyMsgAreaError">
+        <xpath>.//*[@id='replyContent_error']</xpath>
+    </element>
+
+    <element name="MoreAdsSection">
+        <xpath>.//*[@id='relatedads']/div[4]/a</xpath>
+    </element>
+
+    <element name="downloadAppPopUP">
+        <xpath>.//div[@class='WhitePopup-formarea']</xpath>
+    </element>
+
+    <element name="recommendedadswith_replybutton">
+        <xpath>.//input[@title='Reply']</xpath>
+    </element>
+
+</elements>

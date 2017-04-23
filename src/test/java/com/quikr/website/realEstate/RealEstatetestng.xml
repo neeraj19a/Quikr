@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Real Estate Tests Suite" time-out="300000" verbose="1" annotations="JDK">
+
+    <test name="Real Estate Tests">
+        <classes>
+            <class name="com.quikr.website.realEstate.realEstateHome.RealEstateHomeTests"></class>
+            <class name="com.quikr.website.realEstate.realEstatePAP.RealEstatePAPTests"></class>
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QuikrX High Priority Tests Suite" verbose="4" annotations="JDK" thread-count="1" parallel="classes">
+
+<test name="QuikrX prod test Test">
+
+    <groups>
+        <run>
+            <include name="prodE2eTest"></include>
+        </run>
+    </groups>
+    <classes>
+        <class name="com.quikr.website.quikrX.QuikrXEndToEndFlows.QuikrXEndToEndFlowTests"></class>
+
+    </classes>
+</test>
+
+</suite>

@@ -1,0 +1,25 @@
+{
+  "query": {
+    "bool": {
+      "must": [{
+        "term": {
+          "car_make": "Honda"
+        }
+      }, {
+        "term": {
+          "car_model": "City"
+        }
+      }, {
+        "term": {
+          "car_trim": "SV Diesel"
+        }
+      }],
+      "must_not": [],
+      "should": []
+    }
+  },
+  "from": 0,
+  "size": 25000,
+  "sort": [],
+  "aggs": {}
+}

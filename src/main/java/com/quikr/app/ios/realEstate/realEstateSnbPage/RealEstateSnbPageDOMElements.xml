@@ -1,0 +1,198 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="sortButton">
+       <name>Sort</name>
+    </element>
+
+    <element name="lowestPriceButton">
+        <name>Lowest Price</name>
+    </element>
+
+    <element name="property">
+        <name>Property</name>
+    </element>
+
+    <element name="amenities">
+        <name>Amenities</name>
+    </element>
+
+    <element name="furnishing">
+        <name>Furnishing</name>
+    </element>
+
+    <element name="furnishing">
+        <name>Furnishing</name>
+    </element>
+
+    <element name="filterButton">
+        <name>  Filter</name>
+    </element>
+
+    <element name="clickOnLocalityButton">
+        <name>Locality</name>
+    </element>
+
+    <element name="localityName">
+        <name>Adugodi</name>
+    </element>
+
+    <element name="resetButton">
+        <name>Reset</name>
+    </element>
+
+    <element name="individual">
+        <name>Individual</name>
+    </element>
+
+    <element name="broker">
+        <name>Broker</name>
+    </element>
+
+    <element name="builder">
+        <name>Builder</name>
+    </element>
+
+    <element name="priceRange">
+        <name>Price Range</name>
+    </element>
+
+    <element name="locality">
+        <name>Locality</name>
+    </element>
+
+    <element name="adPostDate">
+        <name>Ad Posted Date</name>
+    </element>
+
+    <element name="photoPreference">
+        <name>Photo Preference</name>
+    </element>
+
+    <element name="postedBy">
+        <name>Posted by</name>
+    </element>
+
+    <element name="maxPrice">
+        <name>₹ 10Cr</name>
+    </element>
+
+    <element name="plot">
+        <name>Plot</name>
+    </element>
+
+    <element name="office">
+        <name>Office</name>
+    </element>
+
+    <element name="shop">
+        <name>Shop</name>
+    </element>
+
+    <element name="buildingOrComplex">
+        <name>Building/Complex</name>
+    </element>
+
+    <element name="maxPriceInCommercialForRent">
+        <name>₹ 15L</name>
+    </element>
+
+    <element name="maxAreaInCommercialForRent">
+        <name>12000 Sqft.</name>
+    </element>
+
+    <element name="male">
+        <name>Male</name>
+    </element>
+
+    <element name="female">
+        <name>Female</name>
+    </element>
+
+    <element name="maxPriceInResidentialForPgOrFlats">
+        <name>₹ 1L</name>
+    </element>
+
+    <element name="pgOption">
+        <name>PG</name>
+    </element>
+
+    <element name="flat">
+        <name>Flatmates</name>
+    </element>
+
+    <element name="apartment">
+        <name>Apartment</name>
+    </element>
+
+    <element name="villa">
+        <name>Villa</name>
+    </element>
+
+    <element name="plot">
+        <name>Plot</name>
+    </element>
+
+    <element name="BuilderFloor">
+        <name>Builder Floor</name>
+    </element>
+
+    <element name="selectCrossButtonOnFilterPage">
+        <name>ChatMediaTransferCancel</name>
+    </element>
+
+    <element name="amenitiesPropertyTypeOptionName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[$]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="furnishingPropertyTypeOptionName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[$]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="selectResidentialPropertyTypeOptionNameRadioButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[$]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="Adugodi">
+        <name>Adugodi</name>
+    </element>
+
+    <element name="minPrice">
+        <name>₹ 0</name>
+    </element>
+
+    <element name="one">
+        <name>1</name>
+    </element>
+
+    <element name="two">
+        <name>2</name>
+    </element>
+
+    <element name="three">
+        <name>3</name>
+    </element>
+
+    <element name="four">
+        <name>4</name>
+    </element>
+
+    <element name="4Plus">
+        <name>4+</name>
+    </element>
+
+    <element name="clickOnRoom">
+        <xpath> //UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[6]/UIAButton[$]</xpath>
+    </element>
+
+    <element name="minAreaInResidentialCategory">
+        <name>0 Sqft.</name>
+    </element>
+
+    <element name="backButtonOnRealEstate">
+        <name>back</name>
+    </element>
+
+    <element name="allowButton">
+        <name>Allow</name>
+    </element>
+</elements>

@@ -1,0 +1,60 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="servicesText">
+        <name>Services</name>
+    </element>
+
+    <element name="homeServices">
+        <name>Home Services</name>
+    </element>
+
+    <element name="submitUrContactDetailsText">
+        <name>Submit your contact details.</name>
+    </element>
+
+    <element name="weCallYouToUnderstandYourRequirementsText">
+        <name>We call you to understand your requirements.</name>
+    </element>
+    
+    <element name="connectYouWithRelevantServicesProviderText">
+        <name>Connect you with relevant service providers.</name>
+    </element>
+
+    <element name="relaxAndGetYourJobDoneQuikrText">
+        <name>Relax and get your job done Quikrr!!</name>
+    </element>
+
+    <element name="skipButton">
+        <name>SKIP</name>
+    </element>
+
+    <element name="connectNowButton">
+        <name>Connect Now</name>
+    </element>
+
+    <element name="quikrServicesName">
+        <name>Packers &amp; Movers</name>
+    </element>
+
+    <element name="submitButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAButton[1]</xpath>
+        <name>Submit</name>
+    </element>
+
+    <element name="userName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="mobileNo">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIATextField[2]</xpath>
+    </element>
+
+    <element name="validationCodeErrorMsg">
+        <name>Error! Validation code is wrong</name>
+    </element>
+
+    <element name="msgAfterNotProvidingMbNo">
+        <xpath> //UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[7]</xpath>
+        <name>Enter mobile number</name>
+    </element>
+</elements>

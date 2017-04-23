@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="facilities">
+        <xpath>//a[@href='#facilities']</xpath>
+    </element>
+
+    <element name="courses">
+        <xpath>//a[@href='#courses-block']</xpath>
+    </element>
+
+    <element name="locality">
+        <xpath>//a[@href='#locality']</xpath>
+    </element>
+
+    <element name="contact">
+        <xpath>//a[@href='#contact']</xpath>
+    </element>
+
+    <element name="collgeTitle">
+        <xpath>//div[@class='inst-title clearfix']/h1/p</xpath>
+    </element>
+
+    <element name="postAdBtn">
+        <xpath>//div[@class='post-ad-section pull-right']/a</xpath>
+    </element>
+
+
+</elements>

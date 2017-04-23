@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Horizontal Suite " thread-count="2" parallel="classes">
+    <test name="Android Horizontal1 tests">
+
+        <packages>
+            <!--<package name="com.quikr.app.android.GAEvents.*"></package>-->
+            <package name="com.quikr.app.android.horizontalTests.mobileLoginAuth.*"></package>
+            <package name="com.quikr.app.android.horizontalTests.horizontalHome"></package>
+            <package name="com.quikr.app.android.horizontalTests.horizontalSnb"></package>
+            <package name="com.quikr.app.android.horizontalTests.horizontalVap"></package>
+            <package name="com.quikr.app.android.horizontalTests.trendingPriceMeter"></package>
+            <package name="com.quikr.app.android.postAdV2.*"></package>
+            <package name="com.quikr.app.android.alert.*"></package>
+            <package name="com.quikr.app.android.menu.*"></package>
+            <package name="com.quikr.app.android.home.*"></package>
+            <package name="com.quikr.app.android.monetization.*"></package>
+            <package name="com.quikr.app.android.chat.*"></package>
+            <package name="com.quikr.app.android.snb.*"></package>
+            <package name="com.quikr.app.android.horizontalTests.errorMessagesMobileLogin"></package>
+            <package name="com.quikr.app.android.horizontalTests.myAccounts"></package>
+            <package name="com.quikr.app.android.horizontalTests.similarAdsOnVap"></package>
+
+
+
+
+        </packages>
+    </test>
+</suite>

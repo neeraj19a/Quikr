@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="petType">
+        <id>Pet_Type_newpap</id>
+    </element>
+
+    <element name="petTypeRadioOptions">
+        <xpath>//div[@class='l4Attr_RadioBox_div']/div/label/input[contains(@class,'Pet_Type_inp_cb ad_attribute')]</xpath>
+    </element>
+
+    <element name="petTypeCheckboxOptions">
+        <xpath>//div[@class='l4Attr_CheckBox_div']/div/label/input[contains(@class,'Pet_Type_inp_cb ad_attribute')]</xpath>
+    </element>
+
+</elements>

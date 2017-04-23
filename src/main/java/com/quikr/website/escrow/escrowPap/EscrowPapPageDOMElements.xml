@@ -1,0 +1,276 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="WantToSellRadioButton">
+        <xpath>//input[@value='offer']</xpath>
+    </element>
+
+    <element name="WantToBuyRadioButton">
+        <xpath>//input[@value='want']</xpath>
+    </element>
+
+    <element name="TitleTextfield">
+        <id>title</id>
+    </element>
+
+    <element name="categoryName">
+        <xpath>//div[@class='menu-item-text' and text()='$']</xpath>
+    </element>
+
+    <element name="subcategory">
+        <id>sub_category_listing_are</id>
+    </element>
+
+    <element name="ConditionUsed">
+        <xpath>//input[@value='Used']</xpath>
+    </element>
+    <element name="ConditionNew">
+        <xpath>//input[@value='New']</xpath>
+    </element>
+    <element name="warehouseSelect">
+        <xpath>//div[@class='desk-ss-links']/a[1]</xpath>
+    </element>
+    <element name="warehouseUnSelect">
+        <xpath>//div[@class='desk-ss-links']/a[2]</xpath>
+    </element>
+    <element name="PriceTextfield">
+        <id>Price</id>
+    </element>
+    <element name="MinPriceTextfield">
+        <id>ReservePrice</id>
+    </element>
+    <element name="ReservePrice">
+        <id>ReservePrice</id>
+    </element>
+    <element name="Reserved_Price">
+        <id>Reserved_Price</id>
+    </element>
+    <element name="WareHouse_Enabled">
+        <id>WareHouse_Enabled</id>
+    </element>
+    <element name="YOPDropdown">
+        <id>Purchase_Year_newpap</id>
+    </element>
+    <element name="screenSize">
+        <id>Screen_size_newpap</id>
+    </element>
+    <element name="screenSizeList">
+        <xpath>//div[@id='Screen_size_l4Attr_RadioBox_div']/div/label/span</xpath>
+    </element>
+
+    <element name="ram">
+        <id>RAM_newpap</id>
+    </element>
+    <element name="ramList">
+        <xpath>//div[@id='RAM_l4Attr_RadioBox_div']/div/label/span</xpath>
+    </element>
+
+    <element name="furniture">
+        <id>Furniture_Type_newpap</id>
+    </element>
+    <element name="furnitureList">
+        <xpath>//div[@id='Furniture_Type_l4Attr_RadioBox_div']/div/label/span</xpath>
+    </element>
+
+
+    <element name="YOPList">
+        <xpath>//div[@id='Purchase_Year_l4Attr_RadioBox_div']/div/label[*]/span</xpath>
+    </element>
+
+    <element name="OSDropdown">
+        <id>Operating_system_newpap</id>
+    </element>
+    <element name="OSList">
+        <xpath>//div[@id='Operating_system_l4Attr_RadioBox_div']/div/label[*]/span</xpath>
+    </element>
+
+    <element name="BrandNameDropdown">
+        <id>Brand_name_newpap</id>
+    </element>
+
+    <element name="ProductTypeDropdown">
+        <id>Product_Type_newpap</id>
+    </element>
+    
+    <element name="BrandNameList">
+        <xpath>//div[@id='Brand_name_l4Attr_RadioBox_div']/div/label[*]/span</xpath>
+    </element>
+
+    <element name="furniture">
+        <id>Furniture_Type_newpap</id>
+    </element>
+
+    <element name="furnitureList">
+        <xpath>//div[@id='Furniture_Type_l4Attr_RadioBox_div']/div/label[*]/span</xpath>
+    </element>
+
+    <element name="SimsDropdown">
+        <id>No_of_Sims_newpap</id>
+    </element>
+    <element name="SimsList">
+        <xpath>//div[@id='No_of_Sims_l4Attr_RadioBox_div']/div/label[*]/span</xpath>
+    </element>
+
+    <element name="AlsoIncludesDropdown">
+        <id>Also_includes_newpap</id>
+    </element>
+    <element name="AlsoIncludesList">
+        <xpath>//div[@id='Also_includes_l4Attr_CheckBox_div']/div/label[*]/span</xpath>
+    </element>
+
+    <element name="FunctionalChecksDropdown">
+        <id>Functional_Physical_Checks_newpap</id>
+    </element>
+    <element name="FunctionalChecksList">
+        <xpath>//div[@id='Functional_Physical_Checks_l4Attr_CheckBox_div']/div/label[*]/span</xpath>
+    </element>
+
+    <element name="DescriptionTextfield">
+        <id>description1</id>
+    </element>
+
+    <element name="adDescription">
+        <xpath>.//*[@id='description1']</xpath>
+        <css>#description1</css>
+    </element>
+
+
+    <element name="IndividualSellerType">
+        <xpath>//input[@value='Individual']</xpath>
+    </element>
+    <element name="DealerSellerType">
+        <xpath>//input[@class='seller_type required'][@value='Dealer']</xpath>
+    </element>
+
+    <element name="NameTextfield">
+        <id>contactName</id>
+    </element>
+
+    <element name="EmailTextfield">
+        <id>emailid</id>
+    </element>
+
+    <element name="MobileTextfield">
+        <id>mobile</id>
+    </element>
+
+    <element name="AddressTextfield">
+        <id>address</id>
+    </element>
+
+    <element name="CityDropdown">
+        <id>cityNewSelectBox2</id>
+    </element>
+    <element name="CitySearchField">
+        <id>searchcity55</id>
+    </element>
+    <element name="CityDropdownValue">
+        <xpath>//li[@class='green_dhtml_content55_listing'][@style='']/a</xpath>
+    </element>
+
+    <element name="LocalityDropdown">
+        <id>singleSelLoc</id>
+    </element>
+    <element name="LocalitySearchField">
+        <id>Locality_searchBox</id>
+    </element>
+    <element name="LocalityDropdownList">
+        <xpath>//span[@class='Locality_list new_loc_cont_pap']</xpath>
+    </element>
+
+    <element name="PincodeTextfield">
+        <id>pincode</id>
+    </element>
+
+    <element name="PrivacyCheckbox">
+        <id>usrprivacypostad</id>
+    </element>
+
+    <element name="PayWithCashTab">
+        <xpath>.//*[@id='selectedRupee']</xpath>
+    </element>
+
+    <element name="FreeAdRadiobutton">
+        <xpath>//input[@class='checkRadioCheck'][@name='basicAdEx']</xpath>
+    </element>
+
+    <element name="PostAdButton">
+        <id>postbtn_container</id>
+    </element>
+
+    <element name="skipLink">
+        <xpath>.//*[@id='skip-link']/a</xpath>
+    </element>
+
+    <element name="AdIdText">
+        <xpath>//div[@class='thnksMsg']/span</xpath>
+    </element>
+
+    <element name="AdPostSuccessBanner">
+        <xpath>//div[@class='thnksMsg']</xpath>
+    </element>
+
+    <element name="closeVerifyMob">
+        <id>mobvercloselnk</id>
+    </element>
+
+    <element name="quikrLogo">
+        <class>quikrLogo</class>
+    </element>
+
+    <element name="titleErrorMsg">
+        <id>title_error_msg</id>
+    </element>
+    
+    <element name="conditionErrorMsg">
+        <id>Condition_error_msg</id>
+    </element>
+    
+    <element name="priceErrorMsg">
+        <id>price_error_msg</id>
+    </element>
+    
+    <element name="brandErrorMsg">
+        <id>Brand_name_error_msg</id>
+    </element>
+
+    <element name="furnitureErrorMsg">
+        <id>Furniture_Type_error_msg</id>
+    </element>
+    
+    <element name="descriptionErrorMsg">
+        <id>description_error_msg</id>
+    </element>
+    
+    <element name="sellerTypeErrorMsg">
+        <id>You_are_error_msg</id>
+    </element>
+    
+    <element name="addressErrorMsg">
+        <id>address_error_msg</id>
+    </element>
+    
+    <element name="localityErrorMsg">
+        <id>location_error_msg</id>
+    </element>
+
+    <element name="pincodeErrorMsg">
+        <id>pincode_error_msg</id>
+    </element>
+
+    <element name="PostAdPopUpNewUICities">
+        <xpath>.//div[@class='pop_up_txtarea']</xpath>
+    </element>
+
+    <element name="postwithoutPhotosPopUpNewUICities">
+        <xpath>.//a[starts-with(.,'Post without Photos')]</xpath>
+    </element>
+
+    <element name="warehouseYes">
+        <id>warehouse_yes</id>
+    </element>
+
+    <element name="warehouseNo">
+        <id>warehouse_no</id>
+    </element>
+</elements>

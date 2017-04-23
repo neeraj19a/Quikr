@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="jobsSearchBox">
+        <css>.selectize-input.items.not-full.has-options</css>
+    </element>
+
+    <element name="SelectCity">
+        <css>.top-selectcity</css>
+    </element>
+
+    <element name="TopRolesBox">
+        <xpath>.//*[@id='jobs_toproles']/div/div</xpath>
+    </element>
+
+    <element name="NumberofTopRoles">
+        <xpath>.//div[@class='row top-roles']/div[$]</xpath>
+    </element>
+
+    <element name="AllRoles">
+        <xpath>//div[@class='row top-roles']</xpath>
+    </element>
+
+    <element name="SelectRole_AllRoles">
+        <xpath>html/body/div[1]/div[5]/div/div/div/../a/span/span[starts-with(.,'$')]/../..</xpath>
+    </element>
+
+    <element name="SelectRole_TopRoles">
+        <xpath>.//div[@class='row top-roles']/div/a/div[starts-with(.,'$')]</xpath>
+    </element>
+
+
+    <element name="Languages1">
+        <xpath>.//div[@class='row choose-language']/div/div[2]/div/ul/li</xpath>
+    </element>
+
+    <element name="Languages2">
+        <xpath>.//div[@class='row choose-language']/div/div[2]/div/div/ul/li</xpath>
+    </element>
+
+    <element name="hindiLanguageOption">
+        <xpath>//a[@data-lang='hi']</xpath>
+    </element>
+
+    <element name="TamilLanguageOption">
+        <xpath>//a[@data-lang='ta']</xpath>
+    </element>
+
+    <element name="TeluguLanguageOption">
+        <xpath>//a[@data-lang='te']</xpath>
+    </element>
+
+    <element name="KannadaLanguageOption">
+        <xpath>//a[@data-lang='ka']</xpath>
+    </element>
+
+    <element name="centerTextJobsPage">
+        <css>.text-center.sub-slogan</css>
+    </element>
+
+    <element name="inputjobsSearchBox">
+        <xpath>//div[@id='jsHomeRole']/input</xpath>
+    </element>
+
+    <element name="TatkalJobIcon">
+        <xpath>.//p[@class='widget-content']/..</xpath>
+    </element>
+
+    <element name="jobsSearchBoxinput">
+        <xpath>(.//a[@data-value='$'])[2]</xpath>
+    </element>
+
+    <element name="jobRole">
+        <xpath>//div[@class='selectize-dropdown-content']/div[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="jobSearch">
+        <xpath>//button[@id='auto-suggest-submit']</xpath>
+    </element>
+
+    <element name="jobSearchOldUI">
+        <css>#auto-suggest-submit</css>
+    </element>
+
+    <element name="dropDownOptionsJobSearch">
+        <xpath>.//div[@class='option']</xpath>
+    </element>
+
+    <element name="CityPrePopulated">
+        <xpath>.//div[@class='row text-center location-model']/a/span</xpath>
+    </element>
+
+    <element name="inputcitySearchBox">
+        <css>#city-input</css>
+    </element>
+
+    <element name="citySearchSuggestion">
+        <xpath>(//a[starts-with(.,'$')])[2]</xpath>
+    </element>
+
+    <element name="jobRoleSearchFirstOption">
+        <!-- <xpath>//div[@class='selectize-dropdown single jSelectize-home-free-text select-role homesearch_role plugin-restore_on_backspace plugin-select_on_focus']/div[@class='selectize-dropdown-content']/div</xpath> -->
+        <xpath>//div[@class='option active']</xpath>
+    </element>
+
+    <element name="JobTypes">
+        <xpath>.//a[contains(@class,'btn btn-primary')]</xpath>
+    </element>
+
+    <element name="googleads">
+        <xpath>.//iframe[starts-with(@id,'google_ads_iframe')]</xpath>
+    </element>
+
+    <element name="JobTypesContainer">
+        <xpath>//div[@class='container-fluid home-job-types-top']/div[@class='JobTypeGrid']</xpath>
+    </element>
+
+    <element name="JobTypeLabels">
+        <xpath>//div[@ganame='Job_Type']/ul[@class='dropdown-menu dropdown-list-ul nav-filters-btn stoppropagation']/li[@class='scrollable-menu']/label</xpath>
+    </element>
+
+    <element name="topJobRolesContainers">
+        <xpath>//div[@class='container-fluid home-top-roles']/div[@class='container']/div[@class='row top-roles']/a[@class='col-md-2 col-sm-3 col-xs-4 role-column']</xpath>
+    </element>
+
+    <element name="languageLabels">
+        <xpath>//div[@class='select-languages hidden-xs']/ul/li/a</xpath>
+    </element>
+
+    <element name="topRoleLabel">
+        <xpath>//div[@class='text-left top-roles-title']/span</xpath>
+    </element>
+
+    <element name="citySelectionIcon">
+        <xpath>//i[@class='icon-basic_geolocalize-01']</xpath>
+    </element>
+
+    <element name="citySelectionContainer">
+        <xpath>//div[@class='modal-content']</xpath>
+    </element>
+
+    <element name="citySelectionInputTextField">
+        <xpath>//input[@id='city-input']</xpath>
+    </element>
+
+    <element name="citySelectionAutoSuggestion">
+        <xpath>//ul[@id='citiSugg']/li/a</xpath>
+    </element>
+
+    <element name="employerZone">
+        <xpath>//li[@class='hidden-xs hidden-sm gotoemp']/a</xpath>
+    </element>
+
+    <element name="TatkalJobPageCloseIcon">
+        <css>i.icon-arrows_remove::before</css>
+    </element>
+
+    <element name="TatkalJobPageHeading">
+        <xpath>html/body/div[2]/div/div/h1</xpath>
+    </element>
+
+    <element name="TatkalJobPageName">
+        <xpath>.//input[@name='_field_name']</xpath>
+    </element>
+
+    <element name="TatkalJobPageEmail">
+        <xpath>.//*[@id='benefits-email']</xpath>
+    </element>
+
+    <element name="TatkalJobPagePhone">
+        <xpath>.//*[@id='benefits-phone']</xpath>
+    </element>
+
+    <element name="TatkalJobPageRole">
+        <xpath>.//*[@id='benefits-role']</xpath>
+    </element>
+
+    <element name="TatkalJobPageCity">
+        <xpath>.//*[@id='benefits-city']</xpath>
+    </element>
+
+    <element name="TatkalJobPageLocality">
+        <xpath>.//*[@id='benefits-locality']</xpath>
+    </element>
+
+    <element name="TatkalJobPagePayButton">
+        <xpath>.//*[@id='benefits-form']/button</xpath>
+    </element>
+
+    <element name="roleCard">
+        <xpath>//a[@class='col-md-2 col-sm-3 col-xs-4 role-column']</xpath>
+    </element>
+
+    <element name="cityLabelGeolocation">
+        <xpath>//a[@data-target='#top-selectcity-modal']/span</xpath>
+    </element>
+
+    <element name="scrollToTopButton">
+        <xpath>//i[@class='icon-arrows_up']</xpath>
+    </element>
+
+    <element name="citiesFromJobsHomePage">
+        <xpath>//a[@class='jMsite-locationClick']</xpath>
+    </element>
+
+    <element name="cityLabelAcrossHP">
+        <xpath>//div[@class='text-left top-roles-title']</xpath>
+    </element>
+
+    <element name="TatkalJobPageCCNum">
+        <id>creditCardNumber</id>
+    </element>
+
+    <element name="TatkalJobPageCCMonth">
+        <id>creditCardExpiryMonth</id>
+    </element>
+
+    <element name="TatkalJobPageCCYear">
+        <id>creditCardExpiryYear</id>
+    </element>
+
+    <element name="TatkalJobPageCVV">
+        <id>creditCardCVV</id>
+    </element>
+
+    <element name="TatkalJobPageCCHolderName">
+        <id>creditCardHolderName</id>
+    </element>
+
+    <element name="TatkalJobPagePayAtCitrus">
+        <xpath>//button[@class='pay']</xpath>
+    </element>
+
+    <element name="TatkalJobPageSubmitPayRequest">
+        <xpath>//input[@value='Submit']</xpath>
+    </element>
+
+    <element name="jobsCreateAlertSubCategories">
+        <xpath>(//ul[@id='intent_subcatmenuvalul']/li/a)[$]</xpath>
+    </element>
+
+    <element name="subcategoryList">
+        <xpath>//div[@id='intent_subcatmenu']</xpath>
+    </element>
+
+</elements>

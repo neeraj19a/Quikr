@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="clickCars">
+        <xpath>//i[@class='icon-basic_quikr_car']</xpath>
+    </element>
+
+    <element name="clickBikes">
+        <xpath>//i[@class='icon-basic_quikr_bike']</xpath>
+    </element>
+
+    <element name="clickBuying">
+        <xpath>//input[@value='Buy']/..</xpath>
+    </element>
+
+    <element name="clickSelling">
+        <xpath>//input[@value='Sell']/..</xpath>
+    </element>
+
+    <element name="clickBrand">
+        <id>brandButton</id>
+    </element>
+
+    <element name="selectBrand">
+        <xpath>//div[@id='section2Options_1']/li[text()='$']</xpath>
+    </element>
+
+    <element name="clickModel">
+        <id>modelButton</id>
+    </element>
+
+    <element name="selectModel">
+        <xpath>//div[@id='section2Options_2']/li[text()='$']</xpath>
+    </element>
+
+    <element name="selectYear">
+        <xpath>//ul[@id='section3Options_1']/li[text()='$']</xpath>
+    </element>
+
+    <element name="clickVariant">
+        <id>section4Default</id>
+    </element>
+
+    <element name="selectVariant">
+        <xpath>//ul[@id='section4Options_1']/li[text()='$']</xpath>
+    </element>
+
+    <element name="selectKmsDriven">
+        <xpath>//ul[@id='section5Options_1']/li[text()='$']</xpath>
+    </element>
+
+    <element name="carSubmit">
+        <id>checkMspButton</id>
+    </element>
+
+    <element name="bikeSubmit">
+        <id>checkMspYearButton</id>
+    </element>
+    
+    <element name="mspHeading">
+        <xpath>//h1/span[@class='brandModelVariant']</xpath>
+    </element>
+
+    <element name="mspMinValue">
+        <xpath>//span[@id='priceRange1']</xpath>
+    </element>
+
+    <element name="mspMaxValue">
+        <xpath>//span[@id='priceRange2']</xpath>
+    </element>
+
+    <element name="mspRangeElement">
+        <xpath>//div[@class='msp-range-sld']</xpath>
+    </element>
+
+    <element name="postFreeAdCar">
+        <id>postAdCar</id>
+    </element>
+
+    <element name="postFreeAdBike">
+        <id>postAdBike</id>
+    </element>
+
+    <element name="adFound">
+        <xpath>//a/span[@class='brandModelVariant']</xpath>
+    </element>
+
+    <element name="findCarsButton">
+        <xpath>//a[@id='FindCars']</xpath>
+    </element>
+
+    <element name="calculateAgainMsp">
+        <id>mspAgain</id>
+    </element>
+
+    <element name="adCount">
+        <id>totalAdsCount</id>
+    </element>
+
+    <element name="mobileNumber">
+        <id>exampleInputPhone</id>
+    </element>
+
+    <element name="emailId">
+        <id>exampleInputEmail3</id>
+    </element>
+
+    <element name="createAlert">
+        <xpath>//input[contains(@class,'msp-creat-alret-btn')]</xpath>
+    </element>
+
+    <element name="alertMessage">
+        <class>inlinebock</class>
+    </element>
+
+    </elements>

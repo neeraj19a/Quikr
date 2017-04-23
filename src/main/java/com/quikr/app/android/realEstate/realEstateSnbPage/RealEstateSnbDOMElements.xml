@@ -1,0 +1,64 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="SnbResultCount">
+        <xpath>//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.view.View[1]/android.widget.TextView[1]
+        </xpath>
+    </element>
+    <element name="sort">
+        <name>Sort</name>
+    </element>
+    <element name="alert">
+        <name>Create Alert</name>
+    </element>
+    <element name="filter">
+        <id>com.quikr:id/fab_filter</id>
+    </element>
+    <element name="FilterPropertyType">
+        <id>com.quikr:id/filter_property_type_tv</id>
+    </element>
+    
+    <element name="filterProperty">
+        <name>Property</name>
+    </element>
+    <element name="filterAmenities">
+        <name>Amenities</name>
+    </element>
+    <element name="filterFurnishing">
+        <name>Furnishing</name>
+    </element>
+    <element name="filterCheckbox">
+        <id>com.quikr:id/filter_checklist</id>
+    </element>
+    <element name="FilterReset">
+        <id>com.quikr:id/action_reset</id>
+    </element>
+    <element name="AdLocality">
+        <id>com.quikr:id/re_ad_list_locality_tv</id>
+    </element>
+    <element name="snbADTitle">
+        <id>com.quikr:id/re_ad_list_title_tv</id>
+    </element>
+    <element name="snbNoOfRooms">
+        <id>com.quikr:id/re_ad_list_bhk_area_tv</id>
+    </element>
+    <element name="snbSellerName">
+        <id>com.quikr:id/re_ad_list_user_name_tv</id>
+    </element>
+<element name="snbSellerType">
+    <id>com.quikr:id/re_ad_list_user_type_tv</id>
+</element>
+    <element name="price">
+        <id>com.quikr:id/re_ad_list_price_tv</id>
+    </element>
+    <element name="filterLocality">
+        <id>com.quikr:id/filter_subheading_id</id>
+    </element>
+    <element name="ApplyFilter">
+        <id>com.quikr:id/btnApplyFilters</id>
+    </element>
+    <element name="snbMenuHeader">
+        <id>com.quikr:id/menu_snb</id>
+    </element>
+</elements>

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="homeAndLifeStyleIcon">
+        <xpath>//span[@class='icon40']</xpath>
+    </element>
+
+    <element name="homeAndLifeStyleIcon">
+        <xpath>//span[@class='icon40']</xpath>
+    </element>
+
+    <element name="Product_Type">
+        <id>Product_Type_newpap</id>
+    </element>
+
+    <element name="Product_Type_OptionsRadioButton">
+        <xpath>.//div[@id='Product_Type_l4Attr_RadioBox_div' and @class='l4Attr_RadioBox_div']/div/label/input[@class='Product_Type_inp_cb ad_attribute']</xpath>
+    </element>
+
+    <element name="Product_Type_OptionsCheckBox">
+        <xpath>.//div[@id='Product_Type_l4Attr_CheckBox_div' and @class='l4Attr_CheckBox_div']/div/label/input[@class='Product_Type_inp_cb ad_attribute']</xpath>
+    </element>
+
+    <element name="Furnishing_Type">
+        <id>Furniture_Type_newpap</id>
+    </element>
+
+    <element name="Furnishing_Type_OptionsRadioButton">
+        <xpath>//div[@id='Furniture_Type_l4Attr_RadioBox_div' and @class='l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Furnishing_Type_OptionsCheckbox">
+        <xpath>//div[@id='Furniture_Type_l4Attr_CheckBox_div' and @class='l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Style">
+        <id>Style_newpap</id>
+    </element>
+
+    <element name="Style_OptionsRadioButton">
+        <xpath>//div[@id='Style_l4Attr_RadioBox_div' and @class='l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Style_OptionsCheckbox">
+        <xpath>//div[@id='Style_l4Attr_CheckBox_div' and @class='l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Accessory_Type">
+        <id>Accessory_Type_newpap</id>
+    </element>
+
+    <element name="Accessory_TypeOptionsRadioButton">
+        <xpath>//div[@id='Accessory_Type_l4Attr_RadioBox_div' and @class='l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Accessory_TypeCheckbox">
+        <xpath>//div[@id='Accessory_Type_l4Attr_CheckBox_div' and @class='l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Jewellery_Type">
+        <id>Jewellery_Type_newpap</id>
+    </element>
+
+    <element name="Jewellery_Type_OptionsRadioButton">
+        <xpath>//div[@id='Jewellery_Type_l4Attr_RadioBox_div' and @class='l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Jewellery_TypeCheckbox">
+        <xpath>//div[@id='Jewellery_Type_l4Attr_CheckBox_div' and @class='l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Equipment_Type">
+        <id>Equipment_Type_newpap</id>
+    </element>
+
+    <element name="Equipment_Type_OptionsRadioButton">
+        <xpath>//div[@id='Equipment_Type_l4Attr_RadioBox_div' and @class='l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Equipment_TypeCheckbox">
+        <xpath>//div[@id='Equipment_Type_l4Attr_CheckBox_div'and @class='l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Brand_name">
+        <id>Brand_name_newpap</id>
+    </element>
+
+    <element name="Brand_name_OptionsRadioButton">
+        <xpath>//div[@id='Brand_name_l4Attr_RadioBox_div' and @class='l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Brand_nameCheckbox">
+        <xpath>//div[@id='Brand_name_l4Attr_CheckBox_div' and @class='l4Attr_CheckBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="genre">
+        <id>Genre_newpap</id>
+    </element>
+
+    <element name="genreValues">
+        <xpath>//div[@id='Genre_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="Media">
+        <id>Media_Type_newpap</id>
+    </element>
+
+    <element name="mediaValues">
+        <xpath>//div[@id='Media_Type_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+    <element name="InstrumentType">
+        <id>Instrument_Type_newpap</id>
+    </element>
+
+    <element name="InstrumentTypeValues">
+        <xpath>//div[@id='Instrument_Type_l4Attr_RadioBox_div']/div/label/input</xpath>
+    </element>
+
+</elements>

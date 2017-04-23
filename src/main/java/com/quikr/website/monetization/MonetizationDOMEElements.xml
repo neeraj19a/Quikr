@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="adIdMobileAd">
+        <xpath>//span[@class='escrow-post-ad-page-color-grey']</xpath>
+    </element>
+
+    <element name="mobVerifyWindow">
+        <css>.mobvercloselnk</css>
+    </element>
+
+    <element name="replyToThisAdButton">
+        <css>.button_vap.yellow</css>
+    </element>
+
+    <element name="postedAdsnb">
+        <xpath>//h3[@class='adtitlesnb translate']/a</xpath>
+    </element>
+
+    <element name="freeDeliveryTextVap">
+        <css>.section.sec1</css>
+    </element>
+
+    <element name="codTextVap">
+        <css>.section.sec2</css>
+    </element>
+
+    <element name="cashbackTextVap">
+        <css>.section.sec3</css>
+    </element>
+
+    <element name="mobile">
+        <xpath>//a[@title='Mobiles &amp; Tablets']</xpath>
+    </element>
+
+    <element name="mobileSubCategory">
+        <xpath>.//h1[@class='subcat_heading' and starts-with(.,'Mobile Phone')]</xpath>
+    </element>
+
+    <element name="MakeAnOfferButton">
+        <xpath>//div[@class='escrowSnbHolder']/input[@value='Make an Offer']</xpath>
+    </element>
+
+    <element name="MakeAnOfferPopUp">
+        <xpath>//div[@id='escrowpopupcontainer']</xpath>
+    </element>
+
+    <element name="MakeAnOfferPopUpClose">
+        <xpath>.//*[@id='escrow-make-offer-popup']/div/div[1]/div/span</xpath>
+    </element>
+
+    <element name="MobileHomescreenExtrnlAdOne">
+        <xpath>//div[@id='div-gpt-ad-1437984364089-1']/div</xpath>
+    </element>
+
+    <element name="MobileHomescreenExtrnlAdTwo">
+        <xpath>//div[@id='div-gpt-ad-1437984364089-1']/div</xpath>
+    </element>
+
+    <element name="MobileSnbExtrnlAdOne">
+        <xpath>//div[contains(@id,"google_ads_iframe_")]</xpath>
+    </element>
+
+    <element name="MobileSnbExtrnlAdTwo">
+        <xpath>.//*[@id='google_ads_iframe_/81214979/Desktop_SnB_160X600_0__container__']/iframe</xpath>
+    </element>
+
+    <element name="MobileSnbExtrnlAdThree">
+        <xpath>//div[@id='div-gpt-ad-1438245894523-0']/div</xpath>
+    </element>
+
+    <element name="MobileVapExtrnlAdOne">
+        <xpath>//div[starts-with(@id,'div-gpt-ad')]</xpath>
+    </element>
+
+    <element name="MobileVapExtrnlAdTwo">
+        <xpath>//div[starts-with(@id,'div-gpt-ad')]</xpath>
+    </element>
+
+    <element name="CreateAlertCategory">
+        <xpath>(//span[@class='intentexpand fr'])[1]</xpath>
+    </element>
+
+    <element name="CreateAlertCarsandBikes">
+        <xpath>//a[@class='rsearch-a' and starts-with(.,'Cars &amp; Bikes')]</xpath>
+    </element>
+
+    <element name="CreateAlertCategoryMobileandTablets">
+        <xpath>//a[@class='rsearch-a' and starts-with(.,'Mobiles &amp; Tablets')]</xpath>
+    </element>
+
+    <element name="CreateAlertSubCategory">
+        <xpath>(//span[@class='intentexpand fr'])[2]</xpath>
+    </element>
+
+    <element name="CreateAlertFirstSubCategory">
+        <xpath>//a[@class='rsearch-a' and starts-with(.,'Accessories')]</xpath>
+    </element>
+
+    <element name="CreateAlertSelectType">
+        <xpath>(//span[@class='intentexpand fr'])[3]</xpath>
+    </element>
+
+    <element name="CreateAlertSelectTypeBuy">
+        <xpath>.//*[@id='adtyoffer']/a</xpath>
+    </element>
+
+    <element name="CreateAlertSelectAccessoryType">
+        <xpath>(//span[@class='intentexpand fr'])[4]</xpath>
+    </element>
+
+    <element name="CreateAlertSelectAccessoryTypeAll">
+        <xpath>.//*[@id='all_Accessory_Type']</xpath>
+    </element>
+
+    <element name="CreateAlertSelectBrandName">
+        <xpath>(//span[@class='intentexpand fr'])[5]</xpath>
+    </element>
+
+    <element name="CreateAlertSelectBrandNameAll">
+        <xpath>.//*[@id='all_Brand_name']</xpath>
+    </element>
+
+    <element name="CreateAlertCities">
+        <xpath>(//span[@class='intentexpand fr'])[6]</xpath>
+    </element>
+
+    <element name="CreateAlertFirstCity">
+        <xpath>//*[@id='green_dhtml_poular_cities100']/ul/li[1]</xpath>
+    </element>
+
+    <element name="CreateAlertLocation">
+        <xpath>(//span[@class='intentexpand fr'])[7]</xpath>
+    </element>
+
+    <element name="CreateAlertFirstLocation">
+        <xpath>//input[@id='local1']</xpath>
+    </element>
+
+    <element name="CreateAlertEmail">
+        <xpath>//input[@id='custom_email']</xpath>
+    </element>
+
+    <element name="CreateAlertPhNo">
+        <xpath>//input[@id='custom_number']</xpath>
+    </element>
+
+    <element name="CreateAlertSubmit">
+        <xpath>//div[@id='custom_submitbtn']/strong/a</xpath>
+    </element>
+
+
+
+
+</elements>

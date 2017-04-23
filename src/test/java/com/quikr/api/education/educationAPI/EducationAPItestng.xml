@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Education Api Test Suite"  verbose="1" annotations="JDK" >
+
+    <test name="Education Api">
+        <packages>
+            <package name="com.quikr.api.education.*"></package>
+        </packages>
+    </test>
+
+</suite>

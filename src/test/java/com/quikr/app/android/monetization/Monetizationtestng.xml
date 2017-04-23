@@ -1,0 +1,7 @@
+<suite name="Search And Browse Test Suite" verbose="1" annotations="JDK">
+    <test name="Monetization Tests">
+        <classes>
+            <class name="com.quikr.app.android.monetization.MonetizationTests"/>
+        </classes>
+    </test>
+</suite>

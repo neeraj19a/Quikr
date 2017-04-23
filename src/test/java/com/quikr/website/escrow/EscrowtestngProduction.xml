@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Escrow Production Tests Suite" verbose="1" annotations="JDK" thread-count="3" parallel="classes">
+
+   <test name="EscrowProduction" >
+        <groups>
+            <run>
+                <include name = "EscrowProduction"/>
+               </run>
+        </groups>
+
+        <packages>
+            <package name="com.quikr.website.escrow.escrowEndToEnd.*"/>
+        </packages>
+    </test>
+
+</suite>
+

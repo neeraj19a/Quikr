@@ -1,0 +1,132 @@
+  <elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="chatAdTitle">
+        <id>com.quikr:id/chat_ad_title</id>
+    </element>
+
+    <element name="chatConversation">
+        <id>com.quikr:id/conversation_row</id>
+    </element>
+
+    <element name="chatInput">
+        <id>com.quikr:id/chat_input</id>
+    </element>
+
+    <element name="sendChat">
+        <id>com.quikr:id/send_chat</id>
+    </element>
+
+    <element name="chatSentConfirmation1">
+        <name>Sent</name>
+    </element>
+
+    <element name="chatSentConfirmation2">
+        <name>Now</name>
+    </element>
+
+    <element name="chatAndRepliesUser">
+        <id>com.quikr:id/chat_unread_name</id>
+        <!--<id>com.quikr:id/conversation_row</id>-->
+    </element>
+
+    <element name="openChatPageAd">
+        <id>com.quikr:id/chat_ad_title</id>
+    </element>
+
+    <element name="chatSmileyButton">
+        <id>com.quikr:id/chat_smiley</id>
+    </element>
+
+    <element name="cannedIcon">
+        <id>com.quikr:id/canned_response</id>
+    </element>
+
+    <element name="cameraIcon">
+        <id>com.quikr:id/chat_imgupload</id>
+    </element>
+
+    <element name="voiceRecordIcon">
+        <id>com.quikr:id/record_voice</id>
+    </element>
+
+    <element name="chooseFromPhotoGallery">
+        <name>Choose from photo gallery</name>
+    </element>
+
+    <element name="captureAPhoto">
+        <name>Capture a photo</name>
+    </element>
+
+    <element name="attachButton">
+        <id>com.quikr:id/chat_attach</id>
+    </element>
+
+    <element name="blockButton">
+        <name>Block user</name>
+    </element>
+
+    <element name="unblock">
+        <name>Unblock</name>
+    </element>
+
+    <element name="myChats">
+        <id>com.quikr:id/myChats</id>
+    </element>
+
+    <element name="chatName">
+        <id>com.quikr:id/user_name</id>
+    </element>
+
+    <element name="chatEmail">
+        <id>com.quikr:id/email</id>
+    </element>
+
+    <element name="chatMobile">
+        <id>com.quikr:id/mobile</id>
+    </element>
+    <element name="submit">
+        <id>com.quikr:id/screen_vap_ad_chat</id>
+    </element>
+    <element name="chatMaoFormHeader">
+        <id>com.quikr:id/ad_title</id>
+    </element>
+    <element name="charRoundedLetter">
+        <id>com.quikr:id/rounded_letter_view</id>
+    </element>
+    <element name="MaoPrice">
+        <id>com.quikr:id/price</id>
+    </element>
+    <element name="MaoEmail">
+        <id>com.quikr:id/email</id>
+    </element>
+    <element name="MaoMobile">
+        <id>com.quikr:id/number</id>
+    </element>
+    <element name="MaoSubmit">
+        <id>com.quikr:id/makeoffer</id>
+    </element>
+
+    <element name="lastActiveTime">
+        <id>com.quikr:id/action_bar_sub_title</id>
+    </element>
+    <element name="chatUserNAme">
+        <id>com.quikr:id/action_bar_title</id>
+    </element>
+    <element name="moreButton">
+        <name>More options</name>
+    </element>
+    <element name="navigateBack">
+        <name>Navigate up</name>
+    </element>
+    <element name="menuIcon">
+        <name>Open Drawer</name>
+    </element>
+    <element name="userNAMeOnChatHomeScreen">
+        <id>com.quikr:id/my_email_text</id>
+    </element>
+  <element name="chatMessage">
+  <id>com.quikr:id/chat_message</id>
+  </element>
+      <element name="editOffer">
+          <id>com.quikr:id/edit_offer_tv</id>
+      </element>
+</elements>

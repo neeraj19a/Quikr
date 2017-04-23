@@ -1,0 +1,48 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+    <element name="referPopUp">
+        <id>com.quikr:id/appvirality_btnremindlater</id>
+    </element>
+    <element name="residential">
+        <id>com.quikr:id/residential_button</id>
+    </element>
+    <element name="commercial">
+        <id>com.quikr:id/commercial_button</id>
+    </element>
+    <element name="agriculture">
+        <id>com.quikr:id/agriculture_button</id>
+    </element>
+    <element name="realEstateHomeSpinner">
+        <id>com.quikr:id/homes_sp</id>
+    </element>
+    <element name="search">
+        <id>com.quikr:id/fragment_re_main_search_tv</id>
+    </element>
+    <element name="subCatspinner">
+        <id>android:id/text1</id>
+    </element>
+    <element name="searchPage">
+        <id>com.quikr:id/re_search_text_et</id>
+    </element>
+    <element name="autoSuggest">
+        <id>com.quikr:id/text</id>
+    </element>
+    <element name="autoSuggestSubCAt">
+        <id>com.quikr:id/auto_suggest_name_tv</id>
+    </element>
+    
+    <element name="chpBanner">
+        <id>com.quikr:id/fragment_quikr_homes_ad_banner</id>
+    </element>
+    
+    <element name="autoSuggestLocality">
+        <id>com.quikr:id/auto_suggest_type</id>
+    </element>
+
+    <element name="searchIcon">
+        <id>com.quikr:id/auto_suggest_img</id>
+    </element>
+
+    <element name="autoSuggestProject">
+        <name>Project</name>
+    </element>
+</elements>

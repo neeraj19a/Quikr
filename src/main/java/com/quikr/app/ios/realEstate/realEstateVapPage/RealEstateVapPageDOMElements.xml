@@ -1,0 +1,18 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="localityName">
+        <name>Adugodi</name>
+    </element>
+
+    <element name="callButton">
+        <name>vap floating call</name>
+    </element>
+
+    <element name="callButtonOnPopUp">
+        <name>Call</name>
+    </element>
+
+    <element name="cancelButtonOnPopUp">
+        <name>Cancel</name>
+    </element>
+</elements>

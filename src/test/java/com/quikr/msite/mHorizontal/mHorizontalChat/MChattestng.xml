@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="M Horizontal Chat Tests Suite" time-out="300000" verbose="1" annotations="JDK" >
+
+    <test name="mHorizontal Chat Tests">
+        <classes>
+            <class name="com.quikr.msite.mHorizontal.mHorizontalChat.MChatTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>
+

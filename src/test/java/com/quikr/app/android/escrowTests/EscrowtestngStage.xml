@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Escrow tests " verbose="1" thread-count="2" parallel="classes" annotations="JDK">
+    <test name="App Escrow Stage tests">
+        <groups>
+            <run>
+                <include name="Stage"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quikr.app.android.escrowTests.EscrowTests"></class>
+        </classes>
+    </test>
+
+    <test name="Escrow Post Ad Tests on Production">
+        <groups>
+            <run>
+                <include name="Stage"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quikr.app.android.escrowTests.EscrowPostAdTests"></class>
+        </classes>
+    </test>
+</suite>

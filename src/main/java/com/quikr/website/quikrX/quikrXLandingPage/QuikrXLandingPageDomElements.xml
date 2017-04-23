@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="refurbishedTab">
+        <xpath>.//*[@id='home_tabs_hold']/div/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="refurbishedTabMsite">
+        <xpath>.//*[@id='carousel']/div/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="certifiedTabMsite">
+        <xpath>.//*[@id='carousel']/div/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="newTabMsite">
+        <xpath>.//*[@id='carousel']/div/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="unboxedTab">
+        <xpath>.//*[@id='home_tabs_hold']/div/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="exchangeTab">
+        <xpath>.//*[@id='home_tabs_hold']/div/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="refurbishedSaveText">
+        <xpath>.//*[@id='home_tabs_hold']/div/ul/li[1]/a/span[2]/p</xpath>
+    </element>
+
+    <element name="unboxedSaveText">
+        <xpath>.//*[@id='home_tabs_hold']/div/ul/li[2]/a/span[2]/p</xpath>
+    </element>
+
+    <element name="exchangeSaveText">
+        <xpath>.//*[@id='home_tabs_hold']/div/ul/li[3]/a/span[2]/p</xpath>
+    </element>
+
+    <element name="refurbisheddef">
+        <xpath>.//*[@id='hometab_one']/p</xpath>
+    </element>
+
+    <element name="unboxedDef">
+        <xpath>.//*[@id='hometab_two']/p</xpath>
+    </element>
+
+    <element name="exchangeDef">
+        <xpath>.//*[@id='hometab_three']/p</xpath>
+    </element>
+    
+    <element name="exchangeDesc">
+        <xpath>.//*[@id='hometab_three']/ul</xpath>
+    </element>
+
+    <element name="unboxedDec">
+        <xpath>.//*[@id='hometab_two']/ul</xpath>
+    </element>
+
+    <element name="refurbishedDes">
+        <xpath>.//*[@id='hometab_one']/ul</xpath>
+    </element>
+
+    <element name="seeAllRefurbished">
+        <xpath>.//*[@id='hometab_one']/a</xpath>
+    </element>
+
+    <element name="seeAllUnboxed">
+        <xpath>.//*[@id='hometab_two']/a</xpath>
+    </element>
+
+    <element name="seeAllExchange">
+        <xpath>.//*[@id='hometab_three']/a</xpath>
+    </element>
+    
+    <element name="sliderCategoriesList">
+        <xpath>.//*[@id='best_mobile_carousel']/div[1]/div/div/li/a</xpath>
+    </element>
+
+    <element name="leftArrow">
+        <xpath>.//*[@id='best_mobile_carousel']/div[2]/div[1]/div[1]/div</xpath>
+    </element>
+
+    <element name="rightArrow">
+        <xpath>.//*[@id='best_mobile_carousel']/div[2]/div[1]/div[2]/div</xpath>
+    </element>
+    
+    <element name="seeAllTrending">
+        <xpath>.//*[@id='trending_mobile_hold']/div/div/div[1]/a</xpath>
+    </element>
+    
+    <element name="trendingPhoneList">
+        <xpath>.//*[@id='trending_mobile_hold']/div/div</xpath>
+    </element>
+
+    <element name="firstTrending">
+        <xpath>.//*[@id='trandingMobilePhones']/li[1]/a/div[1]</xpath>
+    </element>
+
+    <element name="seeAllBrand">
+        <xpath>.//*[@id='brand_mobile_hold']/div/div/div/a</xpath>
+    </element>
+
+    <element name="brandList">
+        <xpath>.//*[@id='brand_mobile_hold']/div/div</xpath>
+    </element>
+
+    <element name="brandUrls">
+        <xpath>.//*[@id='quikrx-home-brands']/div[1]/div/div/li/a</xpath>
+    </element>
+
+    <element name="phonesByPrice">
+        <xpath>.//*[@id='budget_mobliles_hold']/div/div/div[2]/ul/div[1]/div/div/li/a</xpath>
+    </element>
+
+    <element name="phonesUnder10kpriceList">
+        <xpath>.//*[@id='bestSmartPhones']/li/a/div[2]/div[@class='price_hold']/span[@class='actual_price']</xpath>
+    </element>
+
+    
+    <element name="seeAllBestDeals">
+        <xpath>.//*[@id='best_mobile_hold']/div/div/div[1]/a[contains(text(),'Best Mobile Deals')]</xpath>
+    </element>
+
+    <element name="bestDealsList">
+        <xpath>.//ul[@id='bestSmartPhones']/li</xpath>
+    </element>
+
+    <element name="allApples">
+        <xpath>.//*[@id='best_mobile_hold']/div/div/div[1]/a[contains(text(),'All Apple')]</xpath>
+    </element>
+    
+    <element name="applesPhoneList">
+        <xpath>.//*[@id='applePhones']/li/a/div[2]/h3</xpath>
+    </element>
+
+    <element name="appleFirst">
+        <xpath>.//*[@id='applePhones']/li[1]/a/div[1]</xpath>
+    </element>
+    
+    <element name="seeAllAndroids">
+        <xpath>.//*[@id='best_mobile_hold']/div/div/div[1]/a[contains(text(),'All Android')]</xpath>
+    </element>
+
+    <element name="firstAndroid">
+        <xpath>.//*[@id='androidPhones']/li[1]/a/div[1]</xpath>
+    </element>
+
+    <element name="filterScroller">
+        <xpath>.//*[@id='best_mobile_carousel']/div[1]/div</xpath>
+    </element>
+
+    <element name="seAllRefurbishedCta">
+        <xpath>.//*[@id='button_home_lg']/a</xpath>
+    </element>
+
+</elements>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="selectCityAlertCreation">
+        <xpath>//input[@value='Select City']</xpath>
+    </element>
+
+    <element name="cityOption">
+        <xpath>//a[@data-city-name='$']</xpath>
+    </element>
+
+    <element name="categoryAlertCreation">
+        <id>ad_mcat</id>
+    </element>
+
+    <element name="subCatAlertCreation">
+        <id>subcategoryid</id>
+    </element>
+
+    <element name="amAnEmployerAlertCreation">
+        <xpath>//input[@id='Ad_Type_want']</xpath>
+    </element>
+
+    <element name="amAJobSeekerAlertCreation">
+        <xpath>//input[@id='Ad_Type_offer']</xpath>
+    </element>
+
+    <element name="JobRoleAlertCreation">
+        <id>Role</id>
+    </element>
+
+    <element name="educationAlertCreation">
+        <id>Education</id>
+    </element>
+
+    <element name="expAlertCreation">
+        <id>Experience</id>
+    </element>
+
+    <element name="localityAlertCreation">
+        <id>ad_locality</id>
+    </element>
+
+    <element name="submitAlertCreation">
+        <id>showMatchingPosts</id>
+    </element>
+
+</elements>

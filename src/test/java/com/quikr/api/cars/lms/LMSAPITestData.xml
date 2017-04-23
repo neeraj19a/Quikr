@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="lmsUser">saurabh.sharma@quikr.com</testData>
+    <testData name="lmsUserforTesting">testingcarapi@quikr.com</testData>
+    <testData name="GetPermissionByUserIdroleId">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].roleId</testData>
+    <testData name="GetPermissionByUserIdroleName">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].roleName</testData>
+    <testData name="GetPermissionByUserIdroleDescription">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].roleDescription</testData>
+    <testData name="GetPermissionByUserIdroleType">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].roleType</testData>
+    <testData name="GetPermissionByUserIdpermissionId">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].lmsPermissions[0].permissionId</testData>
+    <testData name="GetPermissionByUserIdpermissionType">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].lmsPermissions[0].permissionType</testData>
+    <testData name="GetPermissionByUserIdpermissionTypeValue">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].lmsPermissions[0].permissionTypeValue</testData>
+    <testData name="GetPermissionByUserIdpermissionDescription">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].lmsPermissions[0].permissionDescription</testData>
+    <testData name="GetPermissionByUserIdpermissionTypeValueString">GetPermissionsByUserIdResponse.GetPermissionsByUserIdData.lmsRoles[0].lmsPermissions[0].permissionTypeValueString</testData>
+    <testData name="GetBulkCreatePermissionsResponseStatus">BulkCreatePermissionsResponse.BulkCreatePermissionsData.status</testData>
+
+
+</data>

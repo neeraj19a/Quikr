@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<logins xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Logins.xsd">
+
+    <login name="quikrGeneralLogin">
+        <username>automation.quikr@gmail.com</username>
+        <password>quikr1234</password>
+    </login>
+
+    <login name="quikrUatLogin">
+        <username>uattest@test123.com</username>
+        <password>123456</password>
+    </login>
+
+    <login name="quikrIntegrationLogin">
+        <username>intgr@test123.com</username>
+        <password>123456</password>
+    </login>
+
+    <login name="quikrDevStageLogin">
+        <username>archana@test123.com</username>
+        <password>123456</password>
+    </login>
+
+    <login name="defaultPassword">
+        <password>defaultquikrpass</password>
+    </login>
+
+</logins>

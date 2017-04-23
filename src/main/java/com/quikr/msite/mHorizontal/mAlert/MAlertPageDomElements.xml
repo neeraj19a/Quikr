@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="SelectCity">
+        <xpath>.//input[@class='activeCity']</xpath>
+    </element>
+
+    <element name="Category">
+        <xpath>.//select[@name='ad_mcat']</xpath>
+    </element>
+
+    <element name="SubCategory">
+        <xpath>.//select[@name='subcategoryid']</xpath>
+    </element>
+
+    <element name="Locality">
+        <xpath>.//select[@id='ad_locality']</xpath>
+    </element>
+
+    <element name="Description">
+        <xpath>.//textarea[@id='ad_desc']</xpath>
+    </element>
+
+    <element name="Email">
+        <xpath>.//input[@name='email']</xpath>
+    </element>
+
+    <element name="Mobile">
+        <xpath>//input[@id='usr_mobile']</xpath>
+    </element>
+
+    <element name="Submit">
+        <xpath>.//input[@id='showMatchingPosts']</xpath>
+    </element>
+
+    <element name="EditUnsubscribeContainer">
+        <xpath>//div[@class='feedActions clearfix']/a</xpath>
+    </element>
+
+    <element name="categoryAlertCreation">
+        <id>ad_mcat</id>
+    </element>
+
+    <element name="subCatAlertCreation">
+        <id>subcategoryid</id>
+    </element>
+
+    <element name="brandNameAlertCreation">
+        <id>Brand_name</id>
+    </element>
+
+    <element name="modelAlertCreation">
+        <id>Model</id>
+    </element>
+
+    <element name="localityAlertCreation">
+        <id>ad_locality</id>
+    </element>
+
+    <element name="descAlertCreation">
+        <id>ad_desc</id>
+    </element>
+
+    <element name="submitAlertCreation">
+        <id>showMatchingPosts</id>
+    </element>
+
+    <element name="selectCityAlertCreation">
+        <xpath>//input[@value='Select City']</xpath>
+    </element>
+
+    <element name="cityOption">
+        <xpath>//a[@data-city-name='$']</xpath>
+    </element>
+
+    <element name="selectCityBangaloreAlertCreation">
+        <xpath>//a[@data-city-name='bangalore']</xpath>
+    </element>
+
+    <element name="amAnEmployerAlertCreation">
+        <xpath>//input[@id='Ad_Type_want']</xpath>
+    </element>
+
+    <element name="amAJobSeekerAlertCreation">
+        <xpath>//input[@id='Ad_Type_offer']</xpath>
+    </element>
+
+    <element name="JobRoleAlertCreation">
+        <id>Role</id>
+    </element>
+
+    <element name="educationAlertCreation">
+        <id>Education</id>
+    </element>
+
+    <element name="expAlertCreation">
+        <id>Experience</id>
+    </element>
+
+    <element name="loct">
+        <xpath>//select[@id='ad_locality']/option[@value='Adugodi']</xpath>
+    </element>
+
+</elements>

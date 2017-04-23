@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/DOMElements.xsd">
+
+    <!--Home Page City Selection Layer -->
+    <element name="citylayer">
+        <xpath>//input[@placeholder='Type your city here']</xpath>
+    </element>
+
+    <element name="selectedcity">
+        <xpath> //ul[@class='city-select-city']/li/a     </xpath>
+    </element>
+    <!--######################################### -->
+
+    <element name="localityTextbox">
+        <xpath> //input[contains(@placeholder,'Search by Locality, Project or Builder')]  </xpath>
+    </element>
+
+    <element name="suggestedLocality">
+        <xpath>(//a[@class='ng-scope']/span)[position()=1] </xpath>
+    </element>
+
+
+    <!--################### RealEstatePAPPage #####################-->
+    <element name="postadbutton"><xpath>//a[text()='Post Free Ad']</xpath></element>
+
+    <element name="category"><xpath>//div[@class='quickpapradio']/label[1]</xpath></element>
+
+    <element name="adtypedropdown"><xpath>//span[@id='ttt']/a/i</xpath></element>
+
+    <element name="adtype"><xpath>//ul[@class='dropdown-menu']/li[1]</xpath></element>
+
+    <element name="papcity"><id>ad_city</id></element>
+
+    <element name="projectname"><xpath>//input[@id='adProject']</xpath></element>
+
+    <element name="suggestedproject"><xpath>//li[starts-with(@id,'typeahead')][1]</xpath></element>
+
+    <element name="unit"><xpath>//span[@id='sut']/a/i</xpath></element>
+    <element name="unit1"><xpath>//div[contains(@class,'selectunittype')]</xpath></element>
+
+    <element name="unittype"><xpath>//span[@id='sut']/ul/li[1]/a</xpath></element>
+
+    <element name="propertytype"><xpath>//span[text()='Apartment']</xpath></element>
+
+    <element name="area"><id>property_area</id></element>
+
+    <element name="price"><id>sellingPrice</id></element>
+
+    <element name="ratepersqft"><id>ratePerSqft</id></element>
+
+    <element name="locality"><id>adLocality</id></element>
+
+    <!-- to be checked for CContinue Button <element name="submitfirstform"><xpath>//button[contains(@ga-options,'click_postad')]</xpath></element> -->
+
+    <element name="nextpage"><xpath>//a[contains(@ga-options,'click_tab_Section2')]</xpath></element>
+
+    <element name="finalpage"><xpath>//a[contains(@ga-options,'click_tab_Section3')]</xpath></element>
+
+    <element name="adtitle"><xpath>//input[@name='adTitle']</xpath></element>
+
+    <element name="addescription"><xpath>//textarea[@name='adDesc']</xpath></element>
+
+    <element name="submitpapform"><xpath>//button[contains(@ga-options,'click_postad')]</xpath></element>
+
+    <element name="individualradiobutton"><xpath>//input[@id='individual-radio']</xpath></element>
+
+    <element name="brokerradiobutton"><xpath>//input[@id='business-radio']</xpath></element>
+
+    <element name="email"><xpath>//input[@id='emailid']</xpath></element>
+
+    <element name="phone"><xpath>//input[@id='phone']</xpath></element>
+
+    <element name="submituserform"><xpath>//input[@type='submit']</xpath></element>
+
+</elements>

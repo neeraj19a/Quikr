@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Home Tests Suite" time-out="300000" verbose="1" annotations="JDK" thread-count="4" parallel="classes">
+
+    <test name="Home Tests">
+        <classes>
+            <class name="com.quikr.website.horizontal.home.HomeTests"></class>
+            <class name="com.quikr.website.horizontal.home.HomeTests2"></class>
+            <class name="com.quikr.website.horizontal.home.HomeTests3"></class>
+            <class name="com.quikr.website.horizontal.home.HomeTests4"></class>
+        </classes>
+    </test>
+
+</suite>
+

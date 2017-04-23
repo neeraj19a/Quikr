@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="recommended">
+        <xpath>//div[@class='custom-livefeedmain']/div[@class='custom-livefeedlink']</xpath>
+    </element>
+
+
+    <element name="viewad">
+        <css>.adtitlesnb.adtitlechp>font>a</css>
+    </element>
+
+    <element name="replytomyads">
+        <css>#showFilter-reply</css>
+    </element>
+
+    <element name="converttopremium">
+        <css>.chp_anchors[title="Convert to Premium"]</css>
+    </element>
+
+    <element name="editad">
+        <css>.chp_anchors[title="Edit Ad"]</css>
+    </element>
+
+    <element name="deletead">
+        <css>.chp_anchors[title="Delete Ad"]</css>
+    </element>
+
+    <element name="showMoreLink">
+        <xpath>//div[@id='show_more_bar']</xpath>
+    </element>
+
+</elements>

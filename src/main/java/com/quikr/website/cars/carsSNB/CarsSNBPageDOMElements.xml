@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <!--SNB Heading Text-->
+    <element name="snbSearchResultsHeadingText">
+        <xpath>.//*[@id='car_ads']/h1</xpath>
+    </element>
+
+    <element name="snbQuikrHomeIcon">
+        <xpath>//i[@class='icon-basic_home']</xpath>
+    </element>
+
+    <element name="snbInspected">
+        <xpath>//a[contains(@title,'Inspected')]</xpath>
+    </element>
+
+    <element name="snbInspectedOnly">
+        <xpath>(//label[contains(@class,'inspected')])[1]</xpath>
+    </element>
+
+    <element name="snbSortByDropDown">
+        <xpath>(.//*[@id='dropdownMenu1'])[3]</xpath>
+    </element>
+
+    <element name="snbSortByDropDownOption">
+        <xpath>//ul[@class='dropdown-menu']/li/a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <!--Snb Search Results Products-->
+    <element name="snbSearchResultsProductsName">
+        <xpath>//a[@class='js-positionTagging-grid-newui js-positionTagging']</xpath>
+    </element>
+
+    <element name="snbSearchResultsAdNumber">
+        <xpath>(.//*[@id='quickClassi']/div/div/div[1]/h4/a)[$]</xpath>
+    </element>
+
+    <element name="snbSearchResultsProductsShortlist">
+        <xpath>//i[@data-btn-txt='shortlist']</xpath>
+    </element>
+
+    <element name="snbSearchResultsPrimeFeatures">
+        <xpath>//ul[@class='prime-features']</xpath>
+    </element>
+
+    <element name="snbSearchResultsPrimeFeaturesKms">
+        <xpath>//ul[@class='prime-features']/li[1]</xpath>
+    </element>
+
+    <element name="snbSearchResultsPrimeFeaturesKmsInspected">
+        <xpath>//div[@class='grid-certified-lbl']/../../../div[@class='caption']/ul[@class='prime-features']/li[1]</xpath>
+    </element>
+
+    <element name="snbSearchResultsPrimeFeaturesFuel">
+        <xpath>//ul[@class='prime-features']/li[2]</xpath>
+    </element>
+
+    <element name="snbSearchResultsPrimeFeaturesOwner">
+        <xpath>//ul[@class='prime-features']/li[3]</xpath>
+    </element>
+
+    <element name="snbSearchResultsPrice">
+        <xpath>//div[contains(@class,'price-txt')]</xpath>
+    </element>
+
+    <element name="snbSearchResultsPricePremium">
+        <xpath>//div[contains(@class,'price-txt')]/../../ul[@class='prime-features']/../h4/a[@data-adlabel='Premium']/../../div/div[contains(@class,'price-txt')]</xpath>
+    </element>
+
+    <element name="snbSearchResultsPriceInspected">
+        <xpath>//div[@class='grid-certified-lbl']/../../../div[@class='caption']//div[contains(@class,'price-txt')]</xpath>
+    </element>
+
+    <element name="snbSearchResultsReplyButton">
+        <xpath>//button[@class='btn grid-button js-reply-button-trigger open-external-modal js-positionTagging']</xpath>
+    </element>
+
+    <element name="snbSearchResultsChatButton">
+        <xpath>//button[@class='btn grid-button js-chat-now open-external-modal js-positionTagging lead-capture-chat']</xpath>
+    </element>
+
+    <element name="snbSearchResultsUserOnlineStatus">
+        <xpath>//span[contains(@class,'list-profile-status')]/../span[2]</xpath>
+    </element>
+
+    <element name="snbSearchResultsPostedStatus">
+        <xpath>//span[contains(@class,'list-profile-status')]/../span[3]</xpath>
+    </element>
+
+    <element name="snbSearchResultsInspectedCertificate">
+        <xpath>//div[@class='grid-certified-lbl']</xpath>
+    </element>
+
+    <element name="snbSearchResultsInspectedCertificateIcon">
+        <xpath>//div[@class='grid-certified-lbl']/i</xpath>
+    </element>
+
+    <!-- Brand Filter -->
+
+    <element name="inspectionRatingFilter">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='']/button</xpath>
+    </element>
+
+    <element name="brandFilter">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Brand_name']/button</xpath>
+    </element>
+
+    <element name="brandFilterTextbox">
+        <xpath>//input[@id='Brand_name_widget[]']</xpath>
+    </element>
+
+    <element name="brandFilterSelect">
+        <xpath>//input[@value='$' and @name='Brand_name_widget[]']</xpath>
+    </element>
+
+    <element name="brandFilterSelected">
+        <xpath>//a[contains(@href,'Cars') and @rel='nofollow']</xpath>
+    </element>
+
+    <!-- Model Filter -->
+    <element name="modelFilter">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Model']/button</xpath>
+    </element>
+
+    <element name="modelFilterTextbox">
+        <xpath>//input[@id='Model_widget[]']</xpath>
+    </element>
+
+    <element name="modelFilterSelect">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Model']/ul/li/a/input[text()='$']</xpath>
+    </element>
+
+    <element name="modelFilterSelected">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Model']/ul/li/a/input[@checked]</xpath>
+    </element>
+
+    <!-- Price Filter -->
+    <element name="priceFilter">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Price_List']/button</xpath>
+    </element>
+
+    <element name="priceFilterSelect">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Price_List']/ul/li/a/input[@value='$']</xpath>
+    </element>
+
+    <element name="priceFilterSelected">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Price_List']/ul/li/a/input[@value='$' and @checked]</xpath>
+    </element>
+
+    <element name="filterBreadCrumb">
+        <xpath>//a[contains(@href,'Cars') and @rel='nofollow']</xpath>
+    </element>
+
+    <element name="filterBreadCrumbNotPresent">
+        <xpath>.//*[@id='car_breadcrumb']/li[4]</xpath>
+    </element>
+
+    <!-- Fuel Filter -->
+    <element name="fuelFilter">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Fuel_Type']/button</xpath>
+    </element>
+
+    <element name="fuelFilterSelect">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Fuel_Type']/ul/li/a/input[@value='$']</xpath>
+    </element>
+
+    <element name="fuelFilterSelected">
+        <xpath>//div[contains(@class,'filters-btn-group')]/div[@ganame='Fuel_Type']/ul/li/a/input[@value='$' and @checked]</xpath>
+    </element>
+
+    <element name="moreButton">
+        <xpath>//button[@id='listing-more-btn']</xpath>
+    </element>
+
+    <!-- Slider Kms Driven-->
+    <element name="kmsDrivenSlider">
+        <xpath>//div[@class='noUi-handle noUi-handle-lower']</xpath>
+    </element>
+
+    <!-- Year Of Make-->
+    <element name="yearOfMakeButton">
+        <xpath>//ul[@class='dropdown-menu dropdown-list-ul clear-more-filter']/../button</xpath>
+    </element>
+
+    <element name="yearOfMake">
+        <xpath>//input[@name='Year_widget[]' and @value='$']</xpath>
+    </element>
+
+
+    <!-- Owner Filter -->
+    <element name="ownerFilterSelect">
+        <xpath>//div[@class='no-of-oweners-radio clear-more-filter']/label/input[@name='No_of_owners_widget[]' and @value='$']/..</xpath>
+    </element>
+
+
+    <!-- Year Filter -->
+    <element name="yearFilter">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Year']/div/button</xpath>
+    </element>
+
+    <element name="yearFilterTextbox">
+        <xpath>//input[@id='Year_widget[]']</xpath>
+    </element>
+
+    <element name="yearFilterSelect">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Year']/div/ul/li/label[text()='$']</xpath>
+    </element>
+
+    <element name="yearFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Year']/div/ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <!-- Kms Driven Filter -->
+    <element name="kmsFilter">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Kms_Driven']/div/button</xpath>
+    </element>
+
+    <element name="kmsFilterSelect">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Kms_Driven']/div/ul/li/label[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="kmsFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Kms_Driven']/div/ul/li[@class='active']</xpath>
+    </element>
+
+    <!-- Color Filter -->
+    <element name="colorFilter">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Color']/div/button</xpath>
+    </element>
+
+    <element name="colorFilterTextbox">
+        <xpath>//input[@id='Color_widget[]']</xpath>
+    </element>
+
+    <element name="colorFilterSelect">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Color']/div/ul/li/label[text()='$']</xpath>
+    </element>
+
+    <element name="colorFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Color']/div/ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <!-- Locality Filter -->
+    <element name="localityFilter">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Locality']/div/button</xpath>
+    </element>
+
+    <element name="localityFilterTextbox">
+        <xpath>//input[@id='localities[]']</xpath>
+    </element>
+
+    <element name="localityFilterSelect">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Locality']/div/ul/li/label[text()='$']</xpath>
+    </element>
+
+    <element name="localityFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Locality']/div/ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <!-- Posted By Filter -->
+    <element name="postedByFilterSelect">
+        <xpath>//ul[@class='filters-check-group clear-more-filter']/li/label/input[@type='checkbox' and @value='$']</xpath>
+    </element>
+
+    <element name="postedByFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='You_are']/ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <!-- Car Type Filter -->
+    <element name="carTypeFilterSelect">
+        <xpath>//ul[@class='filters-check-group clear-more-filter']/li/label/input[@name='Car_Type_widget[]' and @value='$']</xpath>
+    </element>
+
+    <element name="carTypeFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Car_Type']/ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <!-- Condition Filter -->
+    <element name="conditionFilterSelect">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Condition']/ul/li/label[text()='$']</xpath>
+    </element>
+
+    <element name="conditionFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Condition']/ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <!-- Ad Type Filter -->
+    <element name="adTypeFilterSelect">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Ad_Type']/ul/li/label[text()='$']</xpath>
+    </element>
+
+    <element name="adTypeFilterSelected">
+        <xpath>//div[contains(@class,'more-filters-row')]/div[@ganame='Ad_Type']/ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <!-- Transmission Filter -->
+    <element name="transmissionFilterSelect">
+        <xpath>//ul[@class='filters-check-group clear-more-filter']/li/label/input[@name='Transmission_widget[]' and @value='$']</xpath>
+    </element>
+
+    <!-- Premium Ads Filter -->
+    <element name="premiumAdsFilterSelect">
+        <xpath>//label[@class='switch prm-ads-switch clear-more-filter']/span</xpath>
+    </element>
+
+    <element name="premiumAdsFilterSelected">
+        <xpath>//div[text()='Premium Ads']/../ul/li/label/input[@checked]</xpath>
+    </element>
+
+    <element name="premiumLabelforAds">
+        <xpath>//div[@class='label-special premium']</xpath>
+    </element>
+
+    <element name="cancelFilter">
+        <xpath>//a[@id='desktopFilterCancel']</xpath>
+    </element>
+
+    <element name="applyFilter">
+        <xpath>//a[starts-with(.,'Apply')]</xpath>
+    </element>
+
+    <element name="breadcrumb">
+        <xpath>//ul[@id='car_breadcrumb']/li/a</xpath>
+    </element>
+
+    <element name="breadcrumbFilters">
+        <xpath>//ul[@id='car_breadcrumb']/li[3]/following-sibling::li/span</xpath>
+    </element>
+
+    <element name="adCount">
+        <xpath>//h2</xpath>
+    </element>
+
+    <element name="adTupple">
+        <xpath>.//*[@id='products']/div/div</xpath>
+    </element>
+
+    <element name="paginationText">
+        <xpath>//div[@class='pull-left paging-lbl']</xpath>
+    </element>
+
+    <element name="pagination">
+        <xpath>//ul[@class='pagination']/li//*</xpath>
+    </element>
+
+    <element name="paginationSecondPage">
+        <xpath>(//a[contains(@href,'page=2')])[1]</xpath>
+    </element>
+
+    <element name="googleAds">
+        <xpath>//iframe[@title='3rd party ad content']</xpath>
+    </element>
+
+    <element name="minBudgetButton">
+        <xpath>.//*[@id='minRangePrice']</xpath>
+    </element>
+
+    <element name="minBudgetSignUpSection">
+        <xpath>//button[@id='minRangePrice']/../ul/li/a[contains(.,'$')]</xpath>
+    </element>
+
+    <element name="maxBudgetButton">
+        <xpath>.//*[@id='maxRangePrice']</xpath>
+    </element>
+
+    <element name="maxBudgetSignUpSection">
+        <xpath>//button[@id='maxRangePrice']/../ul/li/a[contains(.,'$')]</xpath>
+    </element>
+
+    <element name="email">
+        <xpath>//input[@class='form-control inlinealert-email']</xpath>
+    </element>
+
+    <element name="mobile">
+        <xpath>.//*[@name='alertsMobile']</xpath>
+    </element>
+
+    <element name="createAlertButton">
+        <xpath>//button[starts-with(.,'Create Alert')]</xpath>
+    </element>
+
+    <element name="textAfterCreatingAlert">
+        <xpath>//div[@class='inlinebock']</xpath>
+    </element>
+
+    <element name="changeCityLink">
+        <xpath>//a[@id='dropdownMenu1']/span/i</xpath>
+    </element>
+
+    <element name="citySearchTextBox">
+        <xpath>//ul[@class='city-select clearfix']/li/input</xpath>
+    </element>
+
+    <element name="citySelect">
+        <xpath>//ul[@id='citiSugg']/li/a[text()='$']</xpath>
+    </element>
+
+    <element name="cityPopUpCloseBtnCars">
+        <xpath>//button[@id='modal-citypopup-close']</xpath>
+    </element>
+
+    <element name="lookBeyondText">
+        <xpath>.//*[@id='interlinkDiv']/div/h5</xpath>
+    </element>
+
+    <element name="lookBeyondModel">
+        <xpath>.//*[@id='interlinkDiv']/div/ul/li[$]/div/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="lookBeyondModelPrice">
+        <xpath>.//*[@id='interlinkDiv']/div/ul/li[$]/div/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="lookBeyondModelImage">
+        <xpath>.//*[@id='interlinkDiv']/div/ul/li[$]/a/img</xpath>
+    </element>
+
+    <element name="lookBeyondModelViewDetail">
+        <xpath>.//*[@id='interlinkDiv']/div/ul/li[$]/div/ul/li[3]/button</xpath>
+    </element>
+
+    <element name="viewAllCarsButton">
+        <xpath>.//*[@id='interlinkDiv']/div/div/button</xpath>
+    </element>
+
+    <element name="findBestPriceCarsHeading">
+        <xpath>//div[@class='msp-head inlineblock']/h3</xpath>
+    </element>
+
+    <element name="findBestPriceCarsSelectModel">
+        <xpath>.//*[@id='mspModelDefault']</xpath>
+    </element>
+
+    <element name="findBestPriceCarsModelOptionSelect">
+        <xpath>.//*[@id='mspModelLi']/li[1]</xpath>
+    </element>
+
+    <element name="findBestPriceCarsYear">
+        <xpath>.//*[@id='mspYearDefault']</xpath>
+    </element>
+
+    <element name="findBestPriceCarsSelectYearOption">
+        <xpath>.//*[@id='mspYearLi']/li[1]</xpath>
+    </element>
+
+    <element name="findBestPriceCarsVariant">
+        <xpath>.//*[@id='mspVariantDefault']</xpath>
+    </element>
+
+    <element name="findBestPriceCarsVariantSelectOption">
+        <xpath>.//*[@id='mspVariantLi']/li[1]</xpath>
+    </element>
+
+    <element name="findBestPriceCarsKms">
+        <xpath>.//*[@id='mspKmsDefault']</xpath>
+    </element>
+
+    <element name="findBestPriceCarsKmsSelectOption">
+        <xpath>.//*[@id='mspKmsLi']/li[1]</xpath>
+    </element>
+
+    <element name="findBestPriceCarsResultText">
+        <xpath>//div[@class='msp-price']/div[1]</xpath>
+    </element>
+
+    <element name="findBestPriceCarsResultTextLeft">
+        <xpath>//span[@class='msp-range1 pull-left']</xpath>
+    </element>
+
+    <element name="findBestPriceCarsResultTextRight">
+        <xpath>//span[@class='msp-range2 pull-right']</xpath>
+    </element>
+
+    <element name="findBestPriceCarsResultRange">
+        <xpath>//div[@class='msp-range-sld-fill']</xpath>
+    </element>
+
+    <element name="ad_Reply">
+        <xpath>//button[contains(@class,'btn grid-button js-reply-button-trigger open-external-modal js-positionTagging') and (contains(@data-actionurl,'reply'))]</xpath>
+    </element>
+
+    <element name="replyContent">
+        <xpath>.//*[@id='replyContent']</xpath>
+    </element>
+
+    <element name="replyMobile">
+        <id>replyMobile</id>
+    </element>
+
+    <element name="replyEmail">
+        <id>replyEmail</id>
+    </element>
+
+    <element name="replySendButton">
+        <xpath>//input[@value='Send']</xpath>
+    </element>
+
+    <element name="replySentDisplayed">
+        <xpath>//div[@class='js-after-reply-content container-fluid']</xpath>
+    </element>
+
+    <element name="replySentSuccessMessage">
+        <xpath>(//div[contains(@class,'chat-head')])[2]</xpath>
+    </element>
+
+    <element name="captchaDisplayed">
+        <xpath>//div[contains(@class,'js-captcha')]</xpath>
+    </element>
+
+    <element name="captcha">
+        <xpath>//img[@class='js-captcha']</xpath>
+    </element>
+</elements>

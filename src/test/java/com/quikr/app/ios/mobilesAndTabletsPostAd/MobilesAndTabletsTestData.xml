@@ -1,0 +1,29 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="cityName">Bangalore</testData>
+    <testData name="cityNameForPostAd">Mumbai</testData>
+    <testData name="localityNameForPostAd">Agripada</testData>
+    <testData name="categoryName">Mobiles</testData>
+    <testData name="categoryValue">Mobiles &amp; Tablets</testData>
+    <testData name="subCategoryName">mobilePhones</testData>
+    <testData name="adTitle">i want to sell apple iPhone</testData>
+    <testData name="adDescription">Apple iPhone is in good condition with charger and it was used only 2 months </testData>
+    <testData name="youRTypeName">individual</testData>
+    <testData name="conditionTypeName">used</testData>
+    <testData name="priceAmount">45000</testData>
+    <testData name="name">Monu</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="mobileNo">9955199187</testData>
+    <testData name="brandNameOptionForMobilesCategory">brandNameOptionForMobilesCategory</testData>
+    <testData name="alsoIncludesOptionNameForMobilesCategory">alsoIncludesOptionNameForMobilesCategory</testData>
+    <testData name="successMsgAfterAdPost">We are reviewing your ad.</testData>
+    <testData name="adDescriptionInEditAd">Apple iPhone is in good condition with charger and ear phone and it was used only 2 months</testData>
+    <testData name="pinCode">560066</testData>
+    <testData name="address">Quikr india pvt ltd</testData>
+</data>
+
+
+
+
+

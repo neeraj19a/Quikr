@@ -1,0 +1,41 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+<element name="skipBanner">
+    <id>com.quikr:id/action_button_skip</id>
+</element>
+    <element name="homeAdTitle">
+        <id>com.quikr:id/btn_more</id>
+    </element>
+    <element name="vapTextLoad">
+        <id>com.quikr:id/screen_vap_ad_title</id>
+    </element>
+    <element name="snbOverlay">
+        <id>com.quikr:id/dialog_overlay_layout</id>
+    </element>
+    <element name="findCars">
+        <id>com.quikr:id/cnb_search_button</id>
+    </element>
+    <element name="carsSnbTitle">
+        <id>com.quikr:id/cars_ad_list_title_tv</id>
+    </element>
+    <element name="jobsSnbTitle">
+        <id>com.quikr:id/ad_title</id>
+    </element>
+    <element name="jobsworkFromHome">
+        <id>com.quikr:id/tvWorkFromHomeJobs</id>
+    </element>
+    <element name="realestateAutoSuggest">
+        <id>com.quikr:id/auto_suggest_name_tv</id>
+    </element>
+    <element name="realEstateSnbTitle">
+        <id>com.quikr:id/re_ad_list_title_tv</id>
+    </element>
+    <element name="snbTitle">
+        <id>com.quikr:id/thetitle</id>
+    </element>
+    <element name="EXCHANGE">
+        <name>EXCHANGE</name>
+    </element>
+    <element name="servicesSubCAt">
+        <id>com.quikr:id/txtSubCat</id>
+    </element>
+    </elements>

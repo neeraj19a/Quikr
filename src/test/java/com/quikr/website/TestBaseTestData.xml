@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../main/resources/TestData.xsd">
+
+    <testData name="city">bangalore</testData>
+    <testData name="cityUrl">bangalore</testData>
+    <testData name="NewJobsUrl">quikr.com/jobs</testData>
+    <testData name="validURL">.com</testData>
+    <testData name="basicUrl">.com</testData>
+    <testData name="papPageUrl">select-category</testData>
+    <testData name="categoryMobile">Mobiles &amp; Tablets</testData>
+    <testData name="subCatMobile">Mobile Phones</testData>
+    <testData name="title">Looking to sell my gently used phone.</testData>
+    <testData name="price">5000</testData>
+    <testData name="mobileBrand">Sony</testData>
+    <testData name="description">Description of an Automation script from Escrow automation tests</testData>
+    <testData name="sellerName">Raghu Prasad</testData>
+    <testData name="sellerMail">web19@mail.quikrtest.com</testData>
+    <testData name="sellerMobile">9900887766</testData>
+    <testData name="sellerAddress">Some Address</testData>
+    <testData name="sellerPincode">560001</testData>
+    <testData name="adSuccessfulPostedUrl">succeed</testData>
+    <testData name="minSalary">1000</testData>
+    <testData name="maxSalary">2000</testData>
+    <testData name="adTitle">Looking to sell my gently used phone.</testData>
+    <testData name="role1">Engineer</testData>
+    <testData name="description">I want to sell my used electronics items. Phone and laptop. All new condition.</testData>
+
+
+</data>

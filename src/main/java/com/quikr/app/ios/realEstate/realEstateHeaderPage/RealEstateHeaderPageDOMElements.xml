@@ -1,0 +1,15 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="setLocalityProjectsOrBuilders">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="searchButton">
+        <xpath>//UIAApplication[1]/UIAWindow[4]/UIAKeyboard[1]/UIAButton[4]</xpath>
+        <name>Search</name>
+    </element>
+
+    <element name="headerText">
+        <name>Adugodi</name>
+    </element>
+</elements>

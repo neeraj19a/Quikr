@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QuikrX Tests Suite" verbose="1" annotations="JDK">
+
+    <test name="QuikrX Api Tests">
+        <classes>
+        <class name="com.quikr.api.quikrX.quikrXEndToEnd.QuikrXApiEndToEndFlows"></class>
+        <class name="com.quikr.api.quikrX.quikrXApi.QuikrXApiTests"></class>
+        <class name="com.quikr.api.quikrX.quikrXApi.QuikrXApiMoreTests"></class>
+        <class name="com.quikr.api.quikrX.quikrXApi.QuikrOnlineIncentApiTests"></class>
+        <class name="com.quikr.api.quikrX.quikrXApi.QDPTests"></class>
+        <class name="com.quikr.api.quikrX.quikrXApi.QuikrXGradationTests"></class>
+        <class name="com.quikr.api.quikrX.quikrXApi.sellerFilterApiTests"></class>
+        </classes>
+    </test>
+
+</suite>

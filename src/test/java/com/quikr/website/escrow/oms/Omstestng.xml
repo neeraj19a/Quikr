@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OMS Tests Suite" time-out="300000" verbose="1" thread-count="5" parallel="classes" annotations="JDK">
+
+    <test name="OMS Tests">
+        <classes>
+            <class name="com.quikr.website.escrow.oms.OmsTests"></class>
+        </classes>
+    </test>
+
+</suite>
+

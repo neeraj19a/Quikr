@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QuikrX High Priority Tests Suite" verbose="1" annotations="JDK" thread-count="4" parallel="classes">
+
+    <test name="QuikrX High Priority Test">
+
+        <groups>
+            <run>
+                <include name="prodTest"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quikr.website.quikrX.quikrXLandingPage.QuikrXLandingPageTests"></class>
+            <class name="com.quikr.website.quikrX.quikrXDetails.QuikrXNewDetailsPageTest"/>
+            <class name="com.quikr.website.quikrX.quikrXHome.QuikrXNewListingPageTests"/>
+            <class name="com.quikr.website.quikrX.quikrxCart.QuikrxNewCartTest"></class>
+
+        </classes>
+    </test>
+
+</suite>

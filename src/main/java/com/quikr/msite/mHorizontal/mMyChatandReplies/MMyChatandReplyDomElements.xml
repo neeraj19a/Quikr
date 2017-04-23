@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="All">
+        <xpath>.//a[@id='filter_a']</xpath>
+    </element>
+
+    <element name="ByOthers">
+        <xpath>.//a[@id='filter_p']</xpath>
+    </element>
+
+    <element name="ByMe">
+        <xpath>.//a[@id='filter_s']</xpath>
+    </element>
+
+    <element name="TitleOfMsgs">
+        <xpath>.//span[@class='adInfoTitle']</xpath>
+    </element>
+
+    <element name="MessagesinChatandReply">
+        <xpath>(.//a[@class='clearfix chat-msgnew '])[1]</xpath>
+    </element>
+
+    <element name="chatAction">
+        <xpath>.//span[@class='icon-option script_toggle_settings']</xpath>
+    </element>
+
+    <element name="DeleteChat">
+        <xpath>.//li[@class='script_toggle_clear_confirm']</xpath>
+    </element>
+
+    <element name="YesButtonDeleteChat">
+        <xpath>.//button[@class='script_clear_yes']</xpath>
+    </element>
+
+    <element name="MessageDeleteChat">
+        <xpath>.//div[@class='clearConversation-text script_msg_clear']</xpath>
+    </element>
+
+    <element name="ShareIcon">
+        <xpath>.//span[@class='icon-attach script_toggle_attachements']</xpath>
+    </element>
+
+    <element name="ShareContact">
+        <xpath>.//span[@class='icon-send_contact']</xpath>
+    </element>
+
+    <element name="nameShareContact">
+        <xpath>.//input[@class='script_contact_name_input']</xpath>
+    </element>
+
+    <element name="ContactShareButton">
+        <xpath>.//button[@class='bulecolor-button script_attach_contact']</xpath>
+    </element>
+
+    <element name="SharedContact">
+        <xpath>(.//div[@class='attachingContact-wapp'])</xpath>
+    </element>
+
+    <element name="ShareButton">
+        <xpath>(.//button[starts-with(.,'Share')])[2]</xpath>
+    </element>
+
+    <element name="ChatTimings">
+        <xpath>(.//span[@class='script_msg_time'])[1]</xpath>
+    </element>
+
+    <element name="dismissNotification">
+        <xpath>(.//a[@id='closePushNotif'])[1]</xpath>
+    </element>
+
+</elements>

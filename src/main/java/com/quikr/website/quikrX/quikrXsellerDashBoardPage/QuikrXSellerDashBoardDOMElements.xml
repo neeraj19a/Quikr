@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="userName">
+        <xpath>//*[@id='username']</xpath>
+        <id>username</id>
+    </element>
+
+    <element name="password">
+        <xpath>//*[@id='userpwd']</xpath>
+        <id>userpwd</id>
+    </element>
+
+    <element name="submit">
+        <xpath> //*[@id='loginuser']/div[3]/button</xpath>
+    </element>
+
+    <element name="certifiedProduct">
+        <xpath>//*[@class='list-group']/li[2]/a</xpath>
+    </element>
+
+    <element name="editcertifiedProduct">
+        <xpath> //*[@id='subLinksCE']/a[1]</xpath>
+    </element>
+
+    <element name="editexchangeProduct">
+        <xpath> //*[@id='subLinksEX']/a[1]/strong</xpath>
+    </element>
+
+    <element name="exchangeProduct">
+        <xpath>//*[@class='list-group']/li[3]/a</xpath>
+    </element>
+
+    <element name="productId">
+        <xpath>//*[@id='$']/td1]</xpath>
+    </element>
+
+    <element name="brand">
+        <xpath>//*[@id='$']/td[2]</xpath>
+    </element>
+
+    <element name="skuName">
+        <xpath>//*[@id='$']/td[3]</xpath>
+    </element>
+
+    <element name="subCategory">
+        <xpath>//*[@id='$']/td[4]</xpath>
+    </element>
+
+    <element name="safetyStock">
+        <xpath>//*[@id='$']/td[5]</xpath>
+    </element>
+
+    <element name="price">
+        <xpath>//*[@id='$']/td[6]/input</xpath>
+    </element>
+
+    <element name="inventory">
+        <xpath>//*[@id='$']/td[8]/input</xpath>
+    </element>
+
+    <element name="status">
+        <xpath>//*[@id='$']/td[9]/div/label/input</xpath>
+    </element>
+
+    <element name="updateCatelog">
+        <xpath>.//*[@id='updateCatelog']</xpath>
+        <id>updateCatelog</id>
+    </element>
+
+    <element name="updateStatusByOrderId">
+        <xpath>.//*[@id='data-table']/table/tbody/tr/td[17]/button[@suborderId='$']</xpath>
+    </element>
+
+    <element name="statusBySubOrder">
+        <xpath>.//td[a='$']/following-sibling::td[2]</xpath>
+    </element>
+
+    <element name="midBySubOrder">
+        <xpath>.//td[a='$']/following-sibling::td[1]</xpath>
+    </element>
+
+    <element name="subOrderIdUpdateTab">
+        <id>subOrderID</id>
+    </element>
+
+    <element name="imeiNo">
+        <xpath>.//*[@id='invoice-form-block']/div[3]/div/input</xpath>
+    </element>
+
+    <element name="submitStatus">
+        <id>sbt-editStatus</id>
+    </element>
+
+    <element name="generateMidCe">
+        <xpath>.//*[@id='subLinksCE']/a[2]/strong</xpath>
+    </element>
+
+    <element name="generateMidEx">
+        <xpath>.//*[@id='subLinksEX']/a[2]/strong</xpath>
+    </element>
+
+
+    <element name="generateMidSelectAll">
+        <xpath>.//*[@id='generateMidCheckbox']</xpath>
+    </element>
+
+    <element name="generateMidBySubOrder">
+        <xpath>.//input[contains(@value,'_$')]</xpath>
+    </element>
+
+    <element name="generateSingleMid">
+        <xpath>.//*[@id='generateMidBtn']</xpath>
+    </element>
+
+    <element name="subOrderIdDeliveryTab">
+        <xpath>.//*[@id='pop_1']/td[1]</xpath>
+    </element>
+
+    <element name="submitDelivery">
+        <xpath>.//*[@id='updateMidBtn']</xpath>
+    </element>
+
+    <element name="deliveredTab">
+        <xpath>.//*[@id='subLinks']/a[3]</xpath>
+    </element>
+
+    <element name="allOrders">
+        <xpath>.//a[@href='#subLinks']</xpath>
+    </element>
+
+    <element name="midHistoryCE">
+        <xpath>.//*[@id='subLinksCE']/a[3]/strong</xpath>
+    </element>
+
+    <element name="midHistoryEx">
+        <xpath>.//*[@id='subLinksEX']/a[3]/strong</xpath>
+    </element>
+
+    <element name="pendingOrder">
+        <xpath>.//*[@id='subLinks']/a[1]/strong</xpath>
+    </element>
+
+    <element name="updateDispatch">
+        <xpath>.//*[@id='update_$']/a</xpath>
+    </element>
+
+    <element name="updateStatusToDispatch">
+        <xpath>.//*[@id='update_status']</xpath>
+    </element>
+
+    <element name="uploadPdf">
+        <id>userfile</id>
+    </element>
+
+    <element name="body">
+        <xpath>.//*[@id='editMIDModal']</xpath>
+    </element>
+
+    <element name="config">
+        <xpath>.//div[@class='left-col ht100']/ul/li[2]/a/strong</xpath>
+    </element>
+
+    <element name="productType">
+        <xpath>.//*[@id='subCategoryId']</xpath>
+    </element>
+
+    <element name="catLevel">
+        <xpath>.//*[@id='incentivizationPreferance']</xpath>
+    </element>
+
+    <element name="mode">
+        <xpath>.//*[@id='incentivizationMode']</xpath>
+    </element>
+
+    <element name="value">
+        <xpath>.//*[@id='discountValue']</xpath>
+    </element>
+
+    <element name="update">
+        <xpath>.//*[@id='updatePriceThresholdBtn']</xpath>
+    </element>
+
+    <element name="succMessage">
+        <xpath>.//div[@class='alert alert-success alert-dismissible']/strong</xpath>
+    </element>
+
+    <element name="closeButton">
+        <xpath>.//button[@class='close']</xpath>
+    </element>
+
+
+</elements>

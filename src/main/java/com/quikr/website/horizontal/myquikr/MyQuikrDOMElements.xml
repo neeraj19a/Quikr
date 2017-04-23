@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="manageFreeAds">
+        <xpath>//div[@class='dashboard-content user-feeds clearfix']/ul/li[4]/a</xpath>
+    </element>
+
+    <element name="manageMyAds">
+        <xpath>//div[@id='accordion' and not(@disabled)]/div[4]/h5/a</xpath>
+    </element>
+
+    <element name="RepliesToMyAds">
+        <xpath>.//*[@id='sidebar']/div/div[11]/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="DeleteRep">
+        <xpath>.//*[@id='adsmanagement']/table/tbody/tr[2]/td[8]/a</xpath>
+    </element>
+
+    <element name="MsgAfterDeleteRep">
+        <xpath>.//*[@id='content']/table/tbody/tr[2]/td/div</xpath>
+        <css>#content>table>tbody>tr>td>div</css>
+    </element>
+
+    <element name="ActiveAds">
+      <xpath>(.//a[contains(@href,'activeads')])[3]</xpath>
+    </element>
+
+    <element name="ConverttoPremiumAd">
+        <xpath>//div[@class='Ad-convert']/a</xpath>
+    </element>
+
+    <element name="DeleteAd">
+        <!--<xpath>.//*[@id='div-225479424']/div[4]/div/div[3]/a/span[1]</xpath>-->
+        <xpath>//span[@class='OptionIcon_text']</xpath>
+    </element>
+
+    <element name="ReasonOfDeleteAd">
+        <xpath>//input[@id='chkDeleteReason']</xpath>
+    </element>
+    <element name="SubmitButton">
+        <xpath>.//*[@id='submitBtnId']</xpath>
+        <css>#submitBtnId</css>
+    </element>
+    <element name="MsgAfterAdDeleted">
+        <xpath>.//*[@id='content']/table/tbody/tr[2]/td/div</xpath>
+        <css>#content>table>tbody>tr>td>div</css>
+    </element>
+
+    <element name="updateProfile">
+        <xpath>//a[@href='/MyQuikr?action=profileedit']</xpath>
+    </element>
+
+    <element name="userAddress">
+        <id>usr_address</id>
+        <css>#usr_address</css>
+    </element>
+
+    <element name="updateButton">
+        <css>.myqkr_yellow_button</css>
+    </element>
+
+    <element name="updateMsg">
+        <id>headTxt</id>
+        <css>#headTxt</css>
+    </element>
+
+    <element name="myQuikrIcon">
+        <xpath>//a[@id='signIn']</xpath>
+    </element>
+
+    <element name="myQuikrIconNewUI">
+        <css>#signIn</css>
+    </element>
+
+
+    <element name="updateProfileFromDropDown">
+        <xpath>//a[@title='Update My Profile']</xpath>
+    </element>
+
+    <element name="DeleteAd">
+        <xpath>(//span[@class='OptionIcon_text'])[3]</xpath>
+    </element>
+    <element name="ReasonOfDeleteAd">
+        <xpath>//input[@id='chkDeleteReason']</xpath>
+    </element>
+    <element name="SubmitButton">
+        <xpath>.//*[@id='submitBtnId']</xpath>
+        <css>#submitBtnId</css>
+    </element>
+    <element name="MsgAfterAdDeleted">
+        <xpath>.//*[@id='content']/table/tbody/tr[2]/td/div</xpath>
+        <css>#content>table>tbody>tr>td>div</css>
+    </element>
+
+    <element name="editAd">
+        <xpath>//div[@class='ManageBTN-Area']/div[2]//a</xpath>
+    </element>
+
+    <element name="editAdElement">
+        <xpath>(//div[@class='ManageBTN-Area']/div[2])[1]</xpath>
+    </element>
+
+    <element name="editAlertButton">
+        <xpath>//span[starts-with(@id,'actions_')]/a[1]</xpath>
+    </element>
+
+    <element name="msgAfterEditAlert">
+        <css>#editAlertBoxContent > .unsubtitle2</css>
+    </element>
+
+    <element name="recommendedForMeFromDropDown">
+            <xpath>//a[@title='Recommended for Me']</xpath>
+    </element>
+
+    <element name="notificationBellImageInRecommendedForMeAds">
+        <xpath>//span[@class='no_new_ads_txt']</xpath>
+    </element>
+
+    <element name="adsInRecommendedForMe">
+        <xpath>//div[@class='snb_entire_ad ad ']</xpath>
+    </element>
+
+    <element name="userProfileIcon">
+        <id>icon-basic-user1</id>
+    </element>
+
+    <element name="myShortLists">
+        <xpath>//a[@href='/MyQuikr?action=mysavedads']</xpath>
+    </element>
+
+    <element name="myChat">
+        <xpath>//strong[@class='left-side-filter-name']/a</xpath>
+    </element>
+
+    <element name="adTitleActiveAd">
+        <xpath>.//div[@class='AdTitlecheckDetails']/p[1]</xpath>
+    </element>
+
+    <element name="editAlertRecommendedSection">
+        <xpath>//a[@title='Edit Alert']</xpath>
+    </element>
+
+    <element name="unsubscribeAlertRecommendedSection">
+        <xpath>//a[@title='Unsubscribe Alert']</xpath>
+    </element>
+
+    <element name="alertBoxRecommendedSection">
+        <xpath>//div[@id='editAlertBox']</xpath>
+    </element>
+
+    <element name="selectAllbrandsEditAlertRecommendedSection">
+        <css>aall_Brand_name</css>
+    </element>
+
+    <element name="brandCanonEditAlertRecommendedSection">
+        <css>#a_Brand_name1</css>
+    </element>
+
+    <element name="brandCasioEditAlertRecommendedSection">
+        <css>#a_Brand_name2</css>
+    </element>
+
+    <element name="editAlertSuccessMsgRecommendedSection">
+        <xpath>//div[@id='editAlertBoxContent']/div[@class='unsubtitle2']</xpath>
+    </element>
+
+    <element name="submitButtonAlertRecommendedSection">
+        <xpath>//input[@class='NewIntentSubbtn']</xpath>
+    </element>
+
+    <element name="unsubscribeReasonCheckBox">
+        <css>#chkunsubscribeReason</css>
+    </element>
+
+    <element name="unsubscribeAlertConfirmMsgRecommendedSection">
+        <xpath>//div[@id='unsubAlertBoxSuccess']/div[@class='unsubtitle']</xpath>
+    </element>
+
+    <element name="expiredAdsManagementLink">
+        <xpath>//ul[@id='collapse3' and not(@disabled)]/li[2]/a</xpath>
+    </element>
+
+    <element name="repostAdSelectionCheckBox">
+        <xpath>//form[@id='adsmanagement']/table/tbody/tr[2]/td[5]/a[2]</xpath>
+    </element>
+
+    <element name="repostButton">
+        <xpath>//input[@value='Repost']</xpath>
+    </element>
+
+    <element name="adRepostConfirmation">
+        <xpath>//td[@bgcolor='#e5fdce']/div</xpath>
+    </element>
+
+    <element name="myAlertsDropDown">
+        <xpath>//a[@title='My Alerts']</xpath>
+    </element>
+
+    <element name="alertUpdateConfirmation">
+        <xpath>//div[@class='unsubtitle2']</xpath>
+    </element>
+
+    <element name="unsubscribeAlertButton">
+        <xpath>//span[starts-with(@id,'actions_')]/a[2]</xpath>
+    </element>
+
+    <element name="unsubscribeReason">
+        <xpath>//input[@id='chkunsubscribeReason']</xpath>
+    </element>
+
+    <element name="unsubscribeReasonSubmit">
+        <xpath>//a[@class='all_button']/div</xpath>
+    </element>
+
+    <element name="premiumAdsManagement">
+        <xpath>//a[@href='/MyQuikr?action=premiumads']</xpath>
+    </element>
+
+    <element name="premiumAdsManagementClickEdit">
+        <xpath>//*[@id='adsmanagement']/table/tbody/tr[2]/td[5]/a[2]</xpath>
+    </element>
+
+    <!-- DOM elements for the user profilepage in RESPONSIVE HP -->
+
+    <element name="viewProfileButtonVap">
+        <xpath>//a[@title='View Profile']</xpath>
+    </element>
+
+    <element name="userAccountName_ResponsiveHP">
+        <!--<xpath>//span[@class='cntct-text ']/a</xpath> -->
+        <xpath>//a[@title='View Profile']</xpath>
+    </element>
+
+    <element name="userProfileNameImageProfilePage_ResponsiveHP">
+        <xpath>//div[@class='profile-user-initials']</xpath>
+    </element>
+
+    <element name="userProfileNameProfilePage_ResponsiveHP">
+        <xpath>//div[@class='profile-detailes']/div/div/h6[@class='text-center']</xpath>
+    </element>
+
+    <element name="adPostedCountUserProfilePage_ResponsiveHP">
+        <xpath>(//div[@class='profile-info col-sm-offset-2 col-md-offset-0 col-lg-offset-0']/ul/li)[1]</xpath>
+    </element>
+
+    <element name="firstAdListedUserProfilePage_ResponsiveHP">
+        <xpath>//div[@class='col-xs-12 col-sm-9 col-md-9']/div/h5/a</xpath>
+    </element>
+
+    <element name="MakeAnOfferBtnUserProfilePage_ResponsiveHP">
+        <xpath>//input[@value='Make an Offer']</xpath>
+    </element>
+
+    <element name="MakeAnOfferPriceUserProfilePage_ResponsiveHP">
+        <xpath>//input[@id='price_quote']</xpath>
+    </element>
+
+    <element name="MakeAnOfferEmailUserProfilePage_ResponsiveHP">
+        <xpath>//input[@id='email_quote']</xpath>
+    </element>
+
+    <element name="MakeAnOfferMobileUserProfilePage_ResponsiveHP">
+        <xpath>//input[@id='mobile_quote']</xpath>
+    </element>
+
+    <element name="MakeAnOfferCityUserProfilePage_ResponsiveHP">
+        <xpath>//input[@name='currency']</xpath>
+    </element>
+
+    <element name="MakeAnOfferSendOfferProfilePage_ResponsiveHP">
+        <xpath>//button[@id='send-offer-btn']</xpath>
+    </element>
+
+    <!--Your Offer has been sent !-->
+    <element name="MakeAnOfferConfirmationUserProfilePage_ResponsiveHP">
+        <xpath>//div[@class='quikrpay_success_txtarea hide make-an-offer-succeess-message show']/p[1]</xpath>
+    </element>
+
+    <element name="BuyNowBtnUserProfilePage_ResponsiveHP">
+        <xpath>//input[@class='btn btn-default offer-btn '][@value='Buy Now']</xpath>
+    </element>
+
+    <element name="BuyNowConfirmationUserProfilePage_ResponsiveHP">
+        <xpath>//h1[@class='hidden-xs hidden-sm' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="FirstChickletUserProfilePage_ResponsiveHP">
+        <xpath>//ul[@class='hidden-xs']/li/a</xpath>
+    </element>
+
+    <element name="LocalityChickletUserProfilePage_ResponsiveHP">
+        <xpath>(//ul[@class='hidden-xs']/li/a)[2]</xpath>
+    </element>
+
+    <element name="SelectedChickletSnb_ResponsiveHP">
+        <xpath>//div[@class='chicklet_div chiclet_selected']</xpath>
+    </element>
+
+    <element name="searchField">
+        <xpath>//input[@name='query']</xpath>
+    </element>
+
+    <element name="searchButton">
+        <xpath>//button[@id='searchbar-btn-search']</xpath>
+    </element>
+
+    <element name="postAdButton">
+        <xpath>//div[@class='post-ad-section pull-right']/a[1]</xpath>
+    </element>
+
+    <element name="myCartLink">
+        <xpath>//a[@class='mycart']</xpath>
+    </element>
+
+    <element name="languagesLink">
+        <xpath>//ul[@class='pull-right']/li[2]/a</xpath>
+    </element>
+
+    <element name="chickletsUserProfilePage">
+        <xpath>//ul[@class='hidden-xs']/li/a</xpath>
+    </element>
+
+    <element name="AdsUserProfilePage">
+        <xpath>//div[@class='col-xs-12 col-sm-9 col-md-9']/div/h5/a</xpath>
+    </element>
+
+    <element name="PaginationProfilePage">
+        <xpath>//ul[@class='pagination']/li/a</xpath>
+    </element>
+
+    <element name="PaginationProfilePageRight">
+        <xpath>//a[@class='icon-arrow-right']</xpath>
+    </element>
+
+    <element name="PaginationProfilePageLeft">
+        <xpath>//a[@class='icon-arrow-left']</xpath>
+    </element>
+
+    <element name="selectGunturSnb">
+        <xpath>//a[@href='?selected_city=1'][@id='currentCity']</xpath>
+    </element>
+
+    <!--My Quikr Responsive Page Locators
+  -->
+    <element name="emailVerifiedMyQuikr">
+        <xpath>//em[@class='verified-mob']/i</xpath>
+    </element>
+
+    <element name="addMoreEmailMyQuikr">
+        <xpath>(//a[@class='add-more'])[2]</xpath>
+    </element>
+
+    <element name="addEmailMyQuikr">
+        <id>add-email</id>
+    </element>
+
+    <element name="addEmailandVerifyButton">
+        <xpath>(//a[@class='btn btn-default add-btn'])[2]</xpath>
+    </element>
+
+    <element name="myAccountUsernameonSingInMenu">
+        <xpath>.//a[@class='loggedin']</xpath>
+    </element>
+
+    <element name="myAccountUsername">
+        <xpath>.//div[@class='acc-header']/*[@class='firstName']</xpath>
+    </element>
+
+    <element name="mobileNumberMyQuikrResponsivePage">
+        <xpath>(.//div[@class='info-details'])[1]/span</xpath>
+    </element>
+
+    <element name="emailVerifiedTickMyQuikrResponsivePage">
+        <xpath>(.//i[@class='icon-tick-circle'])[1]</xpath>
+    </element>
+
+    <element name="profileUserInitials">
+        <xpath>//div[@class='profile-user-initials and not(@disabled)']</xpath>
+    </element>
+
+    <element name="manageAlerts">
+        <xpath>//div[@id='accordion']/div[6]/h5/a</xpath>
+    </element>
+
+
+</elements>

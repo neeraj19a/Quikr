@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Msite Escrow Suite" >
+    <test name="Msite Escrow EndToEnd Tests"  verbose="1" annotations="JDK" thread-count="2" parallel="classes">
+
+        <packages>
+            <package name="com.quikr.msite.mEscrow.mEscrowEndToEnd.*"/>
+        </packages>
+
+
+    </test>
+</suite>

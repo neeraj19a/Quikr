@@ -1,0 +1,8 @@
+{
+  "status" : "Production",
+  "from": 0,
+  "size": 10,
+  "sort": {
+    "model_popularity": "asc"
+  }
+}

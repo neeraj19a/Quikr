@@ -1,0 +1,86 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="filterButton">
+        <name>Filter</name>
+    </element>
+
+    <element name="brandName">
+        <name>Brand Name</name>
+    </element>
+
+    <element name="brandNameOption">
+        <name>Apple</name>
+    </element>
+
+    <element name="titleNameOnSnbPage">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[$]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="listOfAllUIATableCell">
+        <class>UIATableCell</class>
+    </element>
+
+    <element name="online">
+        <name>Online</name>
+    </element>
+
+    <element name="priceButton">
+        <name>Price</name>
+    </element>
+
+    <element name="sortDownArrow">
+        <name>sort down</name>
+    </element>
+
+    <element name="cellList">
+        <class>UIATableCell</class>
+    </element>
+
+    <element name="adType">
+        <name>Ad Type</name>
+    </element>
+
+    <element name="wantButton">
+        <name>Want</name>
+    </element>
+
+    <element name="selectCheckboxForCurrentSelectedCity">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAButton[5]</xpath>
+    </element>
+
+    <element name="cancelButton">
+        <name>Cancel</name>
+    </element>
+
+    <element name="chatButtonOnSnbPage">
+        <name>CHAT</name>
+    </element>
+
+    <element name="uIAStaticText">
+        <class>UIAStaticText</class>
+    </element>
+
+    <element name="recentlyPostedTab">
+        <name>Recently Posted</name>
+    </element>
+
+    <element name="nearestTab">
+        <name>Nearest</name>
+    </element>
+
+    <element name="lowestPriceTab">
+        <name>Lowest Price</name>
+    </element>
+
+    <element name="highestTab">
+        <name>Highest Price</name>
+    </element>
+
+    <element name="sortButton">
+        <name>Sort</name>
+    </element>
+
+    <element name="filterButton">
+        <name>Filters</name>
+    </element>
+</elements>

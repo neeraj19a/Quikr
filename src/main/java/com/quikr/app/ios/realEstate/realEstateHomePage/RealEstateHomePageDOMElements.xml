@@ -1,0 +1,35 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="residential">
+        <name>RESIDENTIAL</name>
+    </element>
+
+    <element name="commercial">
+        <name>COMMERCIAL</name>
+    </element>
+
+    <element name="agriculture">
+        <name>AGRICULTURE</name>
+    </element>
+
+    <element name="subCategoryOfRealEstateCategory">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAButton[7]</xpath>
+    </element>
+
+    <element name="rent">
+        <name>Rent</name>
+    </element>
+
+    <element name="buy">
+        <name>Buy</name>
+    </element>
+
+    <element name="pgOrFlat">
+        <name>PG/Flatmates</name>
+    </element>
+
+    <element name="clickOnLocalityOrProjectsOrBuildersSearchBox">
+        <name>Locality, projects or builders</name>
+    </element>
+
+</elements>

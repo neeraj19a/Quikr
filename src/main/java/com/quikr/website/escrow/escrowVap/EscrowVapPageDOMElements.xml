@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+    <element name="adTitle">
+        <xpath>//header[@class='imgHeader grad1 hidden-xs']/h1[@class='mainHeading']</xpath>
+    </element>
+
+    <element name="maoButton">
+        <xpath>//div[@class='deskTab']/a</xpath>
+    </element>
+    <element name="buynowButton">
+        <xpath>//div[@class='deskTab']/a[contains(text(),'Buy Now')]</xpath>
+    </element>
+
+    <element name="maoPopUpHeader">
+        <xpath>//div[@id='buyerFormWrap']//p[@class='vap-rgt-headtxt']</xpath>
+    </element>
+    <element name="buyNowPopUpHeader">
+        <xpath>//div[@id='escrow-pay-now-popup']//div[@class='escrow-make-offer-popup-top-heading']</xpath>
+    </element>
+
+    <element name="successIVR">
+        <xpath>//root/status</xpath>
+    </element>
+
+    <element name="offerPriceTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='price_quote']</xpath>
+    </element>
+    
+    <element name="offerEmailTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='email_quote']</xpath>
+    </element>
+
+    <element name="offerMobileTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='mobile_quote']</xpath>
+    </element>
+
+    <element name="offerCityTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='buyerCity']</xpath>
+    </element>
+    <element name="offerCitySuggestion">
+        <xpath>//div[@class='autocomplete-suggestion']/strong</xpath>
+    </element>
+
+    <element name="sendOfferButton">
+        <xpath>//form[@id='buyerForm']//input[@id='submit_myoffer']</xpath>
+    </element>
+
+    <element name="sendOfferButtonBuyNow">
+        <xpath>//button[@id='send-offer-btn']</xpath>
+    </element>
+
+
+    <element name="offerPriceTextfieldSnB">
+        <id>price_quote</id>
+
+    </element>
+
+    <element name="offerEmailTextfieldSnB">
+        <id>email_quote</id>
+
+    </element>
+
+    <element name="offerMobileTextfieldSnB">
+        <id>mobile_quote</id>
+
+    </element>
+
+    <element name="offerCityTextfieldSnB">
+        <xpath>//div[@id='buyer-city-wrap']//input[@Id='autocomplete']</xpath>
+
+    </element>
+
+    <element name="letscompleteorder">
+        <xpath>//h1[contains(text(),' Hello! let’s complete your order')]</xpath>
+    </element>
+    <element name="pleaseWaitMessage">
+        <xpath>//div[@class='escrow-make-offer-popup-send-btn']/strong</xpath>
+    </element>
+
+    <element name="offerSentMessageAccept">
+        <!--xpath>//section[@class='vap-offer-sent-wrap']//p[2]</xpath-->
+        <xpath>//section[@id='PopupBuyNowAd']/header/p[1]/span</xpath>
+    </element>
+
+    <element name="offerSentMessage">
+        <!--xpath>//section[@class='vap-offer-sent-wrap']//p[2]</xpath-->
+        <xpath>//section[@class='vap-offer-sent-wrap']//p[2]/span/span</xpath>
+
+    </element>
+
+    <element name="closeOfferSuccessButton">
+        <xpath>//div[@id='buyerFormWrap']/a</xpath>
+    </element>
+
+    <element name="offerSentMessageSnB">
+        <xpath>//span[@class='maoheadtitle']</xpath>
+    </element>
+
+
+    <element name="closeOfferSuccessButtonSnB">
+        <xpath>//span[@class='escrow-make-offer-popup-close-sprite']</xpath>
+    </element>
+
+    <element name="body">
+        <css>body</css>
+    </element>
+    <element name="adSold">
+        <class>escrow-sold-now-vap</class>
+    </element>
+
+    <element name="offerAcceptedPopupHeader">
+        <xpath>//div[@class='escrow-mop-accept-top-heading']</xpath>
+    </element>
+
+    <element name="offerAcceptedButton">
+        <xpath>//div[@id='escrowpopupcontainer']//button</xpath>
+    </element>
+
+    <element name="offerAcceptedButtonMyOffer">
+        <xpath>//a[starts-with(@data-ofid,'$')][2]</xpath>
+    </element>
+
+    <element name="offerAccepteName">
+        <xpath>//input[@id='name']</xpath>
+    </element>
+
+    <element name="offerAcceptButton">
+        <xpath>//a[@class='acf_acptbtn']</xpath>
+    </element>
+
+    <element name="makeAnOfferSnB">
+        <xpath>//div[@id='escrow-make-offer-popup']//div[@class='escrow-make-offer-popup-wrapper']</xpath>
+    </element>
+
+    <element name="offerAcceptedMessage">
+        <xpath>//a[starts-with(@data-ofid,'$')][2]</xpath>
+        <!--xpath>//div[@id='acpted_sec']//span[@class='acf_head']</xpath-->
+    </element>
+    <element name="buyNowOfferAutoAccept">
+        <id>escrowPayLink</id>
+    </element>
+
+    <element name="buyMaoButton">
+        <xpath>//tr/td/button</xpath>
+    </element>
+    <element name="submitUserDetails">
+        <xpath>//div[@class='delivSection']//button[@id='accept_submit_btn']</xpath>
+    </element>
+    <element name="hiUsernameHeader">
+        <xpath>//h4[@class='readyCounter']</xpath>
+    </element>
+    <element name="counterOfferPrice">
+        <xpath>//input[@id='counter_offer']</xpath>
+    </element>
+    <element name="counterOfferName">
+        <xpath>//input[@id='counterName']</xpath>
+    </element>
+    <element name="counterOfferPincode">
+        <id>pincode</id>
+    </element>
+    <element name="counterOfferAddress">
+        <id>address</id>
+    </element>
+    <element name="counterOfferMobile">
+        <id>mobile</id>
+    </element>
+
+    <element name="counterOfferSubmitButton">
+        <xpath>//button[@class='acf_cbo_btn']</xpath>
+       </element>
+    <element name="counterOfferButton">
+        <xpath>//a[starts-with(@data-ofid,'$') and contains(text(),'Negotiate') ]</xpath>
+        <!--xpath>//a[@class='acf_counterbtn']</xpath-->
+    </element>
+
+    <element name="counterOfferButtonNegotiate">
+        <xpath>//a[starts-with(@data-ofid,'$') and contains(text(),'Negotiate')]/span[contains(text(),'You requested')]</xpath>
+        <!--xpath>//a[@class='acf_counterbtn']</xpath-->
+    </element>
+
+    <element name="counterOfferButtonAfterPrice">
+        <xpath>//a[starts-with(@data-ofid,'$') and @class='counterOfferBtn  makeCounterOfferBtn']</xpath>
+        <!--xpath>//a[@class='acf_counterbtn']</xpath-->
+    </element>
+    <element name="counterOfferSubmitted">
+        <!--xpath>//span[@class='YourAcceptance']</xpath-->
+        <xpath>//div[@id='sent_counter_sec']//span[@class='acf_head']</xpath>
+    </element>
+
+    <element name="counterOfferPriceMyOffer">
+        <!--xpath>//span[@class='YourAcceptance']</xpath-->
+        <xpath>//div[@data-ofid='$']//input[@class='form-input']</xpath>
+    </element>
+
+
+
+
+    <element name="OfferAccepted">
+        <xpath>//span[@class='YourAcceptance']</xpath>
+    </element>
+    <element name="body">
+        <xpath>//body</xpath>
+    </element>
+    <element name="userProfileLink">
+        <xpath>//a[@title='View Profile']</xpath>
+    </element>
+    <element name="userProfileimg">
+        <xpath>//div[@class='profile-img']/div</xpath>
+    </element>
+
+    <element name="userProfileButtons">
+        <xpath>//div[@class='profile-offer-section']//input</xpath>
+    </element>
+
+    <element name="userProfileButtons1">
+        <xpath>//div[@id='NewMakeAnOfferSection']//span/b</xpath>
+    </element>
+
+    <element name="counterOfferLess">
+        <xpath>//span[@class='errorTxt']</xpath>
+    </element>
+    <element name="buyerSellerSame">
+        <xpath>//span[@id='email_quote_err']</xpath>
+    </element>
+
+    <element name="buttonClose">
+        <xpath>//button[@class='close']</xpath>
+    </element>
+
+    <element name="signInButtonResponsiveHP">
+        <xpath>//a[@class='signInButton']</xpath>
+    </element>
+
+    <element name="emailId">
+        <xpath>//input[@id='fullnameFromPopUp']</xpath>
+    </element>
+
+    <element name="password">
+        <id>password</id>
+    </element>
+
+    <element name="submitButtonNewUI">
+        <xpath>//div[@class='custom-form-controls login-screen']/button[contains(text(),'Login')]</xpath>
+    </element>
+
+    <element name="myOffer">
+        <xpath>//h5/a[contains(text(),'My Doorstep Offers')]</xpath>
+    </element>
+
+    <element name="sellerTabMyOffer">
+        <xpath>//li[@class='tab1']//strong[contains(text(),'Selling')]</xpath>
+    </element>
+
+    <element name="totalAds">
+        <xpath>//div[@class='row commonTop']/div</xpath>
+    </element>
+    <element name="viewOffer">
+        <xpath>//button[@id='viewOffers']</xpath>
+    </element>
+    <element name="acceptOffer">
+        <xpath>//a[contains(text(),'Accept offer')]</xpath>
+    </element>
+    <element name="counterOffer">
+        <xpath>//div[@id='viewAllOffersContainer']//a[@class='btn btn-default counter ']</xpath>
+    </element>
+    <element name="acceptOfferLanding">
+        <xpath>//button[@id='accept_submit_btn']</xpath>
+    </element>
+    <element name="counterOfferLanding">
+        <xpath>//button[@id='counter_submit_btn']</xpath>
+    </element>
+
+    <!--BUYER TAB-->
+    <element name="MobileVerificationPayment">
+        <xpath>//input[@id='saf_mob']</xpath>
+    </element>
+
+    <element name="MobileVerificationPaymentSubmit">
+        <xpath>//button[@class='saf_submitbtn']</xpath>
+    </element>
+    <element name="buyerTabMyOffer">
+        <xpath>//li[@class='tab2']/a/strong</xpath>
+    </element>
+
+    <element name="buyerAds">
+        <xpath>//ul[@class='buyer_lists row']/li[1]</xpath>
+    </element>
+    <element name="counterOfferTextBuyer">
+        <xpath>//div[@class='seller_responds_hold seller_offer_blue seller_counter_offer_div']/i</xpath>
+    </element>
+    <element name="acceptOfferTextBuyer">
+        <xpath>//div[@class='seller_responds_hold seller_accepted seller_accept_offer_div']/i</xpath>
+    </element>
+    <element name="payNowButton">
+        <xpath>//a[@class='pay_now pay_now_btn ']</xpath>
+    </element>
+    <element name="payNowLandingPage">
+        <xpath>//button[@id='pay_now_using_card']</xpath>
+    </element>
+
+    <element name="chatIcon">
+        <xpath>//i[@class='doorstep_sprite go_back_icon']</xpath>
+    </element>
+
+    <element name="charIconInputField">
+        <xpath>//div[@class='New-ChatMain-Wapp']//div[@class='ChatType-inputText script_input_chat']</xpath>
+    </element>
+    <!--element name="payNowLandingPage">
+        <xpath>//div[@class='form-group address-form ']//button[@class='payment-active-btn']</xpath>
+    </element-->
+
+    <element name="paymentFromChat">
+        <xpath>//div[@class='MakeOffer-BTNWapp']//button[@class='MChat-BlueButton Main-MakeOffer-Btn script_epb']</xpath>
+    </element>
+
+
+    <element name="bidButtonVap">
+        <xpath>//span[@class='bidNow_vapbtn']/a</xpath>
+    </element>
+
+    <element name="auctionLabel">
+        <xpath>//div[@class='bidtime_wrap']/span/span</xpath>
+    </element>
+
+    <element name="placeBidLabel">
+        <xpath>//div[@class='bid_frm_container']/span[@class='placeBid']</xpath>
+    </element>
+    <element name="lastBidLabel">
+        <xpath>//div[@class='bid_frm_container']/span[@class='minBid']</xpath>
+    </element>
+
+    <element name="inputBid">
+        <xpath>//div[@class='bid_frm_container']//span[@class='bidInpWrp']/input</xpath>
+    </element>
+    <element name="placeBid">
+        <xpath>//input[@id='submit_myoffer']</xpath>
+    </element>
+    <element name="bidClose">
+        <xpath>close-smo-popup ltboxClose</xpath>
+    </element>
+
+    <element name="invalidBidError">
+        <xpath>//span[@id='bidInp_err']</xpath>
+    </element>
+    <element name="bidSuccessfull">
+        <xpath>//section[@class='vap-offer-sent-wrap']//p[1]</xpath>
+    </element>
+
+
+    <element name="bidPriceTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='price_quote']</xpath>
+    </element>
+
+    <element name="bidderEmailTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='email_quote']</xpath>
+    </element>
+
+    <element name="bidderMobileTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='mobile_quote']</xpath>
+    </element>
+
+    <element name="bidderCityTextfield">
+        <xpath>//form[@id='buyerForm']//input[@id='buyerCity']</xpath>
+    </element>
+    <element name="bidderCitySuggestion">
+        <xpath>//div[@class='autocomplete-suggestion']/strong</xpath>
+    </element>
+
+</elements>

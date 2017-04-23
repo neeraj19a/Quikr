@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="newCarsAdsSNBSearchResult">
+        <xpath>//div[@class='snbCard']/div</xpath>
+    </element>
+
+    <element name="carsNamefromSNBSearchResult">
+        <xpath>//a[@class='js-nc-snbCard-href']</xpath>
+    </element>
+
+    <element name="carsImageAccordingToProductName">
+        <xpath>//img[contains(@title,'$')]</xpath>
+    </element>
+
+    <element name="priceofNewCarsSnbResult">
+        <xpath>//span[@class='js-nc-price']</xpath>
+    </element>
+
+    <element name="newCarsSnbResultAttributes">
+        <xpath>//ul[@class='nc-features col-xs-12']/li/span[2]</xpath>
+    </element>
+
+    <element name="newCarsSnbResultAttributesValues">
+        <xpath>//ul[@class='nc-features col-xs-12']/li/span[1]</xpath>
+    </element>
+
+    <element name="onRoadPriceButtonforSNBResults">
+        <xpath>//a[contains(@href,'http://www.quikr.com/cars')]/button[starts-with(.,'On Road Price')]</xpath>
+    </element>
+
+    <element name="mostPopularComparisonsSNBResults">
+        <xpath>//h3[text()='Most Popular Comparisons']</xpath>
+    </element>
+
+    <element name="mostPopularComparisonsImagesSNBResults">
+        <xpath>//h3[text()='Most Popular Comparisons']/../div/a/div/img</xpath>
+    </element>
+
+    <element name="mostPopularComparisonsVS">
+        <xpath>//div[@class='vs']/span</xpath>
+    </element>
+
+    <element name="mostPopularCarsComparisonName">
+        <xpath>//span[contains(@class,'js-carName')]</xpath>
+    </element>
+
+    <element name="mostPopularCarsComparisonPrice">
+        <xpath>//span[contains(@class,'js-price')]</xpath>
+    </element>
+
+    <element name="variantDropDown">
+        <id>selectedVariant</id>
+    </element>
+
+    <element name="variantDropDownOption">
+        <xpath>//a[@type='variant']</xpath>
+    </element>
+
+    <element name="selectCityDropDown">
+        <id>js-selected-city</id>
+    </element>
+
+    <element name="selectCityDropDownOptions">
+        <xpath>//ul[@id='js-city-list']/li/a</xpath>
+    </element>
+
+    <element name="getOnRoadPriceButtonVariant">
+        <id>js-submit-button-onRoadPrice</id>
+    </element>
+
+    <element name="leadCaptureDetailsEnabled">
+        <id>leadCapture</id>
+    </element>
+
+    <element name="leadCaptureName">
+        <id>leadUNameOnroad</id>
+    </element>
+
+    <element name="leadCaptureMobile">
+        <id>leadUMobileOnroad</id>
+    </element>
+
+    <element name="leadCaptureEmail">
+        <id>leadUEmailOnroad</id>
+    </element>
+
+    <element name="leadCaptureSubmitButton">
+        <id>cars-lead-capture</id>
+    </element>
+
+    <element name="checkAnotherCarButton">
+        <xpath>//button[starts-with(.,'Check Another Car')]</xpath>
+    </element>
+
+    <element name="getOnRoadPricePageHeading">
+        <xpath>//div[@class='calculatorHeading']</xpath>
+    </element>
+
+    <element name="upcomingCarsToggleSwitch">
+        <xpath>//div[@class='inspected-btn js-toggle-upcoming-new hidden-xs']/label/span[@class='switch-label']</xpath>
+    </element>
+
+    <element name="breadCrumbText">
+        <xpath>//ul[@id='car_breadcrumb']/li/a</xpath>
+    </element>
+
+    <element name="notifyMeOnNewUpcomingCars">
+        <xpath>//button[@data-target='#notifyModal']</xpath>
+    </element>
+
+    <element name="notifyMeLeadDataPopUpOnNewUpcomingCars">
+        <xpath>//body[@class='modal-open']</xpath>
+    </element>
+
+    <element name="leadCaptureNotifyMeName">
+        <id>notify-me-name</id>
+    </element>
+
+    <element name="leadCaptureNotifyMeEmail">
+        <id>notify-me-email</id>
+    </element>
+
+    <element name="leadCaptureNotifyMeMobile">
+        <id>notify-me-mobile</id>
+    </element>
+
+    <element name="leadCaptureNotifyMeCity">
+        <id>notify-me-city</id>
+    </element>
+
+    <element name="notifyMeSubmitButton">
+        <xpath>//button[contains(@class,'upcoming-notify')]</xpath>
+    </element>
+
+    <element name="notifyMeThankYouMessage">
+        <xpath>//div[contains(@class,'thankYou')]/div/span</xpath>
+    </element>
+
+    <element name="snbSortByDropDown">
+        <xpath>(//button[@id='dropdownMenu1'])[2]</xpath>
+    </element>
+
+    <element name="snbSortByDropDownOption">
+        <xpath>//ul[@class='dropdown-menu']/li/a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="newCarsSNBBrandNameDropDown">
+        <xpath>//button[contains(.,'Brand Name')]</xpath>
+    </element>
+
+    <element name="newCarsSNBBrandNameTextBox">
+        <xpath>.//*[@id='brand_inside_filter']</xpath>
+    </element>
+
+    <element name="newCarsSNBBrandNameCheckBox">
+        <xpath>//input[@type='checkbox' and @value='$']</xpath>
+    </element>
+
+
+
+</elements>

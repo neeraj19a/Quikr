@@ -1,0 +1,6 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="categoryListInPostAd">
+        <class>UIAStaticText</class>
+    </element>
+</elements>

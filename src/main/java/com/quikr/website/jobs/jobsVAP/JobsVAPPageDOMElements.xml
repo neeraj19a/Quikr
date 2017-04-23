@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="JobsVAPSearchBox">
+        <css>.input-group.custom-input-search.topnavserch</css>
+    </element>
+
+    <element name="jobsBreadCrumb">
+        <css>#jobs_vap_breadcrumb</css>
+    </element>
+
+    <element name="JobsVAPViews">
+        <css>#numOfViews</css>
+    </element>
+
+    <element name="JobsVAPRole">
+        <css>.lookingfor:nth-child(1)</css>
+    </element>
+
+    <element name="JobsVAPLocation">
+        <css>.lookingfor:nth-child(2)</css>
+    </element>
+
+    <element name="JobsVAPPostedDate">
+        <css>.posted.pull-left</css>
+    </element>
+
+    <element name="JobsDetails">
+        <css>.col-lg-12.col-sm-9</css>
+    </element>
+
+    <element name="JobsDescription">
+        <css>.partiton.col-lg-12>h4</css>
+    </element>
+
+    <element name="ScrollUpIconVAPPage">
+        <xpath>(.//*[@id='icon-arrows_up'])[2]</xpath>
+    </element>
+
+    <element name="ScrollUpIconVAPPageVisibleState">
+        <xpath>(.//*[@id='icon-arrows_up'])[2]/ancestor::div[@style='display: block;']</xpath>
+    </element>
+
+    <element name="JobsImage">
+        <xpath>(//div[@class='qu-gost-img'])[2]</xpath>
+    </element>
+
+    <element name="SimilarJobs">
+        <xpath>.//*[@id='similarjob']/div</xpath>
+    </element>
+
+    <element name="SimilarJobsTitle">
+        <xpath>.//*[@id='similarjob']/h3</xpath>
+    </element>
+
+    <element name="googleadsOnJobsVap">
+        <xpath>.//iframe[starts-with(@id,'google_ads_iframe')]</xpath>
+    </element>
+
+    <element name="JobsBreadCrumbwithCity">
+        <xpath>(.//span[@itemprop='title'])[$]</xpath>
+    </element>
+
+    <element name="JobsBreadCrumbwithoutCity">
+        <xpath>.//*[@id='jobs_snb_breadcrumb']/ul/li[$]</xpath>
+    </element>
+
+    <element name="add_detail">
+        <xpath>(.//td[@class='roleb'])[$]</xpath>
+    </element>
+
+    <element name="applybuttonVAP">
+        <id>apply-button</id>
+    </element>
+
+    <element name="PremiumVAP">
+        <xpath>//p[@class='text-success premium']</xpath>
+    </element>
+
+    <element name="jobImageVAP">
+        <xpath>//div[@class='brand-img hidden-lg hidden-sm hidden-md col-xs-4']/div</xpath>
+    </element>
+
+    <element name="FirstsimilarJobsVAP">
+        <xpath>.//*[@id='similarjob']/div/div[1]/div/div/h4/a</xpath>
+    </element>
+
+    <element name="AdTitle">
+        <xpath>//div[@class='job-title col-md-12 col-sm-12 ']/h1</xpath>
+    </element>
+
+    <element name="AdTitlePostedAd">
+        <xpath>//h1[@class='title_of_the_ad translate']</xpath>
+    </element>
+
+
+</elements>

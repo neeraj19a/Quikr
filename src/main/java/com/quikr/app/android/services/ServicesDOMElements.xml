@@ -1,0 +1,173 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="servicesSubCategory">
+        <id>com.quikr:id/heading</id>
+    </element>
+
+    <element name="moreButton">
+        <name>More</name>
+    </element>
+
+    <element name="popularAds">
+        <name>Popular Ads</name>
+    </element>
+
+    <element name="viewAdListing">
+        <id>com.quikr:id/txt_viewad_label</id>
+    </element>
+
+    <element name="adImage">
+        <id>com.quikr:id/theimage</id>
+    </element>
+
+    <element name="changeAdView">
+        <id>com.quikr:id/toggleGalleryView</id>
+    </element>
+    
+    <element name="homeServicesCategories">
+        <name>HOME SERVICES</name>
+    </element>
+
+    <element name="otherServicesCategories">
+        <name>OTHER SERVICES</name>
+    </element>
+
+    <element name="homeSubcategories">
+        <id>com.quikr:id/childItem</id>
+    </element>
+
+    <element name="otherSubcategories">
+        <id>com.quikr:id/txtSubCat</id>
+    </element>
+
+    <element name="servicesSearchBar">
+        <id>com.quikr:id/services_home_searchfield</id>
+    </element>
+
+    <element name="servicesLocalityDropdown">
+        <id>com.quikr:id/services_locality_selection</id>
+    </element>
+
+    <element name="servicesCategorySearchBar">
+        <id>com.quikr:id/services_toolbar_search</id>
+    </element>
+
+    <element name="servicesInstaconnectSubcategories">
+        <!--<id>com.quikr:id/tvCategoryTitle</id>-->
+        <id>com.quikr:id/heading</id>
+    </element>
+
+    <element name="instaConnectInterstitial">
+        <id>com.quikr:id/type_logo_icon</id>
+    </element>
+
+    <element name="servicesInstaConnectSubCAt">
+        <!--<id>com.quikr:id/tvServicesTitle</id>-->
+        <id>com.quikr:id/childItem</id>
+    </element>
+
+    <element name="notAserviceProvider">
+        <id>com.quikr:id/bNo</id>
+    </element>
+
+    <element name="skipOption">
+        <name>SKIP</name>
+    </element>
+
+    <element name="connectNowButton">
+        <id>com.quikr:id/click_type</id>
+    </element>
+
+    <element name="quikrHelprLogo">
+        <id>com.android.vending:id/title_thumbnail</id>
+    </element>
+
+    <element name="quikrServicesWebview">
+        <id>com.quikr:id/termsprivacy_webview</id>
+    </element>
+
+    <element name="noButton">
+        <id>com.quikr:id/bNo</id>
+    </element>
+
+    <element name="instaconnectAttributes">
+        <id>com.quikr:id/tvAttributesTitle</id>
+    </element>
+    
+    <element name="instaconnectNowButton">
+        <id>com.quikr:id/ibStartInstaconnect_container</id>
+    </element>
+
+    <element name="verifyByCallButton">
+        <id>com.quikr:id/ibVerifyByCall</id>
+    </element>
+    
+    <element name="bookNowCard">
+        <id>com.quikr:id/book_now_title</id>
+    </element>
+    
+    <element name="evaluateAndChooseCard">
+        <id>com.quikr:id/evaluate_title</id>
+    </element>
+
+    <element name="browseAdsCard">
+        <name>Browse Ads</name>
+    </element>
+
+    <element name="showAllOption">
+        <id>com.quikr:id/book_now_footer</id>
+    </element>
+
+    <element name="bookNowCategories">
+        <id>com.quikr:id/book_title</id>
+    </element>
+
+    <element name="Plumber">
+        <name>Plumber</name>
+    </element>
+
+    <element name="Electrician">
+        <name>Electrician</name>
+    </element>
+
+    <element name="Carpenter">
+        <name>Carpenter</name>
+    </element>
+
+    <element name="maidOnDemand">
+        <name>Maid on Demand</name>
+    </element>
+
+    <element name="carCare">
+        <name>Car Care</name>
+    </element>
+
+    <element name="continueButton">
+        <id>com.quikr:id/inter_screen_bottom_cta</id>
+        <name>Continue</name>
+    </element>
+    
+    <element name="bookNowButton">
+        <name>Book Now Link</name>
+    </element>
+
+    <element name="browseAdsOption">
+        <id>com.quikr:id/browse_ads_cardview</id>
+    </element>
+
+    <element name="submitSearch">
+        <id>com.quikr:id/services_search_button</id>
+    </element>
+
+    <element name="SERVICES">
+        <name>SERVICES</name>
+    </element>
+
+    <element name="servicesWebview">
+        <id>com.quikr:id/termsprivacy_webview</id>
+    </element>
+    <element name="viewAdsButton">
+        <id>com.quikr:id/inter_viewads_cardview</id>
+    </element>
+
+</elements>

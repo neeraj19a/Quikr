@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="Adlist">
+        <xpath>.//ul[@id='adList']</xpath>
+    </element>
+
+    <element name="sort">
+        <id>sortBtn</id>
+    </element>
+
+    <element name="sorttype">
+        <xpath>.//a[starts-with(.,'$')]</xpath>
+    </element>
+
+    <element name="filter">
+        <xpath>.//span[starts-with(.,'Filter')]/..</xpath>
+    </element>
+
+    <element name="SearchInput">
+        <id>searchTerm</id>
+    </element>
+
+    <element name="SearchInput">
+        <id>searchTerm</id>
+    </element>
+
+    <element name="PricesallAds">
+        <xpath>.//span[@class='floatRight blueText price sprite']/span</xpath>
+    </element>
+
+    <element name="PricesallAds">
+        <xpath>.//span[@class='floatRight blueText price sprite']/span</xpath>
+    </element>
+
+    <element name="PricesPremiumAds">
+        <!--<xpath>.//div[@class='premiumRibbon']/../../span/span[5]/span[2]/span</xpath>
+        -->
+        <xpath>.//div[@class='premiumRibbon']/ancestor::a/span[2]/span[5]/span[2]/span</xpath>
+    </element>
+
+    <element name="TimeofAllAdsPost">
+        <xpath>.//span[@class='floatLeft greyText time']</xpath>
+    </element>
+
+    <element name="TimeofPremiumAdsPost">
+        <xpath>.//div[@class='premiumRibbon']/ancestor::a/span[2]/span[5]/span[@class='floatLeft greyText time']</xpath>
+    </element>
+
+    <element name="usedButtonFilterPage">
+        <xpath>//input[@value='Used']</xpath>
+    </element>
+
+    <element name="individualButtonFilterPage">
+        <xpath>//input[@value='Individual']</xpath>
+    </element>
+
+    <element name="productTypeDropdown">
+        <id>Product_Type</id>
+    </element>
+
+    <element name="ApplyFilter">
+        <id>Refine</id>
+    </element>
+
+    <element name="AdNumber">
+        <xpath>.//ul[@id='adList']/li[$]/a</xpath>
+    </element>
+
+    <element name="firstAd">
+        <xpath>//ul[@id='adList']/li</xpath>
+    </element>
+
+    <element name="AdswithChat">
+        <xpath>.//span[@class='Blue-ButtonNew Snb-chatRelyBTN']/ancestor::a</xpath>
+    </element>
+
+    <element name="filteredResultData">
+        <xpath>//span[@class='LiText-03']</xpath>
+    </element>
+
+    <element name="AdswithoutImages">
+        <xpath>.//span[@data-imagepath='http://teja3.kuikr.com/default_images/quikr_default.png']</xpath>
+    </element>
+
+    <element name="ChatIcons">
+        <xpath>.//span[starts-with(.,'Chat')]</xpath>
+    </element>
+
+    <element name="BuyNowButton">
+        <xpath>(//input[@id='escrowAdBuyNow'])[1]</xpath>
+    </element>
+
+    <element name="BuyNowLabel">
+        <xpath>//p[@class='mo-bn-popup-heading']</xpath>
+    </element>
+
+    <element name="MakeAnOffer">
+        <xpath>//input[@value='Make an Offer']</xpath>
+    </element>
+
+    <element name="MakeAnOfferPrice">
+        <xpath>//input[@id='price_mao_mess_snb']</xpath>
+    </element>
+
+    <element name="MakeAnOfferEmail">
+        <xpath>//input[@id='email_mao']</xpath>
+    </element>
+
+    <element name="MakeAnOfferMob">
+        <xpath>//input[@id='mobile_mao']</xpath>
+    </element>
+
+    <element name="SendOfferButton">
+        <xpath>//input[@id='replySmsBtn']</xpath>
+    </element>
+
+    <element name="MakeAnOfferConfirmMsg">
+        <xpath>.//p[@class='mo-bn-popup-heading']</xpath>
+    </element>
+
+    <element name="chatButton">
+        <xpath>//span[starts-with(@id,'snbChatNow')]</xpath>
+    </element>
+
+    <element name="chatMsgBoxQuestion">
+        <id>chatmsg</id>
+    </element>
+
+    <element name="chatMsgBoxEmail">
+        <id>chatemail</id>
+    </element>
+
+    <element name="chatMsgBoxPhNum">
+        <id>rplyphone</id>
+    </element>
+
+    <element name="chatMsgBoxSubmitBtn">
+        <xpath>//input[@name='SEND']</xpath>
+    </element>
+
+    <element name="chatMsgBoxConfirmation">
+        <xpath>.//div[@class='bluemsg']</xpath>
+    </element>
+
+
+
+</elements>

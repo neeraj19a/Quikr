@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="adTab">
+        <xpath>//li/a[contains(text(),'$')]</xpath>
+    </element>
+
+    <element name="adPresence">
+        <xpath>//input[@value='$']</xpath>
+    </element>
+
+</elements>

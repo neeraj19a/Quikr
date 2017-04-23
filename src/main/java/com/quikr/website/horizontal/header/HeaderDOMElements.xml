@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+
+    <element name="searchBox">
+        <xpath>.//*[@id='query']</xpath>
+    </element>
+
+    <element name="LanguageSelectionMessage">
+        <xpath>.//*[@id='language_select_div']/div[1]/p</xpath>
+    </element>
+
+    <element name="FreeDeliveryMessageClose">
+        <xpath>.//*[@id='webklipper-publisher-widget-container-notification-close-div']/span</xpath>
+    </element>
+
+    <element name="search">
+        <css>.HPSearch-Icon</css>
+    </element>
+
+    <element name="searchOldButton">
+        <css>.search_button.blue</css>
+    </element>
+
+    <element name="quikrLogoHomePage">
+        <css>.HP-LogoArea</css>
+    </element>
+
+    <element name="quikrLogoOldUI">
+        <css>.quikrlogo>a>img</css>
+    </element>
+
+    <element name="quikrLogoNewUI">
+        <xpath>.//a[@class='q-logo hp_quikrx_logo animated-logo']</xpath>
+    </element>
+
+    <element name="responsiveNewUI">
+        <xpath>//div[@class='hamburger-logo pull-left']/a[2]</xpath>
+    </element>
+
+    <element name="quikrLogoMyQuikr">
+        <css>.quikrLogo</css>
+    </element>
+
+    <element name="quikrLogoPapPage">
+        <css>.quikrlogo>a>img</css>
+    </element>
+
+    <element name="postFreeAdButton">
+        <!--<xpath>//div[@class='header_post_ad_button_wapp']/div</xpath>-->
+        <xpath>//a[@title='Post Free Ad']</xpath>
+
+    </element>
+
+
+    <element name="msp">
+        <partialLinkText>MSP</partialLinkText>
+
+    </element>
+
+    <element name="mspBuy">
+        <xpath>.//*[@id='msp_buy_sell']/input[1]</xpath>
+    </element>
+
+    <element name="mspcategory">
+        <id>mspCategory</id>
+    </element>
+
+    <element name="mspSubCategory">
+        <xpath>//select[@id='mspSubCategory']</xpath>
+    </element>
+
+    <element name="mspBrand">
+        <id>mspBrand_nameelastic</id>
+    </element>
+
+    <element name="mspModel">
+        <id>mspModelelastic</id>
+
+    </element>
+    <element name="mspYear">
+        <id>mspYearelastic</id>
+    </element>
+
+    <element name="mspVariant">
+        <id>mspVariantelastic</id>
+    </element>
+
+
+    <element name="mspKms">
+        <id>mspKms_Drivenelastic</id>
+    </element>
+
+    <element name="calculateMsp">
+        <xpath>.//*[@id='mspscrolling']/div[2]/div[4]/div[1]/div[2]/div</xpath>
+        <css>.blue_button.calculator</css>
+    </element>
+
+    <element name="AutoSuggestWord">
+        <id>searchautosuggestnew</id>
+    </element>
+
+    <element name="mspbox">
+        <css>.msp_result_box</css>
+    </element>
+
+    <element name="signIn">
+        <css>.signInButton</css>
+    </element>
+
+    <element name="register">
+        <xpath>.//*[@id='userAccountTabs']/li[2]/a</xpath>
+    </element>
+
+    <element name="individualRadioButton">
+        <xpath>.//*[@id='fromRegisterPopUP']/ul/li[1]/div/input[1]</xpath>
+    </element>
+
+    <element name="emailId">
+        <xpath>//input[@id='fullnameFromPopUp']</xpath>
+    </element>
+
+    <element name="password">
+        <id>password</id>
+    </element>
+
+    <element name="confirmPassword">
+        <id>confirmPassword</id>
+    </element>
+
+    <element name="Phone">
+        <id>phone</id>
+    </element>
+
+    <element name="ageCheckbox">
+        <xpath>.//label[contains(text(),'18 years')]</xpath>
+    </element>
+
+    <element name="submitButton">
+        <xpath>.//*[@class='custom-form-controls']/button</xpath>
+    </element>
+
+    <element name="submitButtonNewUI">
+        <xpath>.//button[@class='btn btn-primary btn-lg btn-block login-btn']</xpath>
+    </element>
+
+    <element name="mobileVerificationPopUponRegistrationResponsiveHP">
+        <xpath>//p[@class='email-verification']</xpath>
+    </element>
+
+    <element name="submitButtonNonEscrowCity">
+        <xpath>.//*[@class='custom-form-controls']/button</xpath>
+    </element>
+
+    <element name="CreateAccountButtonNonEscrowCity">
+        <xpath>.//*[@id='fromRegisterPopUP']/div[7]/button</xpath>
+    </element>
+
+    <element name="loginnewUI">
+        <xpath>.//button[contains(text(),'Login')]</xpath>
+    </element>
+
+    <element name="MyDashboard">
+        <css>div.qp_hding</css>
+    </element>
+
+    <element name="forgotPassword">
+        <xpath>//a[@class='forgot-password login-screen']</xpath>
+    </element>
+
+    <element name="enterEmail">
+        <xpath>//input[@id='forgotMobEmail']</xpath>
+    </element>
+
+    <element name="sendEmail">
+        <xpath>//form[@method='post']/div[6]/button</xpath>
+    </element>
+
+    <element name="ForgotPasswordMessage">
+        <xpath>.//*[@id='welcome']/h1</xpath>
+        <css>#welcome>h1</css>
+    </element>
+
+    <element name="myLoginDropDownOptions">
+        <id>logged_in_div</id>
+    </element>
+
+    <element name="signInOption">
+        <xpath>.//*[@id='logindiv']/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="emailIdDropDown">
+        <xpath>.//*[@id='responsiveHeader']/div[1]/div[1]/ul/li/a[@class='loggedin']</xpath>
+    </element>
+
+    <element name="sigoutOption">
+        <xpath>.//*[@id='signOut']</xpath>
+    </element>
+
+
+    <element name="myAdsOption">
+        <xpath>.//*[@id='logged_in_div']/li[1]/a</xpath>
+    </element>
+
+    <element name="myCartOption">
+        <xpath>.//*[@id='logindiv_old']/ul/li[2]/a</xpath>
+        <class>mycart</class>
+    </element>
+
+    <element name="QuikrCars">
+        <xpath>.//*[@id='navbar']/div/div/div[1]/a[2]/img</xpath>
+    </element>
+
+    <element name="download_app_link">
+        <xpath>.//i[@class='icon-download-app']/..</xpath>
+    </element>
+
+    <element name="language_selection">
+        <xpath>.//*[@id='languagediv']</xpath>
+    </element>
+
+    <element name="language_options">
+            <xpath>.//*[@id='language_div']/ul/li[$]/a</xpath>
+    </element>
+
+    <element name="searchquery_error">
+        <xpath>.//*[@id='query']</xpath>
+    </element>
+
+    <element name="signinPAP">
+        <xpath>//a[@onclick='logInRegisterPopUpHeader(signin)']</xpath>
+    </element>
+
+    <element name="closeloginPAP">
+        <xpath>.//div[@class='modal-header-login']/button</xpath>
+    </element>
+
+    <element name="facebooklogin">
+        <css>.face-login-btn</css>
+    </element>
+
+    <element name="facebookemail">
+        <id>email</id>
+    </element>
+
+    <element name="facebookpassword">
+        <id>pass</id>
+    </element>
+
+    <element name="facebookloginbutton">
+        <xpath>.//input[@type='submit']</xpath>
+    </element>
+
+    <element name="signupfrompap">
+        <xpath>//a[@onclick='logInRegisterPopUpHeader(signin)']</xpath>
+    </element>
+
+    <element name="signupLinkLoginWindow">
+        <xpath>//ul[@class='nav nav-tabs custom-tab-style']/li[2]/a</xpath>
+    </element>
+
+    <element name="name_signup">
+        <id>fullname</id>
+    </element>
+
+    <element name="emailpap_signup">
+        <id>emailidFromPopUp</id>
+    </element>
+
+    <element name="passwordpap_signup">
+        <id>passWord</id>
+    </element>
+
+    <element name="confirmPasswordpap_signup">
+        <id>confirmPassword</id>
+    </element>
+
+    <element name="phonepap_signup">
+        <id>phone</id>
+    </element>
+
+    <element name="citypap_signup">
+        <id>city</id>
+    </element>
+
+    <element name="ageconfirm_pap_signup">
+        <xpath>//div[@class='custom-form-controls register-formelement']/label</xpath>
+    </element>
+
+    <element name="snbSearchResultTitle">
+        <xpath>//h3[@class='adtitlesnb translate ']/a</xpath>
+    </element>
+
+    <element name="createaccount">
+        <xpath>//div[@class='social-login']/div/div/button[@class='btn btn-primary btn-lg btn-block login-btn']</xpath>
+    </element>
+
+    <element name="registration_text">
+        <id>headTxt</id>
+    </element>
+
+    <element name="registration_header_close">
+        <id>mobvercloselnk</id>
+    </element>
+
+    <element name="Email">
+        <id>GreetingName</id>
+    </element>
+
+    <element name="Password">
+        <id>Password</id>
+    </element>
+
+    <element name="SignIn">
+        <xpath>.//input[contains(@class,'button_all')]</xpath>
+    </element>
+
+    <element name="myQuikrXLink">
+        <xpath>.//*[@id='responsiveHeader']/div[1]/div[1]/ul/li[3]/ul/li/a[@title='My QuikrX Orders']</xpath>
+    </element>
+
+    <element name="trackOrder">
+        <xpath>.//*[@id='trackQuikrxOrder']</xpath>
+        <id>trackQuikrxOrder</id>
+    </element>
+
+    <element name="quirXCartCount">
+        <xpath>//html/body/header/div[1]/div/ul/li[3]/span</xpath>
+    </element>
+
+    <element name="quikrXCart">
+        <xpath>.//*[@id='responsiveHeader']/div[1]/div[1]/ul/li/a/i[@class='icon-cart mycart']</xpath>
+    </element>
+
+    <!--The following section contains locators of Responsive Home Page for cities like Pune, Hyderabad
+    -->
+    <element name="myAccountDropDownResponsiveHP">
+        <xpath>.//span[@class='header-link-arrow']/following-sibling::i</xpath>
+    </element>
+
+    <element name="myAccountOptionsResponsiveHP">
+        <xpath>(//ul[@class='dropdown-menu'])[1]/li</xpath>
+    </element>
+
+    <element name="myAccountOptionNumberResponsiveHP">
+        <xpath>(//ul[@class='dropdown-menu'])[1]/li[$]/a</xpath>
+    </element>
+
+    <element name="closeLoginPopUpResponsiveHP">
+        <xpath>//a[@class='close-modal']/i[@class='icon-remove']</xpath>
+    </element>
+
+    <element name="signUpError">
+        <xpath>.//*[@id='signup_error']</xpath>
+    </element>
+
+    <element name="searchButtonNewUI">
+        <id>searchbar-btn-search</id>
+    </element>
+
+    <element name="closeCityPopUp">
+        <xpath>//a[@id='csclose' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="SigninLinkResponsive">
+        <!--<xpath>//a[@class='signInButton' and not(@disabled)]</xpath> -->
+        <xpath>//a[@class='signInButton']</xpath>
+    </element>
+
+    <element name="SigninLinkNonResponsive">
+        <xpath>//div[@id='logindiv']/ul/li/a</xpath>
+    </element>
+
+
+    <element name="non-ResponsiveEmailField">
+        <xpath>//input[@id='emailMobileSignIn' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="responsiveEmailField">
+        <xpath>//input[@id='fullnameFromPopUp' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="non-ResponsivePasswordField">
+        <xpath>//input[@id='password' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="responsivePasswordField">
+        <xpath>//input[@id='password' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="non-ResponsiveLoginButton">
+        <xpath>//button[@class='btn btn-primary btn-lg btn-block login-btn loginButton' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="responsiveLoginButton">
+        <xpath> //button[@class='btn btn-default btn-default-submit btn-lg btn-block login-btn' and not(@disabled) and  text()='Login']</xpath>
+    </element>
+
+    <element name="responsiveHeader">
+        <xpath>//header[@id='responsiveHeader' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="loginWindowResponsiveHP">
+        <xpath>//*[@id='newlogindiv']</xpath>
+    </element>
+
+    <element name="signInButtonResponsiveHP">
+        <xpath>.//a[@class='signInButton']</xpath>
+    </element>
+
+    <element name="citySelectDropDownBox">
+        <xpath>//div[@class='city-select pull-left' and not(@disabled)]/a</xpath>
+    </element>
+
+    <element name="cityNamesFromDropdown">
+        <xpath>//li[@class='green_dhtml_content_listing citySelect' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="cityLinksFromDropdown`">
+        <xpath>//li[@class='green_dhtml_content_listing citySelect' and not (@disabled)]/a</xpath>
+    </element>
+
+    <element name="AlIndiaLinkFromCityDropdown">
+        <xpath>//a[@class='green_dhtml_content_listing citySelect' and not (@disabled)]</xpath>
+    </element>
+
+    <element name="citySelectionInputText">
+        <xpath>//input[@id='suggCityInput' and not(@disabled)]</xpath>
+    </element>
+
+    <element name="citySuggested">
+        <xpath>//div[@id='green_dhtml_content' and not(@disabled)]/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="mobileAndEmailVerificationLabel">
+        <xpath>//section[@class='otp-content regNextHeaderContent']/h4</xpath>
+    </element>
+
+    <element name="myDoorStepLink">
+        <xpath>.//*[@title='My Doorstep Offers']</xpath>
+    </element>
+
+</elements>

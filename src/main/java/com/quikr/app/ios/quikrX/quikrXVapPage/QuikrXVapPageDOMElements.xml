@@ -1,0 +1,176 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="setPinCode">
+        <class>UIATextField</class>
+    </element>
+
+    <element name="verify">
+        <name>Verify</name>
+    </element>
+
+    <element name="cartButton">
+        <name>Cart Icon</name>
+    </element>
+
+    <element name="adToCartButton">
+        <name>Ad_to_Cart</name>
+    </element>
+
+    <element name="backButton">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="brandNameOnVapPage">
+        <name>Select Brand</name>
+    </element>
+
+    <element name="brandNameOptionOnVapPage">
+        <name>Sony</name>
+    </element>
+
+    <element name="selectModel">
+        <name>Select Model</name>
+    </element>
+
+    <element name="modelNameOption">
+        <name>Sony Xperia P</name>
+    </element>
+
+    <element name="priceOfNewDevice">
+        <name>Price of the new device</name>
+    </element>
+
+    <element name="exchangeValue">
+        <name>Exchange value</name>
+    </element>
+
+    <element name="youPay">
+        <name>You pay</name>
+    </element>
+
+    <element name="specifications">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableGroup[1]/UIAStaticText[1]</xpath>
+    </element>
+
+    <element name="buyNowButton">
+        <name>Buy Now</name>
+    </element>
+
+    <element name="continueButtonOnMyCartPage">
+       <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableGroup[5]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="continueButtonOnCheckoutPage">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[3]</xpath>
+    </element>
+
+    <element name="setEmail">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="cartButtonAfterAddedItem">
+        <class>UIAButton</class>
+    </element>
+
+    <element name="UserName">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[2]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="pinCode">
+       <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[2]/UIATextField[2]</xpath>
+    </element>
+
+    <element name="phoneNo">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[2]/UIATextField[3]</xpath>
+    </element>
+
+    <element name="address">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[2]/UIATextView[1]</xpath>
+    </element>
+
+    <element name="continueButtonOnPaymentPage">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAScrollView[2]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="placeOrderButton">
+        <class>UIAButton</class>
+        <name>Place Order</name>
+    </element>
+
+    <element name="successMsgAfterPlacingAnOrder">
+        <name>Order Successfull</name>
+    </element>
+
+    <element name="continueShoppingButton">
+        <name>Continue Shopping</name>
+    </element>
+
+    <element name="continueAsGuest">
+        <name>Continue as guest</name>
+    </element>
+
+    <element name="iHaveAQuikrAccount">
+        <name>I have a quikr account</name>
+    </element>
+
+    <element name="backButtonOnCheckoutPage">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[1]</xpath>
+    </element>
+
+    <element name="msgForForBrandNameNotSelected">
+        <name>Please select a brand!</name>
+    </element>
+
+    <element name="msgForForModelNameNotSelected">
+        <name>Please select a model!</name>
+    </element>
+
+    <element name="clickOnTermAndConditionButton">
+        <name>Terms and conditions</name>
+    </element>
+
+    <element name="termAndConditionText">
+        <name>Terms &amp; Conditions</name>
+    </element>
+
+    <element name="brandNameText">
+        <name>Brand Name</name>
+    </element>
+
+    <element name="modelNameText">
+        <name>Model name</name>
+    </element>
+
+    <element name="OperatingSystemText">
+        <name>Operating system</name>
+    </element>
+
+    <element name="noOfSimsText">
+        <name>No of sims</name>
+    </element>
+
+    <element name="screenSizeText">
+        <name>Screen size</name>
+    </element>
+
+    <element name="processorText">
+        <name>Processor</name>
+    </element>
+
+    <element name="formText">
+        <name>Form</name>
+    </element>
+
+    <element name="primaryCameraText">
+        <name>Primary Camera</name>
+    </element>
+
+    <element name="ramText">
+        <name>RAM</name>
+    </element>
+
+    <element name="clickOniDoNotHavePhoneToExchangeButton">
+        <name>inactive right</name>
+    </element>
+
+</elements>

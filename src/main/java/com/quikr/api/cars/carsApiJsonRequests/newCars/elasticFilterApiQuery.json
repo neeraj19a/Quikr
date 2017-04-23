@@ -1,0 +1,22 @@
+{
+  "_source": ["car_model"],
+  "query": {
+    "bool": {
+      "must": [{
+        "term": {
+          "car_make": "Maruti Suzuki"
+        }
+      }, {
+        "term": {
+          "status": "Production"
+        }
+      }],
+      "must_not": [],
+      "should": []
+    }
+  },
+  "from": 0,
+  "size": 25000,
+  "sort": [],
+  "aggs": {}
+}

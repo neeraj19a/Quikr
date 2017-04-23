@@ -1,0 +1,80 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="headerSearch">
+        <id>com.quikr:id/menu_search</id>
+    </element>
+
+    <element name="searchText">
+        <id>com.quikr:id/txtTitle</id>
+    </element>
+
+    <element name="inputText">
+        <!--<id>com.quikr:id/search</id>-->
+        <id>com.quikr:id/search_ET</id>
+    </element>
+
+    <element name="search">
+        <id>com.quikr:id/txtTitle</id>
+    </element>
+    <element name="navigateback">
+        <name>Navigate up</name>
+    </element>
+
+    <element name="searchSuggestionText">
+        <id>com.quikr:id/suggestion</id>
+    </element>
+    <element name="city">
+        <id>com.quikr:id/citySpinner</id>
+    </element>
+    <element name="cityName">
+        <name>Bangalore</name>
+    </element>
+    <element name="noEscrowCityName">
+        <name>Noida</name>
+    </element>
+    <element name="suggestionSubCAt">
+        <id>com.quikr:id/subcat</id>
+    </element>
+    <element name="searchCity">
+        <id>com.quikr:id/search_ET</id>
+    </element>
+    <element name="honda">
+        <name>Honda</name>
+    </element>
+    <element name="snbSearchTitle">
+        <id>com.quikr:id/snb_search_et</id>
+    </element>
+    <element name="install">
+        <id>com.android.packageinstaller:id/ok_button</id>
+    </element>
+    <element name="openSideMenuDrawer">
+        <name>Open Drawer</name>
+    </element>
+    <element name="drawerList">
+        <id>com.quikr:id/layout_drawer_list_item_header</id>
+    </element>
+    <element name="quikrLogoheader">
+        <id>com.quikr:id/image</id>
+    </element>
+    <element name="chatButtonOnHeader">
+        <id>com.quikr:id/mcr_button</id>
+    </element>
+    <element name="quikrNext">
+        <id>com.quikr:id/menu_chat_nxt</id>
+    </element>
+    <element name="myOffersHeader">
+        <id>com.quikr:id/offer_container</id>
+    </element>
+    <element name="selectHondaFromAutoSearch">
+        <xpath>(//android.widget.TextView[@resource-id='com.quikr:id/suggestion' and contains(@text,$)])</xpath>
+    </element>
+    <element name="snbHeaderSearch">
+        <id>com.quikr:id/menu_ad_list_search</id>
+    </element>
+    <element name="recentlySearchedItem">
+        <id>com.quikr:id/recentItem</id>
+    </element>
+    <element name="titlebar">
+        <id>com.quikr:id/toolbar</id>
+    </element>
+</elements>

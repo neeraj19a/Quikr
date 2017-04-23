@@ -1,0 +1,38 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../resources/DOMElements.xsd">
+
+    <element name="bikes">
+        <name>BIKES</name>
+    </element>
+
+    <element name="cars">
+        <name>CARS</name>
+    </element>
+
+    <element name="commercial">
+        <name>COMMERCIAL</name>
+    </element>
+
+    <element name="checkMspButton">
+        <name>Check MSP</name>
+    </element>
+
+    <element name="clickOnFindBox">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIAButton[3]</xpath>
+    </element>
+
+    <element name="clickFindTextBox">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIAButton[3]</xpath>
+    </element>
+
+    <element name="setTextForFind">
+        <xpath>//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</xpath>
+    </element>
+
+    <element name="findCarsButton">
+        <name>Find Cars</name>
+    </element>
+
+    <element name="findBikesButton">
+        <name>Find Bikes</name>
+    </element>
+</elements>

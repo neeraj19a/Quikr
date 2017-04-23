@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+    <element name="inputSearchTerm">
+        <xpath>//*[@id='searchTerm']</xpath>
+    </element>
+
+    <element name="SearchGo">
+        <xpath>//*[@id="searchGo"]</xpath>
+    </element>
+
+
+
+
+</elements>
+

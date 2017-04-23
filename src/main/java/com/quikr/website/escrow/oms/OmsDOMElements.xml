@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../../../resources/DOMElements.xsd">
+
+<!--Login Page Elements-->
+
+    <element name="usernameTextfield">
+        <xpath>//div[@class='login']/p/input[@name='username']</xpath>
+    </element>
+    <element name="passwordTextfield">
+        <xpath>//div[@class='login']/p/input[@name='password']</xpath>
+    </element>
+    <element name="loginButton">
+        <xpath>//div[@class='login']/p/button[@type='submit']</xpath>
+    </element>
+
+    <!-- General Page Elements-->
+
+    <element name="quikrHeaderLogo">
+        <xpath>//div[@class='quikrLogo']</xpath>
+    </element>
+
+    <element name="myAccountMenu">
+        <xpath>//div[@class='navbar-header home-tab-oms']/ul/li/a</xpath>
+    </element>
+    <element name="logoutMenuButton">
+        <xpath>//*[@href='/logout']</xpath>
+    </element>
+
+    <element name="searchMessage">
+        <xpath>//*[@id='main']/div[14]</xpath>
+    </element>
+    <!-- Order Status Tab Page Elements -->
+
+    <element name="orderStatusTab">
+        <id>order_status</id>
+    </element>
+    <element name="orderStatusDropdown">
+        <id>orderStatus</id>
+    </element>
+    <element name="searchButton">
+        <xpath>//center/input[@value='Search']</xpath>
+    </element>
+    <element name="downloadButton">
+        <xpath>//center/input[@value='Download']</xpath>
+    </element>
+    <element name="fromDateTextfield">
+        <id>fromDate</id>
+    </element>
+    <element name="toDateTextfield">
+        <id>toDate</id>
+    </element>
+
+    <!--Created Date Tab Page Elements-->
+
+    <element name="createdDateTab">
+        <id>order_date</id>
+    </element>
+
+    <!-- Buyer Detail Tab Page Elements-->
+
+    <element name="buyerDetailsTab">
+        <id>buyer</id>
+    </element>
+    <element name="byEmailMenuBuyer">
+        <id>buyer_email</id>
+    </element>
+    <element name="byPhoneMenuBuyer">
+        <id>buyer_phone</id>
+    </element>
+    <element name="buyerEmailTextfield">
+        <id>buyerEmail</id>
+    </element>
+    <element name="buyerMobileTextfield">
+        <id>buyerMobile</id>
+    </element>
+
+    <!-- Seller Details Tab Page Elements-->
+
+    <element name="sellerDetailsTab">
+        <id>seller</id>
+    </element>
+    <element name="byEmailMenuseller">
+        <id>seller_email</id>
+    </element>
+    <element name="byPhoneMenuseller">
+        <id>seller_phone</id>
+    </element>
+    <element name="sellerEmailTextfield">
+        <id>sellerEmail</id>
+    </element>
+    <element name="sellerMobileTextfield">
+        <id>sellerMobile</id>
+    </element>
+
+    <!-- Unique ID Tab Page Elements-->
+
+    <element name="uniqueIDTab">
+        <id>unique_id</id>
+    </element>
+    <element name="byAdIDMenu">
+        <id>ad_id</id>
+    </element>
+    <element name="adIDTextfield">
+        <id>adId</id>
+    </element>
+    <element name="byOfferIDMenu">
+        <id>offer_id</id>
+    </element>
+    <element name="offerIDTextfield">
+        <id>offerId</id>
+    </element>
+    <element name="byTransactionIDMenu">
+        <id>transaction_id</id>
+    </element>
+    <element name="transactionIDTextfield">
+        <id>transactionId</id>
+    </element>
+
+    <!-- Payment Mode Tab Page Elements-->
+
+    <element name="paymentModeTab">
+        <id>payment_mode</id>
+    </element>
+    <element name="paymentModeDropdown">
+        <id>paymentMode</id>
+    </element>
+
+    <!-- Appointment Type Tab Page Elements-->
+
+    <element name="appointmentTypeTab">
+        <id>appointment_type</id>
+    </element>
+    <element name="appointmentFixedDropdown">
+        <id>escrowAppointmentCurrentStatus</id>
+    </element>
+
+    <!-- Advance Search Tab Page Elements-->
+
+    <element name="advanceSearchTab">
+        <id>advance_search</id>
+    </element>
+
+
+    <!--Result Table Elements-->
+
+    <element name="offerIdColumn">
+        <xpath>.//*[@id='main']/*/*/tbody/*/td[3]</xpath>
+    </element>
+    <element name="adIdColumn">
+        <xpath>.//*[@id='main']/*/*/tbody/*/td[2]</xpath>
+    </element>
+</elements>

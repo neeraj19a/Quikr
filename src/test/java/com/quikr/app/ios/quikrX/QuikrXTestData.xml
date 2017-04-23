@@ -1,0 +1,17 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/TestData.xsd">
+
+    <testData name="cityName">Bangalore</testData>
+    <testData name="categoryName">Mobiles</testData>
+    <!--<testData name="categoryValue">Mobiles &amp; Tablets</testData>-->
+    <testData name="exchangeOldForNew">exchangeOldForNew</testData>
+    <testData name="buyCertifiedUsedPhone">buyCertifiedUsedPhone</testData>
+    <testData name="pinCode">560066</testData>
+    <testData name="brandNameOptionOnVapPage">brandNameOptionOnVapPage</testData>
+    <testData name="modelNameOption">modelNameOption</testData>
+    <testData name="emailId">automation.quikr@gmail.com</testData>
+    <testData name="password">quikr1234</testData>
+    <testData name="userName">Monu</testData>
+    <testData name="mobileNo">9955199187</testData>
+    <testData name="address">Quikr india pvt ltd near manyta tech park</testData>
+
+</data>
